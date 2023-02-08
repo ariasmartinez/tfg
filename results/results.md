@@ -411,3 +411,65 @@ Los datos estan organizados en carpetas: cada sujeto tiene una carpeta con su no
 </p>
 
 
+## Comparacion de una misma fase entre varios sujetos
+
+
+
+#### Sin fuerza
+
+<p float="left">
+  <img src="./subject-1/no_force/graphic-subject-1-no-force.png" width="200" />
+  <img src="./subject-2/no_force/graphic-subject-2-no-force.png" width="200" />
+  <img src="./subject-3/no_force/graphic-subject-3-no-force.png" width="200" />
+</p>
+
+<p float="left">
+  <img src="./subject-4/no_force/graphic-subject-4-no-force.png" width="200" />
+  <img src="./subject-5/no_force/graphic-subject-5-no-force.png" width="200" />
+  <img src="./subject-6/no_force/graphic-subject-6-no-force.png" width="200" />
+</p>
+
+
+#### Con fuerza
+
+
+<p float="left">
+  <img src="./subject-1/force/graphic-subject-1-force.png" width="200" />
+  <img src="./subject-2/force/graphic-subject-2-force.png" width="200" />
+  <img src="./subject-3/force/graphic-subject-3-force.png" width="200" />
+</p>
+
+<p float="left">
+  <img src="./subject-4/force/graphic-subject-4-force.png" width="200" />
+  <img src="./subject-5/force/graphic-subject-5-force.png" width="200" />
+  <img src="./subject-6/force/graphic-subject-6-force.png" width="200" />
+</p>
+
+
+#### Sin fuerza, sin cursor
+
+<p float="left">
+  <img src="./subject-1/no_force_no_cursor/graphic-subject-1-no-force-no-cursor.png" width="200" />
+  <img src="./subject-2/no_force_no_cursor/graphic-subject-2-no-force-no-cursor.png" width="200" />
+  <img src="./subject-3/no_force_no_cursor/graphic-subject-3-no-force-no-cursor.png" width="200" />
+</p>
+
+<p float="left">
+  <img src="./subject-4/no_force_no_cursor/graphic-subject-4-no-force-no-cursor.png" width="200" />
+  <img src="./subject-5/no_force_no_cursor/graphic-subject-5-no-force-no-cursor.png" width="200" />
+  <img src="./subject-6/no_force_no_cursor/graphic-subject-6-no-force-no-cursor.png" width="200" />
+</p>
+
+#### Con fuerza, sin cursor
+
+<p float="left">
+  <img src="./subject-1/force_no_cursor/graphic-subject-1-force-no-cursor.png" width="200" />
+  <img src="./subject-2/force_no_cursor/graphic-subject-2-force-no-cursor.png" width="200" />
+  <img src="./subject-3/force_no_cursor/graphic-subject-3-force-no-cursor.png" width="200" />
+</p>
+
+<p float="left">
+  <img src="./subject-4/force_no_cursor/graphic-subject-4-force-no-cursor.png" width="200" />
+  <img src="./subject-5/force_no_cursor/graphic-subject-5-force-no-cursor.png" width="200" />
+  <img src="./subject-6/force_no_cursor/graphic-subject-6-force-no-cursor.png" width="200" />
+</p>
