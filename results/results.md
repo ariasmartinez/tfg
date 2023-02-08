@@ -18,16 +18,22 @@ Las graficas que he obtenido muestran la diferencia que hay en cada iteracion en
 
 En algunos casos he incluido tambien las graficas de los tiempos, es decir, el tiempo que se tarda en cada intento. Las he incluido solo en los casos en el que tiene algo de sentido, porque en muchos casos el tiempo era constante (siempre era el maximo tiempo).
 
-Los datos estan organizados en carpetas: cada sujeto tiene una carpeta con su nombre, y dentro de esa carpeta hay 4, una por cada fase del experimento (sin fuerza, con fuerza, sin fuerza y sin cursor, con fuerza y sin cursor). Dentro de cada carpeta de cada fase habra otras carpetas, cuyo nombre sera el angulo del punto objetivo (0, 45, 90, 135, 180, 225, 270 y 315 grados.) En la carpeta general de la fase estara la grafica con los errores totales de esa fase, y en cada subcarpeta la grafica con los errores de cada punto objetivo.
+Los datos estan organizados en carpetas: cada sujeto tiene una carpeta con su nombre, y dentro de esa carpeta hay 4, una por cada fase del experimento (sin fuerza, con fuerza, sin fuerza y sin cursor, con fuerza y sin cursor). Dentro de cada carpeta de cada fase habra otras carpetas, cuyo nombre sera el angulo del punto objetivo (0, 45, 90, 135, 180, 225, 270 y 315 grados). En la carpeta general de la fase estara la grafica con los errores totales de esa fase, y en cada subcarpeta la grafica con los errores de cada punto objetivo.
 
 ## Comparacion entre las fases de cada sujeto
 
+Se muestra primero la grafica global, con todas las iteraciones. Despues [OPTATIVO] la grafica del tiempo que se tarda en realizar esos movimientos. Por ultimo las graficas por separado de cada punto objetivo (0, 45, 90, 135, 180, 225, 270 y 315 grados, en ese orden). En el caso de que haya menos graficas es porque hay menos puntos objetivos (en el sujeto 5 hay 4, y en el 6 hay dos, por tanto seria {0, 90, 180 y 270 grados} y {0, 180 grados} respectivamente).
 ### Sujeto 1
 
 
 #### Sin fuerza
 
 ![Releases](./subject-1/no_force/graphic-subject-1-no-force.png)
+
+
+![Releases](./subject-1/no_force/time-subject-1-no-force.png)
+
+<p> Grafica del tiempo tardado en realizar el movimiento </p>
 
 <p float="left">
   <img src="./subject-1/no_force/0/graphic-0.png" width="160" />
@@ -46,6 +52,10 @@ Los datos estan organizados en carpetas: cada sujeto tiene una carpeta con su no
 #### Con fuerza
 
 ![Releases](./subject-1/force/graphic-subject-1-force.png)
+
+![Releases](./subject-1/force/time-subject-1-force.png)
+
+<p> Grafica del tiempo tardado en realizar el movimiento </p>
 
 <p float="left">
   <img src="./subject-1/force/0/graphic-0.png" width="160" />
@@ -81,6 +91,8 @@ Los datos estan organizados en carpetas: cada sujeto tiene una carpeta con su no
 
 ![Releases](./subject-1/force_no_cursor/graphic-subject-1-force-no-cursor.png)
 
+
+
 <p float="left">
   <img src="./subject-1/force_no_cursor/0/graphic-0.png" width="160" />
   <img src="./subject-1/force_no_cursor/45/graphic-45.png" width="160" />
@@ -103,6 +115,10 @@ Los datos estan organizados en carpetas: cada sujeto tiene una carpeta con su no
 
 ![Releases](./subject-2/no_force/graphic-subject-2-no-force.png)
 
+![Releases](./subject-2/no_force/time-subject-2-no-force.png)
+
+<p> Grafica del tiempo tardado en realizar el movimiento </p>
+
 <p float="left">
   <img src="./subject-2/no_force/0/graphic-0.png" width="160" />
   <img src="./subject-2/no_force/45/graphic-45.png" width="160" />
@@ -120,6 +136,10 @@ Los datos estan organizados en carpetas: cada sujeto tiene una carpeta con su no
 #### Con fuerza
 
 ![Releases](./subject-2/force/graphic-subject-2-force.png)
+
+![Releases](./subject-2/force/time-subject-2-force.png)
+
+<p> Grafica del tiempo tardado en realizar el movimiento </p>
 
 <p float="left">
   <img src="./subject-2/force/0/graphic-0.png" width="160" />
