@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Introduccion}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Objetivos}{8}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Planificacion y coste}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Fases del proyecto}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Planificación del proyecto en tiempo}{10}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Material}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Touch}{12}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}OpenHaptics}{12}{subsection.4.1.1}%
+\contentsline {chapter}{\numberline {5}Fundamentos matemáticos}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Cambio de sistema de referencia}{13}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Definiciones y teoremas}{13}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Aplicaciones en informática gráfica}{18}{subsection.5.1.2}%
+\contentsline {chapter}{\numberline {6}Desarrollo del proyecto}{25}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Planificación del experimento}{25}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Experimento de referencia}{25}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Diseño de nuestro experimento}{26}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Desarrollo de la aplicación}{29}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Instalación del software de OpenHaptics}{29}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Implementación del codigo}{30}{subsection.6.2.2}%
+\contentsline {subsubsection}{Guardado de datos}{30}{section*.6}%
+\contentsline {subsection}{\numberline {6.2.3}Script en python}{30}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Obtencion de resultados}{31}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Analisis de resultados}{31}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Discusion y conclusiones}{32}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Bibliografía}{33}{chapter.8}%

@@ -1,0 +1,824 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.9.27)  27 APR 2023 16:54
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**proyecto.tex
+(./proyecto.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count176
+\lst@gtempboxa=\box45
+\lst@token=\toks15
+\lst@length=\count177
+\lst@currlwidth=\dimen135
+\lst@column=\count178
+\lst@pos=\count179
+\lst@lostspace=\dimen136
+\lst@width=\dimen137
+\lst@newlines=\count180
+\lst@lineno=\count181
+\lst@maxwidth=\dimen138
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count182
+\lst@skipnumbers=\count183
+\lst@framebox=\box46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count184
+\U@D=\dimen139
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count185
+)
+\es@quottoks=\toks18
+\es@quotdepth=\count186
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen140
+\ar@mcellbox=\box47
+\extrarowheight=\dimen141
+\NC@list=\toks19
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box48
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks20
+\verbatim@line=\toks21
+\verbatim@in@stream=\read3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks22
+\AP@partial=\box49
+\AP@footins=\box50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
+\LTchunksize=\count187
+\LTcapwidth=\dimen144
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@cols=\count188
+\LT@rows=\count189
+\c@LT@tables=\count190
+\c@LT@chunks=\count191
+\LT@p@ftn=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen145
+\Hy@linkcounter=\count192
+\Hy@pagecounter=\count193
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count194
+\pdfmajorversion=\count195
+
+
+Package hyperref Warning: Invalid value `000'
+(hyperref)                for option `pdfborder'.
+(hyperref)                Option setting is ignored on input line 4421.
+
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count196
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen146
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count197
+\Field@Width=\dimen147
+\Fld@charsize=\dimen148
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count198
+\c@Item=\count199
+\c@Hfootnote=\count266
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \AP@enddocument detected (standard20110627).
+)
+\Fld@listcount=\count267
+\c@bookmark@seq@number=\count268
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip64
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip65
+\thm@postskip=\skip66
+\thm@headsep=\skip67
+\dth@everypar=\toks29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks30
+\ex@=\dimen149
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count269
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count270
+\leftroot@=\count271
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count272
+\DOTSCASE@=\count273
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count274
+\c@MaxMatrixCols=\count275
+\dotsspace@=\muskip17
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
+\tag@help=\toks31
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
+\andhelp@=\toks32
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks33
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks34
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 61.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 61.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 61.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+\everycr=\toks35
+\minrowclearance=\skip71
+)
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks36
+\footnotemargin=\dimen158
+\c@pp@next@reset=\count281
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 84.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 85.
+
+\c@teorema=\count282
+\c@ejemplo=\count283
+\c@definicion=\count284
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count285
+\calc@Bcount=\count286
+\calc@Adimen=\dimen159
+\calc@Bdimen=\dimen160
+\calc@Askip=\skip72
+\calc@Bskip=\skip73
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count287
+\calc@Cskip=\skip74
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen161
+\AM@pageheight=\dimen162
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box57
+\AM@global@opts=\toks37
+\AM@pagecnt=\count288
+\AM@toc@title=\toks38
+\c@AM@survey=\count289
+\AM@templatesizebox=\box58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count290
+\l__pdf_internal_box=\box59
+)
+(./proyecto.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+)
+\openout1 = `proyecto.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+\c@lstlisting=\count291
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count292
+\scratchdimen=\dimen163
+\scratchbox=\box60
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen164
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks40
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring OFF on input line 179.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count298
+)
+LaTeX Info: Redefining \ref on input line 179.
+LaTeX Info: Redefining \pageref on input line 179.
+LaTeX Info: Redefining \nameref on input line 179.
+
+(./proyecto.out) (./proyecto.out)
+\@outlinefile=\write3
+\openout3 = `proyecto.out'.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(./portada/portada.tex
+\centeroffset=\skip75
+<imagenes/logo_ugr.jpg, id=100, 777.90625pt x 231.86626pt>
+File: imagenes/logo_ugr.jpg Graphic file (type jpg)
+<use imagenes/logo_ugr.jpg>
+Package pdftex.def Info: imagenes/logo_ugr.jpg  used on input line 12.
+(pdftex.def)             Requested size: 323.9978pt x 96.57295pt.
+<imagenes/etsiit_logo.png, id=101, 110.814pt x 40.4712pt>
+File: imagenes/etsiit_logo.png Graphic file (type png)
+<use imagenes/etsiit_logo.png>
+Package pdftex.def Info: imagenes/etsiit_logo.png  used on input line 33.
+(pdftex.def)             Requested size: 108.0011pt x 39.44412pt.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imagenes/logo_ugr.jpg> <
+./imagenes/etsiit_logo.png>])
+(./prefacios/prefacio.tex (./portada/portada_2.texpdfTeX warning (ext4): destin
+ation with the same identifier (name{page.1}) has been already used, duplicate 
+ignored
+<to be read again> 
+                   \relax 
+l.1 \begin{titlepage}
+                      [1
+
+]
+<imagenes/logo.png, id=117, 123.46124pt x 45.92157pt>
+File: imagenes/logo.png Graphic file (type png)
+<use imagenes/logo.png>
+Package pdftex.def Info: imagenes/logo.png  used on input line 21.
+(pdftex.def)             Requested size: 123.46092pt x 45.92145pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.49 \end{titlepage}
+                     [1
+
+ <./imagenes/logo.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \cleardoublepage
+                      [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+[2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+[4
+
+]) [5
+
+] (./proyecto.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write4
+\openout4 = `proyecto.toc'.
+
+ [6
+
+]
+Cap\'{\i }tulo 1.
+[7
+
+]
+Cap\'{\i }tulo 2.
+[8
+
+]
+Cap\'{\i }tulo 3.
+[9
+
+]
+LaTeX Info: Redefining \. on input line 278.
+LaTeX Info: Redefining \% on input line 278.
+ [10]
+LaTeX Info: Redefining \. on input line 288.
+LaTeX Info: Redefining \% on input line 288.
+ [11]
+Cap\'{\i }tulo 4.
+[12
+
+]
+Cap\'{\i }tulo 5.
+
+Overfull \hbox (122.49724pt too wide) in paragraph at lines 317--320
+[]\OT1/cmr/m/n/10.95 // ha-blar un po-co de la his-to-ria de las ma-tri-ces htt
+ps://dl.acm.org/doi/abs/10.1145/800248.807398
+ []
+
+\c@sistema_generadores=\count299
+\c@base=\count300
+\c@propiedades_afin=\count301
+\c@comb_lineal=\count302
+\c@linealmente_indep=\count303
+\c@afin_inde=\count304
+\c@sist_referencia=\count305
+\c@grupo=\count306
+\c@anillo=\count307
+\c@cuerpo=\count308
+\c@espacio_vectorial=\count309
+\c@espacio_afin=\count310
+\c@prop_cambio_de_base=\count311
+\c@cambio_de_base=\count312
+\c@cambio_sist_ref=\count313
+\c@def_asignacion=\count314
+\c@matriz_cambio_sist_referencia=\count315
+[13
+
+]
+LaTeX Info: Redefining \. on input line 402.
+LaTeX Info: Redefining \% on input line 402.
+ [14]
+LaTeX Info: Redefining \. on input line 443.
+LaTeX Info: Redefining \% on input line 443.
+ [15]
+Overfull \hbox (189.02325pt too wide) detected at line 447
+\OML/cmm/m/it/10.95 v \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 x[] \OMS/cmsy/m/
+n/10.95 ^^C \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 a[] \OMS/cmsy/m/n/10.95 ^^C
+ \OML/cmm/m/it/10.95 v[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 ::: \OT1/cmr/
+m/n/10.95 + \OML/cmm/m/it/10.95 a[] \OMS/cmsy/m/n/10.95 ^^C \OML/cmm/m/it/10.95
+ v[]\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 ::: \OT1/cmr/m/n/10.95 + \OML/cm
+m/m/it/10.95 x[] \OMS/cmsy/m/n/10.95 ^^C \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.9
+5 a[] \OMS/cmsy/m/n/10.95 ^^C \OML/cmm/m/it/10.95 v[] \OT1/cmr/m/n/10.95 + \OML
+/cmm/m/it/10.95 ::: \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 a[] \OMS/cmsy/m/n/
+10.95 ^^C \OML/cmm/m/it/10.95 v[]\OT1/cmr/m/n/10.95 ) = (\OML/cmm/m/it/10.95 a[
+] \OMS/cmsy/m/n/10.95 ^^C \OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 + \OML/cmm
+/m/it/10.95 ::: \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 a[] \OMS/cmsy/m/n/10.9
+5 ^^C \OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^C \OML/
+cmm/m/it/10.95 v[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 ::: \OT1/cmr/m/n/10
+.95 + (\OML/cmm/m/it/10.95 a[] \OMS/cmsy/m/n/10.95 ^^C \OML/cmm/m/it/10.95 x[] 
+\OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 ::: \OT1/cmr/m/n/10.95 + \OML/cmm/m/it
+/10.95 a[] \OMS/cmsy/m/n/10.95 ^^C \OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 ) 
+\OMS/cmsy/m/n/10.95 ^^C \OML/cmm/m/it/10.95 v[]
+ []
+
+LaTeX Info: Redefining \. on input line 480.
+LaTeX Info: Redefining \% on input line 480.
+[16]
+LaTeX Info: Redefining \. on input line 550.
+LaTeX Info: Redefining \% on input line 550.
+ [17]
+LaTeX Info: Redefining \. on input line 581.
+LaTeX Info: Redefining \% on input line 581.
+ [18]
+LaTeX Info: Redefining \. on input line 613.
+LaTeX Info: Redefining \% on input line 613.
+ [19]
+
+LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 649.
+
+
+
+LaTeX Warning: Command \texttwosuperior invalid in math mode on input line 649.
+
+
+Missing character: There is no ² in font cmr10!
+LaTeX Info: Redefining \. on input line 666.
+LaTeX Info: Redefining \% on input line 666.
+[20]
+LaTeX Info: Redefining \. on input line 727.
+LaTeX Info: Redefining \% on input line 727.
+ [21]
+LaTeX Info: Redefining \. on input line 791.
+LaTeX Info: Redefining \% on input line 791.
+ [22]
+LaTeX Info: Redefining \. on input line 842.
+LaTeX Info: Redefining \% on input line 842.
+ [23]
+LaTeX Info: Redefining \. on input line 873.
+LaTeX Info: Redefining \% on input line 873.
+ [24]
+Cap\'{\i }tulo 6.
+[25
+
+]
+LaTeX Info: Redefining \. on input line 917.
+LaTeX Info: Redefining \% on input line 917.
+ [26]
+LaTeX Info: Redefining \. on input line 928.
+LaTeX Info: Redefining \% on input line 928.
+ [27]
+LaTeX Info: Redefining \. on input line 953.
+LaTeX Info: Redefining \% on input line 953.
+ [28]
+Overfull \hbox (153.73885pt too wide) in paragraph at lines 967--968
+[]\OT1/cmr/m/n/10.95 Los pa-que-tes uti-li-za-dos pue-den en-con-trar-se aqui: 
+https://support.3dsystems.com/s/article/OpenHaptics-
+ []
+
+LaTeX Info: Redefining \. on input line 971.
+LaTeX Info: Redefining \% on input line 971.
+[29]
+Overfull \hbox (33.83858pt too wide) in paragraph at lines 977--978
+[]\OT1/cmr/m/n/10.95 Para guar-dar los da-tos ob-te-ni-dos de las tra-yec-to-ri
+as pun-to[]inicial-punto[]objetivo
+ []
+
+LaTeX Info: Redefining \. on input line 1007.
+LaTeX Info: Redefining \% on input line 1007.
+[30]
+LaTeX Info: Redefining \. on input line 1012.
+LaTeX Info: Redefining \% on input line 1012.
+ [31]
+Cap\'{\i }tulo 7.
+[32
+
+]
+Cap\'{\i }tulo 8.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1018.
+
+Overfull \hbox (161.27855pt too wide) in paragraph at lines 1016--1018
+[]\OT1/cmr/m/n/10.95 https://quasardynamics.com/dispositivos-hapticos-la-realid
+ad-virtual/ https://es.3dsystems.com/haptics-
+ []
+
+[33
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1018.
+ (./proyecto.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1018.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1018.
+
+Package rerunfilecheck Info: File `proyecto.out' has not changed.
+(rerunfilecheck)             Checksum: C663D1FF34FC84CBE6352AD991771C15;1643.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1018.
+ ) 
+Here is how much of TeX's memory you used:
+ 9917 strings out of 481239
+ 145714 string characters out of 5920377
+ 436450 words of memory out of 5000000
+ 24826 multiletter control sequences out of 15000+600000
+ 540510 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,14n,45p,1153b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fti1095.pfb>
+Output written on proyecto.pdf (36 pages, 364946 bytes).
+PDF statistics:
+ 480 PDF objects out of 1000 (max. 8388607)
+ 417 compressed objects within 5 object streams
+ 156 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+
