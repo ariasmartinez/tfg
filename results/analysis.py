@@ -14,7 +14,7 @@ import scipy.signal
 
 max_number_of_trials_per_target = 10
 file_name = 'sujeto5/no_force_no_cursor.csv'
-file = 'sujeto5/no_force_no_cursor'
+file = '.'
 
 target_distance = 2
 
@@ -148,7 +148,7 @@ plt.title('End-point position: All Targets')
 plt.xlabel('x-axis position')
 plt.ylabel('y-axis position')
 path = file+'/trayectorias.png'
-plt.savefig(path)
+#plt.savefig(path)
 plt.show()
 plt.close()
 
@@ -171,18 +171,28 @@ for tar,trial in zip(targets,trial_list):
     distance.append(distance_t)
     
     
-    
+px = [2,-2]
+py = [0,0]
+plt.plot(px,py,marker="o", markersize=10, markeredgecolor="y", markerfacecolor="green")
+plt.title('End-point position: All Targets')
+plt.ylabel('y-axis position')
+# adding Label to the x-axis
+plt.xlabel('x-axis position')
+plt.show()
+plt.close()
+
 
 c1='red' #blue
 c2='black' #green
 
 plt.figure(figsize=(16, 8), dpi=150)
-    
-for idx,tar in enumerate(targets):
+
+#for idx,tar in enumerate(targets):
     # Plot the evolution of x position
-    for idx1,(x,y) in enumerate(zip(end_point_x[idx],end_point_y[idx][:])):
-        plt.plot(x,y,marker="o", markersize=5,color=colorFader(c1,c2,idx1/len(end_point_x[idx])))
-    plt.plot(math.cos(math.pi*(tar-1)/4.)*target_distance, math.sin(math.pi*(tar-1)/4.)*target_distance, marker="o", markersize=10, markeredgecolor="y", markerfacecolor="green")
+    #for idx1,(x,y) in enumerate(zip(end_point_x[idx],end_point_y[idx][:])):
+        #plt.plot(x,y,marker="o", markersize=5,color=colorFader(c1,c2,idx1/len(end_point_x[idx])))
+
+    #plt.plot(math.cos(math.pi*(tar-1)/4.)*target_distance, math.sin(math.pi*(tar-1)/4.)*target_distance, marker="o", markersize=10, markeredgecolor="y", markerfacecolor="green")
     
 # adding title to the plot
 plt.title('End-point position: All Targets')
@@ -191,7 +201,7 @@ plt.title('End-point position: All Targets')
 plt.xlabel('x-axis position')
 plt.ylabel('y-axis position')
 path = file+'/trayectorias_puntos.png'
-plt.savefig(path)
+#plt.savefig(path)
 plt.show()
 plt.close()
 
@@ -217,7 +227,7 @@ plt.ylabel('Distance(cm)')
 plt.ylim((0, 2))
 
 path = file+'/evolution_distance.png'
-plt.savefig(path)
+#plt.savefig(path)
 plt.show()
 plt.close()
 
@@ -240,7 +250,7 @@ plt.xlabel('Trial')
 plt.ylabel('Time (s)')
 plt.ylim((800000000, 2100000000))
 path = file+'/evolution_time.png'
-plt.savefig(path)
+#plt.savefig(path)
 plt.show()
 plt.close()
 
