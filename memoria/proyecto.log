@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.30)  23 MAY 2023 20:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.30)  23 MAY 2023 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -418,17 +418,25 @@ Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 \sf@top=\skip74
 \sf@bottom=\skip75
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count307
+\float@exts=\toks37
+\float@box=\box64
+\@float@everytoks=\toks38
+\@floatcapt=\box65
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 65.
+(hyperref)                removing `subscript' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 65.
+(hyperref)                removing `subscript' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 65.
+(hyperref)                removing `subscript' on input line 66.
 
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
@@ -441,14 +449,14 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-\everycr=\toks37
+\everycr=\toks39
 \minrowclearance=\skip76
 )
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks38
+\FN@temptoken=\toks40
 \footnotemargin=\dimen170
-\c@pp@next@reset=\count307
+\c@pp@next@reset=\count308
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -460,15 +468,15 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 )
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 88.
+less on input line 89.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 89.
+less on input line 90.
 
-\c@teorema=\count308
-\c@ejemplo=\count309
-\c@definicion=\count310
+\c@teorema=\count309
+\c@ejemplo=\count310
+\c@definicion=\count311
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
 
@@ -477,15 +485,15 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count311
-\calc@Bcount=\count312
+\calc@Acount=\count312
+\calc@Bcount=\count313
 \calc@Adimen=\dimen171
 \calc@Bdimen=\dimen172
 \calc@Askip=\skip77
 \calc@Bskip=\skip78
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count313
+\calc@Ccount=\count314
 \calc@Cskip=\skip79
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -500,21 +508,21 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count314
-\AM@pagebox=\box64
-\AM@global@opts=\toks39
-\AM@pagecnt=\count315
-\AM@toc@title=\toks40
-\c@AM@survey=\count316
-\AM@templatesizebox=\box65
+\pdfpages@includegraphics@status=\count315
+\AM@pagebox=\box66
+\AM@global@opts=\toks41
+\AM@pagecnt=\count316
+\AM@toc@title=\toks42
+\c@AM@survey=\count317
+\AM@templatesizebox=\box67
 )
-\c@defi=\count317
-\c@prop=\count318
+\c@defi=\count318
+\c@prop=\count319
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count319
-\l__pdf_internal_box=\box66
+\l__color_backend_stack_int=\count320
+\l__pdf_internal_box=\box68
 )
 (./proyecto.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -527,6 +535,252 @@ LaTeX Warning: Label `fig:figura1' multiply defined.
 LaTeX Warning: Label `fig:figura1' multiply defined.
 
 
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
 LaTeX Warning: Label `fig:figura2' multiply defined.
 
 
@@ -558,44 +812,143 @@ LaTeX Warning: Label `fig:figura2' multiply defined.
 
 
 LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figura2' multiply defined.
 
 )
 \openout1 = `proyecto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-\c@lstlisting=\count320
-LaTeX Info: Redefining \. on input line 191.
-LaTeX Info: Redefining \% on input line 191.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+\c@lstlisting=\count321
+LaTeX Info: Redefining \. on input line 192.
+LaTeX Info: Redefining \% on input line 192.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
+\scratchcounter=\count322
 \scratchdimen=\dimen178
-\scratchbox=\box67
-\nofMPsegments=\count322
-\nofMParguments=\count323
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count324
+\scratchbox=\box69
+\nofMPsegments=\count323
+\nofMParguments=\count324
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count325
 \MPscratchDim=\dimen179
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
-\everyMPtoPDFconversion=\toks42
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -605,7 +958,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 191.
+Package hyperref Info: Link coloring OFF on input line 192.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -616,11 +969,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count327
+\c@section@level=\count328
 )
-LaTeX Info: Redefining \ref on input line 191.
-LaTeX Info: Redefining \pageref on input line 191.
-LaTeX Info: Redefining \nameref on input line 191.
+LaTeX Info: Redefining \ref on input line 192.
+LaTeX Info: Redefining \pageref on input line 192.
+LaTeX Info: Redefining \nameref on input line 192.
 
 (./proyecto.out) (./proyecto.out)
 \@outlinefile=\write3
@@ -628,6 +981,7 @@ LaTeX Info: Redefining \nameref on input line 191.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
@@ -723,1477 +1077,1415 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@toc=\write4
 \openout4 = `proyecto.toc'.
 
-LaTeX Info: Redefining \. on input line 233.
-LaTeX Info: Redefining \% on input line 233.
+LaTeX Info: Redefining \. on input line 234.
+LaTeX Info: Redefining \% on input line 234.
  [8]
 Cap\'{\i }tulo 1.
 [9
 
 ]
-LaTeX Info: Redefining \. on input line 266.
-LaTeX Info: Redefining \% on input line 266.
+LaTeX Info: Redefining \. on input line 267.
+LaTeX Info: Redefining \% on input line 267.
  [10]
-LaTeX Info: Redefining \. on input line 296.
-LaTeX Info: Redefining \% on input line 296.
+LaTeX Info: Redefining \. on input line 297.
+LaTeX Info: Redefining \% on input line 297.
  [11]
 <imagenes//diagrama-fases.png, id=230, 1081.03876pt x 532.99126pt>
 File: imagenes//diagrama-fases.png Graphic file (type png)
 <use imagenes//diagrama-fases.png>
-Package pdftex.def Info: imagenes//diagrama-fases.png  used on input line 310.
-(pdftex.def)             Requested size: 324.31413pt x 159.8986pt.
-LaTeX Info: Redefining \. on input line 317.
-LaTeX Info: Redefining \% on input line 317.
+Package pdftex.def Info: imagenes//diagrama-fases.png  used on input line 314.
+(pdftex.def)             Requested size: 360.0pt x 177.4898pt.
+LaTeX Info: Redefining \. on input line 325.
+LaTeX Info: Redefining \% on input line 325.
  [12 <./imagenes//diagrama-fases.png>]
-<imagenes//gantt.png, id=242, 994.71625pt x 574.145pt>
+<imagenes//gantt.png, id=243, 994.71625pt x 574.145pt>
 File: imagenes//gantt.png Graphic file (type png)
 <use imagenes//gantt.png>
-Package pdftex.def Info: imagenes//gantt.png  used on input line 323.
-(pdftex.def)             Requested size: 397.87946pt x 229.65393pt.
-
-Overfull \hbox (54.87946pt too wide) in paragraph at lines 323--324
-[][] 
- []
-
-<imagenes//horas.png, id=243, 1011.78pt x 575.14874pt>
+Package pdftex.def Info: imagenes//gantt.png  used on input line 334.
+(pdftex.def)             Requested size: 360.0pt x 207.78712pt.
+<imagenes//horas.png, id=244, 1011.78pt x 575.14874pt>
 File: imagenes//horas.png Graphic file (type png)
 <use imagenes//horas.png>
-Package pdftex.def Info: imagenes//horas.png  used on input line 342.
-(pdftex.def)             Requested size: 404.70483pt x 230.05542pt.
-
-Overfull \hbox (61.70483pt too wide) in paragraph at lines 342--343
-[][] 
- []
-
-LaTeX Info: Redefining \. on input line 345.
-LaTeX Info: Redefining \% on input line 345.
-[13 <./imagenes//gantt.png>]
-<imagenes//coste.png, id=249, 1011.78pt x 575.14874pt>
+Package pdftex.def Info: imagenes//horas.png  used on input line 360.
+(pdftex.def)             Requested size: 288.0011pt x 163.71724pt.
+LaTeX Info: Redefining \. on input line 365.
+LaTeX Info: Redefining \% on input line 365.
+ [13 <./imagenes//gantt.png>]
+<imagenes//coste.png, id=251, 1011.78pt x 575.14874pt>
 File: imagenes//coste.png Graphic file (type png)
 <use imagenes//coste.png>
-Package pdftex.def Info: imagenes//coste.png  used on input line 353.
-(pdftex.def)             Requested size: 404.70483pt x 230.05542pt.
-
-Overfull \hbox (61.70483pt too wide) in paragraph at lines 353--354
-[][] 
- []
-
-LaTeX Info: Redefining \. on input line 355.
-LaTeX Info: Redefining \% on input line 355.
-[14 <./imagenes//horas.png>]
-Overfull \hbox (6.63303pt too wide) in paragraph at lines 367--399
+Package pdftex.def Info: imagenes//coste.png  used on input line 378.
+(pdftex.def)             Requested size: 288.0011pt x 163.71724pt.
+LaTeX Info: Redefining \. on input line 383.
+LaTeX Info: Redefining \% on input line 383.
+ [14 <./imagenes//horas.png>]
+Overfull \hbox (6.63303pt too wide) in paragraph at lines 396--428
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 399.
-LaTeX Info: Redefining \% on input line 399.
+LaTeX Info: Redefining \. on input line 428.
+LaTeX Info: Redefining \% on input line 428.
 [15 <./imagenes//coste.png>]
-<imagenes//touch.png, id=262, 656.4525pt x 342.27875pt>
+<imagenes//touch.png, id=266, 656.4525pt x 342.27875pt>
 File: imagenes//touch.png Graphic file (type png)
 <use imagenes//touch.png>
-Package pdftex.def Info: imagenes//touch.png  used on input line 402.
-(pdftex.def)             Requested size: 328.22545pt x 171.13895pt.
-LaTeX Info: Redefining \. on input line 404.
-LaTeX Info: Redefining \% on input line 404.
+Package pdftex.def Info: imagenes//touch.png  used on input line 434.
+(pdftex.def)             Requested size: 360.0pt x 187.70549pt.
+LaTeX Info: Redefining \. on input line 439.
+LaTeX Info: Redefining \% on input line 439.
  [16]
-LaTeX Info: Redefining \. on input line 413.
-LaTeX Info: Redefining \% on input line 413.
+LaTeX Info: Redefining \. on input line 449.
+LaTeX Info: Redefining \% on input line 449.
  [17 <./imagenes//touch.png>]
 Cap\'{\i }tulo 2.
 [18
 
 ]
-LaTeX Info: Redefining \. on input line 454.
-LaTeX Info: Redefining \% on input line 454.
+LaTeX Info: Redefining \. on input line 490.
+LaTeX Info: Redefining \% on input line 490.
  [19]
-LaTeX Info: Redefining \. on input line 497.
-LaTeX Info: Redefining \% on input line 497.
+LaTeX Info: Redefining \. on input line 533.
+LaTeX Info: Redefining \% on input line 533.
  [20]
-LaTeX Info: Redefining \. on input line 541.
-LaTeX Info: Redefining \% on input line 541.
+LaTeX Info: Redefining \. on input line 577.
+LaTeX Info: Redefining \% on input line 577.
  [21]
-LaTeX Info: Redefining \. on input line 580.
-LaTeX Info: Redefining \% on input line 580.
+LaTeX Info: Redefining \. on input line 616.
+LaTeX Info: Redefining \% on input line 616.
  [22]
-LaTeX Info: Redefining \. on input line 633.
-LaTeX Info: Redefining \% on input line 633.
+LaTeX Info: Redefining \. on input line 669.
+LaTeX Info: Redefining \% on input line 669.
  [23]
-LaTeX Info: Redefining \. on input line 691.
-LaTeX Info: Redefining \% on input line 691.
+LaTeX Info: Redefining \. on input line 727.
+LaTeX Info: Redefining \% on input line 727.
  [24]
-LaTeX Info: Redefining \. on input line 740.
-LaTeX Info: Redefining \% on input line 740.
+LaTeX Info: Redefining \. on input line 776.
+LaTeX Info: Redefining \% on input line 776.
  [25]
-Underfull \hbox (badness 10000) in paragraph at lines 764--766
-
- []
-
-<imagenes//coordinate_systems.png, id=388, 803.0pt x 395.4775pt>
+<imagenes//coordinate_systems.png, id=393, 803.0pt x 395.4775pt>
 File: imagenes//coordinate_systems.png Graphic file (type png)
 <use imagenes//coordinate_systems.png>
-Package pdftex.def Info: imagenes//coordinate_systems.png  used on input line 7
-67.
-(pdftex.def)             Requested size: 321.1943pt x 158.18819pt.
-LaTeX Info: Redefining \. on input line 774.
-LaTeX Info: Redefining \% on input line 774.
-[26 <./imagenes//coordinate_systems.png>]
-LaTeX Info: Redefining \. on input line 799.
-LaTeX Info: Redefining \% on input line 799.
- [27]
-LaTeX Info: Redefining \. on input line 845.
-LaTeX Info: Redefining \% on input line 845.
+Package pdftex.def Info: imagenes//coordinate_systems.png  used on input line 8
+04.
+(pdftex.def)             Requested size: 360.0pt x 177.30547pt.
+LaTeX Info: Redefining \. on input line 809.
+LaTeX Info: Redefining \% on input line 809.
+ [26]
+LaTeX Info: Redefining \. on input line 831.
+LaTeX Info: Redefining \% on input line 831.
+ [27 <./imagenes//coordinate_systems.png>]
+LaTeX Info: Redefining \. on input line 872.
+LaTeX Info: Redefining \% on input line 872.
  [28]
-Underfull \hbox (badness 10000) in paragraph at lines 885--887
-
- []
-
-<imagenes//cubo.png, id=412, 1116.17pt x 569.12625pt>
+LaTeX Info: Redefining \. on input line 925.
+LaTeX Info: Redefining \% on input line 925.
+ [29]
+<imagenes//cubo.png, id=424, 1116.17pt x 569.12625pt>
 File: imagenes//cubo.png Graphic file (type png)
 <use imagenes//cubo.png>
-Package pdftex.def Info: imagenes//cubo.png  used on input line 888.
-(pdftex.def)             Requested size: 223.23004pt x 113.82323pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 890--892
-
- []
-
-LaTeX Info: Redefining \. on input line 893.
-LaTeX Info: Redefining \% on input line 893.
-[29 <./imagenes//cubo.png>]
-<imagenes//notacion.png, id=419, 1041.8925pt x 497.86pt>
+Package pdftex.def Info: imagenes//cubo.png  used on input line 929.
+(pdftex.def)             Requested size: 323.9978pt x 165.1987pt.
+<imagenes//notacion.png, id=425, 1041.8925pt x 497.86pt>
 File: imagenes//notacion.png Graphic file (type png)
 <use imagenes//notacion.png>
-Package pdftex.def Info: imagenes//notacion.png  used on input line 893.
-(pdftex.def)             Requested size: 208.3748pt x 99.57024pt.
+Package pdftex.def Info: imagenes//notacion.png  used on input line 939.
+(pdftex.def)             Requested size: 323.9978pt x 154.82118pt.
+LaTeX Info: Redefining \. on input line 948.
+LaTeX Info: Redefining \% on input line 948.
+ [30 <./imagenes//cubo.png> <./imagenes//notacion.png>]
+LaTeX Info: Redefining \. on input line 1017.
+LaTeX Info: Redefining \% on input line 1017.
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--895
-
- []
-
-LaTeX Info: Redefining \. on input line 937.
-LaTeX Info: Redefining \% on input line 937.
-[30 <./imagenes//notacion.png>]
-LaTeX Info: Redefining \. on input line 1012.
-LaTeX Info: Redefining \% on input line 1012.
- [31]
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1043
-
- []
-
-<imagenes//viewport.png, id=449, 969.6225pt x 490.83376pt>
+[31]
+LaTeX Info: Redefining \. on input line 1079.
+LaTeX Info: Redefining \% on input line 1079.
+ [32]
+<imagenes//viewport.png, id=461, 969.6225pt x 490.83376pt>
 File: imagenes//viewport.png Graphic file (type png)
 <use imagenes//viewport.png>
-Package pdftex.def Info: imagenes//viewport.png  used on input line 1044.
-(pdftex.def)             Requested size: 193.92107pt x 98.16501pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1046
-
- []
-
-LaTeX Info: Redefining \. on input line 1048.
-LaTeX Info: Redefining \% on input line 1048.
-[32 <./imagenes//viewport.png>]
-LaTeX Info: Redefining \. on input line 1096.
-LaTeX Info: Redefining \% on input line 1096.
- [33]
-LaTeX Info: Redefining \. on input line 1127.
-LaTeX Info: Redefining \% on input line 1127.
+Package pdftex.def Info: imagenes//viewport.png  used on input line 1094.
+(pdftex.def)             Requested size: 360.0pt x 182.23476pt.
+LaTeX Info: Redefining \. on input line 1105.
+LaTeX Info: Redefining \% on input line 1105.
+ [33 <./imagenes//viewport.png>]
+LaTeX Info: Redefining \. on input line 1156.
+LaTeX Info: Redefining \% on input line 1156.
  [34]
+LaTeX Info: Redefining \. on input line 1180.
+LaTeX Info: Redefining \% on input line 1180.
+ [35]
 Cap\'{\i }tulo 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1146--1148
-
- []
-
-<imagenes//points.png, id=470, 1306.8825pt x 713.66624pt>
+<imagenes//points.png, id=483, 1306.8825pt x 713.66624pt>
 File: imagenes//points.png Graphic file (type png)
 <use imagenes//points.png>
-Package pdftex.def Info: imagenes//points.png  used on input line 1149.
-(pdftex.def)             Requested size: 261.37187pt x 142.73071pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1149--1151
-
- []
-
-[35
+Package pdftex.def Info: imagenes//points.png  used on input line 1203.
+(pdftex.def)             Requested size: 216.0022pt x 117.94586pt.
+[36
 
 ]
-LaTeX Info: Redefining \. on input line 1168.
-LaTeX Info: Redefining \% on input line 1168.
- [36 <./imagenes//points.png>]
-<imagenes//points-4.png, id=481, 1306.8825pt x 713.66624pt>
+LaTeX Info: Redefining \. on input line 1224.
+LaTeX Info: Redefining \% on input line 1224.
+ [37 <./imagenes//points.png>]
+<imagenes//points-4.png, id=495, 1306.8825pt x 713.66624pt>
 File: imagenes//points-4.png Graphic file (type png)
 <use imagenes//points-4.png>
-Package pdftex.def Info: imagenes//points-4.png  used on input line 1171.
-(pdftex.def)             Requested size: 261.37187pt x 142.73071pt.
-<imagenes//puntos2.png, id=482, 1291.82625pt x 680.5425pt>
+Package pdftex.def Info: imagenes//points-4.png  used on input line 1230.
+(pdftex.def)             Requested size: 180.0pt x 98.29002pt.
+<imagenes//puntos2.png, id=496, 1291.82625pt x 680.5425pt>
 File: imagenes//puntos2.png Graphic file (type png)
 <use imagenes//puntos2.png>
-Package pdftex.def Info: imagenes//puntos2.png  used on input line 1175.
-(pdftex.def)             Requested size: 258.36067pt x 136.10608pt.
-LaTeX Info: Redefining \. on input line 1177.
-LaTeX Info: Redefining \% on input line 1177.
- [37 <./imagenes//points-4.png>]
-LaTeX Info: Redefining \. on input line 1189.
-LaTeX Info: Redefining \% on input line 1189.
- [38 <./imagenes//puntos2.png>]
-LaTeX Info: Redefining \. on input line 1216.
-LaTeX Info: Redefining \% on input line 1216.
+Package pdftex.def Info: imagenes//puntos2.png  used on input line 1241.
+(pdftex.def)             Requested size: 180.0pt x 94.81839pt.
+LaTeX Info: Redefining \. on input line 1249.
+LaTeX Info: Redefining \% on input line 1249.
+ [38 <./imagenes//points-4.png> <./imagenes//puntos2.png>]
+LaTeX Info: Redefining \. on input line 1269.
+LaTeX Info: Redefining \% on input line 1269.
  [39]
-LaTeX Info: Redefining \. on input line 1247.
-LaTeX Info: Redefining \% on input line 1247.
+LaTeX Info: Redefining \. on input line 1298.
+LaTeX Info: Redefining \% on input line 1298.
  [40]
-<imagenes//OPENHAPTICS.png, id=507, 969.6225pt x 490.83376pt>
+<imagenes//OPENHAPTICS.png, id=519, 969.6225pt x 490.83376pt>
 File: imagenes//OPENHAPTICS.png Graphic file (type png)
 <use imagenes//OPENHAPTICS.png>
-Package pdftex.def Info: imagenes//OPENHAPTICS.png  used on input line 1250.
-(pdftex.def)             Requested size: 387.84213pt x 196.33002pt.
-
-Overfull \hbox (27.84213pt too wide) in paragraph at lines 1248--1252
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1248--1252
-
- []
-
-<imagenes//estructura.png, id=508, 932.48375pt x 773.89125pt>
+Package pdftex.def Info: imagenes//OPENHAPTICS.png  used on input line 1325.
+(pdftex.def)             Requested size: 360.0pt x 182.23476pt.
+LaTeX Info: Redefining \. on input line 1330.
+LaTeX Info: Redefining \% on input line 1330.
+ [41]
+<imagenes//estructura.png, id=524, 932.48375pt x 773.89125pt>
 File: imagenes//estructura.png Graphic file (type png)
 <use imagenes//estructura.png>
-Package pdftex.def Info: imagenes//estructura.png  used on input line 1260.
-(pdftex.def)             Requested size: 372.9869pt x 309.55101pt.
-
-Overfull \hbox (29.9869pt too wide) in paragraph at lines 1260--1261
-[][] 
- []
-
-LaTeX Info: Redefining \. on input line 1262.
-LaTeX Info: Redefining \% on input line 1262.
-[41 <./imagenes//OPENHAPTICS.png>]
-LaTeX Info: Redefining \. on input line 1271.
-LaTeX Info: Redefining \% on input line 1271.
- [42 <./imagenes//estructura.png>]
-LaTeX Info: Redefining \. on input line 1289.
-LaTeX Info: Redefining \% on input line 1289.
- [43]
-LaTeX Info: Redefining \. on input line 1326.
-LaTeX Info: Redefining \% on input line 1326.
-
-[44]
-LaTeX Info: Redefining \. on input line 1358.
-LaTeX Info: Redefining \% on input line 1358.
+Package pdftex.def Info: imagenes//estructura.png  used on input line 1340.
+(pdftex.def)             Requested size: 360.0pt x 298.76974pt.
+LaTeX Info: Redefining \. on input line 1345.
+LaTeX Info: Redefining \% on input line 1345.
+ [42 <./imagenes//OPENHAPTICS.png>]
+LaTeX Info: Redefining \. on input line 1354.
+LaTeX Info: Redefining \% on input line 1354.
+ [43 <./imagenes//estructura.png>]
+LaTeX Info: Redefining \. on input line 1373.
+LaTeX Info: Redefining \% on input line 1373.
+ [44]
+LaTeX Info: Redefining \. on input line 1410.
+LaTeX Info: Redefining \% on input line 1410.
  [45]
-<imagenes//diagrama.png, id=534, 1002.74625pt x 504.88625pt>
+LaTeX Info: Redefining \. on input line 1443.
+LaTeX Info: Redefining \% on input line 1443.
+ [46]
+<imagenes//diagrama.png, id=553, 1002.74625pt x 504.88625pt>
 File: imagenes//diagrama.png Graphic file (type png)
 <use imagenes//diagrama.png>
-Package pdftex.def Info: imagenes//diagrama.png  used on input line 1377.
-(pdftex.def)             Requested size: 401.0914pt x 201.95091pt.
-
-Overfull \hbox (58.0914pt too wide) in paragraph at lines 1377--1378
-[][] 
- []
-
-LaTeX Info: Redefining \. on input line 1379.
-LaTeX Info: Redefining \% on input line 1379.
-[46]
-Overfull \hbox (33.83858pt too wide) in paragraph at lines 1381--1382
+Package pdftex.def Info: imagenes//diagrama.png  used on input line 1466.
+(pdftex.def)             Requested size: 323.9978pt x 163.13078pt.
+LaTeX Info: Redefining \. on input line 1471.
+LaTeX Info: Redefining \% on input line 1471.
+ [47]
+Overfull \hbox (33.83858pt too wide) in paragraph at lines 1473--1474
 []\OT1/cmr/m/n/10.95 Para guar-dar los da-tos ob-te-ni-dos de las tra-yec-to-ri
 as pun-to[]inicial-punto[]objetivo
  []
 
-LaTeX Info: Redefining \. on input line 1401.
-LaTeX Info: Redefining \% on input line 1401.
-[47 <./imagenes//diagrama.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1411--1413
+LaTeX Info: Redefining \. on input line 1493.
+LaTeX Info: Redefining \% on input line 1493.
+[48 <./imagenes//diagrama.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1503--1505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1415--1429
+Underfull \hbox (badness 10000) in paragraph at lines 1507--1521
 
  []
 
-LaTeX Info: Redefining \. on input line 1431.
-LaTeX Info: Redefining \% on input line 1431.
-[48]
-LaTeX Info: Redefining \. on input line 1465.
-LaTeX Info: Redefining \% on input line 1465.
- [49]
-<imagenes//sujeto1/no_force/trayectorias_puntos.png, id=556, 1156.32pt x 578.16
+LaTeX Info: Redefining \. on input line 1523.
+LaTeX Info: Redefining \% on input line 1523.
+[49]
+LaTeX Info: Redefining \. on input line 1557.
+LaTeX Info: Redefining \% on input line 1557.
+ [50]
+<imagenes//sujeto1/no_force/trayectorias_puntos.png, id=575, 1156.32pt x 578.16
 pt>
 File: imagenes//sujeto1/no_force/trayectorias_puntos.png Graphic file (type png
 )
 <use imagenes//sujeto1/no_force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force/trayectorias_puntos.png  us
-ed on input line 1470.
+ed on input line 1562.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
-<imagenes//sujeto2/no_force/trayectorias_puntos.png, id=557, 1156.32pt x 578.16
+<imagenes//sujeto2/no_force/trayectorias_puntos.png, id=576, 1156.32pt x 578.16
 pt>
 File: imagenes//sujeto2/no_force/trayectorias_puntos.png Graphic file (type png
 )
 <use imagenes//sujeto2/no_force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force/trayectorias_puntos.png  us
-ed on input line 1477.
+ed on input line 1569.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (10.55713pt too wide) in paragraph at lines 1468--1481
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1560--1573
 [][]   [] 
  []
 
-<imagenes//sujeto4/no_force/trayectorias_puntos.png, id=558, 1156.32pt x 578.16
+<imagenes//sujeto4/no_force/trayectorias_puntos.png, id=577, 1156.32pt x 578.16
 pt>
 File: imagenes//sujeto4/no_force/trayectorias_puntos.png Graphic file (type png
 )
 <use imagenes//sujeto4/no_force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force/trayectorias_puntos.png  us
-ed on input line 1485.
+ed on input line 1577.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
-<imagenes//sujeto3/no_force/trayectorias_puntos.png, id=559, 1156.32pt x 578.16
+<imagenes//sujeto3/no_force/trayectorias_puntos.png, id=578, 1156.32pt x 578.16
 pt>
 File: imagenes//sujeto3/no_force/trayectorias_puntos.png Graphic file (type png
 )
 <use imagenes//sujeto3/no_force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force/trayectorias_puntos.png  us
-ed on input line 1497.
+ed on input line 1589.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
-<imagenes//sujeto5/no_force/trayectorias_puntos.png, id=560, 1156.32pt x 578.16
+<imagenes//sujeto5/no_force/trayectorias_puntos.png, id=579, 1156.32pt x 578.16
 pt>
 File: imagenes//sujeto5/no_force/trayectorias_puntos.png Graphic file (type png
 )
 <use imagenes//sujeto5/no_force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto5/no_force/trayectorias_puntos.png  us
-ed on input line 1504.
+ed on input line 1596.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (19.09303pt too wide) in paragraph at lines 1495--1508
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1587--1600
 [][]   [] 
  []
 
-LaTeX Info: Redefining \. on input line 1512.
-LaTeX Info: Redefining \% on input line 1512.
-[50 <./imagenes//sujeto1/no_force/trayectorias_puntos.png> <./imagenes//sujeto2
+LaTeX Info: Redefining \. on input line 1604.
+LaTeX Info: Redefining \% on input line 1604.
+[51 <./imagenes//sujeto1/no_force/trayectorias_puntos.png> <./imagenes//sujeto2
 /no_force/trayectorias_puntos.png> <./imagenes//sujeto4/no_force/trayectorias_p
 untos.png> <./imagenes//sujeto3/no_force/trayectorias_puntos.png> <./imagenes//
 sujeto5/no_force/trayectorias_puntos.png>]
-<imagenes//sujeto1/no_force/evolution_distance.png, id=574, 1156.32pt x 578.16p
+<imagenes//sujeto1/no_force/evolution_distance.png, id=593, 1156.32pt x 578.16p
 t>
 File: imagenes//sujeto1/no_force/evolution_distance.png Graphic file (type png)
 
 <use imagenes//sujeto1/no_force/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force/evolution_distance.png  use
-d on input line 1517.
+d on input line 1609.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
-<imagenes//sujeto2/no_force/evolution_distance.png, id=575, 1156.32pt x 578.16p
+<imagenes//sujeto2/no_force/evolution_distance.png, id=594, 1156.32pt x 578.16p
 t>
 File: imagenes//sujeto2/no_force/evolution_distance.png Graphic file (type png)
 
 <use imagenes//sujeto2/no_force/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force/evolution_distance.png  use
-d on input line 1524.
+d on input line 1616.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (19.09303pt too wide) in paragraph at lines 1515--1528
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1607--1620
 [][]   [] 
  []
 
-<imagenes//sujeto4/no_force/evolution_distance.png, id=576, 1156.32pt x 578.16p
+<imagenes//sujeto4/no_force/evolution_distance.png, id=595, 1156.32pt x 578.16p
 t>
 File: imagenes//sujeto4/no_force/evolution_distance.png Graphic file (type png)
 
 <use imagenes//sujeto4/no_force/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force/evolution_distance.png  use
-d on input line 1532.
+d on input line 1624.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
-<imagenes//sujeto3/no_force/evolution_distance.png, id=577, 1156.32pt x 578.16p
+<imagenes//sujeto3/no_force/evolution_distance.png, id=596, 1156.32pt x 578.16p
 t>
 File: imagenes//sujeto3/no_force/evolution_distance.png Graphic file (type png)
 
 <use imagenes//sujeto3/no_force/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force/evolution_distance.png  use
-d on input line 1544.
+d on input line 1636.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
-File: imagenes//sujeto4/no_force/evolution_distance.png Graphic file (type png)
+<imagenes//sujeto5/no_force/evolution_distance.png, id=597, 1156.32pt x 578.16p
+t>
+File: imagenes//sujeto5/no_force/evolution_distance.png Graphic file (type png)
 
-<use imagenes//sujeto4/no_force/evolution_distance.png>
-Package pdftex.def Info: imagenes//sujeto4/no_force/evolution_distance.png  use
-d on input line 1551.
+<use imagenes//sujeto5/no_force/evolution_distance.png>
+Package pdftex.def Info: imagenes//sujeto5/no_force/evolution_distance.png  use
+d on input line 1643.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (19.09303pt too wide) in paragraph at lines 1542--1555
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1634--1647
 [][]   [] 
  []
 
-LaTeX Info: Redefining \. on input line 1559.
-LaTeX Info: Redefining \% on input line 1559.
-[51 <./imagenes//sujeto1/no_force/evolution_distance.png> <./imagenes//sujeto2/
+LaTeX Info: Redefining \. on input line 1651.
+LaTeX Info: Redefining \% on input line 1651.
+[52 <./imagenes//sujeto1/no_force/evolution_distance.png> <./imagenes//sujeto2/
 no_force/evolution_distance.png> <./imagenes//sujeto4/no_force/evolution_distan
-ce.png> <./imagenes//sujeto3/no_force/evolution_distance.png>]
-<imagenes//sujeto1/no_force/evolution_time.png, id=589, 1156.32pt x 578.16pt>
+ce.png> <./imagenes//sujeto3/no_force/evolution_distance.png> <./imagenes//suje
+to5/no_force/evolution_distance.png>]
+<imagenes//sujeto1/no_force/evolution_time.png, id=610, 1156.32pt x 578.16pt>
 File: imagenes//sujeto1/no_force/evolution_time.png Graphic file (type png)
 <use imagenes//sujeto1/no_force/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force/evolution_time.png  used on
- input line 1563.
+ input line 1655.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
-<imagenes//sujeto2/no_force/evolution_time.png, id=590, 1156.32pt x 578.16pt>
+<imagenes//sujeto2/no_force/evolution_time.png, id=611, 1156.32pt x 578.16pt>
 File: imagenes//sujeto2/no_force/evolution_time.png Graphic file (type png)
 <use imagenes//sujeto2/no_force/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force/evolution_time.png  used on
- input line 1570.
+ input line 1662.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (19.09303pt too wide) in paragraph at lines 1561--1574
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1653--1666
 [][]   [] 
  []
 
-<imagenes//sujeto3/no_force/evolution_time.png, id=591, 1156.32pt x 578.16pt>
+<imagenes//sujeto3/no_force/evolution_time.png, id=612, 1156.32pt x 578.16pt>
 File: imagenes//sujeto3/no_force/evolution_time.png Graphic file (type png)
 <use imagenes//sujeto3/no_force/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force/evolution_time.png  used on
- input line 1578.
+ input line 1670.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
-<imagenes//sujeto4/no_force/evolution_time.png, id=592, 1156.32pt x 578.16pt>
+<imagenes//sujeto4/no_force/evolution_time.png, id=613, 1156.32pt x 578.16pt>
 File: imagenes//sujeto4/no_force/evolution_time.png Graphic file (type png)
 <use imagenes//sujeto4/no_force/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force/evolution_time.png  used on
- input line 1585.
+ input line 1677.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (19.09303pt too wide) in paragraph at lines 1576--1589
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1668--1681
 [][]   [] 
  []
 
-<imagenes//sujeto5/no_force/evolution_time.png, id=593, 1156.32pt x 578.16pt>
+<imagenes//sujeto5/no_force/evolution_time.png, id=614, 1156.32pt x 578.16pt>
 File: imagenes//sujeto5/no_force/evolution_time.png Graphic file (type png)
 <use imagenes//sujeto5/no_force/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto5/no_force/evolution_time.png  used on
- input line 1593.
+ input line 1685.
 (pdftex.def)             Requested size: 180.0pt x 89.99321pt.
-LaTeX Info: Redefining \. on input line 1605.
-LaTeX Info: Redefining \% on input line 1605.
-[52 <./imagenes//sujeto1/no_force/evolution_time.png> <./imagenes//sujeto2/no_f
+LaTeX Info: Redefining \. on input line 1697.
+LaTeX Info: Redefining \% on input line 1697.
+[53 <./imagenes//sujeto1/no_force/evolution_time.png> <./imagenes//sujeto2/no_f
 orce/evolution_time.png> <./imagenes//sujeto3/no_force/evolution_time.png> <./i
 magenes//sujeto4/no_force/evolution_time.png> <./imagenes//sujeto5/no_force/evo
 lution_time.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1605--1607
-
- []
-
-<imagenes//sujeto1/force/trayectorias.png, id=607, 1156.32pt x 578.16pt>
+<imagenes//sujeto1/force/trayectorias.png, id=628, 1156.32pt x 578.16pt>
 File: imagenes//sujeto1/force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto1/force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto1/force/trayectorias.png  used on inpu
-t line 1608.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/force/trayectorias.png, id=608, 1156.32pt x 578.16pt>
+t line 1702.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/force/trayectorias.png, id=629, 1156.32pt x 578.16pt>
 File: imagenes//sujeto2/force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto2/force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto2/force/trayectorias.png  used on inpu
-t line 1609.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/force/trayectorias.png, id=609, 1156.32pt x 578.16pt>
+t line 1709.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1700--1713
+[][]   [] 
+ []
+
+<imagenes//sujeto4/force/trayectorias.png, id=630, 1156.32pt x 578.16pt>
 File: imagenes//sujeto4/force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto4/force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto4/force/trayectorias.png  used on inpu
-t line 1610.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1608--1611
-[][] []
- []
-
-<imagenes//sujeto3/force/trayectorias.png, id=610, 1156.32pt x 578.16pt>
+t line 1717.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto3/force/trayectorias.png, id=631, 1156.32pt x 578.16pt>
 File: imagenes//sujeto3/force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto3/force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto3/force/trayectorias.png  used on inpu
-t line 1614.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/force/trayectorias.png, id=611, 1156.32pt x 578.16pt>
+t line 1729.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto5/force/trayectorias.png, id=632, 1156.32pt x 578.16pt>
 File: imagenes//sujeto5/force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto5/force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto5/force/trayectorias.png  used on inpu
-t line 1615.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+t line 1736.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1612--1616
-[] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1727--1740
+[][]   [] 
  []
 
-<imagenes//sujeto1/force/trayectorias_puntos.png, id=612, 1156.32pt x 578.16pt>
+<imagenes//sujeto1/force/trayectorias_puntos.png, id=633, 1156.32pt x 578.16pt>
 
 File: imagenes//sujeto1/force/trayectorias_puntos.png Graphic file (type png)
 <use imagenes//sujeto1/force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto1/force/trayectorias_puntos.png  used 
-on input line 1621.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/force/trayectorias_puntos.png, id=613, 1156.32pt x 578.16pt>
+on input line 1750.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/force/trayectorias_puntos.png, id=634, 1156.32pt x 578.16pt>
 
 File: imagenes//sujeto2/force/trayectorias_puntos.png Graphic file (type png)
 <use imagenes//sujeto2/force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto2/force/trayectorias_puntos.png  used 
-on input line 1622.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/force/trayectorias_puntos.png, id=614, 1156.32pt x 578.16pt>
+on input line 1757.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1748--1761
+[][]   [] 
+ []
+
+<imagenes//sujeto4/force/trayectorias_puntos.png, id=635, 1156.32pt x 578.16pt>
 
 File: imagenes//sujeto4/force/trayectorias_puntos.png Graphic file (type png)
 <use imagenes//sujeto4/force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto4/force/trayectorias_puntos.png  used 
-on input line 1623.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1619--1624
-[] []
- []
-
-LaTeX Info: Redefining \. on input line 1624.
-LaTeX Info: Redefining \% on input line 1624.
-[53 <./imagenes//sujeto1/force/trayectorias.png> <./imagenes//sujeto2/force/tra
+on input line 1765.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+LaTeX Info: Redefining \. on input line 1769.
+LaTeX Info: Redefining \% on input line 1769.
+[54 <./imagenes//sujeto1/force/trayectorias.png> <./imagenes//sujeto2/force/tra
 yectorias.png> <./imagenes//sujeto4/force/trayectorias.png> <./imagenes//sujeto
 3/force/trayectorias.png> <./imagenes//sujeto5/force/trayectorias.png>]
-<imagenes//sujeto3/force/trayectorias_puntos.png, id=624, 1156.32pt x 578.16pt>
+<imagenes//sujeto3/force/trayectorias_puntos.png, id=649, 1156.32pt x 578.16pt>
 
 File: imagenes//sujeto3/force/trayectorias_puntos.png Graphic file (type png)
 <use imagenes//sujeto3/force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto3/force/trayectorias_puntos.png  used 
-on input line 1627.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/force/trayectorias_puntos.png, id=625, 1156.32pt x 578.16pt>
+on input line 1778.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto5/force/trayectorias_puntos.png, id=650, 1156.32pt x 578.16pt>
 
 File: imagenes//sujeto5/force/trayectorias_puntos.png Graphic file (type png)
 <use imagenes//sujeto5/force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto5/force/trayectorias_puntos.png  used 
-on input line 1628.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+on input line 1785.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1625--1629
-[] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1776--1789
+[][]   [] 
  []
 
-<imagenes//sujeto1/force/evolution_distance.png, id=626, 1156.32pt x 578.16pt>
+<imagenes//sujeto1/force/evolution_distance.png, id=651, 1156.32pt x 578.16pt>
 File: imagenes//sujeto1/force/evolution_distance.png Graphic file (type png)
 <use imagenes//sujeto1/force/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto1/force/evolution_distance.png  used o
-n input line 1632.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/force/evolution_distance.png, id=627, 1156.32pt x 578.16pt>
+n input line 1796.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/force/evolution_distance.png, id=652, 1156.32pt x 578.16pt>
 File: imagenes//sujeto2/force/evolution_distance.png Graphic file (type png)
 <use imagenes//sujeto2/force/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto2/force/evolution_distance.png  used o
-n input line 1633.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/force/evolution_distance.png, id=628, 1156.32pt x 578.16pt>
+n input line 1803.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1794--1807
+[][]   [] 
+ []
+
+<imagenes//sujeto4/force/evolution_distance.png, id=653, 1156.32pt x 578.16pt>
 File: imagenes//sujeto4/force/evolution_distance.png Graphic file (type png)
 <use imagenes//sujeto4/force/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto4/force/evolution_distance.png  used o
-n input line 1634.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+n input line 1811.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1630--1635
-[] []
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \. on input line 1636.
-LaTeX Info: Redefining \% on input line 1636.
-[54 <./imagenes//sujeto1/force/trayectorias_puntos.png> <./imagenes//sujeto2/fo
+LaTeX Info: Redefining \. on input line 1819.
+LaTeX Info: Redefining \% on input line 1819.
+[55 <./imagenes//sujeto1/force/trayectorias_puntos.png> <./imagenes//sujeto2/fo
 rce/trayectorias_puntos.png> <./imagenes//sujeto4/force/trayectorias_puntos.png
 > <./imagenes//sujeto3/force/trayectorias_puntos.png> <./imagenes//sujeto5/forc
 e/trayectorias_puntos.png> <./imagenes//sujeto1/force/evolution_distance.png> <
 ./imagenes//sujeto2/force/evolution_distance.png>]
-<imagenes//sujeto5/force/evolution_distance.png, id=641, 1156.32pt x 578.16pt>
+<imagenes//sujeto5/force/evolution_distance.png, id=669, 1156.32pt x 578.16pt>
 File: imagenes//sujeto5/force/evolution_distance.png Graphic file (type png)
 <use imagenes//sujeto5/force/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto5/force/evolution_distance.png  used o
-n input line 1638.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto3/force/evolution_distance.png, id=642, 1156.32pt x 578.16pt>
+n input line 1823.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto3/force/evolution_distance.png, id=670, 1156.32pt x 578.16pt>
 File: imagenes//sujeto3/force/evolution_distance.png Graphic file (type png)
 <use imagenes//sujeto3/force/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto3/force/evolution_distance.png  used o
-n input line 1642.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto3/force/resumen_total.png, id=643, 433.62pt x 289.08pt>
+n input line 1835.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto3/force/resumen_total.png, id=671, 433.62pt x 289.08pt>
 File: imagenes//sujeto3/force/resumen_total.png Graphic file (type png)
 <use imagenes//sujeto3/force/resumen_total.png>
 Package pdftex.def Info: imagenes//sujeto3/force/resumen_total.png  used on inp
-ut line 1643.
-(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+ut line 1842.
+(pdftex.def)             Requested size: 180.0pt x 120.00124pt.
 
-Overfull \hbox (64.13815pt too wide) in paragraph at lines 1642--1644
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1833--1846
+[][]   [] 
  []
 
-<imagenes//sujeto1/force/evolution_time.png, id=644, 1156.32pt x 578.16pt>
+<imagenes//sujeto1/force/evolution_time.png, id=672, 1156.32pt x 578.16pt>
 File: imagenes//sujeto1/force/evolution_time.png Graphic file (type png)
 <use imagenes//sujeto1/force/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto1/force/evolution_time.png  used on in
-put line 1647.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/force/evolution_time.png, id=645, 1156.32pt x 578.16pt>
+put line 1854.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/force/evolution_time.png, id=673, 1156.32pt x 578.16pt>
 File: imagenes//sujeto2/force/evolution_time.png Graphic file (type png)
 <use imagenes//sujeto2/force/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto2/force/evolution_time.png  used on in
-put line 1648.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto3/force/evolution_time.png, id=646, 1156.32pt x 578.16pt>
+put line 1861.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1852--1865
+[][]   [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagenes//sujeto3/force/evolution_time.png, id=674, 1156.32pt x 578.16pt>
 File: imagenes//sujeto3/force/evolution_time.png Graphic file (type png)
 <use imagenes//sujeto3/force/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto3/force/evolution_time.png  used on in
-put line 1649.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/force/evolution_time.png, id=647, 1156.32pt x 578.16pt>
+put line 1869.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto4/force/evolution_time.png, id=675, 1156.32pt x 578.16pt>
 File: imagenes//sujeto4/force/evolution_time.png Graphic file (type png)
 <use imagenes//sujeto4/force/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto4/force/evolution_time.png  used on in
-put line 1650.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/force/evolution_time.png, id=648, 1156.32pt x 578.16pt>
+put line 1876.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1867--1880
+[][]   [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagenes//sujeto5/force/evolution_time.png, id=676, 1156.32pt x 578.16pt>
 File: imagenes//sujeto5/force/evolution_time.png Graphic file (type png)
 <use imagenes//sujeto5/force/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto5/force/evolution_time.png  used on in
-put line 1651.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1647--1652
-[][] []
- []
-
-
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1647--1652
-[] []
- []
-
-LaTeX Info: Redefining \. on input line 1652.
-LaTeX Info: Redefining \% on input line 1652.
-[55 <./imagenes//sujeto4/force/evolution_distance.png> <./imagenes//sujeto5/for
+put line 1884.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+LaTeX Info: Redefining \. on input line 1889.
+LaTeX Info: Redefining \% on input line 1889.
+[56 <./imagenes//sujeto4/force/evolution_distance.png> <./imagenes//sujeto5/for
 ce/evolution_distance.png> <./imagenes//sujeto3/force/evolution_distance.png> <
 ./imagenes//sujeto3/force/resumen_total.png>]
-<imagenes//sujeto1/no_force_no_cursor/trayectorias.png, id=657, 1156.32pt x 578
+<imagenes//sujeto1/no_force_no_cursor/trayectorias.png, id=688, 1156.32pt x 578
 .16pt>
 File: imagenes//sujeto1/no_force_no_cursor/trayectorias.png Graphic file (type 
 png)
 <use imagenes//sujeto1/no_force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force_no_cursor/trayectorias.png 
- used on input line 1658.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/no_force_no_cursor/trayectorias.png, id=658, 1156.32pt x 578
+ used on input line 1897.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/no_force_no_cursor/trayectorias.png, id=689, 1156.32pt x 578
 .16pt>
 File: imagenes//sujeto2/no_force_no_cursor/trayectorias.png Graphic file (type 
 png)
 <use imagenes//sujeto2/no_force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force_no_cursor/trayectorias.png 
- used on input line 1659.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto3/no_force_no_cursor/trayectorias.png, id=659, 1156.32pt x 578
+ used on input line 1904.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1895--1908
+[][]   [] 
+ []
+
+<imagenes//sujeto3/no_force_no_cursor/trayectorias.png, id=690, 1156.32pt x 578
 .16pt>
 File: imagenes//sujeto3/no_force_no_cursor/trayectorias.png Graphic file (type 
 png)
 <use imagenes//sujeto3/no_force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force_no_cursor/trayectorias.png 
- used on input line 1660.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/no_force_no_cursor/trayectorias.png, id=660, 1156.32pt x 578
+ used on input line 1912.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto4/no_force_no_cursor/trayectorias.png, id=691, 1156.32pt x 578
 .16pt>
 File: imagenes//sujeto4/no_force_no_cursor/trayectorias.png Graphic file (type 
 png)
 <use imagenes//sujeto4/no_force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force_no_cursor/trayectorias.png 
- used on input line 1661.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/no_force_no_cursor/trayectorias.png, id=661, 1156.32pt x 578
+ used on input line 1919.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1910--1923
+[][]   [] 
+ []
+
+<imagenes//sujeto5/no_force_no_cursor/trayectorias.png, id=692, 1156.32pt x 578
 .16pt>
 File: imagenes//sujeto5/no_force_no_cursor/trayectorias.png Graphic file (type 
 png)
 <use imagenes//sujeto5/no_force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto5/no_force_no_cursor/trayectorias.png 
- used on input line 1662.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ used on input line 1927.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1658--1663
-[][] []
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1658--1663
-[] []
- []
-
-LaTeX Info: Redefining \. on input line 1663.
-LaTeX Info: Redefining \% on input line 1663.
-[56 <./imagenes//sujeto1/force/evolution_time.png> <./imagenes//sujeto2/force/e
+LaTeX Info: Redefining \. on input line 1932.
+LaTeX Info: Redefining \% on input line 1932.
+[57 <./imagenes//sujeto1/force/evolution_time.png> <./imagenes//sujeto2/force/e
 volution_time.png> <./imagenes//sujeto3/force/evolution_time.png> <./imagenes//
 sujeto4/force/evolution_time.png> <./imagenes//sujeto5/force/evolution_time.png
 > <./imagenes//sujeto1/no_force_no_cursor/trayectorias.png> <./imagenes//sujeto
 2/no_force_no_cursor/trayectorias.png>]
-<imagenes//sujeto1/no_force_no_cursor/trayectorias_puntos.png, id=674, 1156.32p
+<imagenes//sujeto1/no_force_no_cursor/trayectorias_puntos.png, id=709, 1156.32p
 t x 578.16pt>
 File: imagenes//sujeto1/no_force_no_cursor/trayectorias_puntos.png Graphic file
  (type png)
 <use imagenes//sujeto1/no_force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force_no_cursor/trayectorias_punt
-os.png  used on input line 1668.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/no_force_no_cursor/trayectorias_puntos.png, id=675, 1156.32p
+os.png  used on input line 1941.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/no_force_no_cursor/trayectorias_puntos.png, id=710, 1156.32p
 t x 578.16pt>
 File: imagenes//sujeto2/no_force_no_cursor/trayectorias_puntos.png Graphic file
  (type png)
 <use imagenes//sujeto2/no_force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force_no_cursor/trayectorias_punt
-os.png  used on input line 1669.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/no_force_no_cursor/trayectorias_puntos.png, id=676, 1156.32p
+os.png  used on input line 1948.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1939--1952
+[][]   [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1936--1952
+
+ []
+
+<imagenes//sujeto4/no_force_no_cursor/trayectorias_puntos.png, id=711, 1156.32p
 t x 578.16pt>
 File: imagenes//sujeto4/no_force_no_cursor/trayectorias_puntos.png Graphic file
  (type png)
 <use imagenes//sujeto4/no_force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force_no_cursor/trayectorias_punt
-os.png  used on input line 1670.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1666--1671
-[] []
- []
-
-<imagenes//sujeto3/no_force_no_cursor/trayectorias_puntos.png, id=677, 1156.32p
+os.png  used on input line 1956.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+LaTeX Info: Redefining \. on input line 1961.
+LaTeX Info: Redefining \% on input line 1961.
+[58 <./imagenes//sujeto3/no_force_no_cursor/trayectorias.png> <./imagenes//suje
+to4/no_force_no_cursor/trayectorias.png> <./imagenes//sujeto5/no_force_no_curso
+r/trayectorias.png> <./imagenes//sujeto1/no_force_no_cursor/trayectorias_puntos
+.png> <./imagenes//sujeto2/no_force_no_cursor/trayectorias_puntos.png>]
+<imagenes//sujeto3/no_force_no_cursor/trayectorias_puntos.png, id=724, 1156.32p
 t x 578.16pt>
 File: imagenes//sujeto3/no_force_no_cursor/trayectorias_puntos.png Graphic file
  (type png)
 <use imagenes//sujeto3/no_force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force_no_cursor/trayectorias_punt
-os.png  used on input line 1674.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/no_force_no_cursor/trayectorias_puntos.png, id=678, 1156.32p
+os.png  used on input line 1966.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto5/no_force_no_cursor/trayectorias_puntos.png, id=725, 1156.32p
 t x 578.16pt>
 File: imagenes//sujeto5/no_force_no_cursor/trayectorias_puntos.png Graphic file
  (type png)
 <use imagenes//sujeto5/no_force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto5/no_force_no_cursor/trayectorias_punt
-os.png  used on input line 1675.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+os.png  used on input line 1973.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1672--1676
-[] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1964--1977
+[][]   [] 
  []
 
-LaTeX Info: Redefining \. on input line 1677.
-LaTeX Info: Redefining \% on input line 1677.
-[57 <./imagenes//sujeto3/no_force_no_cursor/trayectorias.png> <./imagenes//suje
-to4/no_force_no_cursor/trayectorias.png> <./imagenes//sujeto5/no_force_no_curso
-r/trayectorias.png> <./imagenes//sujeto1/no_force_no_cursor/trayectorias_puntos
-.png> <./imagenes//sujeto2/no_force_no_cursor/trayectorias_puntos.png> <./image
-nes//sujeto4/no_force_no_cursor/trayectorias_puntos.png>]
-<imagenes//sujeto1/no_force_no_cursor/evolution_distance.png, id=689, 1156.32pt
+<imagenes//sujeto1/no_force_no_cursor/evolution_distance.png, id=726, 1156.32pt
  x 578.16pt>
 File: imagenes//sujeto1/no_force_no_cursor/evolution_distance.png Graphic file 
 (type png)
 <use imagenes//sujeto1/no_force_no_cursor/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force_no_cursor/evolution_distanc
-e.png  used on input line 1679.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/no_force_no_cursor/evolution_distance.png, id=690, 1156.32pt
+e.png  used on input line 1984.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/no_force_no_cursor/evolution_distance.png, id=727, 1156.32pt
  x 578.16pt>
 File: imagenes//sujeto2/no_force_no_cursor/evolution_distance.png Graphic file 
 (type png)
 <use imagenes//sujeto2/no_force_no_cursor/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force_no_cursor/evolution_distanc
-e.png  used on input line 1680.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto3/no_force_no_cursor/evolution_distance.png, id=691, 1156.32pt
+e.png  used on input line 1991.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1982--1995
+[][]   [] 
+ []
+
+<imagenes//sujeto3/no_force_no_cursor/evolution_distance.png, id=728, 1156.32pt
  x 578.16pt>
 File: imagenes//sujeto3/no_force_no_cursor/evolution_distance.png Graphic file 
 (type png)
 <use imagenes//sujeto3/no_force_no_cursor/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force_no_cursor/evolution_distanc
-e.png  used on input line 1681.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/no_force_no_cursor/evolution_distance.png, id=692, 1156.32pt
+e.png  used on input line 1999.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto4/no_force_no_cursor/evolution_distance.png, id=729, 1156.32pt
  x 578.16pt>
 File: imagenes//sujeto4/no_force_no_cursor/evolution_distance.png Graphic file 
 (type png)
 <use imagenes//sujeto4/no_force_no_cursor/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force_no_cursor/evolution_distanc
-e.png  used on input line 1682.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/no_force_no_cursor/evolution_distance.png, id=693, 1156.32pt
+e.png  used on input line 2006.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 1997--2010
+[][]   [] 
+ []
+
+LaTeX Info: Redefining \. on input line 2010.
+LaTeX Info: Redefining \% on input line 2010.
+[59 <./imagenes//sujeto4/no_force_no_cursor/trayectorias_puntos.png> <./imagene
+s//sujeto3/no_force_no_cursor/trayectorias_puntos.png> <./imagenes//sujeto5/no_
+force_no_cursor/trayectorias_puntos.png>]
+<imagenes//sujeto5/no_force_no_cursor/evolution_distance.png, id=739, 1156.32pt
  x 578.16pt>
 File: imagenes//sujeto5/no_force_no_cursor/evolution_distance.png Graphic file 
 (type png)
 <use imagenes//sujeto5/no_force_no_cursor/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto5/no_force_no_cursor/evolution_distanc
-e.png  used on input line 1683.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1679--1684
-[][] []
- []
-
-
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1679--1684
-[] []
- []
-
-LaTeX Info: Redefining \. on input line 1685.
-LaTeX Info: Redefining \% on input line 1685.
-[58 <./imagenes//sujeto3/no_force_no_cursor/trayectorias_puntos.png> <./imagene
-s//sujeto5/no_force_no_cursor/trayectorias_puntos.png> <./imagenes//sujeto1/no_
-force_no_cursor/evolution_distance.png> <./imagenes//sujeto2/no_force_no_cursor
-/evolution_distance.png> <./imagenes//sujeto3/no_force_no_cursor/evolution_dist
-ance.png> <./imagenes//sujeto4/no_force_no_cursor/evolution_distance.png>]
-<imagenes//sujeto1/no_force_no_cursor/evolution_time.png, id=704, 1156.32pt x 5
+e.png  used on input line 2014.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto1/no_force_no_cursor/evolution_time.png, id=740, 1156.32pt x 5
 78.16pt>
 File: imagenes//sujeto1/no_force_no_cursor/evolution_time.png Graphic file (typ
 e png)
 <use imagenes//sujeto1/no_force_no_cursor/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force_no_cursor/evolution_time.pn
-g  used on input line 1687.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/no_force_no_cursor/evolution_time.png, id=705, 1156.32pt x 5
+g  used on input line 2026.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/no_force_no_cursor/evolution_time.png, id=741, 1156.32pt x 5
 78.16pt>
 File: imagenes//sujeto2/no_force_no_cursor/evolution_time.png Graphic file (typ
 e png)
 <use imagenes//sujeto2/no_force_no_cursor/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force_no_cursor/evolution_time.pn
-g  used on input line 1688.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto3/no_force_no_cursor/evolution_time.png, id=706, 1156.32pt x 5
+g  used on input line 2033.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2024--2037
+[][]   [] 
+ []
+
+<imagenes//sujeto3/no_force_no_cursor/evolution_time.png, id=742, 1156.32pt x 5
 78.16pt>
 File: imagenes//sujeto3/no_force_no_cursor/evolution_time.png Graphic file (typ
 e png)
 <use imagenes//sujeto3/no_force_no_cursor/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force_no_cursor/evolution_time.pn
-g  used on input line 1689.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/no_force_no_cursor/evolution_time.png, id=707, 1156.32pt x 5
+g  used on input line 2041.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto4/no_force_no_cursor/evolution_time.png, id=743, 1156.32pt x 5
 78.16pt>
 File: imagenes//sujeto4/no_force_no_cursor/evolution_time.png Graphic file (typ
 e png)
 <use imagenes//sujeto4/no_force_no_cursor/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force_no_cursor/evolution_time.pn
-g  used on input line 1690.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/no_force_no_cursor/evolution_time.png, id=708, 1156.32pt x 5
+g  used on input line 2048.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2039--2052
+[][]   [] 
+ []
+
+LaTeX Info: Redefining \. on input line 2052.
+LaTeX Info: Redefining \% on input line 2052.
+[60 <./imagenes//sujeto1/no_force_no_cursor/evolution_distance.png> <./imagenes
+//sujeto2/no_force_no_cursor/evolution_distance.png> <./imagenes//sujeto3/no_fo
+rce_no_cursor/evolution_distance.png> <./imagenes//sujeto4/no_force_no_cursor/e
+volution_distance.png> <./imagenes//sujeto5/no_force_no_cursor/evolution_distan
+ce.png>]
+<imagenes//sujeto5/no_force_no_cursor/evolution_time.png, id=757, 1156.32pt x 5
 78.16pt>
 File: imagenes//sujeto5/no_force_no_cursor/evolution_time.png Graphic file (typ
 e png)
 <use imagenes//sujeto5/no_force_no_cursor/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto5/no_force_no_cursor/evolution_time.pn
-g  used on input line 1691.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1687--1692
-[][] []
- []
-
-
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1687--1692
-[] []
- []
-
-LaTeX Info: Redefining \. on input line 1696.
-LaTeX Info: Redefining \% on input line 1696.
-[59 <./imagenes//sujeto5/no_force_no_cursor/evolution_distance.png> <./imagenes
-//sujeto1/no_force_no_cursor/evolution_time.png> <./imagenes//sujeto2/no_force_
-no_cursor/evolution_time.png> <./imagenes//sujeto3/no_force_no_cursor/evolution
-_time.png> <./imagenes//sujeto4/no_force_no_cursor/evolution_time.png> <./image
-nes//sujeto5/no_force_no_cursor/evolution_time.png>]
-<imagenes//sujeto1/force_no_cursor/trayectorias.png, id=720, 1156.32pt x 578.16
+g  used on input line 2056.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto1/force_no_cursor/trayectorias.png, id=758, 1156.32pt x 578.16
 pt>
 File: imagenes//sujeto1/force_no_cursor/trayectorias.png Graphic file (type png
 )
 <use imagenes//sujeto1/force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto1/force_no_cursor/trayectorias.png  us
-ed on input line 1697.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/force_no_cursor/trayectorias.png, id=721, 1156.32pt x 578.16
+ed on input line 2070.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/force_no_cursor/trayectorias.png, id=759, 1156.32pt x 578.16
 pt>
 File: imagenes//sujeto2/force_no_cursor/trayectorias.png Graphic file (type png
 )
 <use imagenes//sujeto2/force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto2/force_no_cursor/trayectorias.png  us
-ed on input line 1698.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto3/force_no_cursor/trayectorias.png, id=722, 1156.32pt x 578.16
+ed on input line 2077.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2068--2081
+[][]   [] 
+ []
+
+<imagenes//sujeto3/force_no_cursor/trayectorias.png, id=760, 1156.32pt x 578.16
 pt>
 File: imagenes//sujeto3/force_no_cursor/trayectorias.png Graphic file (type png
 )
 <use imagenes//sujeto3/force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto3/force_no_cursor/trayectorias.png  us
-ed on input line 1699.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/force_no_cursor/trayectorias.png, id=723, 1156.32pt x 578.16
+ed on input line 2085.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto4/force_no_cursor/trayectorias.png, id=761, 1156.32pt x 578.16
 pt>
 File: imagenes//sujeto4/force_no_cursor/trayectorias.png Graphic file (type png
 )
 <use imagenes//sujeto4/force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto4/force_no_cursor/trayectorias.png  us
-ed on input line 1700.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/force_no_cursor/trayectorias.png, id=724, 1156.32pt x 578.16
+ed on input line 2092.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2083--2096
+[][]   [] 
+ []
+
+LaTeX Info: Redefining \. on input line 2096.
+LaTeX Info: Redefining \% on input line 2096.
+[61 <./imagenes//sujeto1/no_force_no_cursor/evolution_time.png> <./imagenes//su
+jeto2/no_force_no_cursor/evolution_time.png> <./imagenes//sujeto3/no_force_no_c
+ursor/evolution_time.png> <./imagenes//sujeto4/no_force_no_cursor/evolution_tim
+e.png> <./imagenes//sujeto5/no_force_no_cursor/evolution_time.png>]
+<imagenes//sujeto5/force_no_cursor/trayectorias.png, id=775, 1156.32pt x 578.16
 pt>
 File: imagenes//sujeto5/force_no_cursor/trayectorias.png Graphic file (type png
 )
 <use imagenes//sujeto5/force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto5/force_no_cursor/trayectorias.png  us
-ed on input line 1701.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1697--1702
-[][] []
- []
-
-
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1697--1702
-[] []
- []
-
-<imagenes//sujeto1/force_no_cursor/trayectorias_puntos.png, id=725, 1156.32pt x
+ed on input line 2100.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto1/force_no_cursor/trayectorias_puntos.png, id=776, 1156.32pt x
  578.16pt>
 File: imagenes//sujeto1/force_no_cursor/trayectorias_puntos.png Graphic file (t
 ype png)
 <use imagenes//sujeto1/force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto1/force_no_cursor/trayectorias_puntos.
-png  used on input line 1706.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/force_no_cursor/trayectorias_puntos.png, id=726, 1156.32pt x
+png  used on input line 2112.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/force_no_cursor/trayectorias_puntos.png, id=777, 1156.32pt x
  578.16pt>
 File: imagenes//sujeto2/force_no_cursor/trayectorias_puntos.png Graphic file (t
 ype png)
 <use imagenes//sujeto2/force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto2/force_no_cursor/trayectorias_puntos.
-png  used on input line 1707.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto3/force_no_cursor/trayectorias_puntos.png, id=727, 1156.32pt x
+png  used on input line 2119.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2110--2123
+[][]   [] 
+ []
+
+<imagenes//sujeto3/force_no_cursor/trayectorias_puntos.png, id=778, 1156.32pt x
  578.16pt>
 File: imagenes//sujeto3/force_no_cursor/trayectorias_puntos.png Graphic file (t
 ype png)
 <use imagenes//sujeto3/force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto3/force_no_cursor/trayectorias_puntos.
-png  used on input line 1708.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/force_no_cursor/trayectorias_puntos.png, id=728, 1156.32pt x
+png  used on input line 2127.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto4/force_no_cursor/trayectorias_puntos.png, id=779, 1156.32pt x
  578.16pt>
 File: imagenes//sujeto4/force_no_cursor/trayectorias_puntos.png Graphic file (t
 ype png)
 <use imagenes//sujeto4/force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto4/force_no_cursor/trayectorias_puntos.
-png  used on input line 1709.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/force_no_cursor/trayectorias_puntos.png, id=729, 1156.32pt x
+png  used on input line 2134.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2125--2138
+[][]   [] 
+ []
+
+LaTeX Info: Redefining \. on input line 2138.
+LaTeX Info: Redefining \% on input line 2138.
+[62 <./imagenes//sujeto1/force_no_cursor/trayectorias.png> <./imagenes//sujeto2
+/force_no_cursor/trayectorias.png> <./imagenes//sujeto3/force_no_cursor/trayect
+orias.png> <./imagenes//sujeto4/force_no_cursor/trayectorias.png> <./imagenes//
+sujeto5/force_no_cursor/trayectorias.png>]
+<imagenes//sujeto5/force_no_cursor/trayectorias_puntos.png, id=793, 1156.32pt x
  578.16pt>
 File: imagenes//sujeto5/force_no_cursor/trayectorias_puntos.png Graphic file (t
 ype png)
 <use imagenes//sujeto5/force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto5/force_no_cursor/trayectorias_puntos.
-png  used on input line 1710.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1706--1711
-[][] []
- []
-
-
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1706--1711
-[] []
- []
-
-LaTeX Info: Redefining \. on input line 1711.
-LaTeX Info: Redefining \% on input line 1711.
-[60 <./imagenes//sujeto1/force_no_cursor/trayectorias.png> <./imagenes//sujeto2
-/force_no_cursor/trayectorias.png> <./imagenes//sujeto3/force_no_cursor/trayect
-orias.png> <./imagenes//sujeto4/force_no_cursor/trayectorias.png> <./imagenes//
-sujeto5/force_no_cursor/trayectorias.png> <./imagenes//sujeto1/force_no_cursor/
-trayectorias_puntos.png> <./imagenes//sujeto2/force_no_cursor/trayectorias_punt
-os.png>]
-<imagenes//sujeto1/force_no_cursor/evolution_distance.png, id=742, 1156.32pt x 
+png  used on input line 2142.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto1/force_no_cursor/evolution_distance.png, id=794, 1156.32pt x 
 578.16pt>
 File: imagenes//sujeto1/force_no_cursor/evolution_distance.png Graphic file (ty
 pe png)
 <use imagenes//sujeto1/force_no_cursor/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto1/force_no_cursor/evolution_distance.p
-ng  used on input line 1716.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/force_no_cursor/evolution_distance.png, id=743, 1156.32pt x 
+ng  used on input line 2156.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/force_no_cursor/evolution_distance.png, id=795, 1156.32pt x 
 578.16pt>
 File: imagenes//sujeto2/force_no_cursor/evolution_distance.png Graphic file (ty
 pe png)
 <use imagenes//sujeto2/force_no_cursor/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto2/force_no_cursor/evolution_distance.p
-ng  used on input line 1717.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto3/force_no_cursor/evolution_distance.png, id=744, 1156.32pt x 
+ng  used on input line 2163.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2154--2167
+[][]   [] 
+ []
+
+<imagenes//sujeto3/force_no_cursor/evolution_distance.png, id=796, 1156.32pt x 
 578.16pt>
 File: imagenes//sujeto3/force_no_cursor/evolution_distance.png Graphic file (ty
 pe png)
 <use imagenes//sujeto3/force_no_cursor/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto3/force_no_cursor/evolution_distance.p
-ng  used on input line 1718.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/force_no_cursor/evolution_distance.png, id=745, 1156.32pt x 
+ng  used on input line 2171.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto4/force_no_cursor/evolution_distance.png, id=797, 1156.32pt x 
 578.16pt>
 File: imagenes//sujeto4/force_no_cursor/evolution_distance.png Graphic file (ty
 pe png)
 <use imagenes//sujeto4/force_no_cursor/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto4/force_no_cursor/evolution_distance.p
-ng  used on input line 1719.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/force_no_cursor/evolution_distance.png, id=746, 1156.32pt x 
+ng  used on input line 2178.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2169--2182
+[][]   [] 
+ []
+
+LaTeX Info: Redefining \. on input line 2182.
+LaTeX Info: Redefining \% on input line 2182.
+[63 <./imagenes//sujeto1/force_no_cursor/trayectorias_puntos.png> <./imagenes//
+sujeto2/force_no_cursor/trayectorias_puntos.png> <./imagenes//sujeto3/force_no_
+cursor/trayectorias_puntos.png> <./imagenes//sujeto4/force_no_cursor/trayectori
+as_puntos.png> <./imagenes//sujeto5/force_no_cursor/trayectorias_puntos.png>]
+<imagenes//sujeto5/force_no_cursor/evolution_distance.png, id=810, 1156.32pt x 
 578.16pt>
 File: imagenes//sujeto5/force_no_cursor/evolution_distance.png Graphic file (ty
 pe png)
 <use imagenes//sujeto5/force_no_cursor/evolution_distance.png>
 Package pdftex.def Info: imagenes//sujeto5/force_no_cursor/evolution_distance.p
-ng  used on input line 1720.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1716--1721
-[][] []
- []
-
-
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1716--1721
-[] []
- []
-
-LaTeX Info: Redefining \. on input line 1721.
-LaTeX Info: Redefining \% on input line 1721.
-[61 <./imagenes//sujeto3/force_no_cursor/trayectorias_puntos.png> <./imagenes//
-sujeto4/force_no_cursor/trayectorias_puntos.png> <./imagenes//sujeto5/force_no_
-cursor/trayectorias_puntos.png> <./imagenes//sujeto1/force_no_cursor/evolution_
-distance.png> <./imagenes//sujeto2/force_no_cursor/evolution_distance.png>]
-<imagenes//sujeto1/force_no_cursor/evolution_time.png, id=756, 1156.32pt x 578.
+ng  used on input line 2186.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto1/force_no_cursor/evolution_time.png, id=811, 1156.32pt x 578.
 16pt>
 File: imagenes//sujeto1/force_no_cursor/evolution_time.png Graphic file (type p
 ng)
 <use imagenes//sujeto1/force_no_cursor/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto1/force_no_cursor/evolution_time.png  
-used on input line 1724.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto2/force_no_cursor/evolution_time.png, id=757, 1156.32pt x 578.
+used on input line 2197.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto2/force_no_cursor/evolution_time.png, id=812, 1156.32pt x 578.
 16pt>
 File: imagenes//sujeto2/force_no_cursor/evolution_time.png Graphic file (type p
 ng)
 <use imagenes//sujeto2/force_no_cursor/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto2/force_no_cursor/evolution_time.png  
-used on input line 1725.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto3/force_no_cursor/evolution_time.png, id=758, 1156.32pt x 578.
+used on input line 2204.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2195--2208
+[][]   [] 
+ []
+
+<imagenes//sujeto3/force_no_cursor/evolution_time.png, id=813, 1156.32pt x 578.
 16pt>
 File: imagenes//sujeto3/force_no_cursor/evolution_time.png Graphic file (type p
 ng)
 <use imagenes//sujeto3/force_no_cursor/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto3/force_no_cursor/evolution_time.png  
-used on input line 1726.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto4/force_no_cursor/evolution_time.png, id=759, 1156.32pt x 578.
+used on input line 2212.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+<imagenes//sujeto4/force_no_cursor/evolution_time.png, id=814, 1156.32pt x 578.
 16pt>
 File: imagenes//sujeto4/force_no_cursor/evolution_time.png Graphic file (type p
 ng)
 <use imagenes//sujeto4/force_no_cursor/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto4/force_no_cursor/evolution_time.png  
-used on input line 1727.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
-<imagenes//sujeto5/force_no_cursor/evolution_time.png, id=760, 1156.32pt x 578.
+used on input line 2219.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2210--2223
+[][]   [] 
+ []
+
+LaTeX Info: Redefining \. on input line 2223.
+LaTeX Info: Redefining \% on input line 2223.
+[64 <./imagenes//sujeto1/force_no_cursor/evolution_distance.png> <./imagenes//s
+ujeto2/force_no_cursor/evolution_distance.png> <./imagenes//sujeto3/force_no_cu
+rsor/evolution_distance.png> <./imagenes//sujeto4/force_no_cursor/evolution_dis
+tance.png> <./imagenes//sujeto5/force_no_cursor/evolution_distance.png>]
+<imagenes//sujeto5/force_no_cursor/evolution_time.png, id=827, 1156.32pt x 578.
 16pt>
 File: imagenes//sujeto5/force_no_cursor/evolution_time.png Graphic file (type p
 ng)
 <use imagenes//sujeto5/force_no_cursor/evolution_time.png>
 Package pdftex.def Info: imagenes//sujeto5/force_no_cursor/evolution_time.png  
-used on input line 1728.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+used on input line 2227.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
+LaTeX Info: Redefining \. on input line 2243.
+LaTeX Info: Redefining \% on input line 2243.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1724--1729
-[][] []
- []
-
-
-Overfull \hbox (104.95314pt too wide) in paragraph at lines 1724--1729
-[] []
- []
-
-LaTeX Info: Redefining \. on input line 1730.
-LaTeX Info: Redefining \% on input line 1730.
-[62 <./imagenes//sujeto3/force_no_cursor/evolution_distance.png> <./imagenes//s
-ujeto4/force_no_cursor/evolution_distance.png> <./imagenes//sujeto5/force_no_cu
-rsor/evolution_distance.png> <./imagenes//sujeto1/force_no_cursor/evolution_tim
-e.png> <./imagenes//sujeto2/force_no_cursor/evolution_time.png> <./imagenes//su
-jeto3/force_no_cursor/evolution_time.png> <./imagenes//sujeto4/force_no_cursor/
-evolution_time.png>]
-<imagenes//sujeto1/no_force/trayectorias.png, id=772, 1156.32pt x 578.16pt>
+[65 <./imagenes//sujeto1/force_no_cursor/evolution_time.png> <./imagenes//sujet
+o2/force_no_cursor/evolution_time.png> <./imagenes//sujeto3/force_no_cursor/evo
+lution_time.png> <./imagenes//sujeto4/force_no_cursor/evolution_time.png> <./im
+agenes//sujeto5/force_no_cursor/evolution_time.png>]
+<imagenes//sujeto1/no_force/trayectorias.png, id=840, 1156.32pt x 578.16pt>
 File: imagenes//sujeto1/no_force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto1/no_force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force/trayectorias.png  used on i
-nput line 1746.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+nput line 2253.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto1/no_force/trayectorias_puntos.png Graphic file (type png
 )
 <use imagenes//sujeto1/no_force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force/trayectorias_puntos.png  us
-ed on input line 1747.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ed on input line 2260.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1746--1748
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2251--2264
+[][]   [] 
  []
 
-LaTeX Info: Redefining \. on input line 1749.
-LaTeX Info: Redefining \% on input line 1749.
-[63 <./imagenes//sujeto5/force_no_cursor/evolution_time.png>]
 File: imagenes//sujeto1/force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto1/force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto1/force/trayectorias.png  used on inpu
-t line 1749.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+t line 2269.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto1/force/trayectorias_puntos.png Graphic file (type png)
 <use imagenes//sujeto1/force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto1/force/trayectorias_puntos.png  used 
-on input line 1750.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+on input line 2276.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1749--1751
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2267--2280
+[][]   [] 
  []
 
 File: imagenes//sujeto1/no_force_no_cursor/trayectorias.png Graphic file (type 
 png)
 <use imagenes//sujeto1/no_force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force_no_cursor/trayectorias.png 
- used on input line 1752.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ used on input line 2285.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto1/no_force_no_cursor/trayectorias_puntos.png Graphic file
  (type png)
 <use imagenes//sujeto1/no_force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto1/no_force_no_cursor/trayectorias_punt
-os.png  used on input line 1753.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+os.png  used on input line 2292.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1752--1754
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2283--2296
+[][]   [] 
  []
 
+LaTeX Info: Redefining \. on input line 2297.
+LaTeX Info: Redefining \% on input line 2297.
+[66 <./imagenes//sujeto1/no_force/trayectorias.png>]
 File: imagenes//sujeto1/force_no_cursor/trayectorias.png Graphic file (type png
 )
 <use imagenes//sujeto1/force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto1/force_no_cursor/trayectorias.png  us
-ed on input line 1755.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ed on input line 2301.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto1/force_no_cursor/trayectorias_puntos.png Graphic file (t
 ype png)
 <use imagenes//sujeto1/force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto1/force_no_cursor/trayectorias_puntos.
-png  used on input line 1756.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+png  used on input line 2308.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1755--1757
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2299--2312
+[][]   [] 
  []
 
-LaTeX Info: Redefining \. on input line 1767.
-LaTeX Info: Redefining \% on input line 1767.
-[64 <./imagenes//sujeto1/no_force/trayectorias.png>]
-<imagenes//sujeto2/no_force/trayectorias.png, id=785, 1156.32pt x 578.16pt>
+<imagenes//sujeto2/no_force/trayectorias.png, id=850, 1156.32pt x 578.16pt>
 File: imagenes//sujeto2/no_force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto2/no_force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force/trayectorias.png  used on i
-nput line 1769.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+nput line 2328.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto2/no_force/trayectorias_puntos.png Graphic file (type png
 )
 <use imagenes//sujeto2/no_force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force/trayectorias_puntos.png  us
-ed on input line 1770.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ed on input line 2335.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1769--1771
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2326--2339
+[][]   [] 
  []
 
+LaTeX Info: Redefining \. on input line 2340.
+LaTeX Info: Redefining \% on input line 2340.
+[67]
 File: imagenes//sujeto2/force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto2/force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto2/force/trayectorias.png  used on inpu
-t line 1772.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+t line 2344.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto2/force/trayectorias_puntos.png Graphic file (type png)
 <use imagenes//sujeto2/force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto2/force/trayectorias_puntos.png  used 
-on input line 1773.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+on input line 2351.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1772--1774
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2342--2355
+[][]   [] 
  []
 
 File: imagenes//sujeto2/no_force_no_cursor/trayectorias.png Graphic file (type 
 png)
 <use imagenes//sujeto2/no_force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force_no_cursor/trayectorias.png 
- used on input line 1775.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ used on input line 2360.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto2/no_force_no_cursor/trayectorias_puntos.png Graphic file
  (type png)
 <use imagenes//sujeto2/no_force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto2/no_force_no_cursor/trayectorias_punt
-os.png  used on input line 1776.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+os.png  used on input line 2367.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1775--1777
-[][] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1775--1777
-
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2358--2371
+[][]   [] 
  []
 
 File: imagenes//sujeto2/force_no_cursor/trayectorias.png Graphic file (type png
 )
 <use imagenes//sujeto2/force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto2/force_no_cursor/trayectorias.png  us
-ed on input line 1778.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ed on input line 2376.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto2/force_no_cursor/trayectorias_puntos.png Graphic file (t
 ype png)
 <use imagenes//sujeto2/force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto2/force_no_cursor/trayectorias_puntos.
-png  used on input line 1779.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+png  used on input line 2383.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1778--1780
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2374--2387
+[][]   [] 
  []
 
-LaTeX Info: Redefining \. on input line 1784.
-LaTeX Info: Redefining \% on input line 1784.
-[65 <./imagenes//sujeto2/no_force/trayectorias.png>]
-<imagenes//sujeto3/no_force/trayectorias.png, id=791, 1156.32pt x 578.16pt>
+LaTeX Info: Redefining \. on input line 2392.
+LaTeX Info: Redefining \% on input line 2392.
+[68 <./imagenes//sujeto2/no_force/trayectorias.png>]
+<imagenes//sujeto3/no_force/trayectorias.png, id=867, 1156.32pt x 578.16pt>
 File: imagenes//sujeto3/no_force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto3/no_force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force/trayectorias.png  used on i
-nput line 1787.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+nput line 2398.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto3/no_force/trayectorias_puntos.png Graphic file (type png
 )
 <use imagenes//sujeto3/no_force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force/trayectorias_puntos.png  us
-ed on input line 1788.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ed on input line 2405.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1787--1789
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2396--2409
+[][]   [] 
  []
 
 File: imagenes//sujeto3/force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto3/force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto3/force/trayectorias.png  used on inpu
-t line 1790.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+t line 2414.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto3/force/trayectorias_puntos.png Graphic file (type png)
 <use imagenes//sujeto3/force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto3/force/trayectorias_puntos.png  used 
-on input line 1791.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+on input line 2421.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1790--1792
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2412--2425
+[][]   [] 
  []
 
 File: imagenes//sujeto3/no_force_no_cursor/trayectorias.png Graphic file (type 
 png)
 <use imagenes//sujeto3/no_force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force_no_cursor/trayectorias.png 
- used on input line 1793.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ used on input line 2430.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto3/no_force_no_cursor/trayectorias_puntos.png Graphic file
  (type png)
 <use imagenes//sujeto3/no_force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto3/no_force_no_cursor/trayectorias_punt
-os.png  used on input line 1794.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+os.png  used on input line 2437.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1793--1795
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2428--2441
+[][]   [] 
  []
 
 File: imagenes//sujeto3/force_no_cursor/trayectorias.png Graphic file (type png
 )
 <use imagenes//sujeto3/force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto3/force_no_cursor/trayectorias.png  us
-ed on input line 1796.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ed on input line 2446.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto3/force_no_cursor/trayectorias_puntos.png Graphic file (t
 ype png)
 <use imagenes//sujeto3/force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto3/force_no_cursor/trayectorias_puntos.
-png  used on input line 1797.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+png  used on input line 2453.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1796--1798
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2444--2457
+[][]   [] 
  []
 
-LaTeX Info: Redefining \. on input line 1800.
-LaTeX Info: Redefining \% on input line 1800.
-[66 <./imagenes//sujeto3/no_force/trayectorias.png>]
-<imagenes//sujeto4/no_force/trayectorias.png, id=799, 1156.32pt x 578.16pt>
+LaTeX Info: Redefining \. on input line 2458.
+LaTeX Info: Redefining \% on input line 2458.
+[69 <./imagenes//sujeto3/no_force/trayectorias.png>]
+<imagenes//sujeto4/no_force/trayectorias.png, id=877, 1156.32pt x 578.16pt>
 File: imagenes//sujeto4/no_force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto4/no_force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force/trayectorias.png  used on i
-nput line 1811.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+nput line 2474.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto4/no_force/trayectorias_puntos.png Graphic file (type png
 )
 <use imagenes//sujeto4/no_force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force/trayectorias_puntos.png  us
-ed on input line 1812.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ed on input line 2481.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1811--1813
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2472--2485
+[][]   [] 
  []
 
 File: imagenes//sujeto4/force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto4/force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto4/force/trayectorias.png  used on inpu
-t line 1814.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+t line 2490.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto4/force/trayectorias_puntos.png Graphic file (type png)
 <use imagenes//sujeto4/force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto4/force/trayectorias_puntos.png  used 
-on input line 1815.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+on input line 2497.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1814--1816
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2488--2501
+[][]   [] 
  []
 
 File: imagenes//sujeto4/no_force_no_cursor/trayectorias.png Graphic file (type 
 png)
 <use imagenes//sujeto4/no_force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force_no_cursor/trayectorias.png 
- used on input line 1817.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ used on input line 2506.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto4/no_force_no_cursor/trayectorias_puntos.png Graphic file
  (type png)
 <use imagenes//sujeto4/no_force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto4/no_force_no_cursor/trayectorias_punt
-os.png  used on input line 1818.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+os.png  used on input line 2513.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1817--1819
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2504--2517
+[][]   [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1817--1819
-
- []
-
-LaTeX Info: Redefining \. on input line 1819.
-LaTeX Info: Redefining \% on input line 1819.
-[67 <./imagenes//sujeto4/no_force/trayectorias.png>]
+LaTeX Info: Redefining \. on input line 2518.
+LaTeX Info: Redefining \% on input line 2518.
+[70 <./imagenes//sujeto4/no_force/trayectorias.png>]
 File: imagenes//sujeto4/force_no_cursor/trayectorias.png Graphic file (type png
 )
 <use imagenes//sujeto4/force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto4/force_no_cursor/trayectorias.png  us
-ed on input line 1820.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ed on input line 2522.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto4/force_no_cursor/trayectorias_puntos.png Graphic file (t
 ype png)
 <use imagenes//sujeto4/force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto4/force_no_cursor/trayectorias_puntos.
-png  used on input line 1821.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+png  used on input line 2529.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1820--1822
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2520--2533
+[][]   [] 
  []
 
-<imagenes//sujeto5/no_force/trayectorias.png, id=806, 1156.32pt x 578.16pt>
+<imagenes//sujeto5/no_force/trayectorias.png, id=887, 1156.32pt x 578.16pt>
 File: imagenes//sujeto5/no_force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto5/no_force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto5/no_force/trayectorias.png  used on i
-nput line 1834.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+nput line 2550.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto5/no_force/trayectorias_puntos.png Graphic file (type png
 )
 <use imagenes//sujeto5/no_force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto5/no_force/trayectorias_puntos.png  us
-ed on input line 1835.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ed on input line 2557.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1834--1836
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2548--2561
+[][]   [] 
  []
 
-LaTeX Info: Redefining \. on input line 1837.
-LaTeX Info: Redefining \% on input line 1837.
-[68]
+LaTeX Info: Redefining \. on input line 2562.
+LaTeX Info: Redefining \% on input line 2562.
+[71]
 File: imagenes//sujeto5/force/trayectorias.png Graphic file (type png)
 <use imagenes//sujeto5/force/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto5/force/trayectorias.png  used on inpu
-t line 1837.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+t line 2566.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto5/force/trayectorias_puntos.png Graphic file (type png)
 <use imagenes//sujeto5/force/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto5/force/trayectorias_puntos.png  used 
-on input line 1838.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+on input line 2573.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1837--1839
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2564--2577
+[][]   [] 
  []
 
 File: imagenes//sujeto5/no_force_no_cursor/trayectorias.png Graphic file (type 
 png)
 <use imagenes//sujeto5/no_force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto5/no_force_no_cursor/trayectorias.png 
- used on input line 1840.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ used on input line 2582.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto5/no_force_no_cursor/trayectorias_puntos.png Graphic file
  (type png)
 <use imagenes//sujeto5/no_force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto5/no_force_no_cursor/trayectorias_punt
-os.png  used on input line 1841.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+os.png  used on input line 2589.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1840--1842
-[][] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1840--1842
-
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2580--2593
+[][]   [] 
  []
 
 File: imagenes//sujeto5/force_no_cursor/trayectorias.png Graphic file (type png
 )
 <use imagenes//sujeto5/force_no_cursor/trayectorias.png>
 Package pdftex.def Info: imagenes//sujeto5/force_no_cursor/trayectorias.png  us
-ed on input line 1843.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+ed on input line 2598.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 File: imagenes//sujeto5/force_no_cursor/trayectorias_puntos.png Graphic file (t
 ype png)
 <use imagenes//sujeto5/force_no_cursor/trayectorias_puntos.png>
 Package pdftex.def Info: imagenes//sujeto5/force_no_cursor/trayectorias_puntos.
-png  used on input line 1844.
-(pdftex.def)             Requested size: 231.2599pt x 115.62994pt.
+png  used on input line 2605.
+(pdftex.def)             Requested size: 180.0pt x 89.99321pt.
 
-Overfull \hbox (121.95314pt too wide) in paragraph at lines 1843--1845
-[][] [] 
+Overfull \hbox (19.09303pt too wide) in paragraph at lines 2596--2609
+[][]   [] 
  []
 
-LaTeX Info: Redefining \. on input line 1846.
-LaTeX Info: Redefining \% on input line 1846.
-[69 <./imagenes//sujeto5/no_force/trayectorias.png>]
+LaTeX Info: Redefining \. on input line 2611.
+LaTeX Info: Redefining \% on input line 2611.
+[72 <./imagenes//sujeto5/no_force/trayectorias.png>]
 Cap\'{\i }tulo 4.
-[70
+[73
 
 ]
 Cap\'{\i }tulo 5.
 
-Overfull \hbox (161.27855pt too wide) in paragraph at lines 1850--1852
+Overfull \hbox (161.27855pt too wide) in paragraph at lines 2615--2617
 []\OT1/cmr/m/n/10.95 https://quasardynamics.com/dispositivos-hapticos-la-realid
 ad-virtual/ https://es.3dsystems.com/haptics-
  []
 
-[71
+[74
 
 ] (./proyecto.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -2206,10 +2498,10 @@ Package rerunfilecheck Info: File `proyecto.out' has not changed.
 (rerunfilecheck)             Checksum: 2F0E4E4ACF8D15FEAD04431872B2934D;6282.
  ) 
 Here is how much of TeX's memory you used:
- 16728 strings out of 480185
- 298739 string characters out of 5894213
- 561311 words of memory out of 5000000
- 34130 multiletter control sequences out of 15000+600000
+ 16875 strings out of 480185
+ 301586 string characters out of 5894213
+ 562691 words of memory out of 5000000
+ 34198 multiletter control sequences out of 15000+600000
  479103 words of font info for 63 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  69i,15n,79p,1160b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2230,10 +2522,10 @@ m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 hare/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on proyecto.pdf (72 pages, 14197489 bytes).
+Output written on proyecto.pdf (75 pages, 14329004 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 649 compressed objects within 7 object streams
- 249 named destinations out of 1000 (max. 500000)
- 734 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1065 PDF objects out of 1200 (max. 8388607)
+ 746 compressed objects within 8 object streams
+ 324 named destinations out of 1000 (max. 500000)
+ 739 words of extra memory for PDF output out of 10000 (max. 10000000)
 
