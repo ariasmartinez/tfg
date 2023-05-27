@@ -1,0 +1,56 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[3DS(2023)]{3DSystems}
+{3D Systems}, 2023.
+\newblock URL \url{https://es.3dsystems.com/}.
+
+\bibitem[{Deivi Luzardo, Alirio J. Pena P.}(2006)]{historia}
+{Deivi Luzardo, Alirio J. Pena P.}
+\newblock Historia del Álgebra lineal hasta los albores del siglo xx, 2006.
+
+\bibitem[{Eric Temple Bell}(1945)]{bell}
+{Eric Temple Bell}.
+\newblock Historia de las matemáticas, 1945.
+
+\bibitem[Group(2023)]{opengl}
+Khronos Group.
+\newblock Opengl, 2023.
+\newblock URL \url{https://www.opengl.org/}.
+
+\bibitem[HTC(2019)]{eye}
+HTC.
+\newblock Vive pro eye, 2019.
+\newblock URL
+  \url{https://www.vive.com/us/support/vive-pro-eye/category_howto/about-the-headset.html}.
+
+\bibitem[Jun~Izawa(2012)]{cerebellar}
+Reza~Shadmehr Jun~Izawa, Sarah E. Criscimagna-Hemminger.
+\newblock Cerebellar contributions to reach adaptation and learning sensory
+  consequences of action, 2012.
+
+\bibitem[Systems(2023{\natexlab{a}})]{OpenHaptics}
+3D~Systems.
+\newblock Openhaptics, 2023{\natexlab{a}}.
+\newblock URL \url{https://es.3dsystems.com/haptics-devices/openhaptics}.
+
+\bibitem[Systems(2023{\natexlab{b}})]{Touch}
+3D~Systems.
+\newblock Dispositivo touch, 2023{\natexlab{b}}.
+\newblock URL \url{https://es.3dsystems.com/haptics-devices/touch}.
+
+\bibitem[Y.P.~Ivanenko(1997)]{vor}
+I.~Siegler I. Israël A.~Berthoz Y.P.~Ivanenko, I. Viaud-Delmon.
+\newblock The vestibulo-ocular reflex and angular displacement perception in
+  darkness in humans: adaptation to a virtual environment, 1997.
+
+\bibitem[Yu~Imaoka(2020)]{saccadic}
+Eling D. de~Bruin Yu~Imaoka, Andri~Flury.
+\newblock Assessing saccadic eye movements with head-mounted display virtual
+  reality technology, 2020.
+
+\end{thebibliography}

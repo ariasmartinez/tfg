@@ -35,6 +35,8 @@
 \usepackage{eurosym}
 \usepackage{subfig}
 \usepackage{float}
+\usepackage{cite}
+\usepackage[square,numbers]{natbib}
 % ********************************************************************
 % Re-usable information
 % ********************************************************************
@@ -188,7 +190,6 @@ pdfproducer = {pdflatex}
 
 \newtheorem{prop}{Proposición}
 
-
 \begin{document}
 \input{portada/portada}
 \input{prefacios/prefacio}
@@ -235,9 +236,9 @@ pdfproducer = {pdflatex}
 
 \section{Contexto del proyecto}
 
-El cerebelo, una estructura ubicada en la base del cerebro, ha sido ampliamente estudiado en relación con el aprendizaje y el control de movimientos. Experimentos científicos han revelado su papel fundamental en la adquisición de habilidades motoras y en la coordinación precisa de los movimientos, mostrando que, los individuos con daños en el cerebelo presentan dificultades para adaptarse a nuevos patrones de movimiento o para realizar ajustes precisos en la fuerza y la dirección de sus movimientos.
+El cerebelo ha sido ampliamente estudiado en relación con el aprendizaje y el control de movimientos. Experimentos científicos han revelado su papel fundamental en la adquisición de habilidades motoras y en la coordinación precisa de los movimientos, mostrando que los individuos con daños en el cerebelo presentan dificultades para adaptarse a nuevos patrones de movimiento o para realizar ajustes precisos en la fuerza y la dirección de sus movimientos.
 
-La realidad virtual ha sido utilizada como una herramienta para investigar la función del cerebelo en la percepción espacial, la coordinación motora y el aprendizaje de movimientos. En los experimentos los participantes son expuestos a entornos virtuales que simulan situaciones específicas -manipulación de objetos virtuales, laberintos, simulaciones de deportes, etc. Durante estos experimentos se analiza la precisión de los movimientos de los individuos, la percepción espacial y la diferencia entre la capacidad de adaptación de los individuos sanos y los individuos con lesiones en el cerebelo.
+La realidad virtual ha sido utilizada como una herramienta para investigar la función del cerebelo en la percepción espacial, la coordinación motora y el aprendizaje de movimientos. En los experimentos los participantes son expuestos a entornos virtuales que simulan situaciones específicas -manipulación de objetos virtuales, laberintos, simulaciones de deportes, etc-. Durante estos experimentos se analiza la precisión de los movimientos de los individuos, la percepción espacial y la diferencia entre la capacidad de adaptación de los individuos sanos y los individuos con lesiones en el cerebelo.
 
 Podemos definir la realidad virtual como una tecnología que permite a los usuarios sumergirse en un entorno generado por computadora que simula la realidad física o crea un mundo virtual completamente nuevo. Los dispositivos de realidad virtual rastrean los movimientos de la cabeza y, en algunos casos, también los movimientos de las manos y del cuerpo, para permitir que los usuarios exploren y manipulen el entorno virtual de manera natural. 
 
@@ -246,15 +247,15 @@ Algunos de los dispositivos de realidad virtual son: los cascos de realidad virt
 Dentro de los experimentos relacionados con el estudio de los movimientos asociados al cerebelo utilizando estos dispositivos podemos encontrar los siguientes artículos:
 
 
-En \textit{''The vestibulo-ocular reflex and angular displacement perception in darkness in humans: adaptation to a virtual environment''} los autores utilizan gafas de realidad virtual para medir la respuesta vestíbulo-ocular de los sujetos en un escenario de oscuridad. El reflejo vestíbulo-ocular (RVO) es un mecanismo que coordina los movimientos oculares con los movimientos de la cabeza para mantener la estabilidad visual. En este caso en el entorno visual se generaron movimientos de rotación y se midieron los movimientos oculares de los participantes para estudiar si la falta de señales visuales influye en la precisión de la percepción espacial.
+En \textit{''The vestibulo-ocular reflex and angular displacement perception in darkness in humans: adaptation to a virtual environment''}\cite{vor} los autores utilizan gafas de realidad virtual para medir la respuesta vestíbulo-ocular de los sujetos en un escenario de oscuridad. El reflejo vestíbulo-ocular (RVO) es un mecanismo que coordina los movimientos oculares con los movimientos de la cabeza para mantener la estabilidad visual. En este caso en el entorno visual se generaron movimientos de rotación y se midieron los movimientos oculares de los participantes para estudiar si la falta de señales visuales influye en la precisión de la percepción espacial.
 
 
 En \textit{''Assessing Saccadic Eye Movements
 	With Head-Mounted Display Virtual
-	Reality Technology''}. En este artículo los autores utilizan el dispositivo HTC VIVE Pro Eye (unas gafas de realidad virtual con eye tracking) para estudiar los movimientos oculares sacádicos, es decir, los desplazamientos rápidos de la fijación de un punto a otro del campo visual. 
+	Reality Technology''}\cite{saccadic} los autores utilizan el dispositivo HTC VIVE Pro Eye\cite{eye} (unas gafas de realidad virtual con eye tracking) para estudiar los movimientos oculares sacádicos, es decir, los desplazamientos rápidos de la fijación de un punto a otro del campo visual. 
 	
 
-En \textit{''Cerebellar Contributions to Reach Adaptation and Learning Sensory Consequences of Action''} los autores utilizan un brazo robot que se proyecta en una pantalla, mientras que se oculta la visión del propio brazo. Se utiliza para estudiar los procesos de aprendizaje de dos tipos diferentes de movimientos: los de modelo directo (se asocia un comando motor con sus consecuencias sensoriales) y los de modelo inverso (se asocia un objetivo con el comando motor necesario para alcanzarlo).
+En \textit{''Cerebellar Contributions to Reach Adaptation and Learning Sensory Consequences of Action''}\cite{cerebellar} los autores utilizan un brazo robot que se proyecta en una pantalla, mientras que se oculta la visión del propio brazo. Se utiliza para estudiar los procesos de aprendizaje de dos tipos diferentes de movimientos: los de modelo directo (se asocia un comando motor con sus consecuencias sensoriales) y los de modelo inverso (se asocia un objetivo con el comando motor necesario para alcanzarlo).
 
 
 Los resultados evidencian que la tecnología de realidad virtual proporciona un entorno controlado y estandarizado para estudiar los movimientos asociados con el cerebelo, facilitando la comparación entre los participantes y la realización de análisis cuantitativos. Sin embargo, la mayoría de los experimentos realizados hasta el momento se apoyan en el uso de gafas de realidad virtual. Nuestro objetivo en este proyecto es comprobar si los dispositivos hápticos ofrecen las capacidades necesarias para llevar a cabo este tipo de experimentos.
@@ -268,18 +269,18 @@ Dentro de los objetivos del proyecto vamos a distinguir entre los objetivos téc
 	\begin{itemize}
 	\item Estudiar cómo los dispositivos hápticos, en concreto el dispositivo System3D Touch, pueden ser usados para el estudio de movimientos balísticos controlados por el cerebelo.
 	
-	\item Estudiar si los datos obtenidos con System3D Touch son lo suficientemente precisos para que pudiera utilizarse en este tipo de experimentos.
+	\item Estudiar si los datos obtenidos con System3D Touch son lo suficientemente precisos para que el dispositivo pudiera utilizarse en este tipo de experimentos.
 	
-	\item Estudiar qué tipo de datos podemos obtener a través de los experimentos realizados con System3D Touch, así cómo qué interpretaciones podemos elaborar utilizando dichos datos.
+	\item Estudiar qué tipo de datos podemos obtener a través de los experimentos realizados con System3D Touch, así como qué interpretaciones podemos elaborar utilizando dichos datos.
 
 	\end{itemize}
 	\item Objetivos didácticos:
 	\begin{itemize}
 		\item Aprender a usar el dispositivo System3D Touch.
 		\item Aprender a utilizar alguna de las APIs de System3D Touch y ser capaz de desarrollar una aplicación que utilice System3D Touch.
-		\item Comprender en profundidad los conceptos relacionados con los cambios de sistemas de coordenadas, y su relación con el espacio afín y el proyectivo. 
+		\item Comprender en profundidad los conceptos relacionados con los cambios de sistemas de coordenadas, y su relación con el espacio afín y el proyectivo, así como sus aplicaciones en informática gráfica. 
 		\item Ser capaz de plantear y llevar a cabo un experimento en el que podamos observar los resultados de diferentes sujetos.
-		\item Realizar un análisis de los datos obtenidos utilizando python.
+		\item Realizar un análisis de los datos obtenidos.
 
 	\end{itemize}
 \end{itemize}
@@ -288,43 +289,43 @@ Dentro de los objetivos del proyecto vamos a distinguir entre los objetivos téc
 \section{Fases del proyecto}
 El proyecto ha sido desarrollado en cuatro fases: planificación del experimento, desarrollo de la aplicación, obtención de resultados mediante la utilización de la aplicación en distintos usuarios y análisis de los resultados obtenidos. 
 \begin{enumerate}
-	\item Planificación del experimento: en esta etapa se definió el experimento que íbamos a realizar, teniendo en cuenta contenido, fases de las que consistiría y grupos de población en los que íbamos a realizarlo.
-	\item Desarrollo de la aplicación: esta etapa se dedicó a desarrollar la aplicación que se utilizaría después para la realización de los experimentos. A su vez esta etapa se dividió en tres subetapas:
+	\item \textbf{Planificación del experimento}: en esta etapa se definió el experimento que íbamos a realizar, teniendo en cuenta contenido, fases de las que consistiría y grupos de población en los que íbamos a realizarlo.
+	\item \textbf{Desarrollo de la aplicación}: esta etapa se dedicó a desarrollar la aplicación que se utilizaría después para la realización de los experimentos. A su vez esta etapa se dividió en tres subetapas:
 	\begin{enumerate}
 		\item Instalación de los paquetes necesarios para utilizar el dispositivo System 3D Touch.
 		\item Desarrollo del código necesario para implementar la aplicación.
 		\item Revisión del código para utilizar los parámetros idóneos. Esta etapa se realizó una vez acabada la primera prueba de realización del experimento.
 	\end{enumerate}
-	\item Obtención de resultados: en esta etapa distintos usuarios llevaron a cabo el experimento planeado, haciendo uso de la aplicación implementada en la fase anterior.
+	\item \textbf{Obtención de resultados}: en esta etapa distintos usuarios llevaron a cabo el experimento planeado, haciendo uso de la aplicación implementada en la fase anterior.
 	A su vez esta etapa se dividió en dos:
 	\begin{enumerate}
 		\item Fase de prueba, en la que se eligió a un primer grupo de sujetos para la realización del experimento, cada uno con un set de parámetros diferentes. Esta fase nos ayudó a decidir los parámetros que queríamos utilizar finalmente.
 		\item Fase final, en la que se eligió a un segundo grupo de sujetos (ninguno de los cuales había participado en la fase de prueba) y se realizó el experimento con los parámetros que finalmente habíamos elegido.
-		Estos resultados fueron los que se utilizaron para fase Análisis de los resultados.
+		Estos resultados fueron los que se utilizaron para fase \textit{Análisis de los resultados}.
 	\end{enumerate}
 		
-	\item Análisis de los resultados: en esta etapa analizamos las graficas obtenidas con los datos de la etapa anterior, para así obtener conclusiones del experimento.
+	\item \textbf{Análisis de los resultados}: en esta etapa analizamos las gráficas obtenidas con los datos de la etapa anterior, para así obtener conclusiones del experimento.
 \end{enumerate}
 
-Por tanto podemos decir que el proyecto ha seguido un modelo de ciclo de vida en cascada, en el que en algunas etapas ha habido realimentación, dado que la información conseguida en algunas etapas nos ha servido para modificar etapas anteriores. Este proceso puede verse reflejado en la Figura:
+Por tanto podemos decir que el proyecto ha seguido un textbf{modelo de ciclo de vida en cascada}, en el que en algunas etapas ha habido realimentación, dado que la información conseguida en algunas etapas nos ha servido para modificar etapas anteriores. Este proceso puede verse reflejado en la figura \ref{fig:fases}:
 
 \begin{figure}[H]
 	
 	\centering
 	\includegraphics[width=\linewidth]{diagrama-fases}
 	\caption{Fases del proyecto}
-	\label{fig:figura1}
+	\label{fig:fases}
 	
 \end{figure}
 
 Por otro lado la toma de decisiones en las distintas fases se ha llevado a cabo mediante reuniones regulares (telemáticas y presenciales) y la comunicación mediante correo electrónico.
 
 \section{Planificación del proyecto}
-El proyecto fue pensado para ser desarrollado entre los meses de septiembre y junio. La planificacion inicial fue:
+El proyecto fue pensado para ser desarrollado entre los meses de septiembre y junio. La planificación inicial fue:
 \begin{itemize}
 	\item Septiembre: planificación del experimento.
 	\item De octubre a diciembre: desarrollo de la aplicación.
-	\item De enero a marzo: obtención de resultados
+	\item De enero a marzo: obtención de resultados y revisión de los parámetros.
 	\item De marzo hasta mayo: análisis de resultados y redacción de la memoria.
 \end{itemize}
 
@@ -333,61 +334,62 @@ El proyecto fue pensado para ser desarrollado entre los meses de septiembre y ju
 	\centering
 	\includegraphics[width=\linewidth]{gantt}
 	\caption{Diagrama de Gantt}
-	\label{fig:figura1}
+	\label{fig:gantt}
 	
 \end{figure}
 
-La etapa mas larga fue de la del desarrollo de la aplicación pues es la que sustentaba todo el trabajo que podíamos realizar después. Por eso fue la que más carga de trabajo acumuló, y a la que más horas se le dedicó.
-
-
-
 El reparto de horas respecto a las distintas tareas fue:
 \begin{itemize}
-	\item Planificación del experimento: 10 horas. 
+	\item Planificación del experimento: 20 horas. 
 	\item Desarrollo de la aplicación:
 		\begin{itemize}
-			\item Instalación del software y familarización con el: 35 horas
-			\item Desarrollo del programa: 60 horas
+			\item Instalación del software y familarización con él: 60 horas.
+			\item Desarrollo del programa: 180 horas.
 		\end{itemize}
-	\item Obtención de resultados: 40 horas
-	\item Análisis de resultados:
-	\item Total de horas: 
+	\item Obtención de resultados: 50 horas.
+	\item Análisis de resultados: 70 horas.
+	\item Redacción de la memoria: 70 horas.
+	\item Total de horas: 450 horas.
 \end{itemize}
 
 \begin{figure}[H]
 	
 	\centering
-	\includegraphics[width=0.8\linewidth]{horas}
-	\caption{Diagrama de horas}
-	\label{fig:figura1}
+	\includegraphics[width=\linewidth]{horas}
+	\caption{Reparto de horas}
+	\label{fig:horas}
 	
 \end{figure}
 
+Como puede verse en la figura \ref{fig:horas}, la etapa más larga fue la de \textit{Desarrollo de la aplicación} pues es la que sustentaba todo el trabajo que podíamos realizar después. Por eso fue la que más carga de trabajo acumuló, y a la que más horas se le dedicó. La etapa de \textit{Obtención de resultados}, sin embargo, no tuvo tanta carga de trabajo, pero como podemos ver en la figura \ref{fig:gantt} la duración de esta tarea se prolongó más en el tiempo, principalmente por la dificultad de encontrar personas de diferentes edades para realizar el experimento.
 
-Por tanto, teniendo en cuenta que el salario medio de un profesional junior es de 11\euro /hora, el coste en personal seria de ....
+
+Por tanto, teniendo en cuenta que el salario medio de un profesional junior es de 20\euro /hora, el coste en personal seria de 9000\euro.
 
 Por otro lado tenemos que añadir el coste del dispositivo System3D Touch: 
 
-Por último, dado la necesidad de realizar el experimento en individuos externos al proyecto y teniendo en cuenta la duración media de este (45 minutos) decidimos ofrecer una compensación material a los individuos que se presentaran voluntarios, en concepto de coste de transporte. La compensación la hemos fijado en 5 euros por persona, y dado que necesitamos -- voluntarios ( -- para la fase de prueba y -- para la fase final), el coste adicional será de --- euros.
+Por último, dada la necesidad de realizar el experimento en individuos externos al proyecto y teniendo en cuenta la duración media de este (45 minutos) decidimos ofrecer una compensación material a los individuos que se presentaran voluntarios, en concepto de coste de transporte. La compensación la hemos fijado en 10\euro /persona, y dado que hemos tenido 13 voluntarios (8 para la fase de prueba y 5 para la fase final), el coste adicional será de 130\euro.
 
-Por tanto el presupuesto final fue de -- euros, repartido como puede verse en la siguiente figura:
+Por tanto el presupuesto final fue de -- euros, repartido como puede verse en la figura \ref{fig:coste}:
 
 \begin{figure}[H]
 	
 	\centering
-	\includegraphics[width=0.8\linewidth]{coste}
-	\caption{Diagrama de coste}
-	\label{fig:figura1}
+	\includegraphics[width=\linewidth]{coste}
+	\caption{Coste del proyecto}
+	\label{fig:coste}
 	
 \end{figure}
 
 \section{Material}
 
+En esta sección vamos a hablar del material (hardware y software) que se ha utilizado para la realización de este proyecto: el dispositivo Touch y el software de OpenHaptics.
+
 \subsection{Touch}
 
-Touch ha sido el dispositivo sobre el que se ha hecho la aplicación, y que se ha utilizado posteriormente para la realización del experimento.
+Touch\cite{Touch} ha sido el dispositivo sobre el que se ha hecho la aplicación, y que se ha utilizado posteriormente para la realización del experimento.
 
-Es un dispositivo háptico desarrollado por la empresa 3D Systems. Los dispositivos hápticos simulan respuestas táctiles, mediante las cuales podemos percibir objetos tridimensionales en un ambiente de realidad virtual.
+Es un dispositivo háptico desarrollado por la empresa 3D Systems\cite{3DSystems}. Los dispositivos hápticos simulan respuestas táctiles, mediante las cuales podemos percibir objetos tridimensionales en un ambiente de realidad virtual.
 Según la propia documentación de 3D Systems: \textit{''Touch es un dispositivo motorizado que aplica retroalimentación de fuerza a la mano del usuario, lo que le permite sentir objetos virtuales y producir sensaciones táctiles reales a medida que el usuario manipula los objetos 3D en la pantalla''}. Touch es utilizado en aplicaciones de control robótico, rehabilitación, medicina y cirugía, etc.
 
 \subsubsection{Especificaciones técnicas}
@@ -395,9 +397,9 @@ Según la propia documentación de 3D Systems: \textit{''Touch es un dispositivo
 \begin{center}
 	\begin{tabular}{ |m{6cm}|m{6cm}| } 
 		\hline
-		\textbf{Área de trabajo y retroalimentación de fuerza} & 431 ancho. × 348 altura. × 165 profundidad. mm \\ 
+		\textbf{Área de trabajo y retroalimentación de fuerza} & 431 ancho. × 348 altura. × 165 profundidad (mm). \\ 
 		\hline
-		\textbf{Tamaño (espacio físico que la base del dispositivo ocupa en una superficie)} & 168 ancho x 203 profundidad mm  \\ 
+		\textbf{Tamaño (espacio físico que la base del dispositivo ocupa en una superficie)} & 168 ancho x 203 profundidad (mm).  \\ 
 		\hline
 		\textbf{Peso (solo dispositivo)} & ~1,42 kg  \\ 
 		\hline
@@ -422,7 +424,7 @@ Según la propia documentación de 3D Systems: \textit{''Touch es un dispositivo
 		\textbf{Cardán de lápiz} & Inclinación, giro, dirección (± 5 \% de potenciómetros de linealidad) \\
 		\hline
 		\textbf{Interfaz} & USB 2.0/puerto 3.0 o hub USB que admita USB 2.0/3.0.
-		Frecuencia de actualización 1 KHz \\
+		Frecuencia de actualización 1 KHz. \\
 		\hline
 	\end{tabular}
 \end{center}
@@ -439,9 +441,11 @@ Según la propia documentación de 3D Systems: \textit{''Touch es un dispositivo
 
 \subsection{OpenHaptics}
 
-OpenHaptics es un software para desarrolladores hápticos que permite crear aplicaciones que utilicen Touch. Está basado en la API de OpenGL y está disponible para Windows de 64 bits 10 y 11 y para Linux. 
+OpenHaptics\cite{OpenHaptics} es un software desarrollado por 3D Systems para desarrolladores hápticos que permite crear aplicaciones que utilicen Touch. Está basado en la API de OpenGL\cite{opengl} y está disponible para Windows de 64 bits 10 y 11 y para Linux. 
 
-OpenHaptics incluye varias APIs desarrolladas en C++, y viene con varios ejemplos de aplicaciones, una guía de usuario y dos guías para los desarrolladores: OpenHaptics Programmers Guide y OpenHaptics API Reference Guide. 
+Según la propia página web de 3D Systems: \textit{OpenHaptics permite a los desarrolladores de software incorporar tecnología háptica y navegación 3D real a una amplia gama de aplicaciones, incluidas las de modelado y diseño 3D, aplicaciones médicas, juegos, entretenimiento, visualización y simulación. Este kit de herramientas hápticas se basa en la API de OpenGL, lo que hace que sea perfecto para programadores gráficos y facilita la integración con las aplicaciones de OpenGL. Con el kit de herramientas OpenHaptics, los desarrolladores pueden aprovechar el código de OpenGL existente para especificar geometrías y complementarlo con los comandos de OpenHaptics para imitar las propiedades de materiales hápticos, como la fricción y la rigidez.}
+
+OpenHaptics incluye varias APIs desarrolladas en C$++$, y viene con varios ejemplos de aplicaciones, una guía de usuario y dos guías para los desarrolladores: OpenHaptics Programmers Guide y OpenHaptics API Reference Guide. 
 
 
 
@@ -455,13 +459,13 @@ Para explicar el proceso de transformación de coordenadas vamos a introducir pr
 
 \section{Álgebra lineal, Geometría afín y Geometría Proyectiva}
 % https://www.emis.de/journals/DM/v14-2/art6.pdf
-Podemos encontrar los primeros antecedentes del álgebra lineal en el libro del Cálculo, escrito por el sacerdote egipcio Ahmés hacia el año 1650 a.C. En él se describen algunos problemas relacionados con la agricultura, que involucran sistemas de ecuaciones de primer grado. Los matemáticos babilonios, griegos, chinos e islámicos siguieron estudiando estos tipos de problemas, pero no fue hasta el siglo  XIX cuando Hamilton, Cayley y Grassmann introdujeron las nociones de vector y espacio vectorial, desarrollando gran parte de los conceptos que estudiaremos en este capítulo. En el año 1850 Sylvester introdujo el término matriz, y en 1858, en su libro \textit{Memoir on the theory of matrices}, Cayley utiliza las matrices para explicar las transformaciones lineales.
+Podemos encontrar los primeros antecedentes del álgebra lineal en el \textit{Libro del Cálculo}, escrito por el sacerdote egipcio Ahmés hacia el año 1650 a.C. En él se describen algunos problemas relacionados con la agricultura, que involucran sistemas de ecuaciones de primer grado. Los matemáticos babilonios, griegos, chinos e islámicos siguieron estudiando estos tipos de problemas, pero no fue hasta el siglo  XIX cuando Hamilton, Cayley y Grassmann introdujeron las nociones de vector y espacio vectorial, desarrollando gran parte de los conceptos que estudiaremos en este capítulo. En el año 1850 Sylvester introdujo el término matriz, y en 1858, en su libro \textit{Memoir on the theory of matrices}, Cayley utiliza las matrices para explicar las transformaciones lineales \cite{historia}.
 
 La geometría afín surge con Euler y se consolida con Klein en 1872 mediante el Programa de Erlangen, un programa de investigación con el objetivo de proponer una solución a los problemas que la Geometría se enfrentaba en ese momento. Klein define la geometría afín como una generalización de la geometria asociada al álgebra lineal. El espacio afín se construye sobre el espacio vectorial, con la diferencia de que no tenemos un vector de referencia, lo que nos dará la capacidad de hacer traslaciones. A su vez Klein engloba la geometría afín dentro de la geometría proyectiva.
 
-En el Programa de Erlangen, Klein también introduce el concepto de Grupo (un conjunto en el que hay definido una operación que cumple ciertas propiedades) en la Geometría. Para Klein cada Geometría es el estudio de las propiedades que no cambian al aplicar un tipo de transformaciones. Por ejemplo, el algebra lineal estudia las propiedades de los espacios al aplicar movimientos lineales (escalados, rotaciones sobre el origen), la geometría afín al aplicar movimientos afines (traslaciones) y la geometría proyectiva al aplicar movimientos proyectivos.
+En el Programa de Erlangen, Klein también introduce el concepto de Grupo (un conjunto en el que hay definido una operación que cumple ciertas propiedades) en la Geometría. Para Klein cada Geometría es el estudio de las propiedades que no cambian al aplicar un tipo de transformaciones. Por ejemplo, el algebra lineal estudia las propiedades de los espacios al aplicar movimientos lineales (escalados, rotaciones sobre el origen), la geometría afín al aplicar movimientos afines (traslaciones) y la geometría proyectiva al aplicar movimientos proyectivos \cite{bell}.
 
-En este capítulo vamos a introducir primero el concepto de espacio vectorial para después definir el concepto de espacio afín. Sobre el espacio afín estudiaremos como representar los movimientos afines en forma de matrices, y el concepto de sistema de referencia y por último cómo realizar un cambio de un sistema de referencia a otro. Este último resultado será el que utilicemos a la hora de explicar las operaciones que hemos realizado hacer los cambios de sistemas de coordenadas.
+En este capítulo vamos a introducir primero el concepto de espacio vectorial para después definir el concepto de espacio afín. Sobre el espacio afín estudiaremos como representar los movimientos afines en forma de matrices, y el concepto de sistema de referencia y por último cómo realizar un cambio de un sistema de referencia a otro. Este último resultado será el que utilicemos a la hora de explicar las operaciones que hemos realizado para hacer los cambios de sistemas de coordenadas.
 
 Por último estudiaremos brevemente el espacio proyectivo para poder explicar la proyección en perspectiva que realizaremos a la hora de proyectar el movimiento del cursor del dispositivo Touch en la pantalla.
 % https://www.ugr.es/~arobles/MatApl(CivilADE)/Tema5_beamer.pdf
@@ -2608,10 +2612,15 @@ Respecto a las fases 3 y 4 los resultados vuelven a ser muy parecidos, con una p
 	\end{minipage}
 \end{figure}
 
+
 \chapter{Discusion y conclusiones}
 Resumen comparación entre sujetos
 
-\chapter{Bibliografía}
-https://quasardynamics.com/dispositivos-hapticos-la-realidad-virtual/
-https://es.3dsystems.com/haptics-devices/touch
+\bibliographystyle{plainnat}
+\bibliography{biblio.bib}
+
+
+
+
+
 \end{document}
