@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {2.1}Álgebra lineal, Geometría afín y Geometría Proyectiva}{18}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Álgebra lineal}{19}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Geometría afín}{22}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Espacio Proyectivo}{24}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}Espacio Proyectivo}{25}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}Aplicaciones en informática gráfica}{26}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Paso de coordenadas locales a coordenadas de vista}{29}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Paso de coordenadas de vista a coordenadas de recorte}{30}{subsection.2.2.2}%

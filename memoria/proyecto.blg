@@ -12,6 +12,7 @@ while executing---line 1347 of file plainnat.bst
 Too many commas in name 1 of "Y.P. Ivanenko, I. Viaud-Delmon, I. Siegler, I. Israël, A. Berthoz" for entry vor
 while executing---line 1347 of file plainnat.bst
 Warning--to sort, need author or key in 3DSystems
+Warning--empty year in geometria
 Too many commas in name 1 of "Y.P. Ivanenko, I. Viaud-Delmon, I. Siegler, I. Israël, A. Berthoz" for entry vor
 while executing---line 1429 of file plainnat.bst
 Too many commas in name 1 of "Y.P. Ivanenko, I. Viaud-Delmon, I. Siegler, I. Israël, A. Berthoz" for entry vor
@@ -20,45 +21,45 @@ Too many commas in name 1 of "Y.P. Ivanenko, I. Viaud-Delmon, I. Siegler, I. Isr
 while executing---line 1429 of file plainnat.bst
 Too many commas in name 1 of "Y.P. Ivanenko, I. Viaud-Delmon, I. Siegler, I. Israël, A. Berthoz" for entry vor
 while executing---line 1429 of file plainnat.bst
-You've used 10 entries,
+You've used 16 entries,
             2773 wiz_defined-function locations,
-            634 strings with 5856 characters,
-and the built_in function-call counts, 2881 in all, are:
-= -- 243
-> -- 90
-< -- 9
-+ -- 38
-- -- 27
-* -- 147
-:= -- 420
-add.period$ -- 24
-call.type$ -- 10
-change.case$ -- 39
-chr.to.int$ -- 9
-cite$ -- 22
-duplicate$ -- 150
-empty$ -- 324
-format.name$ -- 36
-if$ -- 622
-int.to.chr$ -- 2
+            655 strings with 6371 characters,
+and the built_in function-call counts, 4636 in all, are:
+= -- 392
+> -- 150
+< -- 15
++ -- 63
+- -- 45
+* -- 235
+:= -- 682
+add.period$ -- 40
+call.type$ -- 16
+change.case$ -- 63
+chr.to.int$ -- 14
+cite$ -- 35
+duplicate$ -- 240
+empty$ -- 516
+format.name$ -- 60
+if$ -- 999
+int.to.chr$ -- 3
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 52
-num.names$ -- 36
-pop$ -- 126
+newline$ -- 80
+num.names$ -- 60
+pop$ -- 201
 preamble$ -- 1
-purify$ -- 29
+purify$ -- 47
 quote$ -- 0
-skip$ -- 138
+skip$ -- 221
 stack$ -- 0
-substring$ -- 21
-swap$ -- 12
+substring$ -- 33
+swap$ -- 19
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 110
-warning$ -- 1
-while$ -- 27
+type$ -- 176
+warning$ -- 2
+while$ -- 45
 width$ -- 0
-write$ -- 115
+write$ -- 182
 (There were 8 error messages)

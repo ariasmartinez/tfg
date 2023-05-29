@@ -190,6 +190,8 @@ pdfproducer = {pdflatex}
 
 \newtheorem{prop}{Proposición}
 
+\newtheorem{obv}{Observación}
+
 \begin{document}
 \input{portada/portada}
 \input{prefacios/prefacio}
@@ -459,7 +461,7 @@ Para explicar el proceso de transformación de coordenadas vamos a introducir pr
 
 \section{Álgebra lineal, Geometría afín y Geometría Proyectiva}
 % https://www.emis.de/journals/DM/v14-2/art6.pdf
-Podemos encontrar los primeros antecedentes del álgebra lineal en el \textit{Libro del Cálculo}, escrito por el sacerdote egipcio Ahmés hacia el año 1650 a.C. En él se describen algunos problemas relacionados con la agricultura, que involucran sistemas de ecuaciones de primer grado. Los matemáticos babilonios, griegos, chinos e islámicos siguieron estudiando estos tipos de problemas, pero no fue hasta el siglo  XIX cuando Hamilton, Cayley y Grassmann introdujeron las nociones de vector y espacio vectorial, desarrollando gran parte de los conceptos que estudiaremos en este capítulo. En el año 1850 Sylvester introdujo el término matriz, y en 1858, en su libro \textit{Memoir on the theory of matrices}, Cayley utiliza las matrices para explicar las transformaciones lineales \cite{historia}.
+Podemos encontrar los primeros antecedentes del Álgebra lineal en el \textit{Libro del Cálculo}, escrito por el sacerdote egipcio Ahmés hacia el año 1650 a.C. En él se describen algunos problemas relacionados con la agricultura, que involucran sistemas de ecuaciones de primer grado. Los matemáticos babilonios, griegos, chinos e islámicos siguieron estudiando estos tipos de problemas, pero no fue hasta el siglo  XIX cuando Hamilton, Cayley y Grassmann introdujeron las nociones de vector y espacio vectorial, desarrollando gran parte de los conceptos que estudiaremos en este capítulo. En el año 1850 Sylvester introdujo el término matriz, y en 1858, en su libro \textit{Memoir on the theory of matrices}, Cayley utiliza las matrices para explicar las transformaciones lineales \cite{historia}.
 
 La geometría afín surge con Euler y se consolida con Klein en 1872 mediante el Programa de Erlangen, un programa de investigación con el objetivo de proponer una solución a los problemas que la Geometría se enfrentaba en ese momento. Klein define la geometría afín como una generalización de la geometria asociada al álgebra lineal. El espacio afín se construye sobre el espacio vectorial, con la diferencia de que no tenemos un vector de referencia, lo que nos dará la capacidad de hacer traslaciones. A su vez Klein engloba la geometría afín dentro de la geometría proyectiva.
 
@@ -478,13 +480,15 @@ Por último estudiaremos brevemente el espacio proyectivo para poder explicar la
 
 El Álgebra lineal estudia los conceptos de espacios vectoriales y sus trasformaciones lineales. En esta sección nuestro objetivo es definir el concepto de espacio vectorial, que utilizaremos para definir después el espacio afín. Para ello necesitamos definir previamente los conceptos de grupo, anillo y cuerpo. 
 
-También introduciremos el concepto de Base en un espacio vectorial, para el que necesitaremos definir los conceptos de combinación lineal de vectores, vectores linealmente independientes y sistemas de generadores. Por último terminaremos la sección con una proposición que nos permitirá hacer cambios de base con los vectores.
+También introduciremos el concepto de Base en un espacio vectorial, para el que necesitaremos definir los conceptos de combinación lineal de vectores, vectores linealmente independientes y sistemas de generadores. Por último terminaremos la sección con una proposición que nos permitirá hacer cambios de base con los vectores \cite{algebra}.
 
 \begin{defi}
 	Sea $G$ un conjunto. Decimos que $(G,\cdot )$ es un \textbf{grupo} si existe una operación o ley de composición interna:
 	\begin{equation}
-	\cdot: G\times G \rightarrow G
+	\begin{split}
+	\cdot: G\times G \rightarrow G \\
 	(x,y) \mapsto x\cdot y
+	\end{split}
 	\end{equation}
 	que cumpla las siguientes propiedades:
 	\begin{enumerate}
@@ -499,7 +503,7 @@ También introduciremos el concepto de Base en un espacio vectorial, para el que
 	diremos que el grupo es \textbf{abeliano}.
 \end{defi}
 \begin{defi}
-	Diremos que $(A, +, ,\cdot )$ es un \textbf{anillo} si verifica:
+	Diremos que $(A, +,\cdot )$ es un \textbf{anillo} si verifica:
 	\begin{enumerate}
 	\item $(A, +)$ es un grupo conmutativo.	
 	\item $(A, \cdot )$ verifica la propiedad asociativa.
@@ -561,7 +565,7 @@ También introduciremos el concepto de Base en un espacio vectorial, para el que
 	Sea $V$ un espacio vectorial sobre un cuerpo $K$. Una \textbf{base} de $V$ es una familia no vacía $B \subset V$ tal que $B$ es un sistema de generadores de $V$ y $B$ es linealmente independiente.
 \end{defi}
 \begin{defi}
-	Supongamos $V$ un espacio vectorial sobre un cuerpo $K$ con $dim_k(V) = n$. Tomamos dos bases $B = \{v_1,...,v_n\}$ y $B' = \{v_1,...,v_n\}$ de $V$ y $ v \in V$. La \textbf{matriz de cambio} de base de $B$ a $B'$ es la matriz que denotaremos $M(I, B' \leftarrow B)$ cuya columna j-ésima contiene las coordenadas del vector $v_j$ de $B$ respecto de $B'$. Lo simbolizamos así:
+	Supongamos $V$ un espacio vectorial sobre un cuerpo $K$ con $dim_k(V) = n$. Tomamos dos bases $B = \{v_1,...,v_n\}$ y $B' = \{v_1',...,v_n'\}$ de $V$ y $ v \in V$. La \textbf{matriz de cambio} de base de $B$ a $B'$ es la matriz que denotaremos $M(I, B' \leftarrow B)$ cuya columna j-ésima contiene las coordenadas del vector $v_j$ de $B$ respecto de $B'$. Lo simbolizamos así:
 	\begin{equation}
 	M(I, B' \leftarrow B) = ((v_1)_{B'} | ... |(v_n)_{B'})
 	\end{equation}
@@ -594,7 +598,7 @@ También introduciremos el concepto de Base en un espacio vectorial, para el que
 
 \subsection{Geometría afín}
 
-En esta sección vamos a definir la base teórica para realizar cambios de sistemas de coordenadas. Las transformaciones que aplicaremos son escalados, giros y traslaciones, y para ello definiremos el concepto de espacio afín. Después definiremos el concepto de sistema de referencia afín para terminar demostrando la fórmula del cambio de sistema de referencia, que es la que utilizaremos en el apartado práctico.
+En esta sección vamos a definir la base teórica para realizar cambios de sistemas de coordenadas. Las transformaciones que aplicaremos son escalados, giros y traslaciones, y para ello definiremos el concepto de espacio afín. Después definiremos el concepto de sistema de referencia afín para terminar demostrando la fórmula del cambio de sistema de referencia, que es la que utilizaremos en el apartado práctico \cite{geometria}.
 
 \begin{defi}
 	Un \textbf{espacio afín} es una tripleta $(A, V, \rightarrow)$ donde
@@ -608,17 +612,17 @@ En esta sección vamos a definir la base teórica para realizar cambios de siste
 	Al espacio vectorial $V$ lo vamos a denotar como $\overrightarrow{A}$. La dimensión de $A$ es la de $\overrightarrow{A}$.
 \end{defi}
 \begin{defi}
-	Una colección de puntos $\{p_0,...,p_k\}, k \in K$, en un espacio afín $A$ se dice \textbf{afínmente independiente} si los vectores $\{\overrightarrow{p_0p_1},...,\overrightarrow{p_0p_k}\}$ son linealmente independientes si
+	Una colección de puntos $\{p_0,...,p_k\}, k \in K$, en un espacio afín $A$ se dice \textbf{afínmente independiente} si los vectores $\{\overrightarrow{p_0p_1},...,\overrightarrow{p_0p_k}\}$ son linealmente independientes, es decir, si:
 	\begin{equation}
-	dim<{p_0,p_1,...,p_k}> = k
+	dim<\{p_0,p_1,...,p_k\}> = k
 	\end{equation}
 \end{defi}
 \begin{defi}
-	Dado un espacio afín $A$ con dim $A = n \in \mathbb N$, un \textbf{sistema de referencia} $R$ en $A$ es un sistema ordenado $\{p_0, ..., p_n\}$ de $n+1$ puntos afínmente independientes o equivalentemente satisfaciendo:
+	Dado un espacio afín $A$ con dim $A = n \in \mathbb N$, un \textbf{sistema de referencia} $R$ en $A$ es un sistema ordenado $\{p_0, ..., p_n\}$ de $n+1$ puntos afínmente independientes, o equivalentemente satisfaciendo:
 	\begin{equation}
 	<\{p_0,p_1,...,p_n\}> = A
 	\end{equation}
-	Al punto $p_0$ se le llama origen del sistema, y a la base ordenada $B = \{\overrightarrow{p_0p_1}, ..., \overrightarrow{p_0p_n}\}$ de $\overrightarrow{A}$ se le llama base asociada de las direcciones de $R$.
+	Al punto $p_0$ se le llama origen del sistema, y a la base ordenada \\$B = \{\overrightarrow{p_0p_1}, ..., \overrightarrow{p_0p_n}\}$ de $\overrightarrow{A}$ se le llama base asociada de las direcciones de $R$.
 	Si $B = \{v_1,...,v_n\}$ es una base ordenada de $\overrightarrow{A}$ y $p_0 \in A$, el sistema ordenado de puntos
 	\begin{equation}
 	R = \{p_0, p_0+v_1, ..., p_0+v_n\}
@@ -629,12 +633,21 @@ En esta sección vamos a definir la base teórica para realizar cambios de siste
 	\end{equation}
 	donde $p_0$ es un punto de $A$ y $B$ una base ordenada de $\overrightarrow{A}$.
 \end{defi}
-
 \begin{defi}
+	Fijado $p \in A$, denotaremos por $F_p: A \rightarrow \overrightarrow{A}$ a la aplicación dada por:
+	\begin{equation}
+		F_p(q) = \overrightarrow{pq}
+	\end{equation}
+\end{defi}
+\begin{defi}
+	\label{asignacion}
 	Sea $A$ un espacio afín, y consideremos un sistema de referencia afín $R = \{p_0,...,p_n\} \equiv \{p_0, B\}$, donde
 	$B = \{\overrightarrow{p_0p_1},...,\overrightarrow{p_0p_n}\}$. La aplicación biyectiva
 	\begin{equation}
-	\Phi_R : A \rightarrow \mathbb R^n, \phi_R = \phi_B \circ F_{p_0}
+	\begin{split}
+	\Phi_R : A \rightarrow \mathbb R^n \\
+	 \phi_R = \phi_B \circ F_{p_0}
+	\end{split}
 	\end{equation}
 	es conocida como la \textbf{aplicación asignación de coordenadas} (con notación columna) en el sistema de referencia R. De forma simplificada escribiremos
 	\begin{equation}
@@ -643,6 +656,7 @@ En esta sección vamos a definir la base teórica para realizar cambios de siste
 	y diremos que $p_R$ son las coordenadas de p $\in$ $A$ en $R$.
 \end{defi}
 \begin{prop}
+	\label{aux}
 	Sea $A$ un espacio afín y $R = \{p_0,...,p_n\} \equiv \{p_0,B\}$ un sistema de referencia afín, donde $B = \{\overrightarrow{p_0p_1},...,\overrightarrow{p_0p_n}\}$. Entonces
 	\begin{enumerate}
 		\item $(p+v)_R = p_R + v_B$
@@ -650,7 +664,7 @@ En esta sección vamos a definir la base teórica para realizar cambios de siste
 	\end{enumerate}
 \end{prop}
 \begin{proof}
-	Usando la definición anterior y que $\Phi_B$ es lineal, tenemos que:
+	Usando la definición \ref{asignacion} y que $\Phi_B$ es lineal, tenemos que:
 	\begin{equation}
 	(p+v)_R = (\overrightarrow{p_0(p+v)})_B = (\overrightarrow{p_0p}+v)_B = (\overrightarrow{p_0p})_B +v_B = p_R +v_B
 	\end{equation}
@@ -667,7 +681,7 @@ En esta sección vamos a definir la base teórica para realizar cambios de siste
 	\end{equation}
 \end{prop}
 \begin{proof}
-	Utilizando la proposición y la definición anterior:
+	Utilizando la proposición \ref{aux} y la definición \ref{asignacion}:
 	\begin{equation}
 	p_{R'} = (p_0 + \overrightarrow{p_0p})_{R'} = (p_0)_{R'} + (\overrightarrow{p_{0}p})_{B'} = (p_0)_{R'} + M(Id_{\overrightarrow{A}}, B, B') \cdot  (\overrightarrow{p_0p})_B,
 	\end{equation}
@@ -677,7 +691,7 @@ En esta sección vamos a definir la base teórica para realizar cambios de siste
 	\end{equation}
 \end{proof}
 
-\begin{prop}
+\begin{obv}
 La ecuación anterior puede escribirse de forma compacta utilizando una única matriz de orden $n+1$. Esta matriz es de la forma:
 \begin{equation}
 M(Id_A, R, R') := 
@@ -697,12 +711,9 @@ p_{R'}
  p_R
  \end{pmatrix}
 \end{equation}
-\end{prop}
-\begin{proof}
-	Para demostrarlo...
-\end{proof}
+\end{obv}
 
-Por tanto hemos puesto la base para conocer las coordenadas en un sistema de referencia $R'$ de un punto $p \in A$ a partir de las coordenadas de $p$ en otro sistema de referencia $R'$ teniendo:
+Por tanto hemos puesto la base para conocer las coordenadas en un sistema de referencia $R'$ de un punto $p \in A$ a partir de las coordenadas de $p$ en otro sistema de referencia $R$ teniendo:
 \begin{itemize}
 	\item Coordenadas en $R'$ del origen $p_0$ de $R$.
 	\item Matriz del cambio de base en $\overrightarrow{A}$ de la base $B$ de las direcciones de $R$ a la base $B'$ de las direcciones de $R'$.
@@ -710,10 +721,10 @@ Por tanto hemos puesto la base para conocer las coordenadas en un sistema de ref
 
 \subsection{Espacio Proyectivo}
 
-En esta sección vamos a definir los principios básicos del espacio proyectivo, que utilizaremos como base teórica para poder explicar después la proyección en perspectiva que aplicaremos a las coordenadas para representarlas en la pantalla del ordenador.
+En esta sección vamos a definir los principios básicos del espacio proyectivo, que utilizaremos como base teórica para poder explicar después la proyección en perspectiva que aplicaremos a las coordenadas para representarlas en la pantalla del ordenador \cite{geometria}.
 
 
-Antes de definir el espacio proyectivo necesitamos dos conceptos previos: relación de equivalencia y espacio cociente.
+Antes de definir el espacio proyectivo necesitamos dos conceptos previos: relación de equivalencia y espacio cociente \cite{algebra}.
 
 \begin{defi}
 	R es una \textbf{relación de equivalencia} sobre K si:
@@ -735,7 +746,7 @@ Antes de definir el espacio proyectivo necesitamos dos conceptos previos: relaci
 
 Nota: A partir de ahora llamaremos $E^* = E \setminus \{0\}$.
 \begin{defi}
-	Sea $E$ un espacio vectorial con $dim E=n+1$, llamamos $P(E)$, \textbf{espacio proyectivo}, al espacio cociente
+	Sea $E$ un espacio vectorial con $dim_E=n+1$, llamamos $P(E)$, \textbf{espacio proyectivo}, al espacio cociente
 	\begin{equation}
 		P(E) = E^* / \backsim
 	\end{equation}
@@ -801,13 +812,13 @@ Esto último es lo que utilizaremos para hacer la proyección que necesitamos pa
 El problema que queremos resolver es: teniendo las coordenadas que nos proporciona el dispositivo Touch, ¿qué transformaciones tenemos que hacer para obtener las coordenadas del cursor de Touch en la pantalla?
 
 
-Para ello tenemos que entender los distintos sistemas de coordenadas que utiliza OpenGL y el cauce de transformaciones que aplica a los objetos para representarlos en la pantalla. Podemos verlo representado en la siguiente imagen:
+Para ello tenemos que entender los distintos sistemas de coordenadas que utiliza OpenGL y el cauce de transformaciones que aplica a los objetos para representarlos en la pantalla\cite{coordinates}. Podemos verlo representado en 
+la figura \ref{fig:coordinates}:
 \begin{figure}[H]
-	
 	\centering
 	\includegraphics[width=\linewidth]{coordinate_systems}
 	\caption{Sistemas de coordenadas de OpenGL}
-	\label{fig:figura1}
+	\label{fig:coordinates}
 	
 \end{figure}
 
@@ -926,23 +937,23 @@ Por tanto lo que estamos haciendo es una transformación afín, en concreto una 
 \subsection{Paso de coordenadas de vista a coordenadas de recorte}
 Ahora vamos a hacer el cambio de sistemas de coordenadas de vista al sistema de coordenadas de recorte.
 
-El objetivo de este cambio de sistema de coordenadas es transformar la región visible del espacio en un cubo $[-1,1]\times [-1,1]\times [-1,1]$, utilizando una proyección en perspectiva, como podemos ver en la siquiente imagen.
+El objetivo de este cambio de sistema de coordenadas es transformar la región visible del espacio en un cubo $[-1,1]\times [-1,1]\times [-1,1]$, utilizando una proyección en perspectiva, como podemos ver en la figura \ref{fig:perspectiva}.
 \begin{figure}[H]
 	
 	\centering
 	\includegraphics[width=0.9\linewidth]{cubo}
 	\caption{Proyección en perspectiva}
-	\label{fig:figura1}
+	\label{fig:perspectiva}
 	
 \end{figure}
 
-La notación que utilizaremos será:
+La notación que utilizaremos la podemos ver en la figura \ref{fig:notacion}:
 \begin{figure}[H]
 	
 	\centering
 	\includegraphics[width=0.9\linewidth]{notacion}
-	\caption{Notación perspectiva}
-	\label{fig:figura1}
+	\caption{Notación}
+	\label{fig:notacion}
 	
 \end{figure}
 
@@ -1091,17 +1102,17 @@ Los parámetros de la ventana que vamos a utilizar son:
 	\item $w,h$: anchura y altura de la ventana
 	\item $n_d, f_d$: rango de valores de z, siendo $n_d$ la profundidad más cercana al observador y $f_d$ la más lejana.
 \end{itemize}
-Podemos verlo en la siguiente imagen:
+Podemos verlo en la figura \ref{fig:viewport}:
 \begin{figure}[H]
 	
 	\centering
 	\includegraphics[width=\linewidth]{viewport}
-	\caption{Viewport}
-	\label{fig:figura1}
+	\caption{Notación Viewport}
+	\label{fig:viewport}
 	
 \end{figure}
 
-Las condiciones que tenemos que realizar para pasar de coordenadas de recorte a coordenadas de pantalla son:
+Las condiciones que tenemos que aplicar para pasar de coordenadas de recorte a coordenadas de pantalla son:
 \begin{itemize}
 	\item en el eje de coordenadas $x$ tenemos que llevar el intervalo $[-1,1]$ al intervalo $[x_l, x_l+w]$.
 	\item en el eje de coordenadas $y$ tenemos que llevar el intervalo $[-1,1]$ al intervalo $[y_b, y_b+h]$.
@@ -1156,7 +1167,8 @@ Para ello vamos a realizar dos transformaciones afines:
 	\begin{equation}
 	y^{\romannumeral 4} = y'''-250
 	\end{equation}
-	\item Por otro lado queremos que en nuestro sistema de referencia los ''targets'' estén situados en la circunferencia de radio 2, por lo tanto tenemos que aplicar un escalado. Para saber el escalado que tenemos que hacer aplicamos la transformación modelo-vista-proyección-viewport al ''target'' que en el sistema de referencia final está situado en  $(2\cdot \cos\frac{\pi}{4},2\cdot \sin\frac{\pi}{4})$. Después calculamos la distancia del punto que nos ha dado al punto origen, y dividimos la distancia de nuestro punto origen a nuestro punto objetivo entre esa distancia. El resultado es $0.00945962$, que será el factor de escala.
+	\item Por otro lado queremos que en nuestro sistema de referencia los ''targets'' estén situados en la circunferencia de radio 2, por lo tanto tenemos que aplicar un escalado. Para saber el escalado que tenemos que hacer aplicamos la transformación modelo-vista-proyección-viewport al ''target'' que en el sistema de referencia final está situado en  \\
+	$(2\cdot \cos\frac{\pi}{4},2\cdot \sin\frac{\pi}{4})$. Después calculamos la distancia del punto que nos ha dado al punto origen, y dividimos la distancia de nuestro punto origen a nuestro punto objetivo entre esa distancia. El resultado es $0.00945962$, que será el factor de escala.
 \end{itemize}
 Por último vamos a representar estas transformaciones afines en forma de matriz:
 
@@ -1171,7 +1183,7 @@ y^{\romannumeral 4}\\
 0&0.0009&-250\\
 0&0&1 \\
 \end{pmatrix}
-*\begin{pmatrix}
+\cdot \begin{pmatrix}
 x'''\\
 y'''\\
 1
@@ -1192,7 +1204,7 @@ En este capítulo vamos a hablar de cómo se han desarrollado las diferentes fas
 
 En esta fase del proyecto decidimos cuál iba a ser la forma que iba a tener el experimento que posteriormente íbamos a realizar.
 
-Desde el primer momento sabíamos que el objetivo era tener una aplicación en la que aparecieran una serie de puntos en la pantalla, y en la que el usuario tuviera que mover el cursor de un punto a otro haciendo movimientos balísticos. Posteriormente queríamos ser capaces de guardar la trayectoria de los movimientos realizados para poder analizarlas después.
+Desde el primer momento sabíamos que el objetivo era tener una aplicación en la que aparecieran una serie de puntos en la pantalla, y en la que el usuario tuviera que mover el cursor de un punto a otro haciendo movimientos balísticos. Posteriormente queríamos ser capaces de guardar las trayectorias de los movimientos realizados para poder analizarlas después.
 
 
 
@@ -1200,7 +1212,7 @@ Desde el primer momento sabíamos que el objetivo era tener una aplicación en l
 
 Dado que el objetivo del proyecto era probar el funcionamiento de System3D Touch en este tipo de experimentos, y no disponiendo de otros dispositivos complementarios, decidimos que el experimento consistiera en la aparición en pantalla de una serie de puntos sobre los que el sujeto debería situar el cursor.
 
-Primero tendemos un punto de referencia en el centro, y cuando el sujeto se haya posado sobre él, desaparece este y aparece otro sobre una circunferencia alrededor del punto de referencia, en una de las siguientes posiciones:
+La dinámica del experimento es la siguiente: primero tenemos un punto de referencia en el centro, y cuando el sujeto se haya posado sobre él, desaparece este y aparece otro sobre una circunferencia alrededor del punto de referencia, en una de las siguientes posiciones:
 \begin{figure}[H]
 	
 	\centering
@@ -1212,7 +1224,7 @@ Primero tendemos un punto de referencia en el centro, y cuando el sujeto se haya
 
  Al haber situado el cursor sobre el punto objetivo, o al haber terminado el tiempo límite para realizar el movimiento, el punto objetivo desaparece y aparece otra vez el punto de referencia, volviendo a empezar otra iteración. Las trayectorias que nos interesan son las del punto de referencia al punto objetivo.
 
-Tenemos además cinco fases, en las que cambian las condiciones en como se comporta 3DSystem Touch:
+Tenemos además cinco fases, en las que cambian las condiciones en como se comporta System3D Touch:
 
 \begin{itemize}
 	\item \textbf{Fase de adaptación}: en esta fase solo se muestra el cursor sin ningún punto objetivo. El sujeto es libre para hacer cualquier tipo de movimiento. Esta fase sirve para que el sujeto se adapte a la utilización del dispositivo, así como para que tenga en cuenta las condiciones en las que el dispositivo no funciona correctamente, como cuando se acerca o se aleja demasiado en el eje $z$.
@@ -1224,7 +1236,7 @@ Tenemos además cinco fases, en las que cambian las condiciones en como se compo
 
 Los parámetros que tuvimos que elegir para desarrollar la aplicación fueron:
 \begin{itemize}
-	\item \textbf{Número de repeticiones por fase}. Dado que la realización del experimento requiere de movimientos del brazo durante un periodo de tiempo moderado, teníamos que encontrar un acuerdo entre tener un número suficiente de repeticiones por punto objetivo y que el experimento no fuese demasiado exigente para los individuos. Es por eso por lo que en la fase de prueba probamos diferentes configuraciones con sujetos de diferentes edades, desde 20 a 90 años. Finalmente elegimos tener 80 repeticiones por fase, para así tener 10 repeticiones por punto. Habría que tener en cuenta que en el caso de finalmente realizar el experimento con personas mayores de 80 años, sería recomendable bajar el número de repeticiones.
+	\item \textbf{Número de repeticiones por fase}. Dado que la realización del experimento requiere de movimientos del brazo durante un periodo de tiempo algo extenso, teníamos que encontrar un acuerdo entre tener un número suficiente de repeticiones por punto objetivo y que el experimento no fuese demasiado exigente para los individuos. Es por eso por lo que en la fase de prueba probamos diferentes configuraciones con sujetos de diferentes edades, desde 20 a 90 años. Finalmente elegimos tener 80 repeticiones por fase, para así tener 10 repeticiones por punto. Habría que tener en cuenta que en el caso de finalmente realizar el experimento con personas mayores de 80 años, sería recomendable bajar el número de repeticiones.
 	\item \textbf{Tiempo para la realización del movimiento}. Este es un parámetro clave a la hora de diseñar el experimento, pues queríamos que los sujetos estuviesen obligados a hacer movimientos balísticos. Por lo tanto teníamos que encontrar un balance entre tener tiempo suficiente para que pudiesen alcanzar el punto y la obligación de que esos movimientos fuesen rápidos. Aquí también encontramos grandes diferencias en los resultados de personas jóvenes y más mayores, pero finalmente decidimos utilizar un tiempo de 2 segundos, con el que, una vez pasado un periodo de aprendizaje, todos los sujetos fueron capaces de alcanzar en ese tiempo el punto objetivo.
 	\item \textbf{Número y disposición de los puntos objetivos}. Hicimos pruebas con diferentes sujetos con 8 puntos (como hemos mencionado arriba), 4 puntos en las siguientes posiciones:
 	
@@ -1249,18 +1261,18 @@ Los parámetros que tuvimos que elegir para desarrollar la aplicación fueron:
 	 \end{figure}
 	
 	 
-	  Pensamos que el experimento más interesante era con 8 puntos, pues así podíamos estudiar las diferencias en el aprendizaje de movimientos cuando hay que mover el cursor en un solo eje a cuando hay que moverlo en dos ejes a la vez. En todo caso, y en relación con la dificultad en realizar un número grande de iteraciones en personas mayores, podría estudiarse el caso de reducir el número de puntos para así poder reducir a su vez el número de iteraciones.
+	  Pensamos que el experimento más interesante era con 8 puntos, pues así podíamos estudiar las diferencias en el aprendizaje de movimientos cuando hay que mover el cursor en un solo eje a cuando hay que moverlo en dos ejes a la vez. En todo caso, y en relación con la dificultad de realizar un número grande de iteraciones en personas mayores, podría estudiarse el caso de reducir el número de puntos para así poder reducir a su vez el número de iteraciones.
 	\item Disposición de los \textbf{puntos objetivos siguiendo un orden o de forma aleatoria}.
 \end{itemize}
 
-Otra decisión que tomamos fue la del criterio para considerar que un movimiento es correcto. En primer lugar pensamos que el criterio fuera que el sujeto pasase el cursor por encima del punto objetivo, de forma similar a como hacen en \textit{''Cerebellar Contributions to Reach Adaptation and Learning Sensory Consequences of Action''}. Después pensamos que sería interesante estudiar también, no solo que los sujetos realizaran el movimiento en la dirección correcta, sino con la distancia correcta. Por eso, para que el movimiento se considere correcto, el sujeto debe situar durante un momento el cursor encima del punto. Hicimos lo mismo a la hora de situar el cursor dentro del punto de referencia, e iniciar así el movimiento. Esto fue debido a que, en una pequeña demo inicial vimos que, si lo hacíamos solo con pasar el cursor sobre el punto de referencia, todos los movimientos empezaban con un desplazamiento en sentido contrario, el correspondiente al movimiento de volver al punto de referencia. De esta forma el sujeto está obligado a pararse dentro del punto inicial e iniciar el movimiento desde ahí.
+Otra decisión que tomamos fue la del criterio para considerar que un movimiento es correcto. En primer lugar pensamos que el criterio fuera que el sujeto pasase el cursor por encima del punto objetivo, de forma similar a como hacen en \textit{''Cerebellar Contributions to Reach Adaptation and Learning Sensory Consequences of Action''}\cite{cerebellar}. Después pensamos que sería interesante estudiar también, no solo que los sujetos realizaran el movimiento en la dirección correcta, sino con la distancia correcta. Por eso, para que el movimiento se considere correcto, el sujeto debe situar durante un momento el cursor encima del punto. Hicimos lo mismo a la hora de situar el cursor dentro del punto de referencia, e iniciar así el movimiento. Esto fue debido a que, en una pequeña demo inicial vimos que, si lo hacíamos solo con pasar el cursor sobre el punto de referencia, todos los movimientos empezaban con un desplazamiento en sentido contrario, el correspondiente al movimiento de volver al punto de referencia. De esta forma el sujeto está obligado a pararse dentro del punto inicial e iniciar el movimiento desde ahí.
 
-También introdujimos un sonido cuando el movimiento no se ha realizado de forma correcta. Esto sirve de feedback al usuario, para saber cuando el movimiento se ha realizado correctamente y cuando no. 
+También introdujimos un sonido cuando el movimiento no se ha realizado de forma correcta. Esto sirve de feedback al usuario, para saber cuándo el movimiento se ha realizado correctamente y cuándo no. 
 
 
 \section{Desarrollo de la aplicación}
 
-El objetivo de esta fase es desarrollar una aplicación sobre la que llevar a cabo el experimento diseñado en la fase de planificación, y también una forma de analizar los resultados que tengamos al realizar el experimento. Es decir, queremos tener como resultado:
+El objetivo de esta fase es desarrollar una aplicación sobre la que llevar a cabo el experimento diseñado en la fase de planificación, y además, desarrollar un script para analizar los resultados que tengamos al realizar el experimento. Es decir, queremos tener como resultado:
 \begin{itemize}
 	\item Una aplicación diseñada para ejecutarse desde el ordenador, pues necesitamos utilizar a su vez el dispositivo Touch. \\
 	Dicha aplicación debe tener:
@@ -1270,9 +1282,9 @@ El objetivo de esta fase es desarrollar una aplicación sobre la que llevar a ca
 		\begin{enumerate}
 			\item Aparece el target de referencia, en la posición 0 (el centro).
 			\item Al parar el cursor sobre el target de referencia este desaparece y aparece en su lugar un target situado sobre la circunferencia de radio 2 y centro el target de referencia. El nuevo target puede aparecer en cualquiera de las 8 posiciones mencionadas antes.
-			\item Al parar el cursor sobre el target objetivo este desaparece y vuelve a aparecer el target de referencia.
+			\item Al parar el cursor sobre el target objetivo dentro del tiempo estipulado, o al término de dicho tiempo, este desaparece y vuelve a aparecer el target de referencia.
 		\end{enumerate}
-		\item Se deben poder guardar las trayectorias y los tiempos del movimiento desde el target de referencia al target objetivo. Cada una de las 4 fases se guardaŕa en un fichero csv diferente.
+		\item Se deben poder guardar las trayectorias y los tiempos del movimiento desde el target de referencia al target objetivo. Cada una de las 4 fases se guardará en un fichero csv diferente.
 	\end{itemize}
 	\item Un script de python que lea los ficheros csv generados al realizar el experimento y genere gráficas con los resultados en cada una de las fases de:
 	\begin{itemize}
@@ -1289,12 +1301,13 @@ La fase del desarrollo de la aplicación tuvo tres partes: instalación del soft
 
 La primera decisión que tuvimos que tomar fue si instalar el software de OpenHaptics en una máquina Ubuntu, o en una máquina Windows. Aunque en un principio la opción inicial fue instalarlo en Ubuntu 20.04, después de una prueba nos dimos cuenta de que Windows soportaba mejor la interfaz gráfica necesaria para llevarlo a cabo. Por tanto procedimos a realizar la instalación en Windows.
 
-Los paquetes utilizados pueden encontrarse \href{https://support.3dsystems.com/s/article/OpenHaptics-for-Windows-Developer-Edition-v35?language=en\_US}{aquí}. Tenemos que instalar las \href{https://s3.amazonaws.com/dl.3dsystems.com/binaries/Sensable/OH/3.5/OpenHaptics_Developer_Edition_v3.5.0.zip}{librerías de OpenHaptics} y los \href{https://s3.amazonaws.com/dl.3dsystems.com/binaries/Sensable/driver/Touch_Device_Driver_2023.1.4.exe}{drivers de Touch}.
-El toolkit de OpenHaptics necesita ciertos requerimientos hardware:
+Los paquetes utilizados pueden encontrarse dentro de la página web de 3D Systems \cite{download}. Tenemos que instalar las librerías de OpenHaptics y los drivers de Touch, que podemos encontrar en la misma página. 
+
+El toolkit de OpenHaptics tiene ciertos requerimientos hardware:
 \begin{itemize}
-	\item Procesador : 
+	\item Procesador: 
 	\begin{itemize}
-		\item Intel i5 / i7, 5ª Generación o mayor 
+		\item Intel i5 / i7, 5ª Generación o mayor.
 		\item CPU mínimo 2.5 GHz de frecuencia.
 		\item RAM 4 GB.
 	\end{itemize}
@@ -1302,12 +1315,12 @@ El toolkit de OpenHaptics necesita ciertos requerimientos hardware:
 	\item Espacio de disco 512 MB.
 	\item Resolución de pantalla 1280 x 800 (mínimo).
 \end{itemize}
-y software:
+Y software:
 \begin{itemize}
-	\item Sistema Operativo 64-bit Windows 7, 8.1, y 10
+	\item Sistema Operativo 64-bit Windows 7, 8.1, y 10.
 \end{itemize}
 
-Tenemos tres documentos que nos servirán de ayuda para instalar y desarrollar utilizando OpenHaptics:
+Tenemos tres documentos que nos servirán de ayuda para instalar y desarrollar la aplicación:
 \begin{itemize}
 	\item \textbf{OpenHaptics Installation Guide}: guía de instalación del toolkit de OpenHaptics.
 	\item \textbf{Programmer’s Guide}: guía que explica la arquitectura de OpenHaptics, cómo funciona y lo que se puede hacer. Hay ejemplos de código, una explicación de cómo configurar Visual Studio para trabajar con la librería y una visión general de las tres APIs: QuickHaptics, HLAPI y HDAPI.
@@ -1320,37 +1333,37 @@ Las librerías de OpenHaptics están en c++, por lo tanto será el lenguaje de p
 	\item \textbf{HDAPI}: provee un acceso a bajo nivel al dispositivo háptico, lo que permite a los programadores controlar las fuerzas que se pueden aplicar. 
 	\item \textbf{HLAPI}: provee un acceso a alto nivel, similar a la API de OpenGL. Permite la reutilización de código de OpenGL.
 \end{itemize}
-En la siguiente imagen podemos ver cómo se relacionan las tres APIs:
+En la figura \ref{fig:apis} podemos ver cómo se relacionan las tres APIs:
 
 
 \begin{figure}[H]
 	
 	\centering
-	\includegraphics[width=\linewidth]{OPENHAPTICS}
+	\includegraphics[width=1.1\linewidth]{OPENHAPTICS}
 	\caption{OpenHaptics APIs}
-	\label{fig:figura1}
+	\label{fig:apis}
 	
 \end{figure}
 
-En nuestro caso utilizaremos HDAPI, pues necesitamos controlar la fuerza que le aplicamos al dispositivo. También utilizaremos la biblioteca GLUT, una biblioteca de utilidades de OpenGL que nos permite manejar ventanas y representaciones gráficas.
+En nuestro caso utilizaremos HDAPI, pues necesitamos controlar la fuerza que le aplicamos al dispositivo. También utilizaremos la biblioteca GLUT \cite{glut}, una biblioteca de utilidades de OpenGL que nos permite manejar ventanas y representaciones gráficas.
 
 \subsection{Implementación del codigo}
 
-La estructura de un programa que utilice OpenHaptics es la siguiente: 
+La estructura de un programa que utilice OpenHaptics la podemos ver en la figura \ref{fig:oh-estructura}: 
 
 \begin{figure}[H]
 	
 	\centering
 	\includegraphics[width=\linewidth]{estructura}
 	\caption{Estructura de un programa de OpenHaptics}
-	\label{fig:figura1}
+	\label{fig:oh-estructura}
 	
 \end{figure}
 
 
 Como podemos ver tenemos dos bucles: el \textbf{bucle gráfico} y el \textbf{servoloop}.
 
-El servo loop se usa para controlar las fuerzas que se mandan al dispositivo háptico. Para mantener un feedback consistente este bucle debe ejecutarse al menos a una frecuencia de 1000Hz, por lo que se ejecuta en una hebra diferente, con prioridad máxima. Para inicializar el servoloop utilizamos la función de HDAPI \textit{hdStartScheduler()}. Se debe llamar una vez que se han inicializado las rutinas del dispositivo y se han añadido las callbacks asíncronas del scheduler. Una vez inicializado el servoloop empiezan a ejecutarse las callbacks que hemos definido, en cada iteración del bucle.
+El servoloop se usa para controlar las fuerzas que se mandan al dispositivo háptico. Para mantener un feedback consistente este bucle debe ejecutarse al menos a una frecuencia de 1000Hz, por lo que se ejecuta en una hebra diferente, con prioridad máxima. Para inicializar el servoloop utilizamos la función de HDAPI \textit{hdStartScheduler()}. Se debe llamar una vez que se han inicializado las rutinas del dispositivo y se han añadido las callbacks asíncronas del scheduler. Una vez inicializado el servoloop empiezan a ejecutarse las callbacks que hemos definido, en cada iteración del bucle.
 
 El bucle gráfico se ejecuta en una hebra diferente, y dado que el ojo humano no es capaz de procesar tantas imágenes por segundo, la frecuencia del bucle será menor, en concreto de 30Hz. El bucle gráfico se encarga de actualizar la representación gráfica, según los eventos que ocurran. Para inicializar el bucle gráfico utilizamos la función de GLUT \textit{glutMainLoop()}. Una vez inicializado el bucle gráfico se llamarán en cada iteración a las callbacks que hayamos definido.
 
@@ -1364,14 +1377,14 @@ En nuestro caso las callbacks del servoloop son:
 \begin{itemize}
 	\item \textit{beginUpdateCallback}: callback asíncrona, con return code \textit{CONTINUE}. Se programa al inicializar el dispositivo háptivo y es la callback principal de la hebra háptica.  Actualiza el estado del dispositivo háptivo y escribe en el fichero csv las coordenadas del dispositivo (en caso de que se haya empezado el movimiento de ir desde el target de referencia al target objetivo, a lo que nos referiremos con que se ha inicializado la acción). 
 	
-	Dependiendo del momento de:
+	Dependiendo del caso en el que estemos:
 	\begin{itemize}
 		\item Si la acción se ha inicializado comprueba el tiempo que ha transcurrido desde que se empezó la acción: si ha superado el tiempo límite programa la callback \textit{actionFinished}.
 		\item Si el cursor está en contacto con el punto de referencia, no se ha inicializado la acción y no estamos en la fase libre del experimento: comprueba si el cursor ha estado parado el tiempo necesario sobre el punto de referencia, si es así programa la callback \textit{actionInitialized}.
 		\item Si el cursor está en contacto con el target objetivo en esa iteración, la acción se ha inicializado y no estamos en la fase libre del experimento: si el cursor ha estado parado el tiempo necesario sobre el target objetivo se programa la callback \textit{actionFinished}.
 	\end{itemize}
 	
-	\item \textit{setDeviceTransformationCallback}: callback síncrona, con return code \textit{DONE}. Se programa al actualizar las transformaciones de coordenadas y calcula las transformaciones que hay que realizar.
+	\item \textit{setDeviceTransformationCallback}: callback síncrona, con return code \textit{DONE}. Se programa al actualizar las transformaciones de coordenadas y calcula las operaciones que hay que realizar.
 	
 	\item \textit{forceCallback}: callback asíncrona, con return code \textit{CONTINUE}. Se programa en la callback \textit{actionInitialized} y aplica la fuerza que hemos configurado al dispositivo. 
 	
@@ -1461,15 +1474,15 @@ Esta clase nos permite manejar los puntos que aparecen en la escena, desde el n�
 	\item \textit{getNumPoints}: devuelve el número de puntos que hemos configurado. Los puntos se guardan en un array.
 \end{itemize}
 
-En la siguiente imagen podemos ver representada la estructura que hemos explicado.
+En la figura \ref{fig:clases} podemos ver representada la estructura que hemos explicado.
 
 
 \begin{figure}[H]
 	
 		\centering
-		\includegraphics[width=0.9\linewidth]{diagrama}
+		\includegraphics[width=\linewidth]{diagrama}
 		\caption{Diagrama de clases}
-		\label{fig:figura1}
+		\label{fig:clases}
 
 \end{figure}
 \subsubsection{Guardado de datos}
@@ -1492,13 +1505,15 @@ El script de python toma los datos de los ficheros excel generados en el desarro
 Después, para cada individuo y cada fase representa las siguientes gráficas:
 
 \begin{itemize}
-	\item Gráfica con las trayectorias de todas las iteraciones. A medida que se realizan más trayectorias en un target determinado las líneas son más oscuras. También se representan los targets finales.
-	\item Gráfica con los puntos finales de los movimientos. A medida que se realizan más trayectorias en un target determinado las líneas son más oscuras. También se representan los targets finales.
-	\item Gráfica con la evolución de los errores respecto al número de iteraciones realizado, agrupados por target. Cada target tiene asociado un color.
-	\item Gráfica con la evolución del tiempo necesario para realizar el movimiento respecto al número de iteraciones realizado, agrupados por target. Cada target tiene asociado un color.
+	\item \textbf{Gráfica con las trayectorias de todas las iteraciones}. A medida que se realizan más trayectorias en un target determinado las líneas son más oscuras. También se representan los targets finales.
+	\item \textbf{Gráfica con los puntos finales de los movimientos}. A medida que se realizan más trayectorias en un target determinado las líneas son más oscuras. También se representan los targets finales.
+	\item \textbf{Gráfica con la evolución de los errores} respecto al número de iteraciones realizado, agrupados por target. Cada target tiene asociado un color.
+	\item \textbf{Gráfica con la evolución del tiempo} necesario para realizar el movimiento respecto al número de iteraciones realizado, agrupados por target. Cada target tiene asociado un color.
 \end{itemize}
 
-La distancia que utilizamos para calcular los errores es la distancia euclidea.
+La distancia que utilizamos para calcular los errores es la distancia euclídea.
+
+El código de la aplicación lo podemos encontrar en mi repositorio de GitHub\cite{github}.
 
 \section{Obtención de resultados}
 

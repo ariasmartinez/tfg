@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -9,6 +9,10 @@
 {3D Systems}, 2023.
 \newblock URL \url{https://es.3dsystems.com/}.
 
+\bibitem[{A. Romero}(1991)]{algebra}
+{A. Romero}.
+\newblock Álgebra lineal y geometría, 1991.
+
 \bibitem[{Deivi Luzardo, Alirio J. Pena P.}(2006)]{historia}
 {Deivi Luzardo, Alirio J. Pena P.}
 \newblock Historia del Álgebra lineal hasta los albores del siglo xx, 2006.
@@ -16,6 +20,10 @@
 \bibitem[{Eric Temple Bell}(1945)]{bell}
 {Eric Temple Bell}.
 \newblock Historia de las matemáticas, 1945.
+
+\bibitem[{Francisco J. López}()]{geometria}
+{Francisco J. López}.
+\newblock {Geometría III}.
 
 \bibitem[Group(2023)]{opengl}
 Khronos Group.
@@ -33,6 +41,21 @@ Reza~Shadmehr Jun~Izawa, Sarah E. Criscimagna-Hemminger.
 \newblock Cerebellar contributions to reach adaptation and learning sensory
   consequences of action, 2012.
 
+\bibitem[Martínez(2023)]{github}
+Celia~Arias Martínez.
+\newblock {Repositorio de GitHub}, 2023.
+\newblock URL \url{https://github.com/ariasmartinez/tfg}.
+
+\bibitem[OpenGL(2014)]{coordinates}
+OpenGL.
+\newblock Coordinate systems, 2014.
+\newblock URL \url{https://learnopengl.com/Getting-started/Coordinate-Systems}.
+
+\bibitem[OpenGL(2023)]{glut}
+OpenGL.
+\newblock {GLUT. The OpenGL Utility Toolkit}, 2023.
+\newblock URL \url{https://www.opengl.org/resources/libraries/glut/}.
+
 \bibitem[Systems(2023{\natexlab{a}})]{OpenHaptics}
 3D~Systems.
 \newblock Openhaptics, 2023{\natexlab{a}}.
@@ -42,6 +65,12 @@ Reza~Shadmehr Jun~Izawa, Sarah E. Criscimagna-Hemminger.
 3D~Systems.
 \newblock Dispositivo touch, 2023{\natexlab{b}}.
 \newblock URL \url{https://es.3dsystems.com/haptics-devices/touch}.
+
+\bibitem[Systems(2023{\natexlab{c}})]{download}
+3D~Systems.
+\newblock {OpenHaptics for Windows Developer Edition v3.5}, 2023{\natexlab{c}}.
+\newblock URL
+  \url{https://support.3dsystems.com/s/article/OpenHaptics-for-Windows-Developer-Edition-v35?language=en_US}.
 
 \bibitem[Y.P.~Ivanenko(1997)]{vor}
 I.~Siegler I. Israël A.~Berthoz Y.P.~Ivanenko, I. Viaud-Delmon.
