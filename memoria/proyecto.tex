@@ -37,6 +37,7 @@
 \usepackage{float}
 \usepackage{cite}
 \usepackage[square,numbers]{natbib}
+\usepackage[export]{adjustbox}
 % ********************************************************************
 % Re-usable information
 % ********************************************************************
@@ -288,7 +289,7 @@ Dentro de los objetivos del proyecto vamos a distinguir entre los objetivos téc
 \end{itemize}
 
 
-\section{Fases del proyecto}
+\section{Fases del proyecto} \label{seccion:fases}
 El proyecto ha sido desarrollado en cuatro fases: planificación del experimento, desarrollo de la aplicación, obtención de resultados mediante la utilización de la aplicación en distintos usuarios y análisis de los resultados obtenidos. 
 \begin{enumerate}
 	\item \textbf{Planificación del experimento}: en esta etapa se definió el experimento que íbamos a realizar, teniendo en cuenta contenido, fases de las que consistiría y grupos de población en los que íbamos a realizarlo.
@@ -396,6 +397,7 @@ Según la propia documentación de 3D Systems: \textit{''Touch es un dispositivo
 
 \subsubsection{Especificaciones técnicas}
 \renewcommand{\arraystretch}{1.3}
+\begin{table}[H]
 \begin{center}
 	\begin{tabular}{ |m{6cm}|m{6cm}| } 
 		\hline
@@ -430,7 +432,9 @@ Según la propia documentación de 3D Systems: \textit{''Touch es un dispositivo
 		\hline
 	\end{tabular}
 \end{center}
-
+\caption{Especificaciones del dispositivo Touch}
+\label{table:touch}
+\end{table}
 
 \begin{figure}[H]
 	
@@ -1216,7 +1220,7 @@ La dinámica del experimento es la siguiente: primero tenemos un punto de refere
 \begin{figure}[H]
 	
 	\centering
-	\includegraphics[width=0.6\linewidth]{points}
+	\includegraphics[width=0.7\linewidth]{points}
 	\label{fig:figura1}
 	
 \end{figure}
@@ -1243,7 +1247,7 @@ Los parámetros que tuvimos que elegir para desarrollar la aplicación fueron:
 		 \begin{figure}[H]
 		
 		\centering
-		\includegraphics[width=0.5\linewidth]{points-4}
+		\includegraphics[width=0.7\linewidth]{points-4}
 		
 		\label{fig:figura1}
 		
@@ -1254,7 +1258,7 @@ Los parámetros que tuvimos que elegir para desarrollar la aplicación fueron:
 	 \begin{figure}[H]
 	 	
 	 	\centering
-	 	\includegraphics[width=0.5\linewidth]{puntos2}
+	 	\includegraphics[width=0.7\linewidth]{puntos2}
 	 	
 	 	\label{fig:figura1}
 	 	
@@ -1517,12 +1521,13 @@ El código de la aplicación lo podemos encontrar en mi repositorio de GitHub\ci
 
 \section{Obtención de resultados}
 
-Como hemos mencionado en la sección Fases del proyecto, llevamos a cabo dos tandas de experimentos: una primera fase de prueba, para decidir los parámetros que íbamos a utilizar; y una segunda fase final para poder obtener resultados.
+Como hemos mencionado en la sección \ref{seccion:fases} \textit{Fases del proyecto}, la realización de los experimentos fue llevada a cabo en dos fases: una primera fase de prueba, para decidir los parámetros que íbamos a utilizar; y una segunda fase final para poder obtener resultados, que analizaremos en la sección \ref{seccion:analisis} \textit{Análisis de resultados}.
 
-Uno de los requisitos era que en cada una de las fases tuviésemos representación de individuos de distintas edades, para no tener un sesgo a la hora de implementarla y obtener resultados válidos. Teniendo en cuenta esto, y la disponibilidad de personas que teníamos a nuestro alrededor, los sujetos elegidos para cada una de las fases fueron:
+Uno de los requisitos fue tener, en cada una de las fases, representación de individuos de distintas edades, para no tener sesgo a la hora de implementar la aplicación y poder comparar los resultados de los individuos según la edad. Teniendo en cuenta esto y la disponibilidad de personas que teníamos a nuestro alrededor, hicimos el experimento con 13 sujetos, como podemos ver en la tabla \ref{table:sujetos}:
 \\
 
-
+\begin{table}[H]
+	\centering
 \begin{tabular}{l l | l l}
 	\multicolumn{2}{ c }{Fase 1} & \multicolumn{2}{ c }{Fase 2} \\ 
 	Sexo & Edad & Sexo & Edad\\\hline 
@@ -1536,12 +1541,15 @@ Uno de los requisitos era que en cada una de las fases tuviésemos representaci�
 	Hombre & 90 \\
 	Mujer & 90 \\
 \end{tabular} 
-\\
+\caption{Distribución de sujetos por fase}
+\label{table:sujetos}
+\end{table}
 
-Como se puede comprobar, en la segunda fase la muestra de individuos fue similar a la primera, salvo porque no tuvimos individuos mayores de 80 años. Esto fue debido en parte a la poca disponibilidad que teníamos de individuos de edad más avanzada, y en parte a que decidimos realizar el experimento en unas condiciones que les eran menos favorables, con demasiadas repeticiones. Ninguno de los sujetos del experimento tenían un problema cerebral reconocido, por lo que podemos suponer que eran individuos sanos. No pudimos probar el experimento en individuos con problemas en el cerebelo, como hubiese sido lo ideal, por falta de disponibilidad.
+
+En la segunda fase la muestra de individuos fue similar a la primera, salvo porque no tuvimos individuos mayores de 80 años. Esto fue debido en parte a la poca disponibilidad que teníamos de individuos de edad más avanzada, y en parte a que decidimos realizar el experimento en unas condiciones que les eran menos favorables, con demasiadas repeticiones. Ninguno de los sujetos del experimento tenía un problema cerebral reconocido, por lo que podemos suponer que eran individuos sanos. No pudimos probar el experimento en individuos con problemas en el cerebelo, como hubiese sido lo ideal, por falta de disponibilidad.
 
 
-En la segunda fase, para poder obtener algunas conclusiones de cómo afecta el orden de aparición de targets en la realización de los movimientos (si aparecen los targets en orden, o de forma aleatoria) a algunos de los individuos le aparecieron los puntos en orden y a otros no. A continuación aparecen los sujetos de la segunda fase con sus respectivas características y el modo de experimento que hicieron (en orden o aleatorio). Esta será la nomenclatura que utilizaremos a partir de ahora.
+En la segunda fase, para poder obtener conclusiones de cómo afecta el orden de aparición de targets en la realización de los movimientos (si aparecen los targets en orden, o de forma aleatoria) a algunos de los individuos le aparecieron los targets en orden y a otros no. A continuación aparecen los sujetos de la segunda fase con sus respectivas características y el modo de experimento que hicieron (en orden o aleatorio). Esta será la nomenclatura que utilizaremos a partir de ahora.
 
 \begin{itemize}
 	\item Sujeto 1: Mujer, 20 años, en orden
@@ -1551,703 +1559,515 @@ En la segunda fase, para poder obtener algunas conclusiones de cómo afecta el o
 	\item Sujeto 5: Hombre, 60 años, en orden
 \end{itemize}
 
-Todos los sujetos realizaron las fases del experimento en orden y tuvieron 2 minutos de descanso entre fase.
+Todos los sujetos realizaron todas las fases del experimento y tuvieron 2 minutos de descanso entre fase.
 
+En las figuras \ref{fig:menu}, \ref{fig:cursor}, \ref{fig:t2} podemos ver algunos ejemplos del funcionamiento de la aplicación.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{menu}
+	\caption{Menú de la aplicación}
+	\label{fig:menu}
+\end{figure}
+\begin{figure}[H]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{cursor}
+		\caption{Referencia y cursor}
+		\label{fig:cursor}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{T2}
+		\caption{Target 2 (T2)}
+		\label{fig:t2}
+	\end{minipage}
+\end{figure}
 % Foto aplicación
 % Foto gente haciendo el experimento
 
-Además todos los individuos firmaron una declaración de ...
 
-\section{Analisis de resultados}
+\section{Análisis de resultados} \label{seccion:analisis}
 
 
 %For analysis of hand trajectories, we used Savitzky–Golay
 %smoothing filter for the measured hand position and velocity.
-En esta sección analizaremos los resultados que obtuvieron cada uno de los cinco sujetos. Para ello lo dividiremos en dos secciones: primero compararemos cuáles fueron las diferencias entre los diferentes individuos en cada una de las fases, y luego estudiaremos las diferencias entre los resultados de cada fase de cada uno de los individuos.
+En esta sección analizaremos los resultados que obtuvieron cada uno de los cinco sujetos. Para ello lo dividiremos en dos secciones: primero compararemos cuáles fueron las diferencias entre los diferentes sujetos en cada una de las fases, y luego estudiaremos las diferencias entre los resultados de cada fase de cada uno de los individuos.
 
 
 \subsection{Análisis de la misma fase entre individuos}
 
-En este análisis queremos estudiar cuál ha sido el rendimiento de cada sujeto, comparado con el rendimiento de los demás. De esta forma queremos poder tener datos para estudiar cómo influyen factores como la edad y la aparición en orden o no de los puntos.
+En este análisis queremos estudiar cuál ha sido el rendimiento de cada sujeto, comparado con el rendimiento de los demás. De esta forma queremos poder tener datos para estudiar cómo influyen factores como la edad y la aparición en orden o no de los targets. Estudiaremos cada una de las fases por separado.
 
-\subsubsection{Sin fuerza}
-Podemos observar una diferencia entre los sujetos de mayor edad y los más jóvenes. Mientras que en los sujetos más jóvenes los puntos se concentran alrededor de los puntos objetivos (hay una gran precisión), en los de mayor edad están más dispersos:
-
-Sujetos menores de 60 años:
-\\
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/no_force/trayectorias_puntos}
-		\caption{Sujeto 1, sin fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/no_force/trayectorias_puntos}
-		\caption{Sujeto 2, sin fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/no_force/trayectorias_puntos}
-		\caption{Sujeto 4, sin fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-\end{figure}
-
-
-Sujetos mayores de 60 años:
-\\
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/no_force/trayectorias_puntos}
-		\caption{Sujeto 3, sin fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/no_force/trayectorias_puntos}
-		\caption{Sujeto 5, sin fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-
-También lo podemos ver en las siguientes gráficas, donde además observamos que el proceso de aprendizaje en los sujetos jóvenes es casi instantáneo, mientras que en las personas mayores, en el caso de sujeto 5 (en orden) se aprecia un aprendizaje en los primeros puntos objetivos (T1 y T2) que luego se extrapola a los demás puntos, mientras que en el sujeto 3 (aleatorio) ese aprendizaje es más incierto.
-
-Sujetos más jóvenes:
-\\
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/no_force/evolution_distance}
-		\caption{Sujeto 1, sin fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/no_force/evolution_distance}
-		\caption{Sujeto 2, sin fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/no_force/evolution_distance}
-		\caption{Sujeto 4, sin fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-\end{figure}
-
-
-Sujetos mayores de 60 años:
-\\
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/no_force/evolution_distance}
-		\caption{Sujeto 3, sin fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/no_force/evolution_distance}
-		\caption{Sujeto 5, sin fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-
-
-Si además estudiamos la rapidez en la ejecución de los movimientos podemos ver que el sujeto que peor lo hace es el 3 (persona mayor, aleatorio), y el mejor el sujeto 4 (50 años, en orden). Podemos ver que, aunque los sujetos 3 y 5 tienen una tasa de errores similar, en el sujeto 5 podemos reconocer un aprendizaje en la rapidez del movimiento (T1 y T2 empiezan a mejorar en las últimas iteraciones y los demás movimientos comienzan a ser más rápidos, especialmente T5 y T7, donde podemos observar una curva casi completamente descendente). Sin embargo en el sujeto 	3 con los puntos en orden aleatorio no lo podemos apreciar, y los tiempos de ejecución son mayores.
-
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/no_force/evolution_time}
-		\caption{Sujeto 1, sin fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/no_force/evolution_time}
-		\caption{Sujeto 2, sin fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/no_force/evolution_time}
-		\caption{Sujeto 3, sin fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/no_force/evolution_time}
-		\caption{Sujeto 4, sin fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/no_force/evolution_time}
-		\caption{Sujeto 5, sin fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-\end{figure}
-
-\subsubsection{Con fuerza}
-
-Esta fase del experimento trataba de aprender a controlar y corregir la fuerza que aplicábamos al dispositivo Touch.
-
-Estudiando las trayectorias de los movimientos podemos ver que hay una gran diferencia entre los sujetos de mayor edad y los de menor. Las trayectorias de los sujetos 1,2,4 están muy definidas, teniendo los primeros movimientos en cada punto trayectorias más largas (las trayectorias rojas más claras) y luego siendo cada vez líneas más rectas (las negras). Las trayectorias de los sujetos 3 y 5, sin embargo, son bastante más difusas, con especial mención del sujeto 5, que en todo momento se deja llevar por la fuerza.
-
-Sujetos más jóvenes:
-\\
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/force/trayectorias}
-		\caption{Sujeto 1, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/force/trayectorias}
-		\caption{Sujeto 2, con fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/force/trayectorias}
-		\caption{Sujeto 4, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-\end{figure}
-
-
-Sujetos mayores de 60 años:
-\\
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/force/trayectorias}
-		\caption{Sujeto 3, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/force/trayectorias}
-		\caption{Sujeto 5, con fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-
-
-Si estudiamos sin embargo la distribución de puntos finales podemos observar que la precisión del sujeto 5 ha sido algo peor que la de los sujetos jóvenes, pero mejor que la del sujeto 3, concentrándose los errores en T2 y T7.
-
-Sujetos jóvenes:
+\subsubsection{Fase sin fuerza}
+Si observamos las gráficas con los puntos finales de cada movimiento podemos observar una diferencia entre los sujetos de mayor edad y los más jóvenes. Mientras que en los sujetos más jóvenes (figuras \ref{1-1-1}, \ref{2-1-1} y \ref{4-1-1})los puntos se concentran alrededor de los puntos objetivos (hay una gran precisión), en los de mayor edad (figuras \ref{3-1-1} y \ref{5-1-1}) están más dispersos.
 
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/force/trayectorias_puntos}
-		\caption{Sujeto 1, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/force/trayectorias_puntos}
-		\caption{Sujeto 2, con fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[h!]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/force/trayectorias_puntos}
-		\caption{Sujeto 4, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-\end{figure}
-
-
-
-Sujetos mayores de 60 años:
-
-\begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/force/trayectorias_puntos}
-		\caption{Sujeto 3, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/force/trayectorias_puntos}
-		\caption{Sujeto 5, con fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-
-
-En cuanto a la evolución de los errores podemos ver que los sujetos 1,2 y 4 han extrapolado el aprendizaje del movimiento sin fuerza al movimiento con fuerza, y el error es cero o muy cercano a cero desde el primer momento:
-\begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/force/evolution_distance}
-		\caption{Sujeto 1, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/force/evolution_distance}
-		\caption{Sujeto 2, con fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[h!]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/force/evolution_distance}
-		\caption{Sujeto 4, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-\end{figure}
-
-
-El sujeto 5, a pesar de realizar movimentos muy largos también presenta una precisión bastante acertada, con unos errores, salvo en determinadas ocasiones, bastante bajos.
-
-\begin{figure}[h!]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/force/evolution_distance}
-		\caption{Sujeto 5, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-\end{figure}
-
-
-
-El sujeto 3 presenta una distribución de los errores más errática, tanto estudiando los errores por target, como estudiando los errores totales.
-\begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/force/evolution_distance}
-		\caption{Sujeto 3, evolución de los errores por target}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/force/resumen_total}
-		\caption{Sujeto 3, evolución de los errores totales}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-
-
-Respecto a la rapidez en la ejecución del movimientos podemos observar resultados bastante similares entre los sujetos, siendo el sujeto 3 algo más lento que los demás. Sorprenden quizá los resultados del sujeto 5, quien, a pesar de hacer las trayectorias más largas, tiene unos tiempos de ejecución similares a los demás y mejores que los del otro sujeto mayor de 60 años. La mayor curva de aprendizaje se puede ver en el sujeto 4.
-
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/force/evolution_time}
-		\caption{Sujeto 1, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/force/evolution_time}
-		\caption{Sujeto 2, con fuerza}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/force/evolution_time}
-		\caption{Sujeto 3, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/force/evolution_time}
-		\caption{Sujeto 4, con fuerza}
-		\label{fig:figura2}
-	\end{minipage}
+	\centering
+	\includegraphics[width=\linewidth]{sujeto1/no_force/trayectorias_puntos}
+	\caption{Sujeto 1, sin fuerza}
+	\label{1-1-1}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/force/evolution_time}
-		\caption{Sujeto 5, con fuerza}
-		\label{fig:figura1}
-	\end{minipage}
-\end{figure}
-
-
-\subsubsection{Sin fuerza y sin cursor}
-
-Respecto a las trayectorias podemos ver que, otra vez, es el sujeto 5 el que tiene las trayectorias más dispersas.
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/trayectorias}
-		\caption{Sujeto 1, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/trayectorias}
-		\caption{Sujeto 2, sin fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[h]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/trayectorias}
-		\caption{Sujeto 3, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/trayectorias}
-		\caption{Sujeto 4, sin fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\centering
+	\includegraphics[width=\linewidth]{sujeto2/no_force/trayectorias_puntos}
+	\caption{Sujeto 2, sin fuerza}
+	\label{2-1-1}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/trayectorias}
-		\caption{Sujeto 5, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-\end{figure}
-
-
-Y respecto a la distribución de puntos finales, los sujetos jóvenes tienen otra vez resultados más precisos que los sujetos mayores.
-
-Sujetos jóvenes:
-\\
-\begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/trayectorias_puntos}
-		\caption{Sujeto 1, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/trayectorias_puntos}
-		\caption{Sujeto 2, sin fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\centering
+	\includegraphics[width=\linewidth]{sujeto3/no_force/trayectorias_puntos}
+	\caption{Sujeto 3, sin fuerza}
+	\label{3-1-1}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/trayectorias_puntos}
-		\caption{Sujeto 4, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
+	\centering
+	\includegraphics[width=\linewidth]{sujeto4/no_force/trayectorias_puntos}
+	\caption{Sujeto 4, sin fuerza}
+	\label{4-1-1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{sujeto5/no_force/trayectorias_puntos}
+	\caption{Sujeto 5, sin fuerza}
+	\label{5-1-1}
 \end{figure}
 
-Sujetos mayores de 60 años:
-\begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/trayectorias_puntos}
-		\caption{Sujeto 3, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/trayectorias_puntos}
-		\caption{Sujeto 5, sin fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-
-Si estudiamos ahora la evolución de los errores en el tiempo podemos ver que en los sujetos jóvenes los errores se mantienen principalmente por debajo de $0.5$, mientras que en los sujetos mayores están por debajo de $0.75-1$. Respecto a las curvas de aprendizaje podemos ver que en los sujetos 1 y 4 (jóvenes, en orden) los resultados al final son algo mejores que los resultados al principio. Es interesante remarcar que en el otro sujeto joven (en orden aleatorio) no se ve ese aprendizaje, ni siquiera en los targets en los que hay más iteraciones (14). En los sujetos mayores observamos algo parecido: los resultados del sujeto 5 son algo mejores al final que al principio, salvo los dos últimos targets (tal vez por el cansancio); mientras que en el sujeto 3 podemos observar que los mejores resultados los tienen los targets con menos iteraciones, y que los targets con más iteraciones no mejoran los resultados.
+También lo podemos ver en las gráficas de la evolución del error por target respecto al número de repeticiones, donde además observamos que el proceso de aprendizaje en los sujetos jóvenes es casi instantáneo (figuras \ref{1-1-2}, \ref{2-1-2} y \ref{4-1-2}), mientras que en las personas mayores, en el caso de sujeto 5 (targets en orden) se aprecia un aprendizaje en los primeros puntos objetivos (T1 y T2) (figura \ref{5-1-2}) que luego se extrapola a los demás puntos, mientras que en el sujeto 3 (targets en orden aleatorio) ese aprendizaje es más incierto (figura \ref{3-1-2}).
 
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/evolution_distance}
-		\caption{Sujeto 1, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/evolution_distance}
-		\caption{Sujeto 2, sin fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto1/no_force/evolution_distance}
+	\caption{Sujeto 1, sin fuerza}
+	\label{1-1-2}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/evolution_distance}
-		\caption{Sujeto 3, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/evolution_distance}
-		\caption{Sujeto 4, sin fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\centering
+	\includegraphics[width=\linewidth]{sujeto2/no_force/evolution_distance}
+	\caption{Sujeto 2, sin fuerza}
+	\label{2-1-2}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/evolution_distance}
-		\caption{Sujeto 5, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
+	\centering
+	\includegraphics[width=\linewidth]{sujeto3/no_force/evolution_distance}
+	\caption{Sujeto 3, sin fuerza}
+	\label{3-1-2}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{sujeto4/no_force/evolution_distance}
+	\caption{Sujeto 4, sin fuerza}
+	\label{4-1-2}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{sujeto5/no_force/evolution_distance}
+	\caption{Sujeto 5, sin fuerza}
+	\label{5-1-2}
 \end{figure}
 
 
-Si estudiamos ahora la evolución respecto al tiempo vemos que en este caso no podemos obtener mucha información de las gráficas, pues en casi ningún punto los sujetos han podido terminar el movimiento a tiempo.
+Si además estudiamos la rapidez en la ejecución de los movimientos podemos ver que el sujeto que peor lo hace es el 3 -persona mayor, orden aleatorio- (figura \ref{3-1-3}), y el que mejor lo hace el sujeto 4 -50 años, en orden- (figura \ref{4-1-3}). También se puede observar que, aunque los sujetos 3 y 5 (sujetos mayores) tienen una tasa de errores similar, en el sujeto 5 (figura \ref{5-1-3}) podemos reconocer un aprendizaje en la rapidez del movimiento (T1 y T2 empiezan a mejorar en las últimas iteraciones y los demás movimientos comienzan a ser más rápidos, especialmente T5 y T7, donde podemos observar una curva casi completamente descendente). Sin embargo en el sujeto 	3 con los puntos en orden aleatorio no lo podemos apreciar, y los tiempos de ejecución son mayores.
 
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/evolution_time}
-		\caption{Sujeto 1, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/evolution_time}
-		\caption{Sujeto 2, sin fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto1/no_force/evolution_time}
+	\caption{Sujeto 1, sin fuerza}
+	\label{1-1-3}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/evolution_time}
-		\caption{Sujeto 3, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/evolution_time}
-		\caption{Sujeto 4, sin fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto2/no_force/evolution_time}
+	\caption{Sujeto 2, sin fuerza}
+	\label{2-1-3}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/evolution_time}
-		\caption{Sujeto 5, sin fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto3/no_force/evolution_time}
+	\caption{Sujeto 3, sin fuerza}
+	\label{3-1-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/no_force/evolution_time}
+	\caption{Sujeto 4, sin fuerza}
+	\label{4-1-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/no_force/evolution_time}
+	\caption{Sujeto 5, sin fuerza}
+	\label{5-1-3}
 \end{figure}
 
 
-\subsubsection{Con fuerza y sin cursor}
+\subsubsection{Fase con fuerza}
 
-Respecto a las trayectorias podemos ver que, esta vez, los que realizan las trayectorias más largas son el sujeto 1 y el 5 (en la fase de fuerza y cursor eran el sujeto 3 y el 5). En la gráfica del sujeto 4 podemos ver claramente como se realiza el aprendizaje del movimiento, pues en las primeras trayectorias en cada punto se puede observar el efecto de la fuerza, que en las iteraciones siguientes se corrije para dar lugar a trayectorias más rectas.
+Esta fase del experimento trataba de aprender a controlar y corregir la fuerza que aplicábamos al dispositivo Touch. Esta fuerza se mantiene constante en todos los movimientos, y tiene como dirección el eje $x$, con sentido hacia la izquierda del sujeto.
+
+Estudiando las trayectorias de los movimientos podemos ver que hay diferencia entre los sujetos de mayor y menor edad. Las trayectorias de los sujetos 1,2,4 (figuras \ref{1-2-0}, \ref{2-2-0} y \ref{4-2-0}) están más definidas, teniendo los primeros movimientos en cada punto trayectorias más largas (las trayectorias rojas más claras) y luego siendo cada vez líneas más rectas (las más oscuras). Las trayectorias de los sujetos 3 (figura \ref{3-2-0}) y 5 (figura \ref{5-2-0}), sin embargo, son bastante más difusas: en el sujeto 5 podemos observar cómo todas las trayectorias tienen una curva correspondiente al efecto de la fuerza aplicada, mientras que en el sujeto 3 las trayectorias son más rectas, pero se puede ver cómo el cursor se mueve en el sentido de la fuerza al iniciar el movimiento.
 
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/trayectorias}
-		\caption{Sujeto 1, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/trayectorias}
-		\caption{Sujeto 2, con fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto1/force/trayectorias}
+	\caption{Sujeto 1, con fuerza}
+	\label{1-2-0}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/trayectorias}
-		\caption{Sujeto 3, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/trayectorias}
-		\caption{Sujeto 4, con fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto2/force/trayectorias}
+	\caption{Sujeto 2, con fuerza}
+	\label{2-2-0}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/trayectorias}
-		\caption{Sujeto 5, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto3/force/trayectorias}
+	\caption{Sujeto 3, con fuerza}
+	\label{3-2-0}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force/trayectorias}
+	\caption{Sujeto 4, con fuerza}
+	\label{4-2-0}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force/trayectorias}
+	\caption{Sujeto 5, con fuerza}
+	\label{5-2-0}
 \end{figure}
 
 
-En la distribución de puntos finales podemos ver que el más preciso de todos los sujetos es el 4, y el menos el 3. Los sujetos 1 y 2 tienen un desempeño similar, mientras que el del 5 es algo peor.
+Estudiando ahora la distribución de puntos finales podemos observar que la precisión del sujeto 5 (figura \ref{5-2-1}) ha sido algo peor que la de los sujetos jóvenes (figuras \ref{1-2-1}, \ref{2-2-1} y \ref{4-2-1}), cuya ejecución es casi perfecta, pero mejor que la del sujeto 3 (figura \ref{3-2-1}), concentrándose los errores del sujeto 5 en T2 y T7. 
 
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/trayectorias_puntos}
-		\caption{Sujeto 1, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/trayectorias_puntos}
-		\caption{Sujeto 2, con fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto1/force/trayectorias_puntos}
+	\caption{Sujeto 1, con fuerza}
+	\label{1-2-1}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/trayectorias_puntos}
-		\caption{Sujeto 3, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/trayectorias_puntos}
-		\caption{Sujeto 4, con fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto2/force/trayectorias_puntos}
+	\caption{Sujeto 2, con fuerza}
+	\label{2-2-1}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/trayectorias_puntos}
-		\caption{Sujeto 5, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto3/force/trayectorias_puntos}
+	\caption{Sujeto 3, con fuerza}
+	\label{3-2-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force/trayectorias_puntos}
+	\caption{Sujeto 4, con fuerza}
+	\label{4-2-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force/trayectorias_puntos}
+	\caption{Sujeto 5, con fuerza}
+	\label{5-2-1}
 \end{figure}
 
 
-Vamos ahora a analizar la evolución de los errores en cada target. Podemos ver que el mejor es el sujeto 5, que sigue manteniéndose por debajo de 0.5, y experimenta un ligero pero no muy claro aprendizaje. Las gráficas del sujeto 1 (en orden) y el 2 (aleatorio) son parecidas, en el 1 podemos observar que los errores en las últimas iteraciones son algo menores, pero en el 2 vemos otra vez que los targets con más iteraciones (14) no tienen mejor desempeño. 
-
-Respecto a los sujetos mayores vemos que aquí si hay más diferencia entre el sujeto 5 (en orden) y el sujeto 3 (aleatorio). Mientras que el sujeto 5 muestra cierto aprendizaje (salvo en T8) el sujeto 3 tiene un comportamiento más errático y con mayores errores.
-
-\begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/evolution_distance}
-		\caption{Sujeto 1, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/evolution_distance}
-		\caption{Sujeto 2, con fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/evolution_distance}
-		\caption{Sujeto 3, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/evolution_distance}
-		\caption{Sujeto 4, con fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
-\end{figure}
-\begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/evolution_distance}
-		\caption{Sujeto 5, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-\end{figure}
-
-Respecto a la evolución de la velocidad en este caso volvemos a no poder extraer mucha información, pues en casi ningún punto los sujetos han podido realizar el movimiento a tiempo. En todo caso vuelven a ser los sujetos jóvenes los que tienen mejores tiempos.
+En cuanto a la evolución de los errores por target respecto al número de iteraciones podemos ver que los sujetos 1,2 y 4 (figuras \ref{1-2-2}, \ref{2-2-2} y \ref{3-2-2}) han extrapolado el aprendizaje del movimiento sin fuerza al movimiento con fuerza, y el error es cero o muy cercano a cero desde el primer momento. El sujeto 5 (figura \ref{5-2-2}), a pesar de realizar trayectorias muy largas, como hemos comentado antes, también presenta una precisión bastante acertada, con unos errores, salvo en determinadas ocasiones, bastante bajos. 
+El sujeto 3 (figura \ref{3-2-2}), sin embargo, presenta una distribución de  errores más errática, en la que no podemos ver aprendizaje. Si estudiamos la evolución de los errores de manera global, en vez de por target, tampoco podemos ver aprendizaje (figura \ref{3-2-7}).
 
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/evolution_time}
-		\caption{Sujeto 1, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/evolution_time}
-		\caption{Sujeto 2, con fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto1/force/evolution_distance}
+	\caption{Sujeto 1, con fuerza}
+	\label{1-2-2}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/evolution_time}
-		\caption{Sujeto 3, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/evolution_time}
-		\caption{Sujeto 4, con fuerza y sin cursor}
-		\label{fig:figura2}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto2/force/evolution_distance}
+	\caption{Sujeto 2, con fuerza}
+	\label{2-2-2}
 \end{figure}
 \begin{figure}[H]
-	\begin{minipage}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/evolution_time}
-		\caption{Sujeto 5, con fuerza y sin cursor}
-		\label{fig:figura1}
-	\end{minipage}
+	\includegraphics[width=\linewidth]{sujeto3/force/evolution_distance}
+	\caption{Sujeto 3, con fuerza}
+	\label{3-2-2}
 \end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force/resumen_total}
+	\caption{Sujeto 3, evolución de los errores totales}
+	\label{3-2-7}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force/evolution_distance}
+	\caption{Sujeto 4, con fuerza}
+	\label{4-2-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force/evolution_distance}
+	\caption{Sujeto 5, con fuerza}
+	\label{5-2-2}
+\end{figure}
+
+
+Respecto a la rapidez en la ejecución de los movimientos podemos observar resultados bastante similares entre los sujetos, siendo el sujeto 3 (figura \ref{3-2-3}) algo más lento que los demás. Sorprenden quizá los resultados del sujeto 5 (figura \ref{5-2-3}), quien, a pesar de hacer las trayectorias más largas, tiene unos tiempos de ejecución similares a los demás y mejores que los del otro sujeto mayor de 60 años. La mejor curva de aprendizaje se puede ver en el sujeto 4 (figura \ref{4-2-3}).
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/force/evolution_time}
+	\caption{Sujeto 1, con fuerza}
+	\label{1-2-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/force/evolution_time}
+	\caption{Sujeto 2, con fuerza}
+	\label{2-2-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force/evolution_time}
+	\caption{Sujeto 3, con fuerza}
+	\label{3-2-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force/evolution_time}
+	\caption{Sujeto 4, con fuerza}
+	\label{4-2-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force/evolution_time}
+	\caption{Sujeto 5, con fuerza}
+	\label{5-2-3}
+\end{figure}
+
+
+
+\subsubsection{Fase sin fuerza y sin cursor}
+
+En esta fase del experimento no se aplica fuerza en ningún momento al dispositivo, pero en su lugar se ocultará el cursor cuando se inicie el movimiento, es decir, cuando el sujeto vaya desde el punto de referencia al target.
+
+Estudiando las trayectorias que realiza cada sujeto, podemos ver que es el sujeto 5 (figura \ref{5-3-1}) el que realiza las trayectorias menos definidas, mientras que las trayectorias de los demás sujetos son similares.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/trayectorias}
+	\caption{Sujeto 1, sin  fuerza y sin cursor}
+	\label{1-3-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/trayectorias}
+	\caption{Sujeto 2, sin  fuerza y sin cursor}
+	\label{2-3-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/trayectorias}
+	\caption{Sujeto 3, sin  fuerza y sin cursor}
+	\label{3-3-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/trayectorias}
+	\caption{Sujeto 4, sin  fuerza y sin cursor}
+	\label{4-3-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/trayectorias}
+	\caption{Sujeto 5, sin  fuerza y sin cursor}
+	\label{5-3-1}
+\end{figure}
+
+Respecto a la distribución de puntos finales los resultados son similares entre todos los sujetos, aunque la precisión de los sujetos jóvenes (figuras \ref{1-3-2}, \ref{2-3-2} y \ref{4-3-2}) es mejor que la de los sujetos mayores (figuras \ref{3-3-2} y \ref{5-3-2}).
+
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 1, sin  fuerza y sin cursor}
+	\label{1-3-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 2, sin  fuerza y sin cursor}
+	\label{2-3-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 3, sin  fuerza y sin cursor}
+	\label{3-3-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 4, sin  fuerza y sin cursor}
+	\label{4-3-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 5, sin  fuerza y sin cursor}
+	\label{5-3-2}
+\end{figure}
+
+
+
+Si estudiamos ahora la evolución de los errores en el tiempo podemos ver que en los sujetos jóvenes los errores se mantienen principalmente por debajo de $0.5$, mientras que en los sujetos mayores están por debajo de $0.75$ ó $1$. Respecto a las curvas de aprendizaje podemos ver que en los sujetos 1 (figura \ref{1-3-3}) y 4 (figura \ref{4-3-3}) -jóvenes, en orden- los resultados al final son algo mejores que los resultados al principio. Es interesante remarcar que en el otro sujeto joven -en orden aleatorio- (figura \ref{2-3-3}) no se ve ese aprendizaje, ni siquiera en los targets en los que hay más iteraciones ($14$). En los sujetos mayores observamos algo parecido: los resultados del sujeto 5 (figura \ref{5-3-3}) son algo mejores al final que al principio, salvo los dos últimos targets (tal vez por el cansancio); mientras que en el sujeto 3 (figura \ref{3-3-3})) podemos observar que los mejores resultados los tienen los targets con menos iteraciones, y que los targets con más iteraciones no mejoran los resultados.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/evolution_distance}
+	\caption{Sujeto 1, sin  fuerza y sin cursor}
+	\label{1-3-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/evolution_distance}
+	\caption{Sujeto 2, sin  fuerza y sin cursor}
+	\label{2-3-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/evolution_distance}
+	\caption{Sujeto 3, sin  fuerza y sin cursor}
+	\label{3-3-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/evolution_distance}
+	\caption{Sujeto 4, sin  fuerza y sin cursor}
+	\label{4-3-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/evolution_distance}
+	\caption{Sujeto 5, sin  fuerza y sin cursor}
+	\label{5-3-3}
+\end{figure}
+
+
+Estudiando ahora la evolución respecto al tiempo (figuras \ref{1-3-4}, \ref{2-3-4}, \ref{3-3-4}, \ref{4-3-4} y \ref{5-3-4}) vemos que en este caso no podemos obtener mucha información de las gráficas, pues en casi ningún punto los sujetos han podido terminar el movimiento a tiempo.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/evolution_time}
+	\caption{Sujeto 1, sin  fuerza y sin cursor}
+	\label{1-3-4}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/evolution_time}
+	\caption{Sujeto 2, sin  fuerza y sin cursor}
+	\label{2-3-4}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/evolution_time}
+	\caption{Sujeto 3, sin  fuerza y sin cursor}
+	\label{3-3-4}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/evolution_time}
+	\caption{Sujeto 4, sin  fuerza y sin cursor}
+	\label{4-3-4}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/evolution_time}
+	\caption{Sujeto 5, sin  fuerza y sin cursor}
+	\label{5-3-4}
+\end{figure}
+
+
+\subsubsection{Fase con fuerza y sin cursor}
+
+En esta fase vamos a aplicar la fuerza de la fase 2, mientras que a la vez ocultamos el cursor como hemos hecho en la fase 3. De esta forma vamos a estudiar cómo los sujetos reaccionan a la fuerza que le hemos aplicado cuando no tienen retroalimentación visual.
+
+
+Respecto a las trayectorias podemos ver que, esta vez, los que realizan las trayectorias más largas son el sujeto 1 (figura \ref{1-4-0})y el 5 (figura \ref{5-4-0}) (en la fase sin fuerza y sin cursor eran el sujeto 3 (figura \ref{3-2-0}) y el 5 (figura \ref{5-2-0})). Aún así podemos observar cómo las trayectorias del sujeto 5 no son tan largas como en la fase 2. En la gráfica del sujeto 4 (figura \ref{4-4-0}) podemos ver claramente cómo se realiza el aprendizaje del movimiento, pues en las primeras trayectorias en cada punto se puede observar el efecto de la fuerza, que en las iteraciones siguientes se corrije para dar lugar a trayectorias más rectas.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/trayectorias}
+	\caption{Sujeto 1, con  fuerza y sin cursor}
+	\label{1-4-0}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/trayectorias}
+	\caption{Sujeto 2, con  fuerza y sin cursor}
+	\label{2-4-0}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/trayectorias}
+	\caption{Sujeto 3, con  fuerza y sin cursor}
+	\label{3-4-0}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/trayectorias}
+	\caption{Sujeto 4, con  fuerza y sin cursor}
+	\label{4-4-0}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/trayectorias}
+	\caption{Sujeto 5, con  fuerza y sin cursor}
+	\label{5-4-0}
+\end{figure}
+
+
+En la distribución de puntos finales podemos ver que el más preciso de todos los sujetos es el sujeto 4 (figura \ref{4-4-1}), y el menos el sujeto 3 (figura \ref{3-4-1}). Los sujetos 1 (figura \ref{1-4-1})y 2 (figura \ref{2-4-1}) tienen un desempeño similar, mientras que el del 5 (figura \ref{5-4-1}) es algo peor.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 1, con  fuerza y sin cursor}
+	\label{1-4-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 2, con  fuerza y sin cursor}
+	\label{2-4-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 3, con  fuerza y sin cursor}
+	\label{3-4-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 4, con  fuerza y sin cursor}
+	\label{4-4-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 5, con  fuerza y sin cursor}
+	\label{5-4-1}
+\end{figure}
+
+
+Vamos ahora a analizar la evolución de los errores en cada target. Podemos ver que el que menos errores tiene es el sujeto 4 (figura \ref{4-4-2}), que sigue manteniéndose por debajo de 0.5, y experimenta un ligero pero no muy claro aprendizaje. Las gráficas del sujeto 1  (figura \ref{1-4-2}) y del sujeto 2 (figura \ref{2-4-2}) son parecidas: en el sujeto 1 podemos observar que los errores en las últimas iteraciones son algo menores, pero en el sujeto 2 vemos otra vez que los targets con más iteraciones (14) no tienen mejor desempeño. 
+
+Respecto a los sujetos mayores vemos que aquí sí hay más diferencia entre el sujeto 5 (figura \ref{5-4-2}) y el sujeto 3 (figura \ref{3-4-2}). Mientras que el sujeto 5 muestra cierto aprendizaje (salvo en T8) el sujeto 3 tiene un comportamiento más errático y con mayores errores.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/evolution_distance}
+	\caption{Sujeto 1, con  fuerza y sin cursor}
+	\label{1-4-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/evolution_distance}
+	\caption{Sujeto 2, con  fuerza y sin cursor}
+	\label{2-4-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/evolution_distance}
+	\caption{Sujeto 3, con  fuerza y sin cursor}
+	\label{3-4-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/evolution_distance}
+	\caption{Sujeto 4, con  fuerza y sin cursor}
+	\label{4-4-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/evolution_distance}
+	\caption{Sujeto 5, con  fuerza y sin cursor}
+	\label{5-4-2}
+\end{figure}
+
+
+Respecto a la evolución de la velocidad en este caso volvemos a no poder extraer mucha información, pues en casi ningún punto los sujetos han podido realizar el movimiento a tiempo. En todo caso vuelven a ser los sujetos jóvenes (figuras \ref{1-4-3}, \ref{2-4-3} y \ref{4-4-3}) los que tienen mejores tiempos.
+
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/evolution_time}
+	\caption{Sujeto 1, con  fuerza y sin cursor}
+	\label{1-4-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/evolution_time}
+	\caption{Sujeto 2, con  fuerza y sin cursor}
+	\label{2-4-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/evolution_time}
+	\caption{Sujeto 3, con  fuerza y sin cursor}
+	\label{3-4-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/evolution_time}
+	\caption{Sujeto 4, con  fuerza y sin cursor}
+	\label{4-4-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/evolution_time}
+	\caption{Sujeto 5, con  fuerza y sin cursor}
+	\label{5-4-3}
+\end{figure}
+
 
 
 \subsection{Análisis de diferentes fases entre el mismo individuo}
@@ -2630,6 +2450,40 @@ Respecto a las fases 3 y 4 los resultados vuelven a ser muy parecidos, con una p
 
 \chapter{Discusion y conclusiones}
 Resumen comparación entre sujetos
+
+sin fuerza:
+
+los sujetos jóvenes lo hacen mejor que los mayores
+los sujetos jóvenes tienen un aprendizaje casi instantaneo, mientras que de los mayores solo muestra aprendizaje el que tiene los puntos en orden. Los tiempos de ejecución del sujeto mayor en orden también son mejores.
+
+con fuerza:
+
+los sujetos jóvenes controlan mejor el efecto de la fuerza (no se dejan llevar e intentan hacer trayectorias más rectas)
+
+los sujetos jovenes lo hacen bien desde el principio, y el mayor en orden lo hace mucho mejor que el aleatorio
+
+las trayectorias largas no tienen por que afectar a los tiempos de ejecución
+
+sin fuerza y sin cursor:
+
+no hay tanta diferencia, algo menos de errores los jóvenes, y algo mejor la curva de aprendizaje los en orden, pero no mucho. Los targets aleatorios que se repiten más no mejoran los resultados, quizá no estamos repitiendo el número de veces necesario.
+
+ninguno termina los movimientos a tiempo
+
+Con fuerza y sin cursor:
+
+no se nota tanto el efecto de la fuerza en las trayectorias
+
+entre los jovenes no se nota diferencias si es en orden o no, entre los mayores algo más.
+
+mas iteraciones en aleatorio no significa hacerlo mejor
+
+respecto al tiempo no podemos decir nada, salvo que los jovenes lo hacen algo mejor
+
+
+
+
+
 
 \bibliographystyle{plainnat}
 \bibliography{biblio.bib}
