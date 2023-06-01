@@ -235,6 +235,7 @@ pdfproducer = {pdflatex}
 % \printglossary
 \tableofcontents
 
+
 \chapter{Introducción}
 
 \section{Contexto del proyecto}
@@ -1585,6 +1586,12 @@ En las figuras \ref{fig:menu}, \ref{fig:cursor}, \ref{fig:t2} podemos ver alguno
 		\label{fig:t2}
 	\end{minipage}
 \end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{sujeto-2}
+	\caption{Una persona realizando el experimento}
+	\label{fig:persona}
+\end{figure}
 % Foto aplicación
 % Foto gente haciendo el experimento
 
@@ -2078,27 +2085,27 @@ Para ello vamos a estudiar principalmente las trayectorias y los puntos finales,
 
 \subsubsection{Sujeto 1}
 
-En la primera fase podemos ver que los movimientos son muy precisos y exactos (a partir de T3 no hay errores), y las trayectorias, salvo las primeras en cada target, son líneas rectas, especialmente las de los targets T1, T3, T5, T7, que a priori son las más fáciles.
+En la primera fase (figuras \ref{1-fase1-1} y \ref{1-fase1-2}) podemos ver que los movimientos son muy precisos y exactos (a partir de T3 no hay errores), y las trayectorias, salvo las primeras en cada target, son líneas rectas, especialmente las de los targets T1, T3, T5, T7, que a priori son las más fáciles.
 
-En la segunda fase vemos que se extrapola completamente el aprendizaje realizado en la primera fase, pues no hay errores desde el principio, por lo que la precisión es incluso mayor. Las trayectorias sin embargo son algo más largas, y los movimientos más cortos se producen en los targets T1 y T5, lo que a priori también tiene sentido pues es la dirección en la que estamos aplicando la fuerza. Respecto al tiempo de ejecución las dos fases tienen resultados parecidos.
+En la segunda fase (figuras \ref{1-fase2-1} y \ref{1-fase2-2}) vemos que se extrapola completamente el aprendizaje realizado en la primera fase, pues no hay errores desde el principio, por lo que la precisión es incluso mayor. Las trayectorias sin embargo son algo más largas, y los movimientos más cortos se producen en los targets T1 y T5, lo que a priori también tiene sentido pues es la dirección en la que estamos aplicando la fuerza. Respecto al tiempo (figuras \ref{1-1-3} y \ref{1-2-3}) de ejecución las dos fases tienen resultados parecidos.
 
-En la tercera fase, ahora sin retroalimentación del cursor, podemos ver que baja la precisión de los movimientos pero las trayectorias, salvo las primeras de cada target, son líneas rectas.
+En la tercera fase (figuras \ref{1-fase3-1} y \ref{1-fase3-2}), ahora sin retroalimentación visual del cursor, podemos ver que baja la precisión de los movimientos pero las trayectorias, salvo las primeras de cada target, son líneas rectas.
 
-En la cuarta fase vemos que la precisión baja algo más y tiende a desplazarse en el sentido de la fuerza, especialmente en los targets en los que el movimiento es en el sentido de la fuerza. En las trayectorias se observa ahora más el efecto de la fuerza, y no podemos apreciar claramente que se efecto se contrarreste cuando realizamos más iteraciones.
+En la cuarta fase (figuras \ref{1-fase4-1} y \ref{1-fase4-2}) vemos que la precisión baja algo más y tiende a desplazarse en el sentido de la fuerza. En las trayectorias se observa ahora más la curva provocada por el  efecto de la fuerza, y no podemos apreciar claramente que ese efecto se contrarreste cuando realizamos más iteraciones, es decir, que las trayectorias oscuras sean cada vez más rectas.
 
 \begin{figure}[H]
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto1/no_force/trayectorias}
 		\caption{Sujeto 1, sin fuerza}
-		\label{fig:figura1}
+		\label{1-fase1-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto1/no_force/trayectorias_puntos}
 		\caption{Sujeto 1, sin fuerza}
-		\label{fig:figura2}
+		\label{1-fase1-2}
 	\end{minipage}
 \end{figure}
 
@@ -2107,14 +2114,14 @@ En la cuarta fase vemos que la precisión baja algo más y tiende a desplazarse 
 		\centering
 		\includegraphics[width=\linewidth]{sujeto1/force/trayectorias}
 		\caption{Sujeto 1, con fuerza}
-		\label{fig:figura1}
+		\label{1-fase2-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto1/force/trayectorias_puntos}
 		\caption{Sujeto 1, con fuerza}
-		\label{fig:figura2}
+		\label{1-fase2-2}
 	\end{minipage}
 \end{figure}
 
@@ -2123,14 +2130,14 @@ En la cuarta fase vemos que la precisión baja algo más y tiende a desplazarse 
 		\centering
 		\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/trayectorias}
 		\caption{Sujeto 1, sin fuerza y sin cursor}
-		\label{fig:figura1}
+		\label{1-fase3-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/trayectorias_puntos}
 		\caption{Sujeto 1, sin fuerza y sin cursor}
-		\label{fig:figura2}
+		\label{1-fase3-2}
 	\end{minipage}
 \end{figure}
 
@@ -2139,41 +2146,42 @@ En la cuarta fase vemos que la precisión baja algo más y tiende a desplazarse 
 		\centering
 		\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/trayectorias}
 		\caption{Sujeto 1, con fuerza y sin cursor}
-		\label{fig:figura1}
+		\label{1-fase4-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/trayectorias_puntos}
 		\caption{Sujeto 1, con fuerza y sin cursor}
-		\label{fig:figura2}
+		\label{1-fase4-2}
 	\end{minipage}
 \end{figure}
 
 
 \subsubsection{Sujeto 2}
 
-En la primera fase podemos ver que el sujeto 1 realiza correctamente los movimientos desde la primera iteración. Además las trayectorias son bastante rectas.
+En la primera fase (figuras \ref{2-fase1-1} y \ref{2-fase1-2}) podemos ver que los movimientos son correctos desde la primera iteración, y las trayectorias aceptablemente rectas, lo que muestra que el sujeto 1 no necesita ningún tiempo de aprendizaje: realiza el movimiento correctamente desde el principio.
 
-En la segunda fase vemos que sigue manteniendo un 100 por 100 de precisión, aunque las trayectorias ahora son un poco más largas, especialmente en T6 y T7.
 
-En la tercera fase podemos observar que baja la precisión, pero las trayectorias siguen siendo rectas. 
+En la segunda fase (figuras \ref{2-fase2-1} y \ref{2-fase2-2}) vemos que sigue manteniendo un $100\%$ de precisión, aunque las trayectorias ahora son un poco más largas, especialmente en T6 y T7.
 
-En la cuarta fase los resultados son parecidos a la tercera, por lo que podemos ver que la fuerza que hemos aplicado no ha afectado a la precisión de los movimientos, aunque sí afecta ligeramente a las trayectorias realizadas, que se vuelven algo menos definidas. Las trayectorias más definidas vuelven a ser las que se realizan en la dirección de la fuerza.
+En la tercera fase (figuras \ref{2-fase3-1} y \ref{2-fase3-2}) podemos observar que baja la precisión, pero las trayectorias siguen siendo rectas. 
+
+En la cuarta fase (figuras \ref{2-fase4-1} y \ref{2-fase4-2}) los resultados son parecidos a la tercera, por lo que podemos ver que la fuerza que hemos aplicado no ha afectado a la precisión de los movimientos, aunque sí afecta ligeramente a las trayectorias realizadas, que se vuelven algo menos definidas. Las trayectorias más definidas vuelven a ser las que se realizan en la dirección de la fuerza, es decir, en el eje $x$.
 
 \begin{figure}[H]
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto2/no_force/trayectorias}
 		\caption{Sujeto 2, sin fuerza}
-		\label{fig:figura1}
+		\label{2-fase1-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto2/no_force/trayectorias_puntos}
 		\caption{Sujeto 2, sin fuerza}
-		\label{fig:figura2}
+		\label{2-fase1-2}
 	\end{minipage}
 \end{figure}
 
@@ -2182,14 +2190,14 @@ En la cuarta fase los resultados son parecidos a la tercera, por lo que podemos 
 		\centering
 		\includegraphics[width=\linewidth]{sujeto2/force/trayectorias}
 		\caption{Sujeto 2, con fuerza}
-		\label{fig:figura1}
+		\label{2-fase2-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto2/force/trayectorias_puntos}
 		\caption{Sujeto 2, con fuerza}
-		\label{fig:figura2}
+		\label{2-fase2-2}
 	\end{minipage}
 \end{figure}
 
@@ -2198,14 +2206,14 @@ En la cuarta fase los resultados son parecidos a la tercera, por lo que podemos 
 		\centering
 		\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/trayectorias}
 		\caption{Sujeto 2, sin fuerza y sin cursor}
-		\label{fig:figura1}
+		\label{2-fase3-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/trayectorias_puntos}
 		\caption{Sujeto 2, sin fuerza y sin cursor}
-		\label{fig:figura2}
+		\label{2-fase3-2}
 	\end{minipage}
 \end{figure}
 
@@ -2214,36 +2222,36 @@ En la cuarta fase los resultados son parecidos a la tercera, por lo que podemos 
 		\centering
 		\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/trayectorias}
 		\caption{Sujeto 2, con fuerza y sin cursor}
-		\label{fig:figura1}
+		\label{2-fase4-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/trayectorias_puntos}
 		\caption{Sujeto 2, con fuerza y sin cursor}
-		\label{fig:figura2}
+		\label{2-fase4-2}
 	\end{minipage}
 \end{figure}
 
 \subsubsection{Sujeto 3}
 
-En la primera y la segunda fase vemos unos resultados muy parecidos en cuanto a precisión, aunque respecto a las trayectorias podemos ver que en la fase en la que aplicamos la fuerza están desviadas en el sentido de la fuerza. Aún así esto no afecta a la precisión ni a la velocidad del movimiento.
+En la primera (figuras \ref{3-fase1-1} y \ref{3-fase1-2}) y la segunda fase (figuras \ref{3-fase2-1} y \ref{3-fase2-2}) vemos unos resultados muy parecidos en cuanto a precisión, aunque respecto a las trayectorias podemos ver que en la fase en la que aplicamos la fuerza están desviadas en el sentido de la fuerza. Aún así esto no afecta a la precisión ni a la velocidad del movimiento (figuras \ref{3-1-3} y \ref{3-2-3}).
 
-Respecto a las fases en las que no se muestra el cursor podemos ver que los puntos finales cuando aplicamos fuerza están algo desplazados en la dirección de la fuerza, mientras que al no aplicar fuerza se reparten aleatoriamente alrededor del punto objetivo. Las trayectorias también son algo menos claras al aplicar fuerza. Aún así los resultados son parecidos en términos de exactitud y tiempo.
+Respecto a las fases en las que no se muestra el cursor (fase 3: figuras \ref{3-fase3-1} y \ref{3-fase3-2}; fase 4: figuras \ref{3-fase4-1} y \ref{3-fase4-2}) podemos ver que los puntos finales cuando aplicamos fuerza están algo desplazados en la dirección de la fuerza, mientras que al no aplicar fuerza se reparten aleatoriamente alrededor del punto objetivo. Las trayectorias también son algo menos claras al aplicar fuerza. Aún así los resultados son parecidos en términos de exactitud y tiempo (figuras \ref{3-3-4} y \ref{3-4-3}).
 
 \begin{figure}[H]
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto3/no_force/trayectorias}
 		\caption{Sujeto 3, sin fuerza}
-		\label{fig:figura1}
+		\label{3-fase1-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto3/no_force/trayectorias_puntos}
 		\caption{Sujeto 3, sin fuerza}
-		\label{fig:figura2}
+		\label{3-fase1-2}
 	\end{minipage}
 \end{figure}
 
@@ -2252,14 +2260,14 @@ Respecto a las fases en las que no se muestra el cursor podemos ver que los punt
 		\centering
 		\includegraphics[width=\linewidth]{sujeto3/force/trayectorias}
 		\caption{Sujeto 3, con fuerza}
-		\label{fig:figura1}
+		\label{3-fase2-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto3/force/trayectorias_puntos}
 		\caption{Sujeto 3, con fuerza}
-		\label{fig:figura2}
+		\label{3-fase2-2}
 	\end{minipage}
 \end{figure}
 
@@ -2268,14 +2276,14 @@ Respecto a las fases en las que no se muestra el cursor podemos ver que los punt
 		\centering
 		\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/trayectorias}
 		\caption{Sujeto 3, sin fuerza y sin cursor}
-		\label{fig:figura1}
+		\label{3-fase3-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/trayectorias_puntos}
 		\caption{Sujeto 3, sin fuerza y sin cursor}
-		\label{fig:figura2}
+		\label{3-fase3-2}
 	\end{minipage}
 \end{figure}
 
@@ -2284,14 +2292,14 @@ Respecto a las fases en las que no se muestra el cursor podemos ver que los punt
 		\centering
 		\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/trayectorias}
 		\caption{Sujeto 3, con fuerza y sin cursor}
-		\label{fig:figura1}
+		\label{3-fase4-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/trayectorias_puntos}
 		\caption{Sujeto 3, con fuerza y sin cursor}
-		\label{fig:figura2}
+		\label{3-fase4-2}
 	\end{minipage}
 \end{figure}
 
@@ -2301,25 +2309,25 @@ Respecto a las fases en las que no se muestra el cursor podemos ver que los punt
 
 El sujeto 4 es el que presenta los resultados más parecidos entre fases. 
 
-Tanto en la fase 1 como en la 2 los movimientos son casi 100 por 100 precisos y las trayectorias son líneas rectas, exceptuando la primera iteración en cada target.
+Tanto en la fase 1 (figuras \ref{4-fase1-1} y \ref{4-fase1-2}) como en la 2 (figuras \ref{4-fase2-1} y \ref{4-fase2-2}) los movimientos son casi $100\%$ precisos y las trayectorias son líneas rectas, exceptuando la primera iteración en cada target.
 
-En las fases en las que no hay realimentación del cursor los resultados son muy parecidos, con una precisión casi similar en la fase sin fuerza y con fuerza. En las trayectorias tampoco podemos observar una influencia muy clara de la fuerza.
+En las fases en las que no hay realimentación del cursor (fase 3: figuras \ref{4-fase3-1} y \ref{4-fase3-2}; fase 4: figuras \ref{4-fase4-1} y \ref{4-fase4-2}) los resultados son muy parecidos, con una precisión casi similar en la fase sin fuerza y con fuerza. En las trayectorias tampoco podemos observar una influencia muy clara de la fuerza.
 
-Por lo tanto en el sujeto 4 no hemos obtenido resultados diferentes que indiquen que tiene sentido diferencias estos dos tipos de movimientos (con fuerza y sin fuerza).
+Por lo tanto en el sujeto 4 no hemos obtenido resultados diferentes que indiquen que tiene sentido diferenciar entre estos dos tipos de movimientos (con fuerza y sin fuerza).
 
 \begin{figure}[H]
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto4/no_force/trayectorias}
 		\caption{Sujeto 4, sin fuerza}
-		\label{fig:figura1}
+		\label{4-fase1-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto4/no_force/trayectorias_puntos}
 		\caption{Sujeto 4, sin fuerza}
-		\label{fig:figura2}
+		\label{4-fase1-2}
 	\end{minipage}
 \end{figure}
 
@@ -2328,14 +2336,14 @@ Por lo tanto en el sujeto 4 no hemos obtenido resultados diferentes que indiquen
 		\centering
 		\includegraphics[width=\linewidth]{sujeto4/force/trayectorias}
 		\caption{Sujeto 4, con fuerza}
-		\label{fig:figura1}
+		\label{4-fase2-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto4/force/trayectorias_puntos}
 		\caption{Sujeto 4, con fuerza}
-		\label{fig:figura2}
+		\label{4-fase2-2}
 	\end{minipage}
 \end{figure}
 
@@ -2344,14 +2352,14 @@ Por lo tanto en el sujeto 4 no hemos obtenido resultados diferentes que indiquen
 		\centering
 		\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/trayectorias}
 		\caption{Sujeto 4, sin fuerza y sin cursor}
-		\label{fig:figura1}
+		\label{4-fase3-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/trayectorias_puntos}
 		\caption{Sujeto 4, sin fuerza y sin cursor}
-		\label{fig:figura2}
+		\label{4-fase3-2}
 	\end{minipage}
 \end{figure}
 
@@ -2360,14 +2368,14 @@ Por lo tanto en el sujeto 4 no hemos obtenido resultados diferentes que indiquen
 		\centering
 		\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/trayectorias}
 		\caption{Sujeto 4, con fuerza y sin cursor}
-		\label{fig:figura1}
+		\label{4-fase4-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/trayectorias_puntos}
 		\caption{Sujeto 4, con fuerza y sin cursor}
-		\label{fig:figura2}
+		\label{4-fase4-2}
 	\end{minipage}
 \end{figure}
 
@@ -2377,25 +2385,25 @@ Por lo tanto en el sujeto 4 no hemos obtenido resultados diferentes que indiquen
 
 En el sujeto 5 es en el que podemos observar mejor los efectos de la fuerza, aunque solo en las trayectorias.
 
-En la fase 1 podemos observar que se produce un aprendizaje en los dos primeros targets, que luego se extrapola a los targets siguientes. En la fase con fuerza ese aprendizaje se extrapola en el primer target, en el segundo target vuelven a aparecer errores y luego se vuelve a conseguir una precisión bastante buena. Por tanto los resultados al final son muy parecidos entre fases. 
+En la fase 1 (figuras \ref{5-fase1-1} y \ref{5-fase1-2}) podemos observar que se produce un aprendizaje en los dos primeros targets, que luego se extrapola a los targets siguientes. En la fase con fuerza (figuras \ref{5-fase2-1} y \ref{5-fase2-2}) ese aprendizaje se extrapola en el primer target, en el segundo target vuelven a aparecer errores y luego se vuelve a conseguir una precisión bastante buena. Por tanto los resultados al final son muy parecidos entre fases. 
 
-En cuanto a las trayectorias se puede apreciar con claridad los efectos de la fuerza, pues los movimientos siguen el sentido de la fuerza y no se corrigen cuando se repite el movimiento más veces.
+En cuanto a las trayectorias se puede apreciar con claridad el efecto de la fuerza, pues los movimientos siguen el sentido de la fuerza y no se corrigen cuando se repite el movimiento más veces.
 
-Respecto a las fases 3 y 4 los resultados vuelven a ser muy parecidos, con una precisión casi igual en las dos fases. Es interesante remarcar que las trayectorias curvas que se realizan en la fase 2 se suavizan bastante en la fase 4. 
+Respecto a las fases 3 (figuras \ref{5-fase3-1} y \ref{5-fase3-2}) y 4 (figuras \ref{5-fase4-1} y \ref{5-fase4-2}) los resultados vuelven a ser muy parecidos, con una precisión casi igual en las dos fases. Es interesante remarcar que las trayectorias curvas que se realizan en la fase 2 se suavizan bastante en la fase 4. 
 
 \begin{figure}[H]
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto5/no_force/trayectorias}
 		\caption{Sujeto 5, sin fuerza}
-		\label{fig:figura1}
+		\label{5-fase1-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto5/no_force/trayectorias_puntos}
 		\caption{Sujeto 5, sin fuerza}
-		\label{fig:figura2}
+		\label{5-fase1-2}
 	\end{minipage}
 \end{figure}
 
@@ -2404,14 +2412,14 @@ Respecto a las fases 3 y 4 los resultados vuelven a ser muy parecidos, con una p
 		\centering
 		\includegraphics[width=\linewidth]{sujeto5/force/trayectorias}
 		\caption{Sujeto 5, con fuerza}
-		\label{fig:figura1}
+		\label{5-fase2-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto5/force/trayectorias_puntos}
 		\caption{Sujeto 5, con fuerza}
-		\label{fig:figura2}
+		\label{5-fase2-2}
 	\end{minipage}
 \end{figure}
 
@@ -2420,14 +2428,14 @@ Respecto a las fases 3 y 4 los resultados vuelven a ser muy parecidos, con una p
 		\centering
 		\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/trayectorias}
 		\caption{Sujeto 5, sin fuerza y sin cursor}
-		\label{fig:figura1}
+		\label{5-fase3-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/trayectorias_puntos}
 		\caption{Sujeto 5, sin fuerza y sin cursor}
-		\label{fig:figura2}
+		\label{5-fase3-2}
 	\end{minipage}
 \end{figure}
 
@@ -2436,53 +2444,38 @@ Respecto a las fases 3 y 4 los resultados vuelven a ser muy parecidos, con una p
 		\centering
 		\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/trayectorias}
 		\caption{Sujeto 5, con fuerza y sin cursor}
-		\label{fig:figura1}
+		\label{5-fase4-1}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/trayectorias_puntos}
 		\caption{Sujeto 5, con fuerza y sin cursor}
-		\label{fig:figura2}
+		\label{5-fase4-2}
 	\end{minipage}
 \end{figure}
 
 
-\chapter{Discusion y conclusiones}
-Resumen comparación entre sujetos
+\chapter{Discusión y conclusiones}
 
-sin fuerza:
+Los objetivos de este proyecto eran, por una lado didácticos, relacionados con el estudio de cómo debe llevarse a cabo una investigación científica, y por otro técnicos, relativos a estudiar cómo un dispositivo háptico podría usarse para experimentos relacionados con el aprendizaje de movimientos.
 
-los sujetos jóvenes lo hacen mejor que los mayores
-los sujetos jóvenes tienen un aprendizaje casi instantaneo, mientras que de los mayores solo muestra aprendizaje el que tiene los puntos en orden. Los tiempos de ejecución del sujeto mayor en orden también son mejores.
+Respecto a los objetivos didácticos se ha llevado a cabo una experimentación científica que ha consistido en cuatro fases: Planificación del experimento, desarrollo de la aplicación, obtención de resultados y análisis de resultados. Además se ha desarrollado una aplicación que integra el funcionamiento de un dispositivo háptico, en concreto el dispositivo Touch.
 
-con fuerza:
+Respecto a los objetivos técnicos es importante mencionar que en ningún caso la muestra de población que hemos estudiado es lo suficientemente grande para poder considerar que los resultados que hemos obtenidos son válidos para obtener conclusiones extrapolables al resto de la población. Aún así, y teniendo en cuenta las limitaciones que tenemos, podemos obtener algunas reflexiones:
 
-los sujetos jóvenes controlan mejor el efecto de la fuerza (no se dejan llevar e intentan hacer trayectorias más rectas)
+En general los resultados de los sujetos jóvenes son bastante mejores que los de los sujetos mayores. Mientras que los sujetos jóvenes consiguen hacer correctamente el movimiento de forma instantáneamente, los sujetos mayores necesitan algunas repeticiones para conseguir aprenderlo. Además, los errores y la velocidad del movimiento son mejores en todas las fases.
 
-los sujetos jovenes lo hacen bien desde el principio, y el mayor en orden lo hace mucho mejor que el aleatorio
+Esto puede tener dos interpretaciones: por un lado nos puede mostrar que la capacidad de aprender un movimiento se pierde, o se empeora, con la edad; y por otro lado puede ser una consecuencia de factores sociológicos, como el temprano uso de los dispositivos móviles por parte de las personas jóvenes. Este es un punto que habría que tener en cuenta si se llevara a cabo un experimento con dispositivos hápticos.
 
-las trayectorias largas no tienen por que afectar a los tiempos de ejecución
+Por otro lado hemos podido comprobar que todos los sujetos son capaces de hacer los movimientos bien, en la mayoría de las veces, cuando hay retroalimentación visual, pero sin embargo cuando se oculta el cursor muy pocas veces se alcanza el punto objetivo. Como vía futura habría que estudiar si esto se debe a que el número de repeticiones que estamos realizando no es suficiente, o a que la tarea que estamos realizando es demasiado complicada. Es interesante remarcar que, aún así, los errores de los sujetos se quedan dentro de un rango determinado, lo cual es algo que podríamos utilizar para clasificar individuos. También sería interesante estudiar qué pasaría si forzásemos a que los movimientos fueran más rápidos, reduciendo el tiempo que hay para alcanzar el punto objetivo.
 
-sin fuerza y sin cursor:
-
-no hay tanta diferencia, algo menos de errores los jóvenes, y algo mejor la curva de aprendizaje los en orden, pero no mucho. Los targets aleatorios que se repiten más no mejoran los resultados, quizá no estamos repitiendo el número de veces necesario.
-
-ninguno termina los movimientos a tiempo
-
-Con fuerza y sin cursor:
-
-no se nota tanto el efecto de la fuerza en las trayectorias
-
-entre los jovenes no se nota diferencias si es en orden o no, entre los mayores algo más.
-
-mas iteraciones en aleatorio no significa hacerlo mejor
-
-respecto al tiempo no podemos decir nada, salvo que los jovenes lo hacen algo mejor
+Otro de los parámetros que queríamos estudiar es cómo afecta la aparición en orden (o no) de los objetivos. Según los resultados que hemos obtenido podemos ver que, en el caso de los sujetos jóvenes la repercusión es casi nula, pero sin embargo en los sujetos mayores los resultados y el aprendizaje son mejores cuando aparecen los objetivos en orden a cuando no.
 
 
+Respecto a la diferencia entre hacer el movimiento con fuerza o no, podemos observar que, otra vez, la mayor influencia se puede ver en los sujetos mayores, principalmente en la realización de las trayectorias, y no tanto en la precisión de los movimientos. En los sujetos jóvenes la diferencia entre las fases con fuerza y sin fuerza es casi nula.
 
-
+Por último, y como posible aplicación futura, remarcar que sería interesante realizar el experimento en personas con daños en el cerebelo, pues es lo que nos permitiría concluir si este tipo de experimentos puede aportar información sobre el proceso de aprendizaje de movimientos en estas circustancias.
 
 
 \bibliographystyle{plainnat}
