@@ -1,4 +1,5 @@
 \documentclass[a4paper,11pt, oneside]{book}
+\usepackage[left=3.5cm, right=3.0cm]{geometry}
 %\documentclass[a4paper,twoside,11pt,titlepage]{book}
 \usepackage{listings}
 \usepackage[utf8]{inputenc}
@@ -244,7 +245,7 @@ El cerebelo ha sido ampliamente estudiado en relación con el aprendizaje y el c
 
 La realidad virtual ha sido utilizada como una herramienta para investigar la función del cerebelo en la percepción espacial, la coordinación motora y el aprendizaje de movimientos. En los experimentos los participantes son expuestos a entornos virtuales que simulan situaciones específicas -manipulación de objetos virtuales, laberintos, simulaciones de deportes, etc-. Durante estos experimentos se analiza la precisión de los movimientos de los individuos, la percepción espacial y la diferencia entre la capacidad de adaptación de los individuos sanos y los individuos con lesiones en el cerebelo.
 
-Podemos definir la realidad virtual como una tecnología que permite a los usuarios sumergirse en un entorno generado por computadora que simula la realidad física o crea un mundo virtual completamente nuevo. Los dispositivos de realidad virtual rastrean los movimientos de la cabeza y, en algunos casos, también los movimientos de las manos y del cuerpo, para permitir que los usuarios exploren y manipulen el entorno virtual de manera natural. 
+Podemos definir la realidad virtual como una tecnología que permite a los usuarios sumergirse en un entorno generado por computadora que simula la realidad física o crea un mundo virtual completamente nuevo. Los dispositivos de realidad virtual rastrean los movimientos de la cabeza y, en algunos casos, también los movimientos de las manos y del cuerpo, para permitir que los usuarios exploren y manipulen el entorno virtual de manera natural. Esto permite realizar experimentación con interacción en entornos virtuales bien estructurados, es decir, un entorno virtual específicamente configurado como parte del diseño experimental. De esta forma es posible realizar experimentos con ciclos cerrados de percepción-acción. 
 
 Algunos de los dispositivos de realidad virtual son: los cascos de realidad virtual (o Head Mounted Display), que se colocan en la cabeza y cubren los ojos del usuario, ofreciendo una experiencia inmersiva al mostrar imágenes estereoscópicas en 3D; los simuladores de realidad virtual, como los simuladores de vuelo, donde la inmersión es completa y reconoce todos los movimientos de nuestro cuerpo; los dispositivos hápticos que simulan respuestas táctiles acordes con las imágenes que vemos, etc.
 
@@ -311,7 +312,7 @@ El proyecto ha sido desarrollado en cuatro fases: planificación del experimento
 	\item \textbf{Análisis de los resultados}: en esta etapa analizamos las gráficas obtenidas con los datos de la etapa anterior, para así obtener conclusiones del experimento.
 \end{enumerate}
 
-Por tanto podemos decir que el proyecto ha seguido un textbf{modelo de ciclo de vida en cascada}, en el que en algunas etapas ha habido realimentación, dado que la información conseguida en algunas etapas nos ha servido para modificar etapas anteriores. Este proceso puede verse reflejado en la figura \ref{fig:fases}:
+Por tanto podemos decir que el proyecto ha seguido un \textbf{modelo de ciclo de vida en cascada}, en el que en algunas etapas ha habido realimentación, dado que la información conseguida en algunas etapas nos ha servido para modificar etapas anteriores. Este proceso puede verse reflejado en la figura \ref{fig:fases}:
 
 \begin{figure}[H]
 	
@@ -322,7 +323,8 @@ Por tanto podemos decir que el proyecto ha seguido un textbf{modelo de ciclo de 
 	
 \end{figure}
 
-Por otro lado la toma de decisiones en las distintas fases se ha llevado a cabo mediante reuniones regulares (telemáticas y presenciales) y la comunicación mediante correo electrónico.
+Por otro lado la toma de decisiones en las distintas fases se ha llevado a cabo mediante reuniones regulares (telemáticas y presenciales) y la comunicación mediante correo electrónico. De esta forma se ha realizado un seguimiento de los avances conseguidos,y se han definido y mejorado los pasos a dar en el desarrollo del proyecto. 
+
 
 \section{Planificación del proyecto}
 El proyecto fue pensado para ser desarrollado entre los meses de septiembre y junio. La planificación inicial fue:
@@ -556,6 +558,10 @@ También introduciremos el concepto de Base en un espacio vectorial, para el que
 	L(S) = L(v_1,...,v_m) = \{a_1\cdot v_1+...+a_m\cdot v_m : a_i \in K, \forall i = 1,...m\}.
 	\end{equation}
 \end{defi}
+
+Una vez que hemos definido el espacio sobre el que vamos a trabajar vamos a ver de qué forma denotaremos a los vectores que tenemos en ese espacio. Nuestro objetivo es poder definir todos los vectores en función de un conjunto de ellos, al que llamaremos base. Para ello, la base tiene que cumplir dos características: tiene que poder expresar a todos los demás vectores del espacio, lo que llamaremos ser un sistema de generadores; y tiene que ser el mínimo conjunto que podemos encontrar, lo que llamaremos ser linealmente independiente.
+
+
 \begin{defi}
 	Sea $V(K)$ y $S = \{v_1,...,v_m\}$ una familia finita no vacía de vectores de $V$. Diremos que $S$ es \textbf{linealmente independiente} si se cumple:
 	\begin{enumerate}
@@ -569,6 +575,9 @@ También introduciremos el concepto de Base en un espacio vectorial, para el que
 \begin{defi}
 	Sea $V$ un espacio vectorial sobre un cuerpo $K$. Una \textbf{base} de $V$ es una familia no vacía $B \subset V$ tal que $B$ es un sistema de generadores de $V$ y $B$ es linealmente independiente.
 \end{defi}
+
+Dependiendo de la combinación de vectores que elijamos tendremos diferentes bases en el espacio vectorial en el que estemos trabajando. Por la necesidad de poder transformar un vector que esté expresado en una base a otra surge la proposición \ref{prop:cambio_base}
+
 \begin{defi}
 	Supongamos $V$ un espacio vectorial sobre un cuerpo $K$ con $dim_k(V) = n$. Tomamos dos bases $B = \{v_1,...,v_n\}$ y $B' = \{v_1',...,v_n'\}$ de $V$ y $ v \in V$. La \textbf{matriz de cambio} de base de $B$ a $B'$ es la matriz que denotaremos $M(I, B' \leftarrow B)$ cuya columna j-ésima contiene las coordenadas del vector $v_j$ de $B$ respecto de $B'$. Lo simbolizamos así:
 	\begin{equation}
@@ -576,6 +585,7 @@ También introduciremos el concepto de Base en un espacio vectorial, para el que
 	\end{equation}
 \end{defi}
 \begin{prop}
+	\label{prop:cambio_base}
 	En las condiciones anteriores se tiene que:
 	\begin{equation}
 	v_{B'} = M(I, B' \leftarrow B)\cdot  v_B
@@ -603,7 +613,7 @@ También introduciremos el concepto de Base en un espacio vectorial, para el que
 
 \subsection{Geometría afín}
 
-En esta sección vamos a definir la base teórica para realizar cambios de sistemas de coordenadas. Las transformaciones que aplicaremos son escalados, giros y traslaciones, y para ello definiremos el concepto de espacio afín. Después definiremos el concepto de sistema de referencia afín para terminar demostrando la fórmula del cambio de sistema de referencia, que es la que utilizaremos en el apartado práctico \cite{geometria}.
+En esta sección vamos a definir la base teórica para realizar cambios de sistemas de coordenadas. Las transformaciones que aplicaremos son escalados, giros y traslaciones, y para ello definiremos el concepto de espacio afín. Después definiremos el concepto de sistema de referencia afín para terminar demostrando la fórmula del cambio de sistema de referencia, que es la que utilizaremos en el apartado práctico. \cite{geometria}
 
 \begin{defi}
 	Un \textbf{espacio afín} es una tripleta $(A, V, \rightarrow)$ donde
@@ -616,6 +626,9 @@ En esta sección vamos a definir la base teórica para realizar cambios de siste
 	\end{itemize}
 	Al espacio vectorial $V$ lo vamos a denotar como $\overrightarrow{A}$. La dimensión de $A$ es la de $\overrightarrow{A}$.
 \end{defi}
+
+Utilizando los conceptos de base y vectores linealmente independientes definidos en la sección anterior vamos a definir ahora el concepto de sistema de referencia. En la Geometría afín, al contrario que en el Álgebra lineal, el vector cero no es un vector privilegiado, por lo que cualquier punto puede ser el origen del espacio afín. Es por eso por lo que para definir un sistema de referencia necesitaremos un punto origen además de una base.
+
 \begin{defi}
 	Una colección de puntos $\{p_0,...,p_k\}, k \in K$, en un espacio afín $A$ se dice \textbf{afínmente independiente} si los vectores $\{\overrightarrow{p_0p_1},...,\overrightarrow{p_0p_k}\}$ son linealmente independientes, es decir, si:
 	\begin{equation}
@@ -637,6 +650,18 @@ En esta sección vamos a definir la base teórica para realizar cambios de siste
 	R = \{p_0, B\}
 	\end{equation}
 	donde $p_0$ es un punto de $A$ y $B$ una base ordenada de $\overrightarrow{A}$.
+\end{defi}
+
+Vamos ahora a definir matemáticamente el concepto natural de asignación de coordenadas. Para ello lo definiremos primero dentro de un espacio vectorial, utilizando una base, y después extendermos el concepto al espacio afín, utilizando un sistema de referencia.
+\begin{defi}
+	Dada una base $B = \{v_1,...,vn\}$ de $\overrightarrow{A}$, denotaremos por:
+	\begin{equation}
+		\phi_B : \overrightarrow{A} \rightarrow \Re^n
+	\end{equation}
+	a la asignación de coordenadas en la base $B$:
+	\begin{equation}
+		\phi_B(v) = (x_1,...,x_n)^t \Leftrightarrow v = \sum_{j=1}^{n}x_jv_j
+	\end{equation}
 \end{defi}
 \begin{defi}
 	Fijado $p \in A$, denotaremos por $F_p: A \rightarrow \overrightarrow{A}$ a la aplicación dada por:
@@ -660,6 +685,9 @@ En esta sección vamos a definir la base teórica para realizar cambios de siste
 	\end{equation}
 	y diremos que $p_R$ son las coordenadas de p $\in$ $A$ en $R$.
 \end{defi}
+
+Por último demostraremos la proposición \ref{aux} que necesitaremos para demostrar la fórmula del cambio de sistema de referencia. Esta última fórmula extenderá la proposición del cambio de base \ref{prop:cambio_base} al espacio afín, y será la que utilicemos en el apartado práctico.
+
 \begin{prop}
 	\label{aux}
 	Sea $A$ un espacio afín y $R = \{p_0,...,p_n\} \equiv \{p_0,B\}$ un sistema de referencia afín, donde $B = \{\overrightarrow{p_0p_1},...,\overrightarrow{p_0p_n}\}$. Entonces
@@ -804,7 +832,7 @@ Por tanto la relación entre el espacio euclidiano $\mathbb R^n$ y el proyectivo
 \begin{equation}
 	\mathbb R^n \textup{ } \underrightarrow{e} \textup{ } \mathbb P^n \setminus \mathbb R^n_{\infty}\textup{,     } (x_1,...,x_n) \longmapsto (1:x_1:...:x_n)
 \end{equation}
-\begin{equation}
+\begin{equation}\label{cambio_proyectivo}
 	\mathbb P^n \setminus \mathbb R^n_{\infty} \textup{ }   \underrightarrow{e^{-1}} \textup{ }\mathbb R^n \textup{,     } (x_0:x_1:...:x_n) \longmapsto (\frac{x_1}{x_0},...,\frac{x_n}{x_0})
 \end{equation}
 donde $\mathbb R^n_{\infty} = \{(0:x_1:...:x_n) : (x_1:...:x_n) \in  \mathbb P^{n-1}\}$
@@ -822,7 +850,7 @@ la figura \ref{fig:coordinates}:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{coordinate_systems}
-	\caption{Sistemas de coordenadas de OpenGL}
+	\caption{Sistemas de coordenadas de OpenGL \cite{coordinates}}
 	\label{fig:coordinates}
 	
 \end{figure}
@@ -849,7 +877,7 @@ Además en la aplicación que vamos a desarrollar queremos que se representen un
 
 Las coordenadas que Touch nos proporciona están en el sistema de referencia local. Por lo tanto nuestro objetivo es estudiar las transformaciones que se realizan para, a partir de esas coordenadas, obtener las coordenadas finales.
 
-Como hemos estudiado en la sección anterior las transformaciones entre sistemas de referencia se realizan a través de la multiplicación de las matrices de cambio de sistema de referencia. Estas matrices en OpenGL tienen los siguientes nombres:
+Como hemos estudiado en la sección anterior las transformaciones entre sistemas de referencia se realizan a través de las matrices de cambio de sistema de referencia \ref{cambio}. Para acumular cambios de sistema de referencia simplemente tenemos que multiplicar dichas matrices, teniendo en cuenta el orden en el que queremos hacer las transformaciones. Estas matrices en OpenGL tienen los siguientes nombres:
 
 \begin{itemize}
 	\item \textbf{Matriz modelo} (model matrix): matriz de cambio del sistema de referencia local al sistema de referencia del mundo.
@@ -947,7 +975,7 @@ El objetivo de este cambio de sistema de coordenadas es transformar la región v
 	
 	\centering
 	\includegraphics[width=0.9\linewidth]{cubo}
-	\caption{Proyección en perspectiva}
+	\caption{Proyección en perspectiva \cite{informatica-grafica}}
 	\label{fig:perspectiva}
 	
 \end{figure}
@@ -957,12 +985,12 @@ La notación que utilizaremos la podemos ver en la figura \ref{fig:notacion}:
 	
 	\centering
 	\includegraphics[width=0.9\linewidth]{notacion}
-	\caption{Notación}
+	\caption{Notación \cite{informatica-grafica}}
 	\label{fig:notacion}
 	
 \end{figure}
 
-Para ello primero calcularemos la proyección en el eje $z$ de las coordenadas $x,y$. Como hemos estudiado antes, para obtener la proyección sobre el plano euclídeo tenemos que dividir por la última coordenada. En este caso como además queremos que los puntos se proyecten sobre el valor $z=-n$, en lugar de $z=1$, tendremos que multiplicar por $-n$. Si tenemos $(x',y',z')$ en el sistema de referencia $R'$.
+Para ello primero calcularemos la proyección en el eje $z$ de las coordenadas $x,y$. Como hemos estudiado antes \ref{cambio_proyectivo}, para obtener la proyección sobre el plano euclídeo tenemos que dividir por la coordenada que queremos proyectar. En este caso como además queremos que los puntos se proyecten sobre el valor $z=-n$, en lugar de $z=1$, tendremos que multiplicar por $-n$. Si tenemos $(x',y',z')$ en el sistema de referencia $R'$.
 \begin{equation}
 x''_e = x'\cdot\frac{-n}{z'}
 \end{equation}
@@ -1037,7 +1065,7 @@ z'
 $$
 
 
-De esta forma, una vez aplicadas las transformaciones afines, podemos obtener las coordenadas del plano de la siguiente forma:
+De esta forma, una vez aplicadas las transformaciones afines, podemos obtener las coordenadas del plano de la siguiente forma \ref{cambio_proyectivo}:
 \begin{equation}
 (x'',y'',w'') \rightarrow (\frac{x''}{w''}, \frac{y''}{w''})
 \end{equation}
@@ -1107,12 +1135,12 @@ Los parámetros de la ventana que vamos a utilizar son:
 	\item $w,h$: anchura y altura de la ventana
 	\item $n_d, f_d$: rango de valores de z, siendo $n_d$ la profundidad más cercana al observador y $f_d$ la más lejana.
 \end{itemize}
-Podemos verlo en la figura \ref{fig:viewport}:
+Podemos verlo en la figura \ref{fig:viewport}.
 \begin{figure}[H]
 	
 	\centering
 	\includegraphics[width=\linewidth]{viewport}
-	\caption{Notación Viewport}
+	\caption{Notación Viewport \cite{informatica-grafica}}
 	\label{fig:viewport}
 	
 \end{figure}
@@ -1217,13 +1245,13 @@ Desde el primer momento sabíamos que el objetivo era tener una aplicación en l
 
 Dado que el objetivo del proyecto era probar el funcionamiento de System3D Touch en este tipo de experimentos, y no disponiendo de otros dispositivos complementarios, decidimos que el experimento consistiera en la aparición en pantalla de una serie de puntos sobre los que el sujeto debería situar el cursor.
 
-La dinámica del experimento es la siguiente: primero tenemos un punto de referencia en el centro, y cuando el sujeto se haya posado sobre él, desaparece este y aparece otro sobre una circunferencia alrededor del punto de referencia, en una de las siguientes posiciones:
+La dinámica del experimento es la siguiente: primero tenemos un punto de referencia en el centro, y cuando el sujeto se haya posado sobre él, desaparece este y aparece otro sobre una circunferencia alrededor del punto de referencia, en una de las posiciones que podemos ver en la figura \ref{fig:ocho-puntos}.
 \begin{figure}[H]
 	
 	\centering
 	\includegraphics[width=0.7\linewidth]{points}
-	\label{fig:figura1}
-	
+	\caption{Distribución de targets (8)}
+	\label{fig:ocho-puntos}
 \end{figure}
 
 
@@ -1243,26 +1271,23 @@ Los parámetros que tuvimos que elegir para desarrollar la aplicación fueron:
 \begin{itemize}
 	\item \textbf{Número de repeticiones por fase}. Dado que la realización del experimento requiere de movimientos del brazo durante un periodo de tiempo algo extenso, teníamos que encontrar un acuerdo entre tener un número suficiente de repeticiones por punto objetivo y que el experimento no fuese demasiado exigente para los individuos. Es por eso por lo que en la fase de prueba probamos diferentes configuraciones con sujetos de diferentes edades, desde 20 a 90 años. Finalmente elegimos tener 80 repeticiones por fase, para así tener 10 repeticiones por punto. Habría que tener en cuenta que en el caso de finalmente realizar el experimento con personas mayores de 80 años, sería recomendable bajar el número de repeticiones.
 	\item \textbf{Tiempo para la realización del movimiento}. Este es un parámetro clave a la hora de diseñar el experimento, pues queríamos que los sujetos estuviesen obligados a hacer movimientos balísticos. Por lo tanto teníamos que encontrar un balance entre tener tiempo suficiente para que pudiesen alcanzar el punto y la obligación de que esos movimientos fuesen rápidos. Aquí también encontramos grandes diferencias en los resultados de personas jóvenes y más mayores, pero finalmente decidimos utilizar un tiempo de 2 segundos, con el que, una vez pasado un periodo de aprendizaje, todos los sujetos fueron capaces de alcanzar en ese tiempo el punto objetivo.
-	\item \textbf{Número y disposición de los puntos objetivos}. Hicimos pruebas con diferentes sujetos con 8 puntos (como hemos mencionado arriba), 4 puntos en las siguientes posiciones:
+	\item \textbf{Número y disposición de los puntos objetivos}. Hicimos pruebas con diferentes sujetos con 8 puntos (como en la figura \ref{fig:ocho-puntos}), 4 puntos (figura \ref{fig:4puntos}) y 2 puntos (figura \ref{fig:2puntos}).
 	
 		 \begin{figure}[H]
 		
 		\centering
 		\includegraphics[width=0.7\linewidth]{points-4}
-		
-		\label{fig:figura1}
-		
+		\caption{Distribución de targets (4)}
+		\label{fig:4puntos}	
 	\end{figure}
-	
-	 y 2 puntos:
+
 	 
 	 \begin{figure}[H]
 	 	
 	 	\centering
 	 	\includegraphics[width=0.7\linewidth]{puntos2}
-	 	
-	 	\label{fig:figura1}
-	 	
+	 	\caption{Distribución de targets (2)}
+	 	\label{fig:2puntos}
 	 \end{figure}
 	
 	 
@@ -1338,14 +1363,14 @@ Las librerías de OpenHaptics están en c++, por lo tanto será el lenguaje de p
 	\item \textbf{HDAPI}: provee un acceso a bajo nivel al dispositivo háptico, lo que permite a los programadores controlar las fuerzas que se pueden aplicar. 
 	\item \textbf{HLAPI}: provee un acceso a alto nivel, similar a la API de OpenGL. Permite la reutilización de código de OpenGL.
 \end{itemize}
-En la figura \ref{fig:apis} podemos ver cómo se relacionan las tres APIs:
+En la figura \ref{fig:apis} podemos ver cómo se relacionan las tres APIs.
 
 
 \begin{figure}[H]
 	
 	\centering
 	\includegraphics[width=1.1\linewidth]{OPENHAPTICS}
-	\caption{OpenHaptics APIs}
+	\caption{OpenHaptics APIs \cite{guide}}
 	\label{fig:apis}
 	
 \end{figure}
@@ -1360,7 +1385,7 @@ La estructura de un programa que utilice OpenHaptics la podemos ver en la figura
 	
 	\centering
 	\includegraphics[width=\linewidth]{estructura}
-	\caption{Estructura de un programa de OpenHaptics}
+	\caption{Estructura de un programa de OpenHaptics \cite{guide}}
 	\label{fig:oh-estructura}
 	
 \end{figure}
@@ -1537,7 +1562,7 @@ Uno de los requisitos fue tener, en cada una de las fases, representación de in
 	Mujer & 24  & Mujer & 22\\
 	Hombre & 53 & Hombre & 50\\
 	Mujer & 52 & Hombre & 60 \\
-	Hombre & 62  & Mujer & 59\\\
+	Hombre & 62  & Mujer & 60\\\
 	Mujer & 60 \\
 	Hombre & 90 \\
 	Mujer & 90 \\
@@ -1607,6 +1632,8 @@ En esta sección analizaremos los resultados que obtuvieron cada uno de los cinc
 \subsection{Análisis de la misma fase entre individuos}
 
 En este análisis queremos estudiar cuál ha sido el rendimiento de cada sujeto, comparado con el rendimiento de los demás. De esta forma queremos poder tener datos para estudiar cómo influyen factores como la edad y la aparición en orden o no de los targets. Estudiaremos cada una de las fases por separado.
+
+La notación que utilizaremos será: T1 para el target situado en la posición 3 de las agujas del reloj, T2 para la posición 2, y así sucesivamente, en el sentido contrario a las agujas del reloj.
 
 \subsubsection{Fase sin fuerza}
 Si observamos las gráficas con los puntos finales de cada movimiento podemos observar una diferencia entre los sujetos de mayor edad y los más jóvenes. Mientras que en los sujetos más jóvenes (figuras \ref{1-1-1}, \ref{2-1-1} y \ref{4-1-1})los puntos se concentran alrededor de los puntos objetivos (hay una gran precisión), en los de mayor edad (figuras \ref{3-1-1} y \ref{5-1-1}) están más dispersos.
@@ -2083,7 +2110,7 @@ Vamos ahora a estudiar la evolución de cada sujeto a través de las diferentes 
 
 Para ello vamos a estudiar principalmente las trayectorias y los puntos finales, para ver los movimientos realizados y la precisión y exactitud de esos movimientos.
 
-\subsubsection{Sujeto 1}
+\subsubsection{Sujeto 1, 20 años}
 
 En la primera fase (figuras \ref{1-fase1-1} y \ref{1-fase1-2}) podemos ver que los movimientos son muy precisos y exactos (a partir de T3 no hay errores), y las trayectorias, salvo las primeras en cada target, son líneas rectas, especialmente las de los targets T1, T3, T5, T7, que a priori son las más fáciles.
 
@@ -2158,7 +2185,7 @@ En la cuarta fase (figuras \ref{1-fase4-1} y \ref{1-fase4-2}) vemos que la preci
 \end{figure}
 
 
-\subsubsection{Sujeto 2}
+\subsubsection{Sujeto 2, 22 años}
 
 En la primera fase (figuras \ref{2-fase1-1} y \ref{2-fase1-2}) podemos ver que los movimientos son correctos desde la primera iteración, y las trayectorias aceptablemente rectas, lo que muestra que el sujeto 1 no necesita ningún tiempo de aprendizaje: realiza el movimiento correctamente desde el principio.
 
@@ -2233,7 +2260,7 @@ En la cuarta fase (figuras \ref{2-fase4-1} y \ref{2-fase4-2}) los resultados son
 	\end{minipage}
 \end{figure}
 
-\subsubsection{Sujeto 3}
+\subsubsection{Sujeto 3, 60 años}
 
 En la primera (figuras \ref{3-fase1-1} y \ref{3-fase1-2}) y la segunda fase (figuras \ref{3-fase2-1} y \ref{3-fase2-2}) vemos unos resultados muy parecidos en cuanto a precisión, aunque respecto a las trayectorias podemos ver que en la fase en la que aplicamos la fuerza están desviadas en el sentido de la fuerza. Aún así esto no afecta a la precisión ni a la velocidad del movimiento (figuras \ref{3-1-3} y \ref{3-2-3}).
 
@@ -2305,7 +2332,7 @@ Respecto a las fases en las que no se muestra el cursor (fase 3: figuras \ref{3-
 
 
 
-\subsubsection{Sujeto 4}
+\subsubsection{Sujeto 4, 50 años}
 
 El sujeto 4 es el que presenta los resultados más parecidos entre fases. 
 
@@ -2381,7 +2408,7 @@ Por lo tanto en el sujeto 4 no hemos obtenido resultados diferentes que indiquen
 
 
 
-\subsubsection{Sujeto 5}
+\subsubsection{Sujeto 5, 60 años}
 
 En el sujeto 5 es en el que podemos observar mejor los efectos de la fuerza, aunque solo en las trayectorias.
 
@@ -2460,7 +2487,7 @@ Respecto a las fases 3 (figuras \ref{5-fase3-1} y \ref{5-fase3-2}) y 4 (figuras 
 
 Los objetivos de este proyecto eran, por una lado didácticos, relacionados con el estudio de cómo debe llevarse a cabo una investigación científica, y por otro técnicos, relativos a estudiar cómo un dispositivo háptico podría usarse para experimentos relacionados con el aprendizaje de movimientos.
 
-Respecto a los objetivos didácticos se ha llevado a cabo una experimentación científica que ha consistido en cuatro fases: Planificación del experimento, desarrollo de la aplicación, obtención de resultados y análisis de resultados. Además se ha desarrollado una aplicación que integra el funcionamiento de un dispositivo háptico, en concreto el dispositivo Touch.
+Respecto a los objetivos didácticos se ha llevado a cabo una experimentación científica que ha consistido en cuatro fases: Planificación del experimento, desarrollo de la aplicación (que dentro del marco de una investigación científica se puede ver como puesta a punto de la plataforma de experimentación), obtención de resultados y análisis de resultados. Además se ha desarrollado una aplicación que integra el funcionamiento de un dispositivo háptico, en concreto el dispositivo Touch.
 
 Respecto a los objetivos técnicos es importante mencionar que en ningún caso la muestra de población que hemos estudiado es lo suficientemente grande para poder considerar que los resultados que hemos obtenidos son válidos para obtener conclusiones extrapolables al resto de la población. Aún así, y teniendo en cuenta las limitaciones que tenemos, podemos obtener algunas reflexiones:
 
@@ -2475,8 +2502,8 @@ Otro de los parámetros que queríamos estudiar es cómo afecta la aparición en
 
 Respecto a la diferencia entre hacer el movimiento con fuerza o no, podemos observar que, otra vez, la mayor influencia se puede ver en los sujetos mayores, principalmente en la realización de las trayectorias, y no tanto en la precisión de los movimientos. En los sujetos jóvenes la diferencia entre las fases con fuerza y sin fuerza es casi nula.
 
-Por último, y como posible aplicación futura, remarcar que sería interesante realizar el experimento en personas con daños en el cerebelo, pues es lo que nos permitiría concluir si este tipo de experimentos puede aportar información sobre el proceso de aprendizaje de movimientos en estas circustancias.
-
+Por último, y como posible aplicación futura, remarcar que sería interesante realizar el experimento en personas con daños en el cerebelo, o centrarlo en personas de edad avanzada, pues es lo que nos permitiría concluir si este tipo de experimentos puede aportar información sobre el proceso de aprendizaje de movimientos en estas circustancias.
+También se podrían estudiar otras patologías como Alzheimer, diseñando experimentos en los que hubiera que alcanzar varios puntos de forma consecutiva (memoria de secuencias) y su capacidad de interpolación en el mapa espacial (que se ve impactada incluso en etapas tempranas de Alzheimer).
 
 \bibliographystyle{plainnat}
 \bibliography{biblio.bib}

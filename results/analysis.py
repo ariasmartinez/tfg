@@ -12,9 +12,10 @@ import scipy.signal
 # images in the notebook
 
 
+
 max_number_of_trials_per_target = 10
-file_name = 'sujeto5/no_force_no_cursor.csv'
-file = '.'
+file_name = 'sujeto2/force_no_cursor.csv'
+file = 'sujeto2/force_no_cursor'
 
 target_distance = 2
 
@@ -171,15 +172,7 @@ for tar,trial in zip(targets,trial_list):
     distance.append(distance_t)
     
     
-px = [2,-2]
-py = [0,0]
-plt.plot(px,py,marker="o", markersize=10, markeredgecolor="y", markerfacecolor="green")
-plt.title('End-point position: All Targets')
-plt.ylabel('y-axis position')
-# adding Label to the x-axis
-plt.xlabel('x-axis position')
-plt.show()
-plt.close()
+
 
 
 c1='red' #blue
@@ -187,12 +180,12 @@ c2='black' #green
 
 plt.figure(figsize=(16, 8), dpi=150)
 
-#for idx,tar in enumerate(targets):
-    # Plot the evolution of x position
-    #for idx1,(x,y) in enumerate(zip(end_point_x[idx],end_point_y[idx][:])):
-        #plt.plot(x,y,marker="o", markersize=5,color=colorFader(c1,c2,idx1/len(end_point_x[idx])))
+for idx,tar in enumerate(targets):
+    #Plot the evolution of x position
+    for idx1,(x,y) in enumerate(zip(end_point_x[idx],end_point_y[idx][:])):
+        plt.plot(x,y,marker="o", markersize=5,color=colorFader(c1,c2,idx1/len(end_point_x[idx])))
 
-    #plt.plot(math.cos(math.pi*(tar-1)/4.)*target_distance, math.sin(math.pi*(tar-1)/4.)*target_distance, marker="o", markersize=10, markeredgecolor="y", markerfacecolor="green")
+    plt.plot(math.cos(math.pi*(tar-1)/4.)*target_distance, math.sin(math.pi*(tar-1)/4.)*target_distance, marker="o", markersize=10, markeredgecolor="y", markerfacecolor="green")
     
 # adding title to the plot
 plt.title('End-point position: All Targets')
@@ -209,13 +202,18 @@ plt.close()
 c1='red' #blue
 c2='black' #green
 
+
+
 plt.figure(figsize=(16, 8), dpi=150)
-    
+media_errores_target = []
+desviacion_tipica_target = []
 for idx,tar in enumerate(targets):
     # Plot the evolution of the end-point distance for each target
     plt.plot(distance[idx],label='T'+str(int(tar)))
+    media_errores_target.append(distance[idx].mean())
+    desviacion_tipica_target.append(distance[idx].std())
 plt.legend()
-
+print(media_errores_target)
 #plt.ylim([0.0,0.5])
     
 # adding title to the plot
@@ -231,6 +229,19 @@ path = file+'/evolution_distance.png'
 plt.show()
 plt.close()
 
+plt.bar(targets, media_errores_target, width=0.3)
+plt.xlabel('Target')
+plt.ylabel('Media del error')
+path = file+'/media.png'
+plt.savefig(path)
+plt.show()
+
+plt.bar(targets, desviacion_tipica_target, width=0.3)
+plt.xlabel('Target')
+plt.ylabel('Desviación típica del error')
+path = file+'/desviacion_tipica.png'
+plt.savefig(path)
+plt.show()
 
 c1='red' #blue
 c2='black' #green

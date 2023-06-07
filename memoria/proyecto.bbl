@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{18}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,6 +12,10 @@
 \bibitem[{A. Romero}(1991)]{algebra}
 {A. Romero}.
 \newblock Álgebra lineal y geometría, 1991.
+
+\bibitem[{Carlos Ureña}()]{informatica-grafica}
+{Carlos Ureña}.
+\newblock {Informática Gráfica}.
 
 \bibitem[{Deivi Luzardo, Alirio J. Pena P.}(2006)]{historia}
 {Deivi Luzardo, Alirio J. Pena P.}
@@ -55,6 +59,12 @@ OpenGL.
 OpenGL.
 \newblock {GLUT. The OpenGL Utility Toolkit}, 2023.
 \newblock URL \url{https://www.opengl.org/resources/libraries/glut/}.
+
+\bibitem[OpenHaptics(2023)]{guide}
+OpenHaptics.
+\newblock {Programmer’s Guide }, 2023.
+\newblock URL
+  \url{https://s3.amazonaws.com/dl.3dsystems.com/binaries/Sensable/OH/3.5/OpenHaptics_Toolkit_ProgrammersGuide.pdf}.
 
 \bibitem[Systems(2023{\natexlab{a}})]{OpenHaptics}
 3D~Systems.

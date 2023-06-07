@@ -1,45 +1,45 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\numberline {1}Introducción}{9}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Contexto del proyecto}{9}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Objetivos}{10}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Fases del proyecto}{11}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Planificación del proyecto}{13}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Material}{15}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Touch}{15}{subsection.1.5.1}%
-\contentsline {subsubsection}{Especificaciones técnicas}{16}{section*.10}%
-\contentsline {subsection}{\numberline {1.5.2}OpenHaptics}{17}{subsection.1.5.2}%
-\contentsline {chapter}{\numberline {2}Fundamentos matemáticos}{18}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Álgebra lineal, Geometría afín y Geometría Proyectiva}{18}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Álgebra lineal}{19}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Geometría afín}{22}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Espacio Proyectivo}{25}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Aplicaciones en informática gráfica}{26}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Paso de coordenadas locales a coordenadas de vista}{29}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Paso de coordenadas de vista a coordenadas de recorte}{30}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Paso de coordenadas de recorte a coordenadas de pantalla}{33}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {1}Introducción}{8}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contexto del proyecto}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{9}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Fases del proyecto}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Planificación del proyecto}{11}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Material}{14}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Touch}{14}{subsection.1.5.1}%
+\contentsline {subsubsection}{Especificaciones técnicas}{15}{section*.10}%
+\contentsline {subsection}{\numberline {1.5.2}OpenHaptics}{16}{subsection.1.5.2}%
+\contentsline {chapter}{\numberline {2}Fundamentos matemáticos}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Álgebra lineal, Geometría afín y Geometría Proyectiva}{17}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Álgebra lineal}{18}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Geometría afín}{21}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Espacio Proyectivo}{24}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Aplicaciones en informática gráfica}{25}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Paso de coordenadas locales a coordenadas de vista}{28}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Paso de coordenadas de vista a coordenadas de recorte}{29}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Paso de coordenadas de recorte a coordenadas de pantalla}{32}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Paso de coordenadas de pantalla a coordenadas finales}{34}{subsection.2.2.4}%
-\contentsline {chapter}{\numberline {3}Desarrollo del proyecto}{36}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Planificación del experimento}{36}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Diseño de nuestro experimento}{36}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Desarrollo de la aplicación}{40}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Instalación del software de OpenHaptics}{41}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Implementación del codigo}{42}{subsection.3.2.2}%
-\contentsline {subsubsection}{Main}{46}{section*.22}%
-\contentsline {subsubsection}{Clase HapticDeviceManager}{46}{section*.23}%
-\contentsline {subsubsection}{Clase PointManager}{47}{section*.24}%
-\contentsline {subsubsection}{Guardado de datos}{48}{section*.26}%
-\contentsline {subsection}{\numberline {3.2.3}Script de python}{48}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Obtención de resultados}{49}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Análisis de resultados}{52}{section.3.4}%
+\contentsline {chapter}{\numberline {3}Desarrollo del proyecto}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Planificación del experimento}{35}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Diseño de nuestro experimento}{35}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Desarrollo de la aplicación}{39}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Instalación del software de OpenHaptics}{40}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Implementación del codigo}{41}{subsection.3.2.2}%
+\contentsline {subsubsection}{Main}{44}{section*.22}%
+\contentsline {subsubsection}{Clase HapticDeviceManager}{45}{section*.23}%
+\contentsline {subsubsection}{Clase PointManager}{45}{section*.24}%
+\contentsline {subsubsection}{Guardado de datos}{47}{section*.26}%
+\contentsline {subsection}{\numberline {3.2.3}Script de python}{47}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Obtención de resultados}{48}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Análisis de resultados}{51}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Análisis de la misma fase entre individuos}{52}{subsection.3.4.1}%
-\contentsline {subsubsection}{Fase sin fuerza}{53}{section*.31}%
+\contentsline {subsubsection}{Fase sin fuerza}{52}{section*.31}%
 \contentsline {subsubsection}{Fase con fuerza}{60}{section*.47}%
 \contentsline {subsubsection}{Fase sin fuerza y sin cursor}{71}{section*.69}%
 \contentsline {subsubsection}{Fase con fuerza y sin cursor}{81}{section*.90}%
 \contentsline {subsection}{\numberline {3.4.2}Análisis de diferentes fases entre el mismo individuo}{91}{subsection.3.4.2}%
-\contentsline {subsubsection}{Sujeto 1}{92}{section*.111}%
-\contentsline {subsubsection}{Sujeto 2}{93}{section*.116}%
-\contentsline {subsubsection}{Sujeto 3}{95}{section*.121}%
-\contentsline {subsubsection}{Sujeto 4}{96}{section*.126}%
-\contentsline {subsubsection}{Sujeto 5}{97}{section*.131}%
-\contentsline {chapter}{\numberline {4}Discusión y conclusiones}{99}{chapter.4}%
+\contentsline {subsubsection}{Sujeto 1, 20 años}{92}{section*.111}%
+\contentsline {subsubsection}{Sujeto 2, 22 años}{93}{section*.116}%
+\contentsline {subsubsection}{Sujeto 3, 60 años}{95}{section*.121}%
+\contentsline {subsubsection}{Sujeto 4, 50 años}{96}{section*.126}%
+\contentsline {subsubsection}{Sujeto 5, 60 años}{98}{section*.131}%
+\contentsline {chapter}{\numberline {4}Discusión y conclusiones}{100}{chapter.4}%

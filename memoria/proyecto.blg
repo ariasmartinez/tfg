@@ -12,6 +12,7 @@ while executing---line 1347 of file plainnat.bst
 Too many commas in name 1 of "Y.P. Ivanenko, I. Viaud-Delmon, I. Siegler, I. Israël, A. Berthoz" for entry vor
 while executing---line 1347 of file plainnat.bst
 Warning--to sort, need author or key in 3DSystems
+Warning--empty year in informatica-grafica
 Warning--empty year in geometria
 Too many commas in name 1 of "Y.P. Ivanenko, I. Viaud-Delmon, I. Siegler, I. Israël, A. Berthoz" for entry vor
 while executing---line 1429 of file plainnat.bst
@@ -21,45 +22,45 @@ Too many commas in name 1 of "Y.P. Ivanenko, I. Viaud-Delmon, I. Siegler, I. Isr
 while executing---line 1429 of file plainnat.bst
 Too many commas in name 1 of "Y.P. Ivanenko, I. Viaud-Delmon, I. Siegler, I. Israël, A. Berthoz" for entry vor
 while executing---line 1429 of file plainnat.bst
-You've used 16 entries,
+You've used 18 entries,
             2773 wiz_defined-function locations,
-            655 strings with 6371 characters,
-and the built_in function-call counts, 4636 in all, are:
-= -- 392
-> -- 150
-< -- 15
-+ -- 63
-- -- 45
-* -- 235
-:= -- 682
-add.period$ -- 40
-call.type$ -- 16
-change.case$ -- 63
-chr.to.int$ -- 14
-cite$ -- 35
-duplicate$ -- 240
-empty$ -- 516
-format.name$ -- 60
-if$ -- 999
+            661 strings with 6563 characters,
+and the built_in function-call counts, 5215 in all, are:
+= -- 440
+> -- 170
+< -- 17
++ -- 71
+- -- 51
+* -- 263
+:= -- 768
+add.period$ -- 45
+call.type$ -- 18
+change.case$ -- 71
+chr.to.int$ -- 16
+cite$ -- 40
+duplicate$ -- 270
+empty$ -- 580
+format.name$ -- 68
+if$ -- 1123
 int.to.chr$ -- 3
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 80
-num.names$ -- 60
-pop$ -- 201
+newline$ -- 89
+num.names$ -- 68
+pop$ -- 227
 preamble$ -- 1
-purify$ -- 47
+purify$ -- 53
 quote$ -- 0
-skip$ -- 221
+skip$ -- 249
 stack$ -- 0
-substring$ -- 33
-swap$ -- 19
+substring$ -- 37
+swap$ -- 21
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 176
-warning$ -- 2
-while$ -- 45
+type$ -- 198
+warning$ -- 3
+while$ -- 51
 width$ -- 0
-write$ -- 182
+write$ -- 203
 (There were 8 error messages)
