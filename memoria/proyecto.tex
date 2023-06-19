@@ -292,8 +292,9 @@ Dentro de los objetivos del proyecto vamos a distinguir entre los objetivos téc
 
 
 \section{Fases del proyecto} \label{seccion:fases}
-El proyecto ha sido desarrollado en cuatro fases: planificación del experimento, desarrollo de la aplicación, obtención de resultados mediante la utilización de la aplicación en distintos usuarios y análisis de los resultados obtenidos. 
+El proyecto ha sido desarrollado en seis fases: estudio del estado del arte, planificación del experimento, desarrollo de la aplicación, obtención de resultados mediante la utilización de la aplicación en distintos usuarios, análisis de los resultados obtenidos y redacción de la memoria. 
 \begin{enumerate}
+	\item \textbf{Estudio del estado del arte}: en esta fase realizamos un análisis de los diferentes experimentos que se habían realizado para el estudio de movimientos específicos utilizando realidad virtual.
 	\item \textbf{Planificación del experimento}: en esta etapa se definió el experimento que íbamos a realizar, teniendo en cuenta contenido, fases de las que consistiría y grupos de población en los que íbamos a realizarlo.
 	\item \textbf{Desarrollo de la aplicación}: esta etapa se dedicó a desarrollar la aplicación que se utilizaría después para la realización de los experimentos. A su vez esta etapa se dividió en tres subetapas:
 	\begin{enumerate}
@@ -310,9 +311,11 @@ El proyecto ha sido desarrollado en cuatro fases: planificación del experimento
 	\end{enumerate}
 		
 	\item \textbf{Análisis de los resultados}: en esta etapa analizamos las gráficas obtenidas con los datos de la etapa anterior, para así obtener conclusiones del experimento.
+	
+	\item \textbf{Redacción de la memoria}.
 \end{enumerate}
 
-Por tanto podemos decir que el proyecto ha seguido un \textbf{modelo de ciclo de vida en cascada}, en el que en algunas etapas ha habido realimentación, dado que la información conseguida en algunas etapas nos ha servido para modificar etapas anteriores. Este proceso puede verse reflejado en la figura \ref{fig:fases}:
+Por tanto podemos decir que el proyecto ha seguido un \textbf{modelo de ciclo de vida en cascada}, en el que en algunas etapas ha habido realimentación, dado que la información conseguida en algunas etapas nos ha servido para modificar etapas anteriores. Este proceso, sin tener en cuenta la etapa preliminar (\textit{Estudio del estado del arte}) y la etapa final de redacción, puede verse reflejado en la figura \ref{fig:fases}:
 
 \begin{figure}[H]
 	
@@ -329,7 +332,7 @@ Por otro lado la toma de decisiones en las distintas fases se ha llevado a cabo 
 \section{Planificación del proyecto}
 El proyecto fue pensado para ser desarrollado entre los meses de septiembre y junio. La planificación inicial fue:
 \begin{itemize}
-	\item Septiembre: planificación del experimento.
+	\item Septiembre: estudio del estado del arte y planificación del experimento.
 	\item De octubre a diciembre: desarrollo de la aplicación.
 	\item De enero a marzo: obtención de resultados y revisión de los parámetros.
 	\item De marzo hasta mayo: análisis de resultados y redacción de la memoria.
@@ -372,11 +375,11 @@ Como puede verse en la figura \ref{fig:horas}, la etapa más larga fue la de \te
 
 Por tanto, teniendo en cuenta que el salario medio de un profesional junior es de 20\euro /hora, el coste en personal seria de 9000\euro.
 
-Por otro lado tenemos que añadir el coste del dispositivo System3D Touch: 
+Por otro lado tenemos que añadir el coste del dispositivo System3D Touch: 3000\euro.
 
 Por último, dada la necesidad de realizar el experimento en individuos externos al proyecto y teniendo en cuenta la duración media de este (45 minutos) decidimos ofrecer una compensación material a los individuos que se presentaran voluntarios, en concepto de coste de transporte. La compensación la hemos fijado en 10\euro /persona, y dado que hemos tenido 13 voluntarios (8 para la fase de prueba y 5 para la fase final), el coste adicional será de 130\euro.
 
-Por tanto el presupuesto final fue de -- euros, repartido como puede verse en la figura \ref{fig:coste}:
+Por tanto el presupuesto final fue de 12130\euro, repartido como puede verse en la figura \ref{fig:coste}.
 
 \begin{figure}[H]
 	
@@ -470,11 +473,11 @@ Para explicar el proceso de transformación de coordenadas vamos a introducir pr
 % https://www.emis.de/journals/DM/v14-2/art6.pdf
 Podemos encontrar los primeros antecedentes del Álgebra lineal en el \textit{Libro del Cálculo}, escrito por el sacerdote egipcio Ahmés hacia el año 1650 a.C. En él se describen algunos problemas relacionados con la agricultura, que involucran sistemas de ecuaciones de primer grado. Los matemáticos babilonios, griegos, chinos e islámicos siguieron estudiando estos tipos de problemas, pero no fue hasta el siglo  XIX cuando Hamilton, Cayley y Grassmann introdujeron las nociones de vector y espacio vectorial, desarrollando gran parte de los conceptos que estudiaremos en este capítulo. En el año 1850 Sylvester introdujo el término matriz, y en 1858, en su libro \textit{Memoir on the theory of matrices}, Cayley utiliza las matrices para explicar las transformaciones lineales \cite{historia}.
 
-La geometría afín surge con Euler y se consolida con Klein en 1872 mediante el Programa de Erlangen, un programa de investigación con el objetivo de proponer una solución a los problemas que la Geometría se enfrentaba en ese momento. Klein define la geometría afín como una generalización de la geometria asociada al álgebra lineal. El espacio afín se construye sobre el espacio vectorial, con la diferencia de que no tenemos un vector de referencia, lo que nos dará la capacidad de hacer traslaciones. A su vez Klein engloba la geometría afín dentro de la geometría proyectiva.
+La geometría afín surge con Euler y se consolida con Klein en 1872 mediante el Programa de Erlangen, un programa de investigación con el objetivo de proponer una solución a los problemas que la Geometría se enfrentaba en ese momento. Klein define la geometría afín como una generalización de la geometría asociada al álgebra lineal. El espacio afín se construye sobre el espacio vectorial, con la diferencia de que no tenemos un vector de referencia, lo que nos dará la capacidad de hacer traslaciones. A su vez Klein engloba la geometría afín dentro de la geometría proyectiva.
 
 En el Programa de Erlangen, Klein también introduce el concepto de Grupo (un conjunto en el que hay definido una operación que cumple ciertas propiedades) en la Geometría. Para Klein cada Geometría es el estudio de las propiedades que no cambian al aplicar un tipo de transformaciones. Por ejemplo, el algebra lineal estudia las propiedades de los espacios al aplicar movimientos lineales (escalados, rotaciones sobre el origen), la geometría afín al aplicar movimientos afines (traslaciones) y la geometría proyectiva al aplicar movimientos proyectivos \cite{bell}.
 
-En este capítulo vamos a introducir primero el concepto de espacio vectorial para después definir el concepto de espacio afín. Sobre el espacio afín estudiaremos como representar los movimientos afines en forma de matrices, y el concepto de sistema de referencia y por último cómo realizar un cambio de un sistema de referencia a otro. Este último resultado será el que utilicemos a la hora de explicar las operaciones que hemos realizado para hacer los cambios de sistemas de coordenadas.
+En este capítulo vamos a introducir primero el concepto de espacio vectorial para después definir el concepto de espacio afín. Sobre el espacio afín estudiaremos cómo representar los movimientos afines en forma de matrices, y el concepto de sistema de referencia y por último cómo realizar un cambio de un sistema de referencia a otro. Este último resultado será el que utilicemos a la hora de explicar las operaciones que hemos realizado para hacer los cambios de sistemas de coordenadas.
 
 Por último estudiaremos brevemente el espacio proyectivo para poder explicar la proyección en perspectiva que realizaremos a la hora de proyectar el movimiento del cursor del dispositivo Touch en la pantalla.
 % https://www.ugr.es/~arobles/MatApl(CivilADE)/Tema5_beamer.pdf
@@ -485,7 +488,7 @@ Por último estudiaremos brevemente el espacio proyectivo para poder explicar la
 
 \subsection{Álgebra lineal}
 
-El Álgebra lineal estudia los conceptos de espacios vectoriales y sus trasformaciones lineales. En esta sección nuestro objetivo es definir el concepto de espacio vectorial, que utilizaremos para definir después el espacio afín. Para ello necesitamos definir previamente los conceptos de grupo, anillo y cuerpo. 
+El Álgebra lineal estudia los conceptos de espacios vectoriales y sus transformaciones lineales. En esta sección nuestro objetivo es definir el concepto de espacio vectorial, que utilizaremos para definir después el espacio afín. Para ello necesitamos definir previamente los conceptos de grupo, anillo y cuerpo. 
 
 También introduciremos el concepto de Base en un espacio vectorial, para el que necesitaremos definir los conceptos de combinación lineal de vectores, vectores linealmente independientes y sistemas de generadores. Por último terminaremos la sección con una proposición que nos permitirá hacer cambios de base con los vectores \cite{algebra}.
 
@@ -548,6 +551,10 @@ También introduciremos el concepto de Base en un espacio vectorial, para el que
 	\end{enumerate}
 	\end{enumerate}
 \end{defi}
+
+Una vez que hemos definido el espacio sobre el que vamos a trabajar vamos a ver de qué forma denotaremos a los vectores que tenemos en ese espacio. Nuestro objetivo es poder definir todos los vectores en función de un conjunto de ellos, al que llamaremos base. Para ello, la base tiene que cumplir dos características: tiene que poder expresar a todos los demás vectores del espacio, lo que llamaremos ser un sistema de generadores; y tiene que ser el mínimo conjunto que podemos encontrar, lo que llamaremos ser linealmente independiente.
+
+
 \begin{defi}
 	Sea $V(K)$ un espacio vectorial y $S = \{v_1,...,v_m\}$ una familia finita no vacía de vectores de $V$. Una \textbf{combinación lineal} de $S$ es cualquier vector de $V$ obtenido al multiplicar cada $v_i$ por un escalar $a_i \in K$ y después sumar los vectores resultantes:
 	\begin{equation}
@@ -559,7 +566,6 @@ También introduciremos el concepto de Base en un espacio vectorial, para el que
 	\end{equation}
 \end{defi}
 
-Una vez que hemos definido el espacio sobre el que vamos a trabajar vamos a ver de qué forma denotaremos a los vectores que tenemos en ese espacio. Nuestro objetivo es poder definir todos los vectores en función de un conjunto de ellos, al que llamaremos base. Para ello, la base tiene que cumplir dos características: tiene que poder expresar a todos los demás vectores del espacio, lo que llamaremos ser un sistema de generadores; y tiene que ser el mínimo conjunto que podemos encontrar, lo que llamaremos ser linealmente independiente.
 
 
 \begin{defi}
@@ -576,7 +582,7 @@ Una vez que hemos definido el espacio sobre el que vamos a trabajar vamos a ver 
 	Sea $V$ un espacio vectorial sobre un cuerpo $K$. Una \textbf{base} de $V$ es una familia no vacía $B \subset V$ tal que $B$ es un sistema de generadores de $V$ y $B$ es linealmente independiente.
 \end{defi}
 
-Dependiendo de la combinación de vectores que elijamos tendremos diferentes bases en el espacio vectorial en el que estemos trabajando. Por la necesidad de poder transformar un vector que esté expresado en una base a otra surge la proposición \ref{prop:cambio_base}
+Dependiendo de la combinación de vectores que elijamos tendremos diferentes bases en el espacio vectorial en el que estemos trabajando. Por la necesidad de poder transformar un vector que esté expresado en una base a otra surge la proposición \ref{prop:cambio_base}.
 
 \begin{defi}
 	Supongamos $V$ un espacio vectorial sobre un cuerpo $K$ con $dim_k(V) = n$. Tomamos dos bases $B = \{v_1,...,v_n\}$ y $B' = \{v_1',...,v_n'\}$ de $V$ y $ v \in V$. La \textbf{matriz de cambio} de base de $B$ a $B'$ es la matriz que denotaremos $M(I, B' \leftarrow B)$ cuya columna j-ésima contiene las coordenadas del vector $v_j$ de $B$ respecto de $B'$. Lo simbolizamos así:
@@ -990,7 +996,7 @@ La notación que utilizaremos la podemos ver en la figura \ref{fig:notacion}:
 	
 \end{figure}
 
-Para ello primero calcularemos la proyección en el eje $z$ de las coordenadas $x,y$. Como hemos estudiado antes \ref{cambio_proyectivo}, para obtener la proyección sobre el plano euclídeo tenemos que dividir por la coordenada que queremos proyectar. En este caso como además queremos que los puntos se proyecten sobre el valor $z=-n$, en lugar de $z=1$, tendremos que multiplicar por $-n$. Si tenemos $(x',y',z')$ en el sistema de referencia $R'$.
+Para ello primero calcularemos la proyección en el eje $z$ de las coordenadas $x,y$. Como hemos estudiado antes (fórmula \ref{cambio_proyectivo}), para obtener la proyección sobre el plano euclídeo tenemos que dividir por la coordenada que queremos proyectar. En este caso como además queremos que los puntos se proyecten sobre el valor $z=-n$, en lugar de $z=1$, tendremos que multiplicar por $-n$. Si tenemos $(x',y',z')$ en el sistema de referencia $R'$.
 \begin{equation}
 x''_e = x'\cdot\frac{-n}{z'}
 \end{equation}
@@ -1056,7 +1062,7 @@ w
 	a_0 & 0&a_1\\
 	0&b_0&b_1\\
 	0&0&-1
-\end{pmatrix}*
+\end{pmatrix}\cdot
 \begin{pmatrix}
 x'\\
 y'\\
@@ -1132,7 +1138,7 @@ Por lo tanto ya tenemos las coordenadas de recorte y ahora vamos a calcular las 
 Los parámetros de la ventana que vamos a utilizar son:
 \begin{itemize}
 	\item $x_l, y_b$: número de columna y fila que ocupa la esquina inferior izquierda de la ventana.
-	\item $w,h$: anchura y altura de la ventana
+	\item $w,h$: anchura y altura de la ventana.
 	\item $n_d, f_d$: rango de valores de z, siendo $n_d$ la profundidad más cercana al observador y $f_d$ la más lejana.
 \end{itemize}
 Podemos verlo en la figura \ref{fig:viewport}.
@@ -1189,7 +1195,7 @@ En la que podemos ver que estamos aplicando un escalado $[\frac{w}{2}, \frac{h}{
 
 \subsection{Paso de coordenadas de pantalla a coordenadas finales}´
 
-Por último tenemos que pasar de coordenadas de pantalla a las coordenadas  finales que son las que utilizaremos para dibujar las trayectorias.
+Por último tenemos que pasar de coordenadas de pantalla a las coordenadas  finales, que son las que utilizaremos para dibujar las trayectorias.
 
 Para ello vamos a realizar dos transformaciones afines:
 \begin{itemize}
@@ -1226,12 +1232,10 @@ y'''\\
 Y de esta forma ya tenemos todas las transformaciones que vamos a hacer para obtener las coordenadas con las que haremos el análisis de los datos obtenidos.
 
 
-\chapter{Desarrollo del proyecto}
+\chapter{Implementación del proyecto}
 
 
-
-
-En este capítulo vamos a hablar de cómo se han desarrollado las diferentes fases del proyecto así como de los resultados obtenidos.
+En este capítulo vamos a hablar de cómo se ha llevado a cabo el proyecto, en concreto de cómo ha sido la planificación del experimento, y cómo se ha desarrollado la aplicación que utilizaremos en él.
 
 \section{Planificación del experimento}
 
@@ -1377,7 +1381,7 @@ En la figura \ref{fig:apis} podemos ver cómo se relacionan las tres APIs.
 
 En nuestro caso utilizaremos HDAPI, pues necesitamos controlar la fuerza que le aplicamos al dispositivo. También utilizaremos la biblioteca GLUT \cite{glut}, una biblioteca de utilidades de OpenGL que nos permite manejar ventanas y representaciones gráficas.
 
-\subsection{Implementación del codigo}
+\subsection{Implementación del código}
 
 La estructura de un programa que utilice OpenHaptics la podemos ver en la figura \ref{fig:oh-estructura}: 
 
@@ -1424,7 +1428,7 @@ En nuestro caso las callbacks del servoloop son:
 	\begin{itemize}
 		\item Oculta el target de referencia.
 		\item Calcula el siguiente target objetivo y lo hace visible.
-		\item Si estamos en algunas de las fases en las que se aplica fuerza al dispositivo, programa la callback forceCallback. 
+		\item Si estamos en algunas de las fases en las que se aplica fuerza al dispositivo, programa la callback \textit{forceCallback}. 
 		\item Inicializa el tiempo de inicio de acción.
 		\item Si estamos en alguna de las fases en las que se oculta el cursor, hace el cursor no visible.
 	\end{itemize}
@@ -1536,7 +1540,7 @@ Después, para cada individuo y cada fase representa las siguientes gráficas:
 
 \begin{itemize}
 	\item \textbf{Gráfica con las trayectorias de todas las iteraciones}. A medida que se realizan más trayectorias en un target determinado las líneas son más oscuras. También se representan los targets finales.
-	\item \textbf{Gráfica con los puntos finales de los movimientos}. A medida que se realizan más trayectorias en un target determinado las líneas son más oscuras. También se representan los targets finales.
+	\item \textbf{Gráfica con los puntos finales de los movimientos}. A medida que se realizan más trayectorias en un target determinado los puntos son más oscuros. También se representan los targets finales.
 	\item \textbf{Gráfica con la evolución de los errores} respecto al número de iteraciones realizado, agrupados por target. Cada target tiene asociado un color.
 	\item \textbf{Gráfica con la evolución del tiempo} necesario para realizar el movimiento respecto al número de iteraciones realizado, agrupados por target. Cada target tiene asociado un color.
 \end{itemize}
@@ -1545,11 +1549,17 @@ La distancia que utilizamos para calcular los errores es la distancia euclídea.
 
 El código de la aplicación lo podemos encontrar en mi repositorio de GitHub\cite{github}.
 
+
+\chapter{Resultados}
+
+En este capítulo vamos a hablar de cómo se ha desarrollado el experimento y de los resultados que hemos obtenido.
+
+
 \section{Obtención de resultados}
 
 Como hemos mencionado en la sección \ref{seccion:fases} \textit{Fases del proyecto}, la realización de los experimentos fue llevada a cabo en dos fases: una primera fase de prueba, para decidir los parámetros que íbamos a utilizar; y una segunda fase final para poder obtener resultados, que analizaremos en la sección \ref{seccion:analisis} \textit{Análisis de resultados}.
 
-Uno de los requisitos fue tener, en cada una de las fases, representación de individuos de distintas edades, para no tener sesgo a la hora de implementar la aplicación y poder comparar los resultados de los individuos según la edad. Teniendo en cuenta esto y la disponibilidad de personas que teníamos a nuestro alrededor, hicimos el experimento con 13 sujetos, como podemos ver en la tabla \ref{table:sujetos}:
+Uno de los requisitos fue tener, en cada una de las fases, representación de individuos de distintas edades, para no tener sesgo a la hora de implementar la aplicación y poder comparar los resultados de los individuos según la edad. Teniendo en cuenta esto y la disponibilidad de personas que teníamos a nuestro alrededor, hicimos el experimento con 13 sujetos, como podemos ver en la tabla \ref{table:sujetos}.
 \\
 
 \begin{table}[H]
@@ -1578,11 +1588,11 @@ En la segunda fase la muestra de individuos fue similar a la primera, salvo porq
 En la segunda fase, para poder obtener conclusiones de cómo afecta el orden de aparición de targets en la realización de los movimientos (si aparecen los targets en orden, o de forma aleatoria) a algunos de los individuos le aparecieron los targets en orden y a otros no. A continuación aparecen los sujetos de la segunda fase con sus respectivas características y el modo de experimento que hicieron (en orden o aleatorio). Esta será la nomenclatura que utilizaremos a partir de ahora.
 
 \begin{itemize}
-	\item Sujeto 1: Mujer, 20 años, en orden
-	\item Sujeto 2: Mujer, 22 años, aleatorio
-	\item Sujeto 3: Mujer, 60 años, aleatorio
-	\item Sujeto 4: Hombre, 50 años, en orden
-	\item Sujeto 5: Hombre, 60 años, en orden
+	\item Sujeto 1: Mujer, 20 años, en orden.
+	\item Sujeto 2: Mujer, 22 años, aleatorio.
+	\item Sujeto 3: Mujer, 60 años, aleatorio.
+	\item Sujeto 4: Hombre, 50 años, en orden.
+	\item Sujeto 5: Hombre, 60 años, en orden.
 \end{itemize}
 
 Todos los sujetos realizaron todas las fases del experimento y tuvieron 2 minutos de descanso entre fase.
@@ -1636,40 +1646,18 @@ En este análisis queremos estudiar cuál ha sido el rendimiento de cada sujeto,
 La notación que utilizaremos será: T1 para el target situado en la posición 3 de las agujas del reloj, T2 para la posición 2, y así sucesivamente, en el sentido contrario a las agujas del reloj.
 
 \subsubsection{Fase sin fuerza}
-Si observamos las gráficas con los puntos finales de cada movimiento podemos observar una diferencia entre los sujetos de mayor edad y los más jóvenes. Mientras que en los sujetos más jóvenes (figuras \ref{1-1-1}, \ref{2-1-1} y \ref{4-1-1})los puntos se concentran alrededor de los puntos objetivos (hay una gran precisión), en los de mayor edad (figuras \ref{3-1-1} y \ref{5-1-1}) están más dispersos.
+Si observamos las gráficas con los puntos finales de cada movimiento podemos observar una diferencia entre los sujetos de mayor edad (sujetos 3 y 5) y los más jóvenes (sujetos 1, 2 y 4). Mientras que en los sujetos más jóvenes (figuras \ref{1-1-1}, \ref{2-1-1} y \ref{4-1-1} del anexo) los puntos se concentran alrededor de los puntos objetivos (hay una gran precisión), en los de mayor edad (figuras \ref{3-1-1} y \ref{5-1-1} del anexo) el error es mayor. Lo podemos ver reflejado en la media de los errores de cada sujeto (figura \ref{fase1-errores}).
+
+
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{sujeto1/no_force/trayectorias_puntos}
-	\caption{Sujeto 1, sin fuerza}
-	\label{1-1-1}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{sujeto2/no_force/trayectorias_puntos}
-	\caption{Sujeto 2, sin fuerza}
-	\label{2-1-1}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{sujeto3/no_force/trayectorias_puntos}
-	\caption{Sujeto 3, sin fuerza}
-	\label{3-1-1}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{sujeto4/no_force/trayectorias_puntos}
-	\caption{Sujeto 4, sin fuerza}
-	\label{4-1-1}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{sujeto5/no_force/trayectorias_puntos}
-	\caption{Sujeto 5, sin fuerza}
-	\label{5-1-1}
+	\includegraphics[width=\linewidth]{fase1-errores}
+	\caption{Fase 1, media de los errores por sujeto}
+	\label{fase1-errores}
 \end{figure}
 
-También lo podemos ver en las gráficas de la evolución del error por target respecto al número de repeticiones, donde además observamos que el proceso de aprendizaje en los sujetos jóvenes es casi instantáneo (figuras \ref{1-1-2}, \ref{2-1-2} y \ref{4-1-2}), mientras que en las personas mayores, en el caso de sujeto 5 (targets en orden) se aprecia un aprendizaje en los primeros puntos objetivos (T1 y T2) (figura \ref{5-1-2}) que luego se extrapola a los demás puntos, mientras que en el sujeto 3 (targets en orden aleatorio) ese aprendizaje es más incierto (figura \ref{3-1-2}).
+Si estudiamos la evolución del error por target respecto al número de repeticiones podemos observar que el proceso de aprendizaje en los sujetos jóvenes es casi instantáneo (figuras \ref{1-1-2}, \ref{2-1-2} y \ref{4-1-2}), mientras que en las personas mayores, en el caso de sujeto 5 (targets en orden) se aprecia un aprendizaje en los primeros puntos objetivos (T1 y T2) (figura \ref{5-1-2}) que luego se extrapola a los demás puntos, mientras que en el sujeto 3 (targets en orden aleatorio) ese aprendizaje es más incierto (figura \ref{3-1-2}).
 
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto1/no_force/evolution_distance}
@@ -1702,23 +1690,16 @@ También lo podemos ver en las gráficas de la evolución del error por target r
 \end{figure}
 
 
-Si además estudiamos la rapidez en la ejecución de los movimientos podemos ver que el sujeto que peor lo hace es el 3 -persona mayor, orden aleatorio- (figura \ref{3-1-3}), y el que mejor lo hace el sujeto 4 -50 años, en orden- (figura \ref{4-1-3}). También se puede observar que, aunque los sujetos 3 y 5 (sujetos mayores) tienen una tasa de errores similar, en el sujeto 5 (figura \ref{5-1-3}) podemos reconocer un aprendizaje en la rapidez del movimiento (T1 y T2 empiezan a mejorar en las últimas iteraciones y los demás movimientos comienzan a ser más rápidos, especialmente T5 y T7, donde podemos observar una curva casi completamente descendente). Sin embargo en el sujeto 	3 con los puntos en orden aleatorio no lo podemos apreciar, y los tiempos de ejecución son mayores.
+Si además estudiamos la rapidez en la ejecución de los movimientos (el tiempo máximo es de 2 segundos) podemos ver, en la figura \ref{fase1-time} que el sujeto que peor lo hace es el 3 -persona mayor, orden aleatorio-, y el que mejor lo hace el sujeto 4 -50 años, en orden-. También se puede observar que el sujeto 5 (figura \ref{5-1-3}) tiene un aprendizaje en la rapidez del movimiento (T1 y T2 empiezan a mejorar en las últimas iteraciones y los demás movimientos comienzan a ser más rápidos, especialmente T5 y T7, donde podemos observar una curva casi completamente descendente). En el sujeto 4 (figura \ref{4-1-3}) también podemos ver que las iteraciones finales tienen menores tiempos de ejecución. Las gráficas de los demás sujetos las podemos ver en el anexo \ref{anexo:2}
+
 
 \begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto1/no_force/evolution_time}
-	\caption{Sujeto 1, sin fuerza}
-	\label{1-1-3}
+	\includegraphics[width=\linewidth]{fase1-time}
+	\caption{Fase 1, media de los tiempos por sujeto}
+	\label{fase1-time}
 \end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto2/no_force/evolution_time}
-	\caption{Sujeto 2, sin fuerza}
-	\label{2-1-3}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto3/no_force/evolution_time}
-	\caption{Sujeto 3, sin fuerza}
-	\label{3-1-3}
-\end{figure}
+
+
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto4/no_force/evolution_time}
 	\caption{Sujeto 4, sin fuerza}
@@ -1764,48 +1745,25 @@ Estudiando las trayectorias de los movimientos podemos ver que hay diferencia en
 \end{figure}
 
 
-Estudiando ahora la distribución de puntos finales podemos observar que la precisión del sujeto 5 (figura \ref{5-2-1}) ha sido algo peor que la de los sujetos jóvenes (figuras \ref{1-2-1}, \ref{2-2-1} y \ref{4-2-1}), cuya ejecución es casi perfecta, pero mejor que la del sujeto 3 (figura \ref{3-2-1}), concentrándose los errores del sujeto 5 en T2 y T7. 
+Estudiando ahora la media de los errores por sujeto (figura \ref{fase2-errores}) podemos observar que la precisión del sujeto 5  ha sido algo peor que la de los sujetos jóvenes, cuya ejecución es casi perfecta, pero mejor que la del sujeto 3. Los errores del sujeto 5 se concentran en T2 y T7, como podemos ver en la figura \ref{5-2-1}. Las demás gráficas con la distribución de puntos finales las podemos ver en el anexo \ref{anexo-3}.
+
 
 \begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto1/force/trayectorias_puntos}
-	\caption{Sujeto 1, con fuerza}
-	\label{1-2-1}
+	\includegraphics[width=\linewidth]{fase2-errores}
+	\caption{Fase 2, media de los errores por sujeto}
+	\label{fase2-errores}
 \end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto2/force/trayectorias_puntos}
-	\caption{Sujeto 2, con fuerza}
-	\label{2-2-1}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto3/force/trayectorias_puntos}
-	\caption{Sujeto 3, con fuerza}
-	\label{3-2-1}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto4/force/trayectorias_puntos}
-	\caption{Sujeto 4, con fuerza}
-	\label{4-2-1}
-\end{figure}
+
+
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto5/force/trayectorias_puntos}
 	\caption{Sujeto 5, con fuerza}
 	\label{5-2-1}
 \end{figure}
 
-
-En cuanto a la evolución de los errores por target respecto al número de iteraciones podemos ver que los sujetos 1,2 y 4 (figuras \ref{1-2-2}, \ref{2-2-2} y \ref{3-2-2}) han extrapolado el aprendizaje del movimiento sin fuerza al movimiento con fuerza, y el error es cero o muy cercano a cero desde el primer momento. El sujeto 5 (figura \ref{5-2-2}), a pesar de realizar trayectorias muy largas, como hemos comentado antes, también presenta una precisión bastante acertada, con unos errores, salvo en determinadas ocasiones, bastante bajos. 
+Las gráficas de la distribución de los errores por target respecto al número de iteraciones las podemos ver en el anexo \ref{anexo:3}. Los errores de los sujetos jóvenes, como hemos visto antes, son muy cercanos a cero, y por tanto eso significa que han extrapolado el aprendizaje del movimiento sin fuerza al movimiento con fuerza. El sujeto 5 (figura \ref{5-2-2}), a pesar de realizar trayectorias muy largas, como hemos comentado antes, también presenta una precisión bastante acertada, con unos errores, salvo en determinadas ocasiones, bastante bajos. 
 El sujeto 3 (figura \ref{3-2-2}), sin embargo, presenta una distribución de  errores más errática, en la que no podemos ver aprendizaje. Si estudiamos la evolución de los errores de manera global, en vez de por target, tampoco podemos ver aprendizaje (figura \ref{3-2-7}).
 
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto1/force/evolution_distance}
-	\caption{Sujeto 1, con fuerza}
-	\label{1-2-2}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto2/force/evolution_distance}
-	\caption{Sujeto 2, con fuerza}
-	\label{2-2-2}
-\end{figure}
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto3/force/evolution_distance}
 	\caption{Sujeto 3, con fuerza}
@@ -1816,11 +1774,7 @@ El sujeto 3 (figura \ref{3-2-2}), sin embargo, presenta una distribución de  er
 	\caption{Sujeto 3, evolución de los errores totales}
 	\label{3-2-7}
 \end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto4/force/evolution_distance}
-	\caption{Sujeto 4, con fuerza}
-	\label{4-2-2}
-\end{figure}
+
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto5/force/evolution_distance}
 	\caption{Sujeto 5, con fuerza}
@@ -1828,33 +1782,21 @@ El sujeto 3 (figura \ref{3-2-2}), sin embargo, presenta una distribución de  er
 \end{figure}
 
 
-Respecto a la rapidez en la ejecución de los movimientos podemos observar resultados bastante similares entre los sujetos, siendo el sujeto 3 (figura \ref{3-2-3}) algo más lento que los demás. Sorprenden quizá los resultados del sujeto 5 (figura \ref{5-2-3}), quien, a pesar de hacer las trayectorias más largas, tiene unos tiempos de ejecución similares a los demás y mejores que los del otro sujeto mayor de 60 años. La mejor curva de aprendizaje se puede ver en el sujeto 4 (figura \ref{4-2-3}).
+Respecto a la rapidez en la ejecución de los movimientos (figura \ref{fase2-time}) podemos observar resultados bastante similares entre los sujetos, siendo el sujeto 3  algo más lento que los demás. Sorprenden quizá los resultados del sujeto 5, quien, a pesar de hacer las trayectorias más largas, tiene unos tiempos de ejecución similares a los demás y mejores que los del otro sujeto mayor de 60 años. La mejor curva de aprendizaje se puede ver en el sujeto 4 (figura \ref{4-2-3}). Las demás gráficas las podemos ver en el anexo \ref{anexo:4}.
 
 \begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto1/force/evolution_time}
-	\caption{Sujeto 1, con fuerza}
-	\label{1-2-3}
+	\includegraphics[width=\linewidth]{fase2-time}
+	\caption{Fase 2, media de los tiempos por sujeto}
+	\label{fase2-time}
 \end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto2/force/evolution_time}
-	\caption{Sujeto 2, con fuerza}
-	\label{2-2-3}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto3/force/evolution_time}
-	\caption{Sujeto 3, con fuerza}
-	\label{3-2-3}
-\end{figure}
+
+
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto4/force/evolution_time}
 	\caption{Sujeto 4, con fuerza}
 	\label{4-2-3}
 \end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto5/force/evolution_time}
-	\caption{Sujeto 5, con fuerza}
-	\label{5-2-3}
-\end{figure}
+
 
 
 
@@ -1890,38 +1832,18 @@ Estudiando las trayectorias que realiza cada sujeto, podemos ver que es el sujet
 	\label{5-3-1}
 \end{figure}
 
-Respecto a la distribución de puntos finales los resultados son similares entre todos los sujetos, aunque la precisión de los sujetos jóvenes (figuras \ref{1-3-2}, \ref{2-3-2} y \ref{4-3-2}) es mejor que la de los sujetos mayores (figuras \ref{3-3-2} y \ref{5-3-2}).
+Respecto a la distribución de puntos finales los resultados son similares entre todos los sujetos (figuras en el anexo \ref{anexo:5})), aunque la precisión de los sujetos jóvenes es mejor que la de los sujetos mayores, como podemos ver en la figura \ref{fase3-errores}.
 
-
 \begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/trayectorias_puntos}
-	\caption{Sujeto 1, sin  fuerza y sin cursor}
-	\label{1-3-2}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/trayectorias_puntos}
-	\caption{Sujeto 2, sin  fuerza y sin cursor}
-	\label{2-3-2}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/trayectorias_puntos}
-	\caption{Sujeto 3, sin  fuerza y sin cursor}
-	\label{3-3-2}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/trayectorias_puntos}
-	\caption{Sujeto 4, sin  fuerza y sin cursor}
-	\label{4-3-2}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/trayectorias_puntos}
-	\caption{Sujeto 5, sin  fuerza y sin cursor}
-	\label{5-3-2}
+	\includegraphics[width=\linewidth]{fase3-errores}
+	\caption{Fase 3, media de los errores por sujeto}
+	\label{fase3-errores}
 \end{figure}
 
 
 
-Si estudiamos ahora la evolución de los errores en el tiempo podemos ver que en los sujetos jóvenes los errores se mantienen principalmente por debajo de $0.5$, mientras que en los sujetos mayores están por debajo de $0.75$ ó $1$. Respecto a las curvas de aprendizaje podemos ver que en los sujetos 1 (figura \ref{1-3-3}) y 4 (figura \ref{4-3-3}) -jóvenes, en orden- los resultados al final son algo mejores que los resultados al principio. Es interesante remarcar que en el otro sujeto joven -en orden aleatorio- (figura \ref{2-3-3}) no se ve ese aprendizaje, ni siquiera en los targets en los que hay más iteraciones ($14$). En los sujetos mayores observamos algo parecido: los resultados del sujeto 5 (figura \ref{5-3-3}) son algo mejores al final que al principio, salvo los dos últimos targets (tal vez por el cansancio); mientras que en el sujeto 3 (figura \ref{3-3-3})) podemos observar que los mejores resultados los tienen los targets con menos iteraciones, y que los targets con más iteraciones no mejoran los resultados.
+
+Si estudiamos ahora la evolución de los errores en el tiempo podemos ver que, respecto a las curvas de aprendizaje, en los sujetos 1 (figura \ref{1-3-3}) y 4 (figura \ref{4-3-3}) -jóvenes, en orden- los resultados al final son algo mejores que los resultados al principio. Es interesante remarcar que en el otro sujeto joven -en orden aleatorio- (figura \ref{2-3-3}) no se ve ese aprendizaje, ni siquiera en los targets en los que hay más iteraciones ($14$). En los sujetos mayores observamos algo parecido: los resultados del sujeto 5 (figura \ref{5-3-3}) son algo mejores al final que al principio, salvo los dos últimos targets (tal vez por el cansancio); mientras que en el sujeto 3 (figura \ref{3-3-3})) podemos observar que los mejores resultados los tienen los targets con menos iteraciones, y que los targets con más iteraciones no mejoran los resultados.
 
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/evolution_distance}
@@ -1950,33 +1872,15 @@ Si estudiamos ahora la evolución de los errores en el tiempo podemos ver que en
 \end{figure}
 
 
-Estudiando ahora la evolución respecto al tiempo (figuras \ref{1-3-4}, \ref{2-3-4}, \ref{3-3-4}, \ref{4-3-4} y \ref{5-3-4}) vemos que en este caso no podemos obtener mucha información de las gráficas, pues en casi ningún punto los sujetos han podido terminar el movimiento a tiempo.
+Estudiando ahora la evolución respecto al tiempo (figura \ref{fase3-time}) vemos que en este caso no podemos obtener mucha información de las gráficas, pues en casi ningún punto los sujetos han podido terminar el movimiento a tiempo. Las gráficas con la evolución del tiempo por target la podemos ver en el anexo \ref{anexo:6}.
+
 
 \begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/evolution_time}
-	\caption{Sujeto 1, sin  fuerza y sin cursor}
-	\label{1-3-4}
+	\includegraphics[width=\linewidth]{fase3-time}
+	\caption{Fase 3, media de los tiempos por sujeto}
+	\label{fase3-time}
 \end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/evolution_time}
-	\caption{Sujeto 2, sin  fuerza y sin cursor}
-	\label{2-3-4}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/evolution_time}
-	\caption{Sujeto 3, sin  fuerza y sin cursor}
-	\label{3-3-4}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/evolution_time}
-	\caption{Sujeto 4, sin  fuerza y sin cursor}
-	\label{4-3-4}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/evolution_time}
-	\caption{Sujeto 5, sin  fuerza y sin cursor}
-	\label{5-3-4}
-\end{figure}
+
 
 
 \subsubsection{Fase con fuerza y sin cursor}
@@ -1984,7 +1888,7 @@ Estudiando ahora la evolución respecto al tiempo (figuras \ref{1-3-4}, \ref{2-3
 En esta fase vamos a aplicar la fuerza de la fase 2, mientras que a la vez ocultamos el cursor como hemos hecho en la fase 3. De esta forma vamos a estudiar cómo los sujetos reaccionan a la fuerza que le hemos aplicado cuando no tienen retroalimentación visual.
 
 
-Respecto a las trayectorias podemos ver que, esta vez, los que realizan las trayectorias más largas son el sujeto 1 (figura \ref{1-4-0})y el 5 (figura \ref{5-4-0}) (en la fase sin fuerza y sin cursor eran el sujeto 3 (figura \ref{3-2-0}) y el 5 (figura \ref{5-2-0})). Aún así podemos observar cómo las trayectorias del sujeto 5 no son tan largas como en la fase 2. En la gráfica del sujeto 4 (figura \ref{4-4-0}) podemos ver claramente cómo se realiza el aprendizaje del movimiento, pues en las primeras trayectorias en cada punto se puede observar el efecto de la fuerza, que en las iteraciones siguientes se corrije para dar lugar a trayectorias más rectas.
+Respecto a las trayectorias podemos ver que, esta vez, los que realizan las trayectorias más largas son el sujeto 1 (figura \ref{1-4-0})y el 5 (figura \ref{5-4-0}) (en la fase sin fuerza y sin cursor eran el sujeto 3 (figura \ref{3-2-0}) y el 5 (figura \ref{5-2-0})). Aún así podemos observar cómo las trayectorias del sujeto 5 no son tan largas como en la fase 2. En la gráfica del sujeto 4 (figura \ref{4-4-0}) podemos ver claramente cómo se realiza el aprendizaje del movimiento, pues en las primeras trayectorias en cada punto se puede observar el efecto de la fuerza, que en las iteraciones siguientes se corrige para dar lugar a trayectorias más rectas.
 
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/trayectorias}
@@ -2012,37 +1916,17 @@ Respecto a las trayectorias podemos ver que, esta vez, los que realizan las tray
 	\label{5-4-0}
 \end{figure}
 
+Respecto a la media de los errores por sujeto (figura \ref{fase4-errores}) podemos ver que el más preciso de todos los sujetos es el sujeto 4 y el menos preciso el sujeto 3. Los sujetos 1 y 2 tienen un desempeño similar, mientras que el sujeto 5 se acerca más a la precisión de los sujetos jóvenes que a la del otro sujeto mayor. La distribución de puntos finales la podemos ver en el anexo \ref{anexo:7}.
 
-En la distribución de puntos finales podemos ver que el más preciso de todos los sujetos es el sujeto 4 (figura \ref{4-4-1}), y el menos el sujeto 3 (figura \ref{3-4-1}). Los sujetos 1 (figura \ref{1-4-1})y 2 (figura \ref{2-4-1}) tienen un desempeño similar, mientras que el del 5 (figura \ref{5-4-1}) es algo peor.
-
 \begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/trayectorias_puntos}
-	\caption{Sujeto 1, con  fuerza y sin cursor}
-	\label{1-4-1}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/trayectorias_puntos}
-	\caption{Sujeto 2, con  fuerza y sin cursor}
-	\label{2-4-1}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/trayectorias_puntos}
-	\caption{Sujeto 3, con  fuerza y sin cursor}
-	\label{3-4-1}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/trayectorias_puntos}
-	\caption{Sujeto 4, con  fuerza y sin cursor}
-	\label{4-4-1}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/trayectorias_puntos}
-	\caption{Sujeto 5, con  fuerza y sin cursor}
-	\label{5-4-1}
+	\includegraphics[width=\linewidth]{fase4-errores}
+	\caption{Fase 4, media de los errores por sujeto}
+	\label{fase4-errores}
 \end{figure}
 
 
-Vamos ahora a analizar la evolución de los errores en cada target. Podemos ver que el que menos errores tiene es el sujeto 4 (figura \ref{4-4-2}), que sigue manteniéndose por debajo de 0.5, y experimenta un ligero pero no muy claro aprendizaje. Las gráficas del sujeto 1  (figura \ref{1-4-2}) y del sujeto 2 (figura \ref{2-4-2}) son parecidas: en el sujeto 1 podemos observar que los errores en las últimas iteraciones son algo menores, pero en el sujeto 2 vemos otra vez que los targets con más iteraciones (14) no tienen mejor desempeño. 
+
+Vamos ahora a analizar la evolución de los errores en cada target. Podemos ver que el que menos errores tiene es el sujeto 4 (figura \ref{4-4-2}), que experimenta un ligero pero no muy claro aprendizaje. Las gráficas del sujeto 1  (figura \ref{1-4-2}) y del sujeto 2 (figura \ref{2-4-2}) son parecidas: en el sujeto 1 podemos observar que los errores en las últimas iteraciones son algo menores, pero en el sujeto 2 vemos otra vez que los targets con más iteraciones (14) no tienen mejor desempeño. 
 
 Respecto a los sujetos mayores vemos que aquí sí hay más diferencia entre el sujeto 5 (figura \ref{5-4-2}) y el sujeto 3 (figura \ref{3-4-2}). Mientras que el sujeto 5 muestra cierto aprendizaje (salvo en T8) el sujeto 3 tiene un comportamiento más errático y con mayores errores.
 
@@ -2073,34 +1957,14 @@ Respecto a los sujetos mayores vemos que aquí sí hay más diferencia entre el 
 \end{figure}
 
 
-Respecto a la evolución de la velocidad en este caso volvemos a no poder extraer mucha información, pues en casi ningún punto los sujetos han podido realizar el movimiento a tiempo. En todo caso vuelven a ser los sujetos jóvenes (figuras \ref{1-4-3}, \ref{2-4-3} y \ref{4-4-3}) los que tienen mejores tiempos.
+Respecto a la velocidad de cada sujeto (figura \ref{fase4-time}) en este caso volvemos a no poder extraer mucha información, pues en casi ningún punto los sujetos han podido realizar el movimiento a tiempo. En todo caso vuelven a ser los sujetos jóvenes los que tienen ligeramente mejores tiempos. Las gráficas de la evolución de los tiempos por targets las podemos ver en el anexo \ref{anexo:8}.
 
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{fase4-time}
+	\caption{Fase 4, media de los tiempos por sujeto}
+	\label{fase4-time}
+\end{figure}
 
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/evolution_time}
-	\caption{Sujeto 1, con  fuerza y sin cursor}
-	\label{1-4-3}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/evolution_time}
-	\caption{Sujeto 2, con  fuerza y sin cursor}
-	\label{2-4-3}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/evolution_time}
-	\caption{Sujeto 3, con  fuerza y sin cursor}
-	\label{3-4-3}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/evolution_time}
-	\caption{Sujeto 4, con  fuerza y sin cursor}
-	\label{4-4-3}
-\end{figure}
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/evolution_time}
-	\caption{Sujeto 5, con  fuerza y sin cursor}
-	\label{5-4-3}
-\end{figure}
 
 
 
@@ -2114,7 +1978,7 @@ Para ello vamos a estudiar principalmente las trayectorias y los puntos finales,
 
 En la primera fase (figuras \ref{1-fase1-1} y \ref{1-fase1-2}) podemos ver que los movimientos son muy precisos y exactos (a partir de T3 no hay errores), y las trayectorias, salvo las primeras en cada target, son líneas rectas, especialmente las de los targets T1, T3, T5, T7, que a priori son las más fáciles.
 
-En la segunda fase (figuras \ref{1-fase2-1} y \ref{1-fase2-2}) vemos que se extrapola completamente el aprendizaje realizado en la primera fase, pues no hay errores desde el principio, por lo que la precisión es incluso mayor. Las trayectorias sin embargo son algo más largas, y los movimientos más cortos se producen en los targets T1 y T5, lo que a priori también tiene sentido pues es la dirección en la que estamos aplicando la fuerza. Respecto al tiempo (figuras \ref{1-1-3} y \ref{1-2-3}) de ejecución las dos fases tienen resultados parecidos.
+En la segunda fase (figuras \ref{1-fase2-1} y \ref{1-fase2-2}) vemos que se extrapola completamente el aprendizaje realizado en la primera fase, pues no hay errores desde el principio, por lo que la precisión es incluso mayor (figura \ref{sujeto1-errores}). Las trayectorias sin embargo son algo más largas, y los movimientos más cortos se producen en los targets T1 y T5, lo que a priori también tiene sentido pues es la dirección en la que estamos aplicando la fuerza. Respecto al tiempo  de ejecución (figura \ref{sujeto1-time}) las dos fases tienen resultados parecidos.
 
 En la tercera fase (figuras \ref{1-fase3-1} y \ref{1-fase3-2}), ahora sin retroalimentación visual del cursor, podemos ver que baja la precisión de los movimientos pero las trayectorias, salvo las primeras de cada target, son líneas rectas.
 
@@ -2185,16 +2049,34 @@ En la cuarta fase (figuras \ref{1-fase4-1} y \ref{1-fase4-2}) vemos que la preci
 \end{figure}
 
 
+\begin{figure}[H]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{sujeto1-errores}
+		\caption{Sujeto 1, media de los errores por fase}
+		\label{sujeto1-errores}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{sujeto1-time}
+		\caption{Sujeto 1, media de los tiempos por fase}
+		\label{sujeto1-time}
+	\end{minipage}
+\end{figure}
+
+
+
 \subsubsection{Sujeto 2, 22 años}
 
 En la primera fase (figuras \ref{2-fase1-1} y \ref{2-fase1-2}) podemos ver que los movimientos son correctos desde la primera iteración, y las trayectorias aceptablemente rectas, lo que muestra que el sujeto 1 no necesita ningún tiempo de aprendizaje: realiza el movimiento correctamente desde el principio.
 
 
-En la segunda fase (figuras \ref{2-fase2-1} y \ref{2-fase2-2}) vemos que sigue manteniendo un $100\%$ de precisión, aunque las trayectorias ahora son un poco más largas, especialmente en T6 y T7.
+En la segunda fase (figuras \ref{2-fase2-1} y \ref{2-fase2-2}) vemos que sigue manteniendo casi un $100\%$ de precisión, incluso mejor que en la primera fase (lo podemos ver en la figura \ref{sujeto2-errores}), lo que quiere decir que el efecto de la fuerza no supone un esfuerzo extra de aprendizaje para el sujeto 2. Las trayectorias, sin embargo, ahora son un poco más largas, especialmente en T6 y T7, aunque no repercute en el tiempo (figura \ref{sujeto2-time}).
 
 En la tercera fase (figuras \ref{2-fase3-1} y \ref{2-fase3-2}) podemos observar que baja la precisión, pero las trayectorias siguen siendo rectas. 
 
-En la cuarta fase (figuras \ref{2-fase4-1} y \ref{2-fase4-2}) los resultados son parecidos a la tercera, por lo que podemos ver que la fuerza que hemos aplicado no ha afectado a la precisión de los movimientos, aunque sí afecta ligeramente a las trayectorias realizadas, que se vuelven algo menos definidas. Las trayectorias más definidas vuelven a ser las que se realizan en la dirección de la fuerza, es decir, en el eje $x$.
+En la cuarta fase (figuras \ref{2-fase4-1} y \ref{2-fase4-2}) los resultados son parecidos a la tercera, aunque el error ahora es algo mayor. También afecta ligeramente a las trayectorias realizadas, que se vuelven algo menos definidas. Las trayectorias más definidas vuelven a ser las que se realizan en la dirección de la fuerza, es decir, en el eje $x$.
 
 \begin{figure}[H]
 	\begin{minipage}[b]{0.5\linewidth}
@@ -2260,11 +2142,27 @@ En la cuarta fase (figuras \ref{2-fase4-1} y \ref{2-fase4-2}) los resultados son
 	\end{minipage}
 \end{figure}
 
+\begin{figure}[H]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{sujeto2-errores}
+		\caption{Sujeto 2, media de los errores por fase}
+		\label{sujeto2-errores}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{sujeto2-time}
+		\caption{Sujeto 2, media de los tiempos por fase}
+		\label{sujeto2-time}
+	\end{minipage}
+\end{figure}
+
 \subsubsection{Sujeto 3, 60 años}
 
-En la primera (figuras \ref{3-fase1-1} y \ref{3-fase1-2}) y la segunda fase (figuras \ref{3-fase2-1} y \ref{3-fase2-2}) vemos unos resultados muy parecidos en cuanto a precisión, aunque respecto a las trayectorias podemos ver que en la fase en la que aplicamos la fuerza están desviadas en el sentido de la fuerza. Aún así esto no afecta a la precisión ni a la velocidad del movimiento (figuras \ref{3-1-3} y \ref{3-2-3}).
+En la primera y la segunda fase \ref{sujeto3-errores}) vemos unos resultados muy parecidos en cuanto a precisión, aunque respecto a las trayectorias podemos ver que en la fase en la que aplicamos la fuerza están desviadas en el sentido de la fuerza. Aún así esto no afecta a la velocidad del movimiento (figura \ref{sujeto3-time}), que es incluso mayor en la fase con fuerza.
 
-Respecto a las fases en las que no se muestra el cursor (fase 3: figuras \ref{3-fase3-1} y \ref{3-fase3-2}; fase 4: figuras \ref{3-fase4-1} y \ref{3-fase4-2}) podemos ver que los puntos finales cuando aplicamos fuerza están algo desplazados en la dirección de la fuerza, mientras que al no aplicar fuerza se reparten aleatoriamente alrededor del punto objetivo. Las trayectorias también son algo menos claras al aplicar fuerza. Aún así los resultados son parecidos en términos de exactitud y tiempo (figuras \ref{3-3-4} y \ref{3-4-3}).
+Respecto a las fases en las que no se muestra el cursor (fase 3 y 4), podemos ver que los puntos finales cuando aplicamos fuerza están algo desplazados en la dirección de la fuerza, mientras que al no aplicar fuerza se reparten aleatoriamente alrededor del punto objetivo. Los errores son mayores en la fase con fuerza y las trayectorias también son menos rectas al aplicar fuerza.
 
 \begin{figure}[H]
 	\begin{minipage}[b]{0.5\linewidth}
@@ -2330,6 +2228,21 @@ Respecto a las fases en las que no se muestra el cursor (fase 3: figuras \ref{3-
 	\end{minipage}
 \end{figure}
 
+\begin{figure}[H]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{sujeto3-errores}
+		\caption{Sujeto 3, media de los errores por fase}
+		\label{sujeto3-errores}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{sujeto3-time}
+		\caption{Sujeto 3, media de los tiempos por fase}
+		\label{sujeto3-time}
+	\end{minipage}
+\end{figure}
 
 
 \subsubsection{Sujeto 4, 50 años}
@@ -2406,17 +2319,31 @@ Por lo tanto en el sujeto 4 no hemos obtenido resultados diferentes que indiquen
 	\end{minipage}
 \end{figure}
 
-
+\begin{figure}[H]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{sujeto4-errores}
+		\caption{Sujeto 4, media de los errores por fase}
+		\label{sujeto4-errores}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{sujeto4-time}
+		\caption{Sujeto 4, media de los tiempos por fase}
+		\label{sujeto4-time}
+	\end{minipage}
+\end{figure}
 
 \subsubsection{Sujeto 5, 60 años}
 
 En el sujeto 5 es en el que podemos observar mejor los efectos de la fuerza, aunque solo en las trayectorias.
 
-En la fase 1 (figuras \ref{5-fase1-1} y \ref{5-fase1-2}) podemos observar que se produce un aprendizaje en los dos primeros targets, que luego se extrapola a los targets siguientes. En la fase con fuerza (figuras \ref{5-fase2-1} y \ref{5-fase2-2}) ese aprendizaje se extrapola en el primer target, en el segundo target vuelven a aparecer errores y luego se vuelve a conseguir una precisión bastante buena. Por tanto los resultados al final son muy parecidos entre fases. 
+En la fase 1 (figuras \ref{5-fase1-1} y \ref{5-fase1-2}) podemos observar que se produce un aprendizaje en los dos primeros targets, que luego se extrapola a los targets siguientes. En la fase con fuerza (figuras \ref{5-fase2-1} y \ref{5-fase2-2}) ese aprendizaje se extrapola en el primer target, en el segundo target vuelven a aparecer errores y luego se vuelve a conseguir una precisión bastante buena. Por tanto los resultados al final son muy parecidos entre fases, incluso algo mejores en la fase con fuerza. 
 
 En cuanto a las trayectorias se puede apreciar con claridad el efecto de la fuerza, pues los movimientos siguen el sentido de la fuerza y no se corrigen cuando se repite el movimiento más veces.
 
-Respecto a las fases 3 (figuras \ref{5-fase3-1} y \ref{5-fase3-2}) y 4 (figuras \ref{5-fase4-1} y \ref{5-fase4-2}) los resultados vuelven a ser muy parecidos, con una precisión casi igual en las dos fases. Es interesante remarcar que las trayectorias curvas que se realizan en la fase 2 se suavizan bastante en la fase 4. 
+Respecto a las fases 3 (figuras \ref{5-fase3-1} y \ref{5-fase3-2}) y 4 (figuras \ref{5-fase4-1} y \ref{5-fase4-2}) los resultados vuelven a ser muy parecidos, con una precisión casi igual en las dos fases (otra vez algo mejor en la fase con fuerza). Es interesante remarcar que las trayectorias curvas que se realizan en la fase 2 se suavizan bastante en la fase 4. 
 
 \begin{figure}[H]
 	\begin{minipage}[b]{0.5\linewidth}
@@ -2482,14 +2409,37 @@ Respecto a las fases 3 (figuras \ref{5-fase3-1} y \ref{5-fase3-2}) y 4 (figuras 
 	\end{minipage}
 \end{figure}
 
+\begin{figure}[H]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{sujeto5-errores}
+		\caption{Sujeto 5, media de los errores por fase}
+		\label{sujeto5-errores}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{sujeto5-time}
+		\caption{Sujeto 5, media de los tiempos por fase}
+		\label{sujeto5-time}
+	\end{minipage}
+\end{figure}
+
 
 \chapter{Discusión y conclusiones}
 
-Los objetivos de este proyecto eran, por una lado didácticos, relacionados con el estudio de cómo debe llevarse a cabo una investigación científica, y por otro técnicos, relativos a estudiar cómo un dispositivo háptico podría usarse para experimentos relacionados con el aprendizaje de movimientos.
+Los objetivos de este proyecto eran, por una lado técnicos, relativos a estudiar cómo un dispositivo háptico podría usarse para experimentos relacionados con el aprendizaje de movimientos, y por otro didácticos, relacionados con el estudio de cómo debe llevarse a cabo una investigación científica.
 
-Respecto a los objetivos didácticos se ha llevado a cabo una experimentación científica que ha consistido en cuatro fases: Planificación del experimento, desarrollo de la aplicación (que dentro del marco de una investigación científica se puede ver como puesta a punto de la plataforma de experimentación), obtención de resultados y análisis de resultados. Además se ha desarrollado una aplicación que integra el funcionamiento de un dispositivo háptico, en concreto el dispositivo Touch.
 
-Respecto a los objetivos técnicos es importante mencionar que en ningún caso la muestra de población que hemos estudiado es lo suficientemente grande para poder considerar que los resultados que hemos obtenidos son válidos para obtener conclusiones extrapolables al resto de la población. Aún así, y teniendo en cuenta las limitaciones que tenemos, podemos obtener algunas reflexiones:
+Los objetivos técnicos eran: estudiar cómo los dispositivos hápticos pueden ser utilizados para el estudio de movimientos balísticos, y en un caso práctico, qué tipo de datos podemos obtener de la realización de dicho experimento y si esos datos pueden ser útiles. En relación con estos objetivos hemos desarrollado una aplicación que integra el dispositivo háptico \textit{Touch} para el estudio de este tipo de movimientos, sin encontrar ninguna limitación técnica (frecuencia de muestreo, API, precisión de los movimientos o fuerza aplicada, etc.). Hemos podido obtener datos que nos permitan regenerar las trayectorias realizadas con el dispositivo, así como el tiempo utilizado para 
+realizar dichas trayectorias. 
+
+
+Los objetivos didácticos consistían en, además de aprender a controlar el dispositivo \textit{Touch}, poder llevar a cabo una experimentación científica que incluyera las cuatro fases del desarrollo de un experimento: planificación del experimento, puesta a punto de la plataforma de experimentación (en nuestro caso ha sido el desarrollo de una aplicación que integra el funcionamiento de un dispositivo háptico), obtención de resultados y análisis de resultados.
+
+Respecto al análisis de resultados es importante mencionar que en ningún caso la muestra de población que hemos estudiado es lo suficientemente grande para poder considerar que los resultados que hemos obtenidos son válidos para obtener conclusiones extrapolables al resto de la población. Además faltaría más experimentación para estudiar los parámetros del protocolo experimental que permitiesen evidenciar un proceso de aprendizaje robusto en todos los usuarios. Aún así, y teniendo en cuenta las limitaciones que tenemos, podemos obtener algunas reflexiones:
+
+
 
 En general los resultados de los sujetos jóvenes son bastante mejores que los de los sujetos mayores. Mientras que los sujetos jóvenes consiguen hacer correctamente el movimiento de forma instantáneamente, los sujetos mayores necesitan algunas repeticiones para conseguir aprenderlo. Además, los errores y la velocidad del movimiento son mejores en todas las fases.
 
@@ -2502,7 +2452,7 @@ Otro de los parámetros que queríamos estudiar es cómo afecta la aparición en
 
 Respecto a la diferencia entre hacer el movimiento con fuerza o no, podemos observar que, otra vez, la mayor influencia se puede ver en los sujetos mayores, principalmente en la realización de las trayectorias, y no tanto en la precisión de los movimientos. En los sujetos jóvenes la diferencia entre las fases con fuerza y sin fuerza es casi nula.
 
-Por último, y como posible aplicación futura, remarcar que sería interesante realizar el experimento en personas con daños en el cerebelo, o centrarlo en personas de edad avanzada, pues es lo que nos permitiría concluir si este tipo de experimentos puede aportar información sobre el proceso de aprendizaje de movimientos en estas circustancias.
+Por último, y como posible aplicación futura, remarcar que sería interesante realizar el experimento en personas con daños en el cerebelo, o centrarlo en personas de edad avanzada, pues es lo que nos permitiría concluir si este tipo de experimentos puede aportar información sobre el proceso de aprendizaje de movimientos en estas circunstancias.
 También se podrían estudiar otras patologías como Alzheimer, diseñando experimentos en los que hubiera que alcanzar varios puntos de forma consecutiva (memoria de secuencias) y su capacidad de interpolación en el mapa espacial (que se ve impactada incluso en etapas tempranas de Alzheimer).
 
 \bibliographystyle{plainnat}
@@ -2510,6 +2460,283 @@ También se podrían estudiar otras patologías como Alzheimer, diseñando exper
 
 
 
+\appendix
 
+\chapter{Fase 1}
+\section{Puntos finales de los movimientos}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{sujeto1/no_force/trayectorias_puntos}
+	\caption{Sujeto 1, sin fuerza}
+	\label{1-1-1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{sujeto2/no_force/trayectorias_puntos}
+	\caption{Sujeto 2, sin fuerza}
+	\label{2-1-1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{sujeto3/no_force/trayectorias_puntos}
+	\caption{Sujeto 3, sin fuerza}
+	\label{3-1-1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{sujeto4/no_force/trayectorias_puntos}
+	\caption{Sujeto 4, sin fuerza}
+	\label{4-1-1}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{sujeto5/no_force/trayectorias_puntos}
+	\caption{Sujeto 5, sin fuerza}
+	\label{5-1-1}
+\end{figure}
+
+
+\section{Tiempo utilizado para realizar el movimiento}
+\label{anexo:2}
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/no_force/evolution_time}
+	\caption{Sujeto 1, sin fuerza}
+	\label{1-1-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/no_force/evolution_time}
+	\caption{Sujeto 2, sin fuerza}
+	\label{2-1-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/no_force/evolution_time}
+	\caption{Sujeto 3, sin fuerza}
+	\label{3-1-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/no_force/evolution_time}
+	\caption{Sujeto 4, sin fuerza}
+	\label{4-1-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/no_force/evolution_time}
+	\caption{Sujeto 5, sin fuerza}
+	\label{5-1-3}
+\end{figure}
+
+\chapter{Fase 2}
+
+\section{Puntos finales de los movimientos}
+\label{anexo-3}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/force/trayectorias_puntos}
+	\caption{Sujeto 1, con fuerza}
+	\label{1-2-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/force/trayectorias_puntos}
+	\caption{Sujeto 2, con fuerza}
+	\label{2-2-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force/trayectorias_puntos}
+	\caption{Sujeto 3, con fuerza}
+	\label{3-2-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force/trayectorias_puntos}
+	\caption{Sujeto 4, con fuerza}
+	\label{4-2-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force/trayectorias_puntos}
+	\caption{Sujeto 5, con fuerza}
+	\label{5-2-1}
+\end{figure}
+
+\section{Distribución de los errores por target}
+\label{anexo:3}
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/force/evolution_distance}
+	\caption{Sujeto 1, con fuerza}
+	\label{1-2-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/force/evolution_distance}
+	\caption{Sujeto 2, con fuerza}
+	\label{2-2-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force/evolution_distance}
+	\caption{Sujeto 3, con fuerza}
+	\label{3-2-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force/evolution_distance}
+	\caption{Sujeto 4, con fuerza}
+	\label{4-2-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force/evolution_distance}
+	\caption{Sujeto 5, con fuerza}
+	\label{5-2-2}
+\end{figure}
+
+\section{Tiempo utilizado para realizar el movimiento}
+\label{anexo:4}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/force/evolution_time}
+	\caption{Sujeto 1, con fuerza}
+	\label{1-2-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/force/evolution_time}
+	\caption{Sujeto 2, con fuerza}
+	\label{2-2-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force/evolution_time}
+	\caption{Sujeto 3, con fuerza}
+	\label{3-2-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force/evolution_time}
+	\caption{Sujeto 4, con fuerza}
+	\label{4-2-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force/evolution_time}
+	\caption{Sujeto 5, con fuerza}
+	\label{5-2-3}
+\end{figure}
+
+
+
+\chapter{Fase 3}
+
+\section{Puntos finales de los movimientos}
+\label{anexo:5}
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 1, sin  fuerza y sin cursor}
+	\label{1-3-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 2, sin  fuerza y sin cursor}
+	\label{2-3-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 3, sin  fuerza y sin cursor}
+	\label{3-3-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 4, sin  fuerza y sin cursor}
+	\label{4-3-2}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 5, sin  fuerza y sin cursor}
+	\label{5-3-2}
+\end{figure}
+
+
+\section{Tiempo utilizado para realizar el movimiento}
+\label{anexo:6}
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/no_force_no_cursor/evolution_time}
+	\caption{Sujeto 1, sin  fuerza y sin cursor}
+	\label{1-3-4}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/no_force_no_cursor/evolution_time}
+	\caption{Sujeto 2, sin  fuerza y sin cursor}
+	\label{2-3-4}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/no_force_no_cursor/evolution_time}
+	\caption{Sujeto 3, sin  fuerza y sin cursor}
+	\label{3-3-4}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/no_force_no_cursor/evolution_time}
+	\caption{Sujeto 4, sin  fuerza y sin cursor}
+	\label{4-3-4}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/no_force_no_cursor/evolution_time}
+	\caption{Sujeto 5, sin  fuerza y sin cursor}
+	\label{5-3-4}
+\end{figure}
+
+
+
+\chapter{Fase 4}
+
+\section{Puntos finales de los movimientos}
+\label{anexo:7}
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 1, con  fuerza y sin cursor}
+	\label{1-4-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 2, con  fuerza y sin cursor}
+	\label{2-4-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 3, con  fuerza y sin cursor}
+	\label{3-4-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 4, con  fuerza y sin cursor}
+	\label{4-4-1}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/trayectorias_puntos}
+	\caption{Sujeto 5, con  fuerza y sin cursor}
+	\label{5-4-1}
+\end{figure}
+
+
+
+\section{Tiempo utilizado para realizar el movimiento}
+\label{anexo:8}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/evolution_time}
+	\caption{Sujeto 1, con  fuerza y sin cursor}
+	\label{1-4-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto2/force_no_cursor/evolution_time}
+	\caption{Sujeto 2, con  fuerza y sin cursor}
+	\label{2-4-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto3/force_no_cursor/evolution_time}
+	\caption{Sujeto 3, con  fuerza y sin cursor}
+	\label{3-4-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto4/force_no_cursor/evolution_time}
+	\caption{Sujeto 4, con  fuerza y sin cursor}
+	\label{4-4-3}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{sujeto5/force_no_cursor/evolution_time}
+	\caption{Sujeto 5, con  fuerza y sin cursor}
+	\label{5-4-3}
+\end{figure}
 
 \end{document}

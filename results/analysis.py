@@ -14,8 +14,8 @@ import scipy.signal
 
 
 max_number_of_trials_per_target = 10
-file_name = 'sujeto2/force_no_cursor.csv'
-file = 'sujeto2/force_no_cursor'
+file_name = 'sujeto5/force_no_cursor.csv'
+file = 'sujeto5/force_no_cursor'
 
 target_distance = 2
 
@@ -150,7 +150,7 @@ plt.xlabel('x-axis position')
 plt.ylabel('y-axis position')
 path = file+'/trayectorias.png'
 #plt.savefig(path)
-plt.show()
+#plt.show()
 plt.close()
 
 end_point_x = []
@@ -195,7 +195,7 @@ plt.xlabel('x-axis position')
 plt.ylabel('y-axis position')
 path = file+'/trayectorias_puntos.png'
 #plt.savefig(path)
-plt.show()
+#plt.show()
 plt.close()
 
 
@@ -203,17 +203,26 @@ c1='red' #blue
 c2='black' #green
 
 
+import statistics
+
 
 plt.figure(figsize=(16, 8), dpi=150)
 media_errores_target = []
 desviacion_tipica_target = []
+error_total = []
 for idx,tar in enumerate(targets):
     # Plot the evolution of the end-point distance for each target
     plt.plot(distance[idx],label='T'+str(int(tar)))
     media_errores_target.append(distance[idx].mean())
     desviacion_tipica_target.append(distance[idx].std())
-plt.legend()
-print(media_errores_target)
+    for j in distance[idx]:
+        error_total.append(j)
+
+error_total_array = numpy.array(error_total)
+
+print("la media de los errores es: "+str(error_total_array.mean()))
+#plt.legend()
+#print(media_errores_target)
 #plt.ylim([0.0,0.5])
     
 # adding title to the plot
@@ -226,33 +235,38 @@ plt.ylim((0, 2))
 
 path = file+'/evolution_distance.png'
 #plt.savefig(path)
-plt.show()
+#plt.show()
 plt.close()
 
-plt.bar(targets, media_errores_target, width=0.3)
-plt.xlabel('Target')
-plt.ylabel('Media del error')
-path = file+'/media.png'
-plt.savefig(path)
-plt.show()
+# plt.bar(targets, media_errores_target, width=0.3)
+# plt.xlabel('Target')
+# plt.ylabel('Media del error')
+# path = file+'/media.png'
+# plt.savefig(path)
+# plt.show()
 
-plt.bar(targets, desviacion_tipica_target, width=0.3)
-plt.xlabel('Target')
-plt.ylabel('Desviación típica del error')
-path = file+'/desviacion_tipica.png'
-plt.savefig(path)
-plt.show()
+# plt.bar(targets, desviacion_tipica_target, width=0.3)
+# plt.xlabel('Target')
+# plt.ylabel('Desviación típica del error')
+# path = file+'/desviacion_tipica.png'
+# plt.savefig(path)
+# plt.show()
 
 c1='red' #blue
 c2='black' #green
 
 plt.figure(figsize=(16, 8), dpi=150)
-    
+time_total = []
 for idx,tar in enumerate(targets):
     # Plot the evolution of the end-point distance for each target
     plt.plot(end_time[idx],label='T'+str(int(tar)))
+    for j in end_time[idx]:
+        time_total.append(j)
 plt.legend()
 
+time_total_array = numpy.array(time_total)
+
+print("la media de los tiempos es: "+str(time_total_array.mean()))
 # adding title to the plot
 plt.title('End-point time: All Targets')
 
@@ -262,7 +276,7 @@ plt.ylabel('Time (s)')
 plt.ylim((800000000, 2100000000))
 path = file+'/evolution_time.png'
 #plt.savefig(path)
-plt.show()
+#plt.show()
 plt.close()
 
 
