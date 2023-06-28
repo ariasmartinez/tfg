@@ -44,16 +44,17 @@
 \contentsline {subsubsection}{Sujeto 4, 50 años}{87}{section*.98}%
 \contentsline {subsubsection}{Sujeto 5, 60 años}{89}{section*.104}%
 \contentsline {chapter}{\numberline {5}Discusión y conclusiones}{92}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Fase 1}{96}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Puntos finales de los movimientos}{96}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Tiempo utilizado para realizar el movimiento}{99}{section.Alph1.2}%
-\contentsline {chapter}{\numberline {B}Fase 2}{102}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Puntos finales de los movimientos}{102}{section.Alph2.1}%
-\contentsline {section}{\numberline {B.2}Distribución de los errores por target}{105}{section.Alph2.2}%
-\contentsline {section}{\numberline {B.3}Tiempo utilizado para realizar el movimiento}{107}{section.Alph2.3}%
-\contentsline {chapter}{\numberline {C}Fase 3}{110}{appendix.Alph3}%
-\contentsline {section}{\numberline {C.1}Puntos finales de los movimientos}{110}{section.Alph3.1}%
-\contentsline {section}{\numberline {C.2}Tiempo utilizado para realizar el movimiento}{113}{section.Alph3.2}%
-\contentsline {chapter}{\numberline {D}Fase 4}{116}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Puntos finales de los movimientos}{116}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Tiempo utilizado para realizar el movimiento}{119}{section.Alph4.2}%
+\contentsline {chapter}{\numberline {A}Apéndice}{96}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Fase 1}{96}{section.Alph1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Puntos finales de los movimientos}{96}{subsection.Alph1.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Tiempo utilizado para realizar el movimiento}{99}{subsection.Alph1.1.2}%
+\contentsline {section}{\numberline {A.2}Fase 2}{101}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}Puntos finales de los movimientos}{101}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Distribución de los errores por target}{104}{subsection.Alph1.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Tiempo utilizado para realizar el movimiento}{106}{subsection.Alph1.2.3}%
+\contentsline {section}{\numberline {A.3}Fase 3}{109}{section.Alph1.3}%
+\contentsline {subsection}{\numberline {A.3.1}Puntos finales de los movimientos}{109}{subsection.Alph1.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Tiempo utilizado para realizar el movimiento}{111}{subsection.Alph1.3.2}%
+\contentsline {section}{\numberline {A.4}Fase 4}{114}{section.Alph1.4}%
+\contentsline {subsection}{\numberline {A.4.1}Puntos finales de los movimientos}{114}{subsection.Alph1.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Tiempo utilizado para realizar el movimiento}{116}{subsection.Alph1.4.2}%

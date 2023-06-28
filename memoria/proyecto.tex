@@ -373,7 +373,7 @@ El reparto de horas respecto a las distintas tareas fue:
 Como puede verse en la figura \ref{fig:horas}, la etapa más larga fue la de \textit{Desarrollo de la aplicación} pues es la que sustentaba todo el trabajo que podíamos realizar después. Por eso fue la que más carga de trabajo acumuló, y a la que más horas se le dedicó. La etapa de \textit{Obtención de resultados}, sin embargo, no tuvo tanta carga de trabajo, pero como podemos ver en la figura \ref{fig:gantt} la duración de esta tarea se prolongó más en el tiempo, principalmente por la dificultad de encontrar personas de diferentes edades para realizar el experimento.
 
 
-Por tanto, teniendo en cuenta que el salario medio de un profesional junior es de 20\euro /hora, el coste en personal seria de 9000\euro.
+Por tanto, teniendo en cuenta que el salario medio de un profesional junior es de 20\euro /hora, el coste en personal será de 9000\euro.
 
 Por otro lado tenemos que añadir el coste del dispositivo System3D Touch: 3000\euro.
 
@@ -658,7 +658,7 @@ Utilizando los conceptos de base y vectores linealmente independientes definidos
 	donde $p_0$ es un punto de $A$ y $B$ una base ordenada de $\overrightarrow{A}$.
 \end{defi}
 
-Vamos ahora a definir matemáticamente el concepto natural de asignación de coordenadas. Para ello lo definiremos primero dentro de un espacio vectorial, utilizando una base, y después extendermos el concepto al espacio afín, utilizando un sistema de referencia.
+Vamos ahora a definir matemáticamente el concepto natural de asignación de coordenadas. Para ello lo definiremos primero dentro de un espacio vectorial, utilizando una base, y después extenderemos el concepto al espacio afín, utilizando un sistema de referencia.
 \begin{defi}
 	Dada una base $B = \{v_1,...,vn\}$ de $\overrightarrow{A}$, denotaremos por:
 	\begin{equation}
@@ -2428,7 +2428,7 @@ Respecto a las fases 3 (figuras \ref{5-fase3-1} y \ref{5-fase3-2}) y 4 (figuras 
 
 \chapter{Discusión y conclusiones}
 
-Los objetivos de este proyecto eran, por una lado técnicos, relativos a estudiar cómo un dispositivo háptico podría usarse para experimentos relacionados con el aprendizaje de movimientos, y por otro didácticos, relacionados con el estudio de cómo debe llevarse a cabo una investigación científica.
+Los objetivos de este proyecto eran, por un lado técnicos, relativos a estudiar cómo un dispositivo háptico podría usarse para experimentos relacionados con el aprendizaje de movimientos, y por otro didácticos, relacionados con el estudio de cómo debe llevarse a cabo una investigación científica, con una fase de desarrollo de la instrumentalización para realizar medidas (aplicación desarrollada) y una fase experimental.
 
 
 Los objetivos técnicos eran: estudiar cómo los dispositivos hápticos pueden ser utilizados para el estudio de movimientos balísticos, y en un caso práctico, qué tipo de datos podemos obtener de la realización de dicho experimento y si esos datos pueden ser útiles. En relación con estos objetivos hemos desarrollado una aplicación que integra el dispositivo háptico \textit{Touch} para el estudio de este tipo de movimientos, sin encontrar ninguna limitación técnica (frecuencia de muestreo, API, precisión de los movimientos o fuerza aplicada, etc.). Hemos podido obtener datos que nos permitan regenerar las trayectorias realizadas con el dispositivo, así como el tiempo utilizado para 
@@ -2453,7 +2453,7 @@ Otro de los parámetros que queríamos estudiar es cómo afecta la aparición en
 Respecto a la diferencia entre hacer el movimiento con fuerza o no, podemos observar que, otra vez, la mayor influencia se puede ver en los sujetos mayores, principalmente en la realización de las trayectorias, y no tanto en la precisión de los movimientos. En los sujetos jóvenes la diferencia entre las fases con fuerza y sin fuerza es casi nula.
 
 Por último, y como posible aplicación futura, remarcar que sería interesante realizar el experimento en personas con daños en el cerebelo, o centrarlo en personas de edad avanzada, pues es lo que nos permitiría concluir si este tipo de experimentos puede aportar información sobre el proceso de aprendizaje de movimientos en estas circunstancias.
-También se podrían estudiar otras patologías como Alzheimer, diseñando experimentos en los que hubiera que alcanzar varios puntos de forma consecutiva (memoria de secuencias) y su capacidad de interpolación en el mapa espacial (que se ve impactada incluso en etapas tempranas de Alzheimer).
+También se podrían estudiar otras patologías como Alzheimer, diseñando experimentos en los que hubiera que alcanzar varios puntos de forma consecutiva y su capacidad de interpolación en el mapa espacial (que se ve impactada incluso en etapas tempranas de Alzheimer).
 
 \bibliographystyle{plainnat}
 \bibliography{biblio.bib}
@@ -2462,8 +2462,11 @@ También se podrían estudiar otras patologías como Alzheimer, diseñando exper
 
 \appendix
 
-\chapter{Fase 1}
-\section{Puntos finales de los movimientos}
+\chapter{Apéndice}
+
+
+\section{Fase 1}
+\subsection{Puntos finales de los movimientos}
 
 \begin{figure}[H]
 	\centering
@@ -2497,7 +2500,7 @@ También se podrían estudiar otras patologías como Alzheimer, diseñando exper
 \end{figure}
 
 
-\section{Tiempo utilizado para realizar el movimiento}
+\subsection{Tiempo utilizado para realizar el movimiento}
 \label{anexo:2}
 
 \begin{figure}[H]
@@ -2526,9 +2529,9 @@ También se podrían estudiar otras patologías como Alzheimer, diseñando exper
 	\label{5-1-3}
 \end{figure}
 
-\chapter{Fase 2}
+\section{Fase 2}
 
-\section{Puntos finales de los movimientos}
+\subsection{Puntos finales de los movimientos}
 \label{anexo-3}
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto1/force/trayectorias_puntos}
@@ -2556,7 +2559,7 @@ También se podrían estudiar otras patologías como Alzheimer, diseñando exper
 	\label{5-2-1}
 \end{figure}
 
-\section{Distribución de los errores por target}
+\subsection{Distribución de los errores por target}
 \label{anexo:3}
 
 \begin{figure}[H]
@@ -2585,7 +2588,7 @@ También se podrían estudiar otras patologías como Alzheimer, diseñando exper
 	\label{5-2-2}
 \end{figure}
 
-\section{Tiempo utilizado para realizar el movimiento}
+\subsection{Tiempo utilizado para realizar el movimiento}
 \label{anexo:4}
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto1/force/evolution_time}
@@ -2615,9 +2618,9 @@ También se podrían estudiar otras patologías como Alzheimer, diseñando exper
 
 
 
-\chapter{Fase 3}
+\section{Fase 3}
 
-\section{Puntos finales de los movimientos}
+\subsection{Puntos finales de los movimientos}
 \label{anexo:5}
 
 \begin{figure}[H]
@@ -2647,7 +2650,7 @@ También se podrían estudiar otras patologías como Alzheimer, diseñando exper
 \end{figure}
 
 
-\section{Tiempo utilizado para realizar el movimiento}
+\subsection{Tiempo utilizado para realizar el movimiento}
 \label{anexo:6}
 
 \begin{figure}[H]
@@ -2678,9 +2681,9 @@ También se podrían estudiar otras patologías como Alzheimer, diseñando exper
 
 
 
-\chapter{Fase 4}
+\section{Fase 4}
 
-\section{Puntos finales de los movimientos}
+\subsection{Puntos finales de los movimientos}
 \label{anexo:7}
 
 \begin{figure}[H]
@@ -2711,7 +2714,7 @@ También se podrían estudiar otras patologías como Alzheimer, diseñando exper
 
 
 
-\section{Tiempo utilizado para realizar el movimiento}
+\subsection{Tiempo utilizado para realizar el movimiento}
 \label{anexo:8}
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{sujeto1/force_no_cursor/evolution_time}
