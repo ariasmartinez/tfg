@@ -143,14 +143,14 @@ for tar,tar_list in zip(targets,trial_list):
     plt.plot(math.cos(math.pi*(tar-1)/4.)*target_distance, math.sin(math.pi*(tar-1)/4.)*target_distance, marker="o", markersize=10, markeredgecolor="y", markerfacecolor="green")
     
 # adding title to the plot
-plt.title('End-point position: All Targets')
+plt.title('Sujeto 5')
 
 # adding Label to the x-axis
 plt.xlabel('x-axis position')
 plt.ylabel('y-axis position')
 path = file+'/trayectorias.png'
-#plt.savefig(path)
-#plt.show()
+plt.savefig(path)
+plt.show()
 plt.close()
 
 end_point_x = []
@@ -188,7 +188,7 @@ for idx,tar in enumerate(targets):
     plt.plot(math.cos(math.pi*(tar-1)/4.)*target_distance, math.sin(math.pi*(tar-1)/4.)*target_distance, marker="o", markersize=10, markeredgecolor="y", markerfacecolor="green")
     
 # adding title to the plot
-plt.title('End-point position: All Targets')
+plt.title('Sujeto 3')
 
 # adding Label to the x-axis
 plt.xlabel('x-axis position')
@@ -226,7 +226,7 @@ print("la media de los errores es: "+str(error_total_array.mean()))
 #plt.ylim([0.0,0.5])
     
 # adding title to the plot
-plt.title('End-point distance: All Targets')
+plt.title('Sujeto 3')
 
 # adding Label to the x-axis
 plt.xlabel('Trial')

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  22 JUN 2023 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.1)  4 JUL 2023 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -701,32 +701,262 @@ Package caption Info: Hyperref support is turned off
 \sf@top=\skip67
 \sf@bottom=\skip68
 )
+\c@prop=\count337
+\c@obv=\count338
+\c@defi=\count339
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty
+Package: pgfpages 2011/01/05 ver 0.02
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count340
+\calc@Bcount=\count341
+\calc@Adimen=\dimen292
+\calc@Bdimen=\dimen293
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count342
+\calc@Cskip=\skip71
+)
+\pgf@logicalpages=\count343
+\pgf@firstshipout=\count344
+\pgf@lastshipout=\count345
+\pgf@currentshipout=\count346
+\pgf@cpn=\count347
+\pgf@shipoutnextto=\count348
+\pgfphysicalheight=\dimen294
+\pgfphysicalwidth=\dimen295
+\pgfpages@shipoutbox=\box76
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks45
+\inpenc@posthook=\toks46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/02/02 v1.28 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count349
+\l_MT_multwidth_dim=\dimen296
+\origjot=\skip72
+\l_MT_shortvdotswithinadjustabove_dim=\dimen297
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen298
+\l_MT_above_intertext_sep=\dimen299
+\l_MT_below_intertext_sep=\dimen300
+\l_MT_above_shortintertext_sep=\dimen301
+\l_MT_below_shortintertext_sep=\dimen302
+\xmathstrut@box=\box77
+\xmathstrut@dim=\dimen303
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/utopia.sty
+Package: utopia 2020/03/25 PSNFSS-v9.3 (P.Dyballa) 
+
+
+Package utopia Warning: This package is to be regarded as obsolete.
+(utopia)                See the PSNFSS documentation.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeFrankfurt.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemesmoothbars.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count350
+\mult@box=\box78
+\multicol@leftmargin=\dimen304
+\c@unbalance=\count351
+\c@collectmore=\count352
+\doublecol@number=\count353
+\multicoltolerance=\count354
+\multicolpretolerance=\count355
+\full@width=\dimen305
+\page@free=\dimen306
+\premulticols=\dimen307
+\postmulticols=\dimen308
+\multicolsep=\skip73
+\multicolbaselineskip=\skip74
+\partial@page=\box79
+\last@line=\box80
+\maxbalancingoverflow=\dimen309
+\mult@rightbox=\box81
+\mult@grightbox=\box82
+\mult@firstbox=\box83
+\mult@gfirstbox=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\c@minrows=\count356
+\c@columnbadness=\count357
+\c@finalcolumnbadness=\count358
+\last@try=\dimen310
+\multicolovershoot=\dimen311
+\multicolundershoot=\dimen312
+\mult@nat@firstbox=\box121
+\colbreak@box=\box122
+\mc@col@check@num=\count359
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box123
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen313
+\pgf@nodesepend=\dimen314
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen315
+\pgffor@skip=\dimen316
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count360
+\pgfplotmarksize=\dimen317
+)
+\tikz@lastx=\dimen318
+\tikz@lasty=\dimen319
+\tikz@lastxsaved=\dimen320
+\tikz@lastysaved=\dimen321
+\tikz@lastmovetox=\dimen322
+\tikz@lastmovetoy=\dimen323
+\tikzleveldistance=\dimen324
+\tikzsiblingdistance=\dimen325
+\tikz@figbox=\box124
+\tikz@figbox@bg=\box125
+\tikz@tempbox=\box126
+\tikz@tempbox@bg=\box127
+\tikztreelevel=\count361
+\tikznumberofchildren=\count362
+\tikznumberofcurrentchild=\count363
+\tikz@fig@count=\count364
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count365
+\pgfmatrixcurrentcolumn=\count366
+\pgf@matrix@numberofcolumns=\count367
+)
+\tikz@expandcount=\count368
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen326
+))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfont
+s.sty) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip75
+\bibsep=\skip76
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count369
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count337
-\l__pdf_internal_box=\box76
+\l__color_backend_stack_int=\count370
+\l__pdf_internal_box=\box128
 )
 (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -764,17 +994,17 @@ LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
-\scratchdimen=\dimen292
-\scratchbox=\box77
-\nofMPsegments=\count339
-\nofMParguments=\count340
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count341
-\MPscratchDim=\dimen293
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count371
+\scratchdimen=\dimen327
+\scratchbox=\box129
+\nofMPsegments=\count372
+\nofMParguments=\count373
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count374
+\MPscratchDim=\dimen328
+\MPnumerator=\count375
+\makeMPintoPDFobject=\count376
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -784,7 +1014,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 10.
+Package hyperref Info: Link coloring OFF on input line 72.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -795,58 +1025,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count344
+\c@section@level=\count377
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 72.
+LaTeX Info: Redefining \pageref on input line 72.
+LaTeX Info: Redefining \nameref on input line 72.
 
 (./presentation.out) (./presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
 
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 10.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 10.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 10.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 10.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 10.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -875,123 +1063,463 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
- (./presentation.nav) [1
+ (./presentation.nav)
+<imagenes//ugr2.png, id=92, 1606.0pt x 493.845pt>
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 81.
+(pdftex.def)             Requested size: 76.82246pt x 23.61612pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 81.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./presentation.toc) [2
-
-] [3
+ <./imagenes//ugr2.png>] (./presentation.toc)
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 90.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+(./presentation.toc)
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 93.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [3
 
+]
+<imagenes//virtual-reality.png, id=334, 893.3375pt x 593.21625pt>
+File: imagenes//virtual-reality.png Graphic file (type png)
+<use imagenes//virtual-reality.png>
+Package pdftex.def Info: imagenes//virtual-reality.png  used on input line 111.
+
+(pdftex.def)             Requested size: 199.73653pt x 132.62608pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 111.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [4
+
+ <./imagenes//virtual-reality.png>]
+<imagenes//touch.png, id=397, 656.4525pt x 342.27875pt>
+File: imagenes//touch.png Graphic file (type png)
+<use imagenes//touch.png>
+Package pdftex.def Info: imagenes//touch.png  used on input line 126.
+(pdftex.def)             Requested size: 184.3758pt x 96.13509pt.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 126.
+
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 126.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [5
+
+ <./imagenes//touch.png>]
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 146.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [6
+
+]
+<imagenes//diagrama-fases.png, id=525, 1081.03876pt x 532.99126pt>
+File: imagenes//diagrama-fases.png Graphic file (type png)
+<use imagenes//diagrama-fases.png>
+Package pdftex.def Info: imagenes//diagrama-fases.png  used on input line 155.
+(pdftex.def)             Requested size: 307.28987pt x 151.50557pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 155.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [7
+
+ <./imagenes//diagrama-fases.png>] (./presentation.toc)
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 160.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+
+[8
+
+]
+<imagenes//coordinate_systems.png, id=656, 803.0pt x 395.4775pt>
+File: imagenes//coordinate_systems.png Graphic file (type png)
+<use imagenes//coordinate_systems.png>
+Package pdftex.def Info: imagenes//coordinate_systems.png  used on input line 1
+72.
+(pdftex.def)             Requested size: 307.28987pt x 151.34508pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 172.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [9
+
+ <./imagenes//coordinate_systems.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 189
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 189
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4
+)
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 189.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [10
 
 ]
-<imagenes//diagrama-fases.png, id=186, 1081.03876pt x 532.99126pt>
-File: imagenes//diagrama-fases.png Graphic file (type png)
-<use imagenes//diagrama-fases.png>
-Package pdftex.def Info: imagenes//diagrama-fases.png  used on input line 60.
-(pdftex.def)             Requested size: 307.28987pt x 151.50557pt.
- [5
-
- <./imagenes//diagrama-fases.png>]
-<imagenes//horas.png, id=214, 932.48375pt x 551.05875pt>
-File: imagenes//horas.png Graphic file (type png)
-<use imagenes//horas.png>
-Package pdftex.def Info: imagenes//horas.png  used on input line 80.
-(pdftex.def)             Requested size: 245.83282pt x 145.2731pt.
- [6
-
- <./imagenes//horas.png>]
-<imagenes//coste.png, id=241, 849.1725pt x 558.085pt>
-File: imagenes//coste.png Graphic file (type png)
-<use imagenes//coste.png>
-Package pdftex.def Info: imagenes//coste.png  used on input line 96.
-(pdftex.def)             Requested size: 245.83282pt x 161.55948pt.
- [7
-
- <./imagenes//coste.png>]
-<imagenes//touch.png, id=270, 656.4525pt x 342.27875pt>
-File: imagenes//touch.png Graphic file (type png)
-<use imagenes//touch.png>
-Package pdftex.def Info: imagenes//touch.png  used on input line 114.
-(pdftex.def)             Requested size: 245.83282pt x 128.17664pt.
-
-[8
-
- <./imagenes//touch.png>]
-<imagenes//points.png, id=296, 1306.8825pt x 713.66624pt>
-File: imagenes//points.png Graphic file (type png)
-<use imagenes//points.png>
-Package pdftex.def Info: imagenes//points.png  used on input line 137.
-(pdftex.def)             Requested size: 169.01036pt x 92.28983pt.
- [9
-
- <./imagenes//points.png>] [10
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 217.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [11
 
 ]
-<imagenes//points-4.png, id=350, 1306.8825pt x 713.66624pt>
-File: imagenes//points-4.png Graphic file (type png)
-<use imagenes//points-4.png>
-Package pdftex.def Info: imagenes//points-4.png  used on input line 170.
-(pdftex.def)             Requested size: 153.64493pt x 83.8939pt.
-<imagenes//puntos2.png, id=351, 1291.82625pt x 680.5425pt>
-File: imagenes//puntos2.png Graphic file (type png)
-<use imagenes//puntos2.png>
-Package pdftex.def Info: imagenes//puntos2.png  used on input line 170.
-(pdftex.def)             Requested size: 153.64493pt x 80.93468pt.
-
-Overfull \hbox (7.29997pt too wide) in paragraph at lines 170--170
- [][] 
- []
-
-[11
-
- <./imagenes//points-4.png> <./imagenes//puntos2.png>]
-<imagenes//estructura.png, id=379, 932.48375pt x 773.89125pt>
-File: imagenes//estructura.png Graphic file (type png)
-<use imagenes//estructura.png>
-Package pdftex.def Info: imagenes//estructura.png  used on input line 184.
-(pdftex.def)             Requested size: 245.83282pt x 204.01743pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 242.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
  [12
 
- <./imagenes//estructura.png>] [13
+]
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 272.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+
+[13
 
 ]
-<imagenes//diagrama.png, id=432, 1002.74625pt x 504.88625pt>
-File: imagenes//diagrama.png Graphic file (type png)
-<use imagenes//diagrama.png>
-Package pdftex.def Info: imagenes//diagrama.png  used on input line 212.
-(pdftex.def)             Requested size: 307.28987pt x 154.7181pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 304.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
  [14
 
- <./imagenes//diagrama.png>] [15
+]
+<imagenes//cubo.png, id=1115, 1116.17pt x 569.12625pt>
+File: imagenes//cubo.png Graphic file (type png)
+<use imagenes//cubo.png>
+Package pdftex.def Info: imagenes//cubo.png  used on input line 347.
+(pdftex.def)             Requested size: 153.64493pt x 78.33977pt.
+<imagenes//notacion.png, id=1116, 1041.8925pt x 497.86pt>
+File: imagenes//notacion.png Graphic file (type png)
+<use imagenes//notacion.png>
+Package pdftex.def Info: imagenes//notacion.png  used on input line 347.
+(pdftex.def)             Requested size: 153.64493pt x 73.41472pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 347.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [15
 
-] [16
+ <./imagenes//cubo.png> <./imagenes//notacion.png>]
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 415.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [16
 
 ]
-<imagenes//cursor.png, id=508, 585.8688pt x 390.86873pt>
-File: imagenes//cursor.png Graphic file (type png)
-<use imagenes//cursor.png>
-Package pdftex.def Info: imagenes//cursor.png  used on input line 263.
-(pdftex.def)             Requested size: 153.64493pt x 102.50616pt.
-<imagenes//menu.png, id=509, 636.4578pt x 389.14615pt>
-File: imagenes//menu.png Graphic file (type png)
-<use imagenes//menu.png>
-Package pdftex.def Info: imagenes//menu.png  used on input line 263.
-(pdftex.def)             Requested size: 184.3758pt x 112.73073pt.
+<imagenes//viewport.png, id=1266, 969.6225pt x 490.83376pt>
+File: imagenes//viewport.png Graphic file (type png)
+<use imagenes//viewport.png>
+Package pdftex.def Info: imagenes//viewport.png  used on input line 462.
+(pdftex.def)             Requested size: 153.64493pt x 77.77107pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 462.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
  [17
 
- <./imagenes//cursor.png> <./imagenes//menu.png>]
+ <./imagenes//viewport.png>]
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 497.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [18
+
+] (./presentation.toc)
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 498.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [19
+
+]
+<imagenes//points.png, id=1482, 1306.8825pt x 713.66624pt>
+File: imagenes//points.png Graphic file (type png)
+<use imagenes//points.png>
+Package pdftex.def Info: imagenes//points.png  used on input line 522.
+(pdftex.def)             Requested size: 153.64493pt x 83.8939pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 522.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [20
+
+ <./imagenes//points.png>]
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 537.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [21
+
+]
+<imagenes//estructura.png, id=1619, 932.48375pt x 773.89125pt>
+File: imagenes//estructura.png Graphic file (type png)
+<use imagenes//estructura.png>
+Package pdftex.def Info: imagenes//estructura.png  used on input line 564.
+(pdftex.def)             Requested size: 215.10196pt x 178.51082pt.
+
+Overfull \vbox (18.74811pt too high) detected at line 564
+ []
+
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 564.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+[22
+
+ <./imagenes//estructura.png>] (./presentation.toc)
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 567.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [23
+
+]
+Overfull \hbox (16.97368pt too wide) in paragraph at lines 605--605
+ [] 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+605.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 605.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [24
+
+]
+<imagenes//sujeto-2.jpeg, id=1824, 1505.625pt x 1537.745pt>
+File: imagenes//sujeto-2.jpeg Graphic file (type jpg)
+<use imagenes//sujeto-2.jpeg>
+Package pdftex.def Info: imagenes//sujeto-2.jpeg  used on input line 630.
+(pdftex.def)             Requested size: 153.64493pt x 156.90422pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 630.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [25
+
+ <./imagenes//sujeto-2.jpeg>]
+<imagenes//menu.png, id=1888, 636.4578pt x 389.14615pt>
+File: imagenes//menu.png Graphic file (type png)
+<use imagenes//menu.png>
+Package pdftex.def Info: imagenes//menu.png  used on input line 653.
+(pdftex.def)             Requested size: 199.73653pt x 122.12447pt.
+<imagenes//cursor.png, id=1889, 585.8688pt x 390.86873pt>
+File: imagenes//cursor.png Graphic file (type png)
+<use imagenes//cursor.png>
+Package pdftex.def Info: imagenes//cursor.png  used on input line 653.
+(pdftex.def)             Requested size: 107.55333pt x 71.75491pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 653.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [26
+
+ <./imagenes//menu.png> <./imagenes//cursor.png>]
+<imagenes//fase1-errores.png, id=1954, 462.528pt x 346.896pt>
+File: imagenes//fase1-errores.png Graphic file (type png)
+<use imagenes//fase1-errores.png>
+Package pdftex.def Info: imagenes//fase1-errores.png  used on input line 684.
+(pdftex.def)             Requested size: 122.91406pt x 92.18106pt.
+<imagenes//fase1-time.png, id=1955, 462.528pt x 346.896pt>
+File: imagenes//fase1-time.png Graphic file (type png)
+<use imagenes//fase1-time.png>
+Package pdftex.def Info: imagenes//fase1-time.png  used on input line 684.
+(pdftex.def)             Requested size: 122.91406pt x 92.18106pt.
+<imagenes//sujeto5/no_force/evolution_distance.png, id=1956, 1156.32pt x 578.16
+pt>
+File: imagenes//sujeto5/no_force/evolution_distance.png Graphic file (type png)
+
+<use imagenes//sujeto5/no_force/evolution_distance.png>
+Package pdftex.def Info: imagenes//sujeto5/no_force/evolution_distance.png  use
+d on input line 684.
+(pdftex.def)             Requested size: 184.3758pt x 92.18108pt.
+<imagenes//sujeto3/no_force/evolution_distance.png, id=1957, 1156.32pt x 578.16
+pt>
+File: imagenes//sujeto3/no_force/evolution_distance.png Graphic file (type png)
+
+<use imagenes//sujeto3/no_force/evolution_distance.png>
+Package pdftex.def Info: imagenes//sujeto3/no_force/evolution_distance.png  use
+d on input line 684.
+(pdftex.def)             Requested size: 184.3758pt x 92.18108pt.
+
+Overfull \vbox (7.99944pt too high) detected at line 684
+ []
+
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 684.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+[27
+
+ <./imagenes//fase1-errores.png> <./imagenes//fase1-time.png> <./imagenes//suje
+to5/no_force/evolution_distance.png> <./imagenes//sujeto3/no_force/evolution_di
+stance.png>]
+<imagenes//sujeto1/force/trayectorias.png, id=2023, 1156.32pt x 578.16pt>
+File: imagenes//sujeto1/force/trayectorias.png Graphic file (type png)
+<use imagenes//sujeto1/force/trayectorias.png>
+Package pdftex.def Info: imagenes//sujeto1/force/trayectorias.png  used on inpu
+t line 708.
+(pdftex.def)             Requested size: 135.20828pt x 67.60298pt.
+<imagenes//sujeto2/force/trayectorias.png, id=2024, 1156.32pt x 578.16pt>
+File: imagenes//sujeto2/force/trayectorias.png Graphic file (type png)
+<use imagenes//sujeto2/force/trayectorias.png>
+Package pdftex.def Info: imagenes//sujeto2/force/trayectorias.png  used on inpu
+t line 708.
+(pdftex.def)             Requested size: 135.20828pt x 67.60298pt.
+<imagenes//sujeto4/force/trayectorias.png, id=2025, 1156.32pt x 578.16pt>
+File: imagenes//sujeto4/force/trayectorias.png Graphic file (type png)
+<use imagenes//sujeto4/force/trayectorias.png>
+Package pdftex.def Info: imagenes//sujeto4/force/trayectorias.png  used on inpu
+t line 708.
+(pdftex.def)             Requested size: 135.20828pt x 67.60298pt.
+<imagenes//sujeto3/force/trayectorias.png, id=2026, 1156.32pt x 578.16pt>
+File: imagenes//sujeto3/force/trayectorias.png Graphic file (type png)
+<use imagenes//sujeto3/force/trayectorias.png>
+Package pdftex.def Info: imagenes//sujeto3/force/trayectorias.png  used on inpu
+t line 708.
+(pdftex.def)             Requested size: 153.64493pt x 76.82196pt.
+<imagenes//sujeto5/force/trayectorias.png, id=2027, 1156.32pt x 578.16pt>
+File: imagenes//sujeto5/force/trayectorias.png Graphic file (type png)
+<use imagenes//sujeto5/force/trayectorias.png>
+Package pdftex.def Info: imagenes//sujeto5/force/trayectorias.png  used on inpu
+t line 708.
+(pdftex.def)             Requested size: 153.64493pt x 76.82196pt.
+
+Overfull \vbox (13.84622pt too high) detected at line 708
+ []
+
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 708.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+[28
+
+ <./imagenes//sujeto1/force/trayectorias.png> <./imagenes//sujeto2/force/trayec
+torias.png> <./imagenes//sujeto4/force/trayectorias.png> <./imagenes//sujeto3/f
+orce/trayectorias.png> <./imagenes//sujeto5/force/trayectorias.png>]
+<imagenes//fase2-errores.png, id=2095, 462.528pt x 346.896pt>
+File: imagenes//fase2-errores.png Graphic file (type png)
+<use imagenes//fase2-errores.png>
+Package pdftex.def Info: imagenes//fase2-errores.png  used on input line 734.
+(pdftex.def)             Requested size: 122.91406pt x 92.18106pt.
+<imagenes//fase2-time.png, id=2096, 462.528pt x 346.896pt>
+File: imagenes//fase2-time.png Graphic file (type png)
+<use imagenes//fase2-time.png>
+Package pdftex.def Info: imagenes//fase2-time.png  used on input line 734.
+(pdftex.def)             Requested size: 122.91406pt x 92.18106pt.
+<imagenes//sujeto5/force/trayectorias_puntos.png, id=2097, 1156.32pt x 578.16pt
+>
+File: imagenes//sujeto5/force/trayectorias_puntos.png Graphic file (type png)
+<use imagenes//sujeto5/force/trayectorias_puntos.png>
+Package pdftex.def Info: imagenes//sujeto5/force/trayectorias_puntos.png  used 
+on input line 734.
+(pdftex.def)             Requested size: 184.3758pt x 92.18108pt.
+<imagenes//sujeto3/force/trayectorias_puntos.png, id=2098, 1156.32pt x 578.16pt
+>
+File: imagenes//sujeto3/force/trayectorias_puntos.png Graphic file (type png)
+<use imagenes//sujeto3/force/trayectorias_puntos.png>
+Package pdftex.def Info: imagenes//sujeto3/force/trayectorias_puntos.png  used 
+on input line 734.
+(pdftex.def)             Requested size: 184.3758pt x 92.18108pt.
+
+Overfull \vbox (7.99944pt too high) detected at line 734
+ []
+
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 734.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+[29
+
+ <./imagenes//fase2-errores.png> <./imagenes//fase2-time.png> <./imagenes//suje
+to5/force/trayectorias_puntos.png> <./imagenes//sujeto3/force/trayectorias_punt
+os.png>]
+<imagenes//fase3-errores.png, id=2164, 462.528pt x 346.896pt>
+File: imagenes//fase3-errores.png Graphic file (type png)
+<use imagenes//fase3-errores.png>
+Package pdftex.def Info: imagenes//fase3-errores.png  used on input line 751.
+(pdftex.def)             Requested size: 138.2795pt x 103.70966pt.
+<imagenes//fase3-time.png, id=2165, 462.528pt x 346.896pt>
+File: imagenes//fase3-time.png Graphic file (type png)
+<use imagenes//fase3-time.png>
+Package pdftex.def Info: imagenes//fase3-time.png  used on input line 751.
+(pdftex.def)             Requested size: 138.2795pt x 103.70966pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 751.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [30
+
+ <./imagenes//fase3-errores.png> <./imagenes//fase3-time.png>]
+<imagenes//fase4-errores.png, id=2230, 462.528pt x 346.896pt>
+File: imagenes//fase4-errores.png Graphic file (type png)
+<use imagenes//fase4-errores.png>
+Package pdftex.def Info: imagenes//fase4-errores.png  used on input line 766.
+(pdftex.def)             Requested size: 138.2795pt x 103.70966pt.
+<imagenes//fase4-time.png, id=2231, 462.528pt x 346.896pt>
+File: imagenes//fase4-time.png Graphic file (type png)
+<use imagenes//fase4-time.png>
+Package pdftex.def Info: imagenes//fase4-time.png  used on input line 766.
+(pdftex.def)             Requested size: 138.2795pt x 103.70966pt.
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 766.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+
+[31
+
+ <./imagenes//fase4-errores.png> <./imagenes//fase4-time.png>]
+(./presentation.toc)
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 769.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [32
+
+]
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 784.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [33
+
+]
+File: imagenes//ugr2.png Graphic file (type png)
+<use imagenes//ugr2.png>
+Package pdftex.def Info: imagenes//ugr2.png  used on input line 797.
+(pdftex.def)             Requested size: 28.45274pt x 8.74866pt.
+ [34
+
+]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -1003,28 +1531,34 @@ Package pdftex.def Info: imagenes//menu.png  used on input line 263.
 
  (./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: BF3D1CB708A4379AEBC4E20A8D9F6CCE;1837.
+(rerunfilecheck)             Checksum: 17ECD6A2CD43206E27DF7BBCBB129C4A;653.
  ) 
 Here is how much of TeX's memory you used:
- 23056 strings out of 480185
- 445450 string characters out of 5894213
- 692295 words of memory out of 5000000
- 40511 multiletter control sequences out of 15000+600000
- 481859 words of font info for 75 fonts, out of 8000000 for 9000
- 40 hyphenation exceptions out of 8191
- 99i,14n,104p,410b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/eurosym/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (17 pages, 1121022 bytes).
+ 29289 strings out of 479671
+ 597109 string characters out of 5883282
+ 863298 words of memory out of 5000000
+ 46718 multiletter control sequences out of 15000+600000
+ 478084 words of font info for 59 fonts, out of 8000000 for 9000
+ 290 hyphenation exceptions out of 8191
+ 99i,20n,104p,410b,980s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/celia/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600
+pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on presentation.pdf (34 pages, 4507852 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 516 compressed objects within 6 object streams
- 47 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2571 PDF objects out of 2984 (max. 8388607)
+ 2293 compressed objects within 23 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 761 words of extra memory for PDF output out of 10000 (max. 10000000)
 
